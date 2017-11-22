@@ -1,0 +1,12 @@
+
+gcc strext.c -c
+gcc dutil.c -c
+gcc iedit.c -c
+gcc medit.c -c
+gcc redit.c -c
+gcc zedit.c -c
+gcc dikusim.c -c
+gcc dikucli.c -c
+
+
+gcc strext.o dutil.o iedit.o medit.o redit.o zedit.o dikusim.o dikucli.o -o dikued

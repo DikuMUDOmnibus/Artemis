@@ -1,0 +1,339 @@
+#20000
+death pawn~
+the Pawn of the Court of Death~
+You see a pawn standing here waiting for orders.
+~
+The Death Pawn looks VERY powerful, you really don't want to mess with 
+him. When you peer into his face you realise it is skeletal, with bare 
+eye sockets staring vacantly into space. Noticing your stare, you see a 
+small spark of desire in its eyes as it looks into your soul.
+~
+bcgjkm dhk -400 E
+125 -15 -15 1d1+20000 10d50+400
+200000 40000000
+8 8 1
+BareHandAttack: 9
+Class: 3
+E
+>greet_prog 20~
+if isgood($n)
+  scream
+  say $n MUST DIE!
+else
+  tell $n All that is good must die!
+endif
+~
+|
+#20001
+life pawn~
+the Pawn of the Court of Life~
+You see a pawn standing here waiting for orders.
+~
+The Life  Pawn looks VERY powerful, you really don't want to mess with 
+him. It has an angelic face and appears to be of  a goodly nature. He stands here waiting for his lord, the King of Life, to pass on his orders.
+~
+bcgjkm dhk 400 E
+125 -15 -10 1d1+20000 10d50+400
+200000 40000000
+8 8 1
+BareHandAttack: 9
+Class: 3
+E
+>greet_prog 20~
+if isgood($n)
+  tell $n We must persevere in the fight against evil!
+else
+  war
+  say begone scum $n!
+endif
+~
+|
+#20002
+balance pawn~
+the Pawn of the Court of Balance~
+You see a pawn standing here waiting for orders.
+~
+The Balance Pawn looks VERY powerful, you really don't want to mess with 
+him. He has a reserved look about him, but seems more than ready to
+pass judgement on those he finds beneath his being.
+~
+bcgijm dhk  0 E
+150 -15 -15 1d1+30000 15d50+500
+300000 60000000
+8 8 1
+BareHandAttack: 3
+Class: 3
+E
+>greet_prog 20~
+if isgood($n)
+  glare $n
+  tell $n Your kind must be kept in control!
+else
+  say I serve nuetrality!
+endif
+~
+|
+#20003
+death knight~
+the Death Knight~
+Here stands a truly evil knight of the dark realm.
+~
+The Death Knight is here, riding an undead war horse.  His eyes
+flash behind his visor with a soulfull greed. It starts to charge towards
+you, eager for blood.
+~
+bjkmnor dhk -600 E
+150 -15 -15 1d1+30000 15d50+500
+300000 60000000 
+8 8 0
+BareHandAttack: 14
+Class: 3
+E
+#20004
+life knight~
+the Life Knight~
+Here stands a magnificent knight of the light realm.
+~
+The Life Knight is here, riding his holy war horse.  His eyes
+gleam behind his visor in joy. He looks like the sorta guy who
+rescues fair maidens in his spare time, however not someone 
+mess with.
+~
+bikmnor dhk 600 E
+150 -15 -15 1d1+30000 15d50+500
+300000 60000000 
+8 8 0
+BareHandAttack: 14
+Class: 3
+E
+#20005
+balance knight~
+the Balance Knight~
+Here stands a magnificent knight of the neutral realm.
+~
+The Balance Knight is here, riding his powerful war horse.  His eyes
+smolder behind his visor. He looks like hes having a really bad day, in 
+fact, perhaps killing you is just the release he needs...
+~
+bijmnor dhk 0 E
+175 -20 -20 1d1+40000 20d50+700
+500000 95000000 
+8 8 0
+BareHandAttack: 14
+Class: 3
+E
+#20006
+death rook castle~
+the Rook of Death~
+In the corner you see a large, evil, stone castle on wheels.
+~
+The Death Rook is a very large man-made tomb on wheels. Emmenating from 
+this strange being is the stench of death. As you stop to look at it you hear a 
+strange, sickening sound like bones grinding as it begins to ponderously roll
+towards you.
+~ 
+bjkmno dhk -600 E
+175 -20 -20 1d1+40000 20d50+700
+500000 95000000
+8 8 0
+BareHandAttack: 5
+Class: 3
+E
+#20007
+life rook castle~
+the Life Rook~
+In the corner you see a large, holy, stone castle on wheels.
+~
+The Life Rook is a very large looking benevolent being. However, it doesn't
+look smart to annoy this guy. As you gaze in his direction you feel at 
+peace with the world. 
+~
+bikmno dhk 600 E
+175 -20 -20 1d1+40000 20d50+700
+500000 95000000
+8 8 0
+BareHandAttack: 6
+Class: 3
+E
+#20008
+balance rook castle~
+the Balance Rook~
+In the corner you see a large, neutral, stone castle on wheels.
+~
+The Balance Rook is a very large looking powerful being. As you gaze in his 
+direction you feel as if you are somehow being judged. Hope youve been to 
+confession recently!
+~
+bijmno dhk 0 E
+200 -30 -30 1d1+50000 25d50+900
+1500000 120000000
+8 8 0
+BareHandAttack: 6
+Class: 3
+E
+#20009
+death bishop priest~
+the Death Bishop~
+A Death priest stands here.
+~
+The Death Bishop has only one goal in life, to sacrafice as many suitable 
+subjects to his master, the Death King, as possible. He returns your 
+stare with an evil, crooked smile that makes you feel a chill in your bones. 
+Hmm.. he looks pretty good at his job too, better just leave him alone.
+~
+bjkmnor dhk -700 E
+200 -30 -30 1d1+50000 25d50+900
+1500000 120000000
+8 8 0
+BareHandAttack: 8
+Class: 1
+E
+#20010
+life bishop priest~
+the Life Bishop~
+A holy priest stands here.
+~
+The Life Bishop is here, worshiping his lord.
+Probably best not to disturb him, he looks rather busy.
+~
+bikmnor dhk 700 E
+200 -30 -30 1d1+50000 25d50+900
+1500000 120000000
+8 8 0
+BareHandAttack: 8
+Class: 1
+E
+#20011
+balance bishop priest~
+the Balance Bishop~
+A neutral priest stands here.
+~
+The Neutral Bishop has dedicated his life to maining a balance
+between the courts fo life and death. Hmm.. he looks pretty good
+at his job too, better just leave him alone.
+~
+bijmnor dhk 0 E
+225 -40 -40 1d1+75000 30d50+1000
+1500000 150000000
+8 8 0
+BareHandAttack: 8
+Class: 1
+E
+#20012
+death queen~
+the Death Queen~
+The Death Queen stands here.
+~
+The Death Queen is a hideous woman with gaunt, rotting skin. Her skin
+hangs around her body in tatters. Looking at you, she laughs mercilously
+and prepares to kill you. 
+~
+bcjklmnor dhk -800 E
+225 -40 -40 1d1+75000 30d50+1000
+2000000 150000000
+8 8 0
+BareHandAttack: 8
+Class: 0 
+E
+#20013
+life queen~
+the Life Queen~
+The Life Queen stands here.
+~
+The Life Queen is a stunningly beautiful woman with pale skin and a mass
+of light hair that frames her head like the sun.  This is surely love at
+first sight for you. Noticing your gaze, she nods her head benevolently
+and turns her attention to more important matters.
+~
+bciklmnor dhk 800 E
+225 -40 -40 1d1+75000 30d50+1000
+2000000 150000000
+8 8 0
+BareHandAttack: 8
+Class: 0
+E
+#20014
+balance queen~
+the Balance Queen~
+The Balance Queen stands here.
+~
+The Balance Queen is a very plain looking woman. However, she has
+a certain athletic grace and moves in a manor suggesting she is very
+capable of defending herself. She returns your look with a soul
+penetrating stare. Best leave before she gets offended.
+~
+bcijlmnor dhk 0 E
+280 -60 -60 1d1+150000 30d50+1000
+4000000 2000000000
+8 8 0
+BareHandAttack: 8
+Class: 0
+E
+#20015
+death king~
+the Death King~
+The Death King stands here.
+~
+The Death King has an aura of pure evil. As you look in his direction
+you are overwhelmed by the desire to kill your fellow man. This guy
+is NOT someone to mess with, he looks like he could personally
+take on a small army.
+~
+bcejklmnor dhk -1000 E
+280 -60 -60 1d1+100000 50d50+1500
+4000000 180000000
+8 8 0
+BareHandAttack: 12
+Class: 3
+E
+#20016
+life king~
+the Life King~
+The Life King stands here.
+~
+The Life King has an aura of pure good. You feel the need to cuddle
+cute furry animals when in his presence, but you get the feeling that
+this guy can easily take care of himself. He leads the cohorts of Life
+against the evil Death court. That alone is reason to steer well clear 
+of him.
+~
+bceiklmnor dhk 1000 E
+280 -60 -60 1d1+100000 50d50+1500
+4000000 180000000
+8 8 0
+BareHandAttack: 12
+Class: 3
+E
+#20017
+balance king~
+the Balance King~
+The Balance King stands here.
+~
+The Balance King has an aura of neutrality about him.
+He is primarily responsible for maintaining the balance between
+the courts of Life and Death. This guy is NOT to be toyed with,
+he eats gods for breakfast, lunch AND recess!
+~
+bceijlmnor dhk 0 E
+300 -80 -80 1d1+300000 80d50+2500
+8000000 250000000
+8 8 0
+BareHandAttack: 12
+Class: 3
+E
+>greet_prog 40~
+  if isimmort($n)
+    if name($n) == Tomas
+    bow tomas
+    say Master, how might I serve thee?
+    else
+    bow $n 
+  else
+  look $n
+  say Do not tempt me puny mortal!
+  MPECHO peers around contemptously.
+endif
+endif
+~
+|
+$

@@ -1,0 +1,46 @@
+#30001
+bag_of_Flies~
+A small bag is full of flies.~
+A bag is full of something BUZZING madly.~
+~
+5 gnp ano
+0 1 4 2
+1 1 1 0
+A
+17 1
+A
+2 1
+#30002
+yellow dagger~
+A yellow dagger~
+A yellow dagger rests here.~
+The dagger cuts ~
+5 an an
+0 6 5 11
+2 20000 2000 40
+E
+yellow dagger~
+This dagger has yellow fungus on the blade
+~
+A
+9 30
+A
+12 -70
+#30003
+key bent wire~
+Strand of bent wire~
+A strand of bent wire is lying here ready to cut your toes~
+~
+18 cmnpq ao
+0 0 0 0
+1 0 1 0
+A
+18 3
+A
+19 2
+A
+24 5
+A
+12 -170
+#99999
+$~

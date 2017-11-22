@@ -1,0 +1,1356 @@
+#20101
+Outside the Abandoned Gate~
+You stand outside the old western gate of Rome.  To the east, a paved road
+leads back to Nero Drive and the hustle and bustle of civilisation.  This
+path extends as far as you can see to the west, with a huge forest visible
+on the horizon.
+~
+201 cg 2
+D1
+This leads back inside the city of Rome.
+~
+gates~
+1 -1 12005
+D3
+The path west extends to a huge forest on the horizon.
+~
+~
+0 0 20102
+S
+#20102
+The path west~
+You are walking along a path through large fields filled with long grass.
+Birds and small animals are in abundance and the impact of "Civilised man"
+has yet to reach this far west.  To the east, this path heads back to Rome,
+the glorious capital of the Empire.  To the north, it is a tranquil walk to a
+large forest.
+~
+201 0 2
+D0
+The path north leads towards a huge forest.
+~
+~
+0 0 20103
+D1
+This leads back to an abandoned entrance to the city of Rome.
+~
+~
+0 0 20101
+S
+#20103
+Further along the path~
+You walk along an east-west trail through mighty plains.  On the horizon to the
+south, a city may be seen set rising above the plains.  To the west, a forest
+looms with huge oaks and many small, furry things looking out from between the
+trees.
+~
+201 0 2
+D2
+This leads away from the forest, and hopefully, to civilisation.
+~
+~
+0 0 20102
+D3
+A short distance to the west the path enters the forest.
+~
+~
+0 0 20104
+S
+#20104
+Entrance to the forest~
+You stand at the border of the plains and a great forest.  Huge oaks loom
+about you, spreading their enormous limbs above you in a canopy through which
+only dim sunlight filters through.  To the north, the path leads through the
+forest, while to the east, the road continues across plains to the horizon.
+~
+201 a 3
+D0
+This leads into the forest along a shaded path.
+~
+~
+0 0 20105
+D1
+This leads back along the path.  Where.. you have no idea.
+~
+~
+0 0 20103
+S
+#20105
+Into the forest~
+The forest deepens about you as you proceed westwards.  The oaks are ancient,
+looming many metres above you, and many eyes peer out from between trunks and
+branches.  Far to the south, faint light can be seen from the plains, and 
+to the north, the path heads even deeper into the forest.
+~
+201 a 3
+D0
+This leads even deeper into the dark forest.
+~
+~
+0 0 20106
+D2
+In this direction you see a faint light coming from the plains to your south.
+~
+~
+0 0 20104
+S
+#20106
+Further into the forest~
+The trail you follow winds its way between the massive oaks of this ancient
+forest.  Light filters through the branches above, giving illumination enough
+to see by.  To the south, the trail continues through the trees and to the 
+east is Forest Crossing.
+~
+201 a 3
+D1
+In this direction it looks like there is a crossing of paths, lit by light
+filtering through the canopy.
+~
+~
+0 0 20107
+D2
+This leads along a dim path into the forest.
+~
+~
+0 0 20105
+S
+#20107
+Forest Crossing~
+Here, three trails converge under the enormous canopy.  The dim light filtering
+through the foliage above is enough to light the area.. but sadly, not enough
+for you to see where each of the three paths - North, East and West - lead.
+To the south, however, the trees appear to be covered with a sticky substance
+which hangs from the vines in thick ropy strands - beware Death is in there!!
+~
+201 afg 3
+D0
+The path continues into darkness.
+~
+~
+0 0 20108
+D1
+The path continues into darkness.
+~
+~
+0 0 20109
+D2
+The sticky strands to the west cover the ground and hang from the trees.  
+They stir feebly even as you glance at them, as if somehow sensing your 
+presence...
+You think that you will die if you go in there.
+~
+~
+0 0 20153
+D3
+The path continues into darkness.
+~
+~
+0 0 20106
+D4
+The canopy obscures whatever lies above.
+~
+canopy~
+1 -1 20165
+S
+#20108
+Further into the forest~
+The trail you follow winds its way between the massive oaks of this ancient
+forest.  Light filters through the brances above, giving illumination enough
+to see by.  To the north, the trail continues towards a intersection and 
+to the south is Forest Crossing.
+~
+201 a 3
+D0
+There appears to be a clearing in the trail to the north.
+~
+~
+0 0 20110
+D2
+To the south lies a crossing of paths lit by filtering sunlight.
+~
+~
+0 0 20107
+S
+#20109
+Further into the forest~
+The trail you follow winds its way between the massive oaks of this ancient
+forest.  Light filters through the branches above, giving illumination enough
+to see by.  To the south, the trail continues through the trees and to the
+west is Forest Crossing.
+~
+201 a 3
+D3
+To the west lies a crossing of paths lit by filtering sunlight.
+~
+~
+0 0 20107
+D2
+The forest grows increasingly dark in this direction.
+~
+~
+0 0 20111
+S
+#20110
+A clearing in the trail~
+The forest parts slightly revealing a clearing in the trail.  Feelings of
+claustrophobia melt away as you are bathed in sunshine from the broken canopy
+above.  The path here leaves the forest to the east, while to the south the
+path heads deeper into the forest.  Just west of here a trail may be seen
+breaking away from the main route.
+~
+201 0 3
+D1
+In this direction you see a fortified village.
+~
+~
+0 0 20115
+D2
+This leads back into the forest.
+~
+~
+0 0 20108
+D3
+A path breaks away from the main trail and heads off in this direction.
+~
+~
+0 0 20161
+S
+#20111
+A darker area of the forest~
+You enter a dark section of the forest.  Here, the canopy is dense, lending to
+shadows in every corner and behind many trees.  Eyes peer out unblinkingly from
+between the trees and the sudden hooting of an owl makes you jump.  To the
+north the canopy parts slightly to make the trail lighter, and to the east
+the trail continues in almost complete darkness.
+~
+201 a 3
+D0
+This leads back into the forest.  At least it looks a little better lit...
+~
+~
+0 0 20109
+D1
+Out of the forest~
+~
+0 0 20112
+S
+#20112
+Out of the forest~
+You blink rapidly as you stumble out of the dark forest into the bright sun
+light.  Looking back, the trail vanishes into almost complete darkness.
+To the east, however, the trail leads to a fortified camp of some kind.
+~
+201 0 3
+D1
+To the east there appears to be a fortified camp.
+~
+~
+0 0 20113
+D3
+In this direction.. almost pitch darkness.  Not even sunlight penetrates it.
+~
+~
+0 0 20111
+S
+#20113
+Before the forest~
+You stand at the entrance to the forest.  Ahead of you, the forest is dark,
+almost pitch black, and appears very foreboding.  To the south, the trail
+leads to the fortifed Roman camp.
+~
+201 0 3
+D2
+To the south there appears to be a fortified camp.
+~
+~
+0 0 20114
+D3
+In this direciton.. almost pitch darkness.  Not even sunlight penetrates it.
+~
+~
+0 0 20112
+
+S
+#20114
+Outside the fortifed Roman camp~
+You stand at the gates of a fortifed Roman camp, built in a cleared section of
+the forest.  A nearby tree stump, easily two feet in radius, gives evidence as
+to the large oaks that were growing here before the army moved in - and the
+amount of work the army put into clearing this area.
+The camp itself is not very large - but it is well poplated and appears to be
+a beehive of activity.  The only calm area is here, outside the gates, where
+the guards stand to attention on duty.  To the north lies the forest.
+~
+201 0 1
+D0
+This leads back towards the forest.
+~
+~
+0 0 20113
+D2
+A pair of large gates block the entrance to the fortified roman camp.
+~
+gates~
+1 -1 20150
+S
+#20115
+Before the village~
+You stand at the edge of the great forest.  To the north a sleepy little 
+village stands, with smoke drifting lazily from many chimneys.  To the south
+the trail heads into a clearing in the forest.
+~
+201 0 3
+D0
+To the north is a large village.
+~
+~
+0 0 20116
+D3
+This leads west to a clearing in the trail.
+~
+~
+0 0 20110
+S
+#20116
+At the gates of the Gaulish Village~
+The year is 50 BC.  Gaul is entirely occupied by the Romans.  Well, not
+entirely... One small village of indomitable Gauls stil holds out against the
+invaders.  And life is not easy for the Roman legionaries who garrison the
+fortified camps nearby...
+
+You stand at the gates of the Gaulish Village.  Ahead of you the path becomes
+a main street through the town, with many gauls walking back and forth in
+everyday chores.  In fact, if not for the guards at the gate, there would be
+little to suggest that this village is on a war footing...
+These Gauls are crazy.
+~
+201 0 1
+D0
+Some large gates block the entrance to the village.
+~
+gates~
+1 -1 20117
+D2
+This leads southwards to a clearing near a forest.
+~
+~
+0 0 20115
+S
+#20117
+Inside the South Gate of the village~
+You stand on the main street of the Gaulish Village just inside the South
+Gate.  To the east of here, the home of the village chief Vitalstatistix may
+be found, while to the west the village blacksmith Fulliautomatix has his
+shop.  South leads out of the village to the forest and north leads further
+along the main street.
+~
+201 0 1
+D0
+This way lies the main street of the village.
+~
+~
+0 0 20118
+D1
+In this direction is the hut of the village chief Vitalstatistix.
+~
+~
+0 0 20130
+D2
+This leads south to the gates of the village.
+~
+gates~
+1 -1 20116
+D3
+In this direciton lies Fulliautomatix's Smithy.
+~
+~
+0 0 20131
+S
+#20118
+Main Street~
+You stand on the main street of the Gaulish Village.  Directly east of here is
+the hut of the fishmonger,  Unhygenix, and his wife, Bacteria.  To the west is
+the home of the town blacksmith's father, Geriatrix.  Looking south you can 
+see the chief's hut by the side of the street, and to the north is the Town
+Square.
+~
+201 0 1
+D0
+In this direction lies the town square.
+~
+~
+0 0 20119
+D1
+In this direction lies Unhygenix's fish store.
+~
+~
+0 0 20132
+D2
+This leads to just inside the south gate of the village.
+~
+~
+0 0 20117
+D3
+This leads to Geriatrix's house.
+~
+~
+0 0 20133
+S
+#20119
+Town Square~
+You stand in the small town square of the Indomidable Gaulish Village.  There
+are streets leading in all the compass directions.
+A large oak, evidently too revered to be cut down, spreads its branches over
+the square.  In the branches you see the dwelling of Cacofonix, the town bard.
+~
+201 0 1
+D0
+Main Street continues this way.
+~
+~
+0 0 20120
+D1
+A Side Street breaks off in this direction.
+~
+~
+0 0 20123
+D2
+Main Street continues this way.
+~
+~
+0 0 20118
+D3
+A Side Street breaks off in this direction.
+~
+~
+0 0 20126
+D4
+Up the tree lies the house of the village bard, Cacofonix.
+~
+~
+0 0 20129
+S
+#20120
+Main Street~
+You stand on the main street of the Gaulish Village.  To the east of here you
+see the home of the fabled Gaulish warrior Asterix, and facing west you see
+thehouse of the village druid Getafix.
+This road continues north across a small river to a quarry and south to the
+Town Square.
+~
+201 0 1
+D0
+To the north is a small bridge across a river through the village.
+~
+~
+0 0 20121
+D1
+Asterix's house lies in this direction.
+~
+~
+0 0 20134
+D2
+Town Square lies in this direction.
+~
+~
+0 0 20119
+D3
+The hut of Getafix, the village druid, is in this direction.
+~
+~
+0 0 20135
+S
+#20121
+The Bridge~
+You stand on a small bridge spanning the river through the village.  North of
+here is Obelix's Quarry and to the south is the main street.
+~
+201 0 1
+D0
+The Quarry of the village is just to the north.  You see a large man working
+at it.
+~
+~
+0 0 20122
+D2
+Main Street lies this way.
+~
+~
+0 0 20120
+S
+#20122
+The Quarry~
+This is a small hill which has been gradually been worn into a quarry by
+endless excavation for the stone which Obelix uses to make his menhirs.
+Obelix could probably carve these menhirs for himself with his bare hands, but
+for some reason he prefers to use tools to form these great obelisks.
+~
+201 0 1
+D2
+This path leads back across the bridge to the village proper.
+~
+~
+0 0 20121
+S
+#20123
+Side Street~
+You stand on a side street extending from town square.  To the west of here is
+town square while a back road extends to the north and south.
+East of here is a Gaulish Dwelling.
+~
+201 0 1
+D0
+This leads behind Asterix's house.
+~
+~
+0 0 20124
+D1
+In this direction lies a gaulish dwelling.
+~
+~
+0 0 20137
+D2
+This leads behind Unhygenix's house.
+~
+~
+0 0 20125
+D3
+To the west you can see Town Square.
+~
+~
+0 0 20119
+S
+#20124
+Behind Asterix's house~
+This track leads behind a few of the prominent villager's houses and to less..
+...ahem... fabled Gaul's dwellings.
+To the east of here is a Gaulish Dwelling.
+~
+201 0 1
+D1
+In this direction lies a gaulish dwelling.
+~
+~
+0 0 20136
+D2
+The Side Street continues this way.
+~
+~
+0 0 20123
+S
+#20125
+Behind Unhygenix's house~
+This track leads behind a few of the prominent villager's houses and to less..
+...ahem... fabled Gaul's dwellings.
+To the east of here is a Gaulish Dwelling.
+~
+201 0 1
+D0
+The side street continues this way.
+~
+~
+0 0 20123
+D1
+In this diretion lies a gaulish dwelling.
+~
+~
+0 0 20138
+S
+#20126
+Side Street~
+You stand on a side street extending from town square.  To the west of here is
+town square while a back road extends to the north and south.
+West of here is a Gaulish Dwelling.
+~
+201 0 1
+D0
+This leads behind Getafix's house.
+~
+~
+0 0 20127
+D1
+To the west you can see Town Square.
+~
+~
+0 0 20119
+D2
+This leads behind Geriatrix's house.
+~
+~
+0 0 20128
+D3
+In this direction lies a gaulish dwelling.
+~
+~
+0 0 20140
+S
+#20127
+Behind Getafix's house~
+This track leads behind a few of the prominent villager's houses and to less..
+...ahem... fabled Gaul's dwellings.
+To the west of here is a Gaulish Dwelling.
+~
+201 0 1
+D2
+The side street continues this way.
+~
+~
+0 0 20126
+D3
+In this direction lies a gaulish dwelling.
+~
+~
+0 0 20139
+S
+#20128
+Behind Geriatrix's house~
+This track leads behind a few of the prominent villager's houses and to less..
+...ahem... fabled Gaul's dwellings.
+To the west of here is a Gaulish Dwelling.
+~
+201 0 1
+D0
+The side street continues this way.
+~
+~
+0 0 20126
+D3
+In this direction lies a gaulish dwelling.~
+~
+0 0 20141
+S
+#20129
+Cacofonix's house~
+You stand in the tree-home of Cacofonix, the village bard.
+Constructed entirely of wood, this house would probably make a very spectacular
+show if it happened to catch fire.. especially while the 'talented' bard was
+inside.  Clothes, shoes and other junk litter the floor here and an unmade bed
+in the corner gives this place the look of one belonging to a frustrated 
+artist.  Various photographs and signed pictures of musicians adorn the walls,
+with notable names including Elvis Presley, the Beatles and a black and white
+photo of Michael Jackson.
+~
+201 0 0
+D5
+Down the tree lies Town Square.  It is a very SAFE climb down.
+~
+~
+0 0 20119
+S
+#20130
+The hut of Chief Vitalstatistix~
+You stand in the hut of the village chieftan Vitalstatistix.  Banners and
+weapons of war hang from the walls of the hut, with a deer head mounted above
+the entrance staring down at those seeking audience with the chief.
+Vitalstatistix's throne itself is a grand affair, with a bear skin on the seat
+and a shield on the wall behind the throne.
+~
+201 0 0
+D3
+This leads to just inside the gates of the village.
+~
+~
+0 0 20117
+S
+#20131
+Fulliautomatix's Smithy~
+The town Smithy is a small, open shack built entirely of stone.
+Anvils of various size and function sit in certain parts of the room, and 
+spare horseshoes hang from the wall above the forge as proud displays of the 
+blacksmith's skill.
+~
+201 h 0
+D1
+This leads to just inside the gates of the village.
+~
+~
+0 0 20117
+S
+#20132
+Unhygenix's Fish Store~
+Unhygenix's Fish Store is just that... a fish store.  A counter stretches
+across the front of the house, covered with many fish of various shapes and
+sizes... and in various states of decay.  Up close it is easy to see why
+Unhygenix's fish are village renown - they stink.  Perhaps there would be
+more ... breathable air to the west.
+~
+201 h 0
+D3
+This leads back to the main street of the village.
+~
+~
+0 0 20118
+S
+#20133
+Geriatrix's house~
+This is the home of the oldest living villager, Geriatrix.  This house is
+meticulously clean and well ordered, probably more because of Geriatrix's
+young wife than any real athleticism of Geriatrix himself.  The main room
+in which you now stand has a small fireplace in the corner, with a mantle
+overhead holding many photos of Geratrix, his wife, and their son, the
+blacksmith Fulliautomatix.  Oh, and the TV stands in the corner opposite
+an beaten up antique sofa.
+~
+201 0 0
+D1
+This leads back to the main street of the village.
+~
+~
+0 0 20118
+S
+#20134
+Asterix's house~
+This the home of the greatest warrior in the village - Asterix.
+Asterix, along with his best friend Obelix, both make their home here.
+Unfortnuately with Obelix out bashing romans, hunting boars, or in his 
+quarry making menhirs, it is Asterix who is most often at home.. which isnt
+much more than Obelix, truth be told.  Dispite this, the house is very neat -
+the fireplace is clean and the floor even shows sign of recent scrubbing.
+The only sign of mess in this place is the bones of several wild boars - 
+leftovers from last night's banquet, which Obelix brought home to nibble on 
+when he got peckish.
+~
+201 0 0
+D3
+This leads back to the main street of the village.
+~
+~
+0 0 20120
+S
+#20135
+Getafix's house~
+You stand in the home of the town druid, Getafix.  It is through his potions
+and mixes that is brewed the Magic Potion which gives the villagers their
+superhuman strength to fight off the Romans.
+The inside of this hut is much the same as it was last week - a mess.
+Clothes litter the floor and bed, which is still unmade from last month.
+Spare scrolls of incomprehensible languages, and tomes of knowledge lie
+discarded everywhere.  In fact, the only thing ordered is the shelf holding
+Getafix's many potions - his pride and joy.
+~
+201 h 0
+D1
+This leads back to the main street of the village.
+~
+~
+0 0 20120
+S
+#20136
+Gaulish Dwelling~
+A man's home is his castle... isnt that the saying ??
+You stand in a home belonging to one of the less famous Gaulish villagers.
+These houses are well constructed for their time, with stone walls and
+warm, insulating thatch roofs.  Since all Gaulish homes are, in essence, one
+single large room, this room also contains two beds, a crude kitchen, and
+a TV set against the wall near a roaring fireplace.  I wonder if they get
+pay-tv here....
+~
+201 c 0
+D3
+This leads back to a side alley.
+~
+~
+0 0 20124
+S
+#20137
+Gaulish Dwelling~
+A man's home is his castle... isnt that the saying ??
+You stand in a home belonging to one of the less famous Gaulish villagers.
+These houses are well constructed for their time, with stone walls and
+warm, insulating thatch roofs.  Since all Gaulish homes are, in essence, one
+single large room, this room also contains two beds, a crude kitchen, and
+a TV set against the wall near a roaring fireplace.  I wonder if they get
+pay-tv here....
+~
+201 c 0
+D3
+This leads back to a side alley.
+~
+~
+0 0 20123
+S
+#20138
+Gaulish Dwelling~
+A man's home is his castle... isnt that the saying ??
+You stand in a home belonging to one of the less famous Gaulish villagers.
+These houses are well constructed for their time, with stone walls and
+warm, insulating thatch roofs.  Since all Gaulish homes are, in essence, one
+single large room, this room also contains two beds, a crude kitchen, and
+a TV set against the wall near a roaring fireplace.  I wonder if they get
+pay-tv here....
+~
+201 c 0
+D3
+This leads back to a side alley.
+~
+~
+0 0 20125
+S
+#20139
+Gaulish Dwelling~
+A man's home is his castle... isnt that the saying ??
+You stand in a home belonging to one of the less famous Gaulish villagers.
+These houses are well constructed for their time, with stone walls and
+warm, insulating thatch roofs.  Since all Gaulish homes are, in essence, one
+single large room, this room also contains two beds, a crude kitchen, and
+a TV set against the wall near a roaring fireplace.  I wonder if they get
+pay-tv here....
+~
+201 c 0
+D1
+This leads back to a side alley.
+~
+~
+0 0 20127
+S
+#20140
+Gaulish Dwelling~
+A man's home is his castle... isnt that the saying ??
+You stand in a home belonging to one of the less famous Gaulish villagers.
+These houses are well constructed for their time, with stone walls and
+warm, insulating thatch roofs.  Since all Gaulish homes are, in essence, one
+single large room, this room also contains two beds, a crude kitchen, and
+a TV set against the wall near a roaring fireplace.  I wonder if they get
+pay-tv here....
+~
+201 c 0
+D1
+This leads back to a side alley.
+~
+~
+0 0 20126
+S
+#20141
+Gaulish Dwelling~
+A man's home is his castle... isnt that the saying ??
+You stand in a home belonging to one of the less famous Gaulish villagers.
+These houses are well constructed for their time, with stone walls and
+warm, insulating thatch roofs.  Since all Gaulish homes are, in essence, one
+single large room, this room also contains two beds, a crude kitchen, and
+a TV set against the wall near a roaring fireplace.  I wonder if they get
+pay-tv here....
+~
+201 c 0
+D1
+This leads back to a side alley.
+~
+~
+0 0 20128
+S
+#20150
+Inside the gates of the fortified Roman Camp~
+You stand just inside the gates of the fortified Roman camp, built in a cleared
+section of the forest.  The camp itself is a bustle of activity, with guards
+wandering about on various assignments, or lazily playing dice off duty.  To
+the east and west, tents fill your vision and obscure the horizon.  The path
+you are currently on continues south, while to the north lie the gates of the
+camp.
+~
+201 0 1
+D0
+The area outside the gates is blocked from view by the gates.
+~
+gates~
+1 -1 20114
+D1
+This leads to a Legionary's Tent.
+~
+~
+0 0 20155
+D2
+This path leads to the Camp Square.
+~
+~
+0 0 20151
+D3
+This leads to a Legionary's Tent.
+~
+~
+0 0 20158
+S
+#20151
+On the path to the Camp Square~
+You stand on a north-south road through the Roman Camp.  East and west of you,
+soldier's tents obscure the horizon.  To the north this road continues to the
+gates of the camp, while to the south lies the Camp Square.
+~
+201 0 1
+D0
+This leads north to just inside the gates of the camp.
+~
+~
+0 0 20150
+D1
+This leads to a Legionary's Tent.
+~
+~
+0 0 20156
+D2
+This leads to Camp Square.
+~
+~
+0 0 20152
+D3
+This leads to a Legionary's Tent.
+~
+~
+0 0 20159
+S
+#20152
+Camp Square~
+You stand in the main square of the fortified Roman Camp.  Soldiers are every-
+where here, doing various incomprehensible orders or shouting abuse at one
+another.  For an instant it seems anarchy will reign when a muffled order is
+issued from a tent to the south, and all becomes quiet.  To the north, the
+path you came from stretches towards the gates.  To the east and west,
+legionary tents have been picketed, but to the south, there is an especially
+fine tent made of high quality cloth - perhaps the Centurion's tent ?
+~
+201 0 1
+D0
+This leads north away from Camp Square.
+~
+~
+0 0 20151
+D1
+This leads to a Legionary's Tent.
+~
+~
+0 0 20157
+D2
+The Centurion's Tent is in this direction.
+~
+~
+0 0 20154
+D3
+This leads to a Legionary's Tent.
+~
+~
+0 0 20160
+S
+#20153
+The Crushing Web.~
+Distantly related to the web-creature infesting the Hanon-Dor, this creature
+hangs from the branches awaiting victims who pass below, first ensnaring them
+and then proceeding to drain the life from them.
+
+Ignorant of this you proceed into the sticky, web-covered ground, and are
+naturally quite shocked when the tendrils rise up to embrace you.  You only
+feel a sweet sickness pervade your senses as you are drugged and, fortunately,
+are not concious while the creature horribly sucks your life away.
+
+Hasta la vista, baby.
+
+~
+201 bc 0
+S
+#20154
+The Centurion's Tent~
+You stand in the Centurion's Tent of the Roman Camp.  The Centurion is the
+commanding officer of the camp, evidenced by the banners, trophies, and pennantsplaces and hung around the inside of the tent.
+The tent itself is very neat with the few personal items of the Centurion 
+stacked against the wall near the bunk - a small map, a statuette of Julius
+Caesar, and a small amphora of wine - but otherwise pretty much empty.
+~
+201 f 0
+D0
+Camp Square can be seen through the tent flap to the north.
+~
+~
+0 0 20152
+S
+#20155
+A Legionary's Tent~
+You stand in the tent of some Roman Legionaries.  The sleeping-place of several
+soldiers, at first it appears messy but closer inspection reveals a high level
+of order and discipline.
+~
+201 c 0
+D3
+This leads back to just inside the gates of the camp.
+~
+~
+0 0 20150
+S
+#20156
+A Legionary's Tent~
+You stand in the tent of some Roman Legionaries.  The sleeping-place of several
+soldiers, at first it appears messy but closer inspection reveals a high level
+of order and discipline.
+~
+201 c 0
+D3
+This leads out to the path towards the Camp Square.
+~
+~
+0 0 20151
+S
+#20157
+A Legionary's Tent~
+You stand in the tent of some Roman Legionaries.  The sleeping-place of several
+soldiers, at first it appears messy but closer inspection reveals a high level
+of order and discipline.
+~
+201 c 0
+D3
+This leads out to Camp Square.
+~
+~
+0 0 20152
+S
+#20158
+A Legionary's Tent~
+You stand in the tent of some Roman Legionaries.  The sleeping-place of several
+soldiers, at first it appears messy but closer inspection reveals a high level
+of order and discipline.
+~
+201 c 0
+D1
+This leads out to just inside the gates of the camp.
+~
+~
+0 0 20150
+S
+#20159
+A Legionary's Tent~
+You stand in the tent of some Roman Legionaries.  The sleeping-place of several
+soldiers, at first it appears messy but closer inspection reveals a high level
+of order and discipline.
+~
+201 c 0
+D1
+This leads back to the path to Camp Square.
+~
+~
+0 0 20151
+S
+#20160
+A Legionary's Tent~
+You stand in the tent of some Roman Legionaries.  The sleeping-place of several
+soldiers, at first it appears messy but closer inspection reveals a high level
+of order and discipline.
+~
+201 c 0
+D1
+This leads out to Camp Square.
+~
+~
+0 0 20152
+S
+#20161
+A path away from the trail~
+Here, the path breaks away from the clearing and heads deeper into the forest.
+As you leave the clearing behind, forboding thought come upon you but they are
+banished when u see that the breakaway path is in fact quite clear and well
+defined as if many feet have trod this path before....
+~
+201 a 3
+D1
+This heads back to a clearing in the trail.
+~
+~
+0 0 20110
+D2
+This heads further south along the trail.
+~
+~
+0 0 20162
+S
+#20162
+An east-north path~
+You travel along a well-defined trail through the large forest.  Oaks
+loom about you on all sides, leaning over.. almost protectively.  The forest
+feels enchanted here, somehow, and west of you you see a dim glow from some
+kind of forest congregation...
+~
+201 a 3
+D0
+This heads east, back along the trail, and away from the light.
+~
+~
+0 0 20161
+D3
+A large light comes from this direction and you can hear faint sounds of rowdy
+singing and general partying.  Mmmmm perhaps you can gate-crash this one..
+~
+~
+0 0 20163
+S
+#20163
+A circle of trees in the ancient forest.~
+You step out of the forest into a large clearing.  It is clear now that this
+clearing is enchanted somehow, with the "party" that you can hear very close by
+to the north.  From here it looks like some sort of druidic conference, which
+would explain the enchantments.  To the east, the trail leads back through the
+trees and away from the circle of trees.
+~
+201 a 3
+D0
+It looks like there is some sort of druid conference to the west, with many
+venerable old men stirring over cauldrons and lots of learned discussions
+taking place over amphoras of wine.
+~
+~
+0 0 20164
+D1
+This heads east along the trail and away from the circle of trees.
+~
+~
+0 0 20162
+S
+#20164
+The Druids Circle.~
+It is now clear that you stand in an enchanted area.  Around you, tables and
+chairs are set up in an arc, with many cauldrons bubbling away.  As yet, the
+druids have not noticed you, since they are too caught up in there own learned
+"discussions" - that is, most of them are too deep into their wine to care.
+A small few, however, work obsessively over cauldrons, preparing unknown mixes
+and potions for the upcoming annual druidic competitions, which Getafix from
+the nearby village has won twice in succession.
+~
+201 0 3
+D2
+The druidic circle of trees merges with the forest in this direction.
+~
+~
+0 0 20163
+S
+#20165
+Rising through the air.~
+You rise gracefully through the air by a force unknown.  Below you, the forest
+crossing drops away meaninglessly as you are carried higher and higher by some
+spiritual force.  The ground looks very, VERY far below and you think descent
+would be an extremely bad idea.
+~
+201 aci 0
+D4  
+Looking up, all you can see is sky.
+~
+~
+0 0 20167
+D5
+While you can control your ascent, somehow, you think it would be a BAD idea
+to descend.  The ground looks VERY far away and the idea of falling to it is
+somehow.. fatal...
+~
+~
+0 0 20166
+S
+#20166
+Falling through the air.~
+HAVE YOU EVER SKYDIVED WITHOUT A PARACHUTE ??
+
+You know what they say....
+  "The worst thing about a long fall is the sudden stop at the end."
+
+You fall...
+               |
+               |
+               |
+               |
+               |
+               |
+               |
+              \|/
+        -------*-------       SPLAT !!!!
+               
+~
+201 bc 0
+S
+#20167
+Rising through the air.~
+The ground below you receeds rapidly and it strikes you as you rise further
+that there is no possible way you could survive a fall from this height.
+~
+201 ai 0
+D4
+Looking up, all you can see is sky.
+~
+~
+0 0 20168
+D5
+While you can control your ascent, you think that descending would be a 
+VERY VERY bad idea... somehow.. fatal.
+~
+~
+0 0 20166
+S
+#20168
+Rising through the air.~
+On all sides there is clear blue sky - and what a view from here !!  You are
+fairly sure that you can see your house from here !!  Even midgaard is
+visible from this distance, resting on the curve of the horizon so very far
+away.
+~
+201 ai 0
+D4
+Looking up, all you can see is sky.
+~
+~
+0 0 20169
+D5
+While you can control your ascent, you think that descending would be a 
+VERY VERY bad idea... somehow.. fatal.
+~
+~
+0 0 20166
+S
+#20169
+Rising through the air.~
+The ground below you is now invisble and you are surrounded on all sides
+by blue sky.   Far above you is a cloud layer through which it seems you 
+will pass.
+~
+201 ai 0
+D4
+Looking up, you can see a cloud layer.
+~
+~
+0 0 20170
+D5
+While you can control your ascent, you think that descending would be a 
+VERY VERY bad idea... somehow.. fatal.
+~
+~
+0 0 20166
+S
+#20170
+Rising through the air.~
+You pass through a cloud layer which fades quickly below you soon becoming
+just a white-grey haze far far below.
+~
+201 ai 0
+D4
+Looking up, all you can see is sky.
+~
+~
+0 0 20171
+D5
+While you can control your ascent, you think that descending would be a 
+VERY VERY bad idea... somehow.. fatal.
+~
+~
+0 0 20166
+S
+#20171
+Passing out of the Atmosphere.~
+Even the cloud bank you passed through is invisible now as the sky around
+you seems to fade from blue towards black and a few stars become visible.
+~
+201 aci 0
+D4
+Looking up, all you can see is sky.
+~
+~
+0 0 20172
+D5
+While you can control your ascent, you think that descending would be a 
+VERY VERY bad idea... somehow.. fatal.
+~
+~
+0 0 20166
+S
+#20172
+Ascending through space.~
+The sky directly above you is definately black and a great many stars are
+now visible - while around you and below the blue sky is fading to black as
+you pass higher and higher into the air.
+~
+201 ai 0
+D4
+Looking up, all you can see is blackness, punctuated by a few stars.
+~
+~
+0 0 20173
+D5
+While you can control your ascent, you think that descending would be a 
+VERY VERY bad idea... somehow.. fatal.
+It is now likely that you will burn up before you reach the ground.
+~
+~
+0 0 20166
+S
+#20173
+Ascending through space.~
+Now you are surrounded completely by blackness.
+Very far below you you can see the quickly fading blue of atmosphere and which 
+you shakily realise you must no longer be in.  How you are breathing.. you 
+have no idea.
+~
+201 ai 0
+D4
+Looking up, all you can see is stars.
+~
+~
+0 0 20174
+D5
+While you can control your ascent, you think that descending would be a 
+VERY VERY bad idea... somehow.. fatal.
+It is now likely that you will burn up before you reach the ground.
+~
+~
+0 0 20166
+S
+#20174
+Below the cloud.~
+Defying all the laws of physics, there is a huge cloud floating just above
+you in the middle of... space.  It appears to be your destination.
+~
+201 ai 0
+D4
+The large cloud floats just above you in the the midst of stars.
+~
+~
+0 0 20175
+D5
+While you can control your ascent, you think that descending would be a 
+VERY VERY bad idea... somehow.. fatal.
+It is now likely that you will burn up before you reach the ground.
+~
+~
+0 0 20166
+S
+#20175
+The Cloud Home of the Gods.~
+The cloud-home of the Gods is the home of many gods of the world of Midguaard.
+Currently it is almost deserted since the Roman Gods are away, visiting their 
+people far to the west, and Thor and the other norse gods are out partying 
+somewhere (no-one knows WHERE, though).  Most of the other gods are away 
+doing what gods usually do when they are extremely bored.
+Dispite the cloud-appearance of this realm from below, you can feel solid dirt
+beneath your toes, and if not for the inky-black sky all about you, you could
+almost convince yourself that where you stand is a small chunk of Earth... 
+... which you guess, peering over the edge of the cloud, is VERY far below.
+~
+201 cefgh 0
+D0
+This is where the Gaulish Gods preside.  Its the only area open right now
+since the other gods appear to be on vacation.
+~
+~
+0 0 20176
+D5
+You are SO high up that you can actually see the curving of the world -
+individual features such as mountains are no longer distinguishable... and
+you realise with a shock that what you are standing on is in only a slightly
+lower orbit of than the moon...
+It strikes you that if you happen to descend from this height that not even
+a single atom of your body will make it intact to the planet far far below..
+~
+~
+0 0 20166
+S
+#20176
+The home of the Gaulish Gods.~
+Here is the resting place of the Gaulish Gods.   Vast, awe-inspiring spirits
+move between the real plane and the spiritual, and you are struck dumb by the
+sight of it all.
+~
+201 0 0
+D2
+This heads back to the entrance to the cloud land of the Gods.
+~
+~
+0 0 20175
+S
+$~

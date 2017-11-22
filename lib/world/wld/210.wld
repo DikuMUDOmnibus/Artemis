@@ -1,0 +1,366 @@
+#21000
+The Spiral of Death~
+A large Open Area looms before you. In the distance a 
+Large Rock with what seems to be an opening stands in the
+middle of the open ground to the East.....
+~
+210 0 0
+D1
+~
+~
+0 -1 21001
+D3
+~
+~
+0 -1 9937
+S
+#21001
+ ~
+You Stand before an opening in the middle of a large Rock.
+The surrounding area is well used.
+~
+210 h 0
+D3
+~
+~
+0 -1 21000
+D5
+~
+~
+0 -1 21002
+S
+#21002
+ ~
+You walk down a narrow staircase of smooth marble walls turning
+downward and to the right.
+~
+210 adfg 0
+D4
+~
+~
+0 -1 21001
+D5
+~
+~
+0 -1 21003
+S
+#21003
+ ~
+
+You stand in a vacant circular chamber. 
+Blood and bodes litter the floor.
+Exits leading up and down a small narrow stairway.
+~
+210 adfgh 0
+D4
+~
+~
+0 -1 21002
+D5
+~
+~
+0 -1 21004
+S
+#21004
+ ~
+You walk down a narrow staircase of smooth marble walls turning
+downward and to the right.
+~
+210 adfg 0
+D4
+~
+~
+0 -1 21003
+D5
+~
+~
+0 -1 21005
+S
+#21005
+ ~
+Debris and Garbage litter the floor.
+By the seems of things, you would say the Guards
+use this as there rest room.
+
+~
+210 adfgh 0
+D4
+~
+~
+0 -1 21004
+D5
+~
+~
+0 -1 21006
+S
+#21006
+ ~
+You walk down a narrow staircase of smooth marble walls turning
+downward and to the right.
+~
+210 adfg 0
+D4
+~
+~
+0 -1 21005
+D5
+~
+~
+0 -1 21007
+S
+#21007
+ ~
+Lots of gouges line the floor in a messy cris cross pattern.
+you wonder what creature would have made such a marking..
+~
+210 adfgh 0
+D4
+~
+~
+0 -1 21006
+D5
+~
+~
+0 -1 21008
+S
+#21008
+ ~
+You walk down a narrow staircase of smooth marble walls turning
+downward and to the right.
+~
+210 adfg 0
+D4
+~
+~
+0 -1 21007
+D5
+~
+~
+0 -1 21009
+S
+#21009
+ ~
+Lots of small droppings litter the floor.
+It would seem, lots of small something's must live here.
+~
+210 adfgh 0
+D4
+~
+~
+0 -1 21008
+D5
+~
+~
+0 -1 21010
+S
+#21010
+ ~
+You walk down a narrow staircase of smooth marble walls turning
+downward and to the right.
+You see a small tawny door blocking your way down.
+~
+210 adfg 0
+D4
+~
+~
+0 -1 21009
+D5
+~
+door~
+2 21027 21011
+S
+#21011
+ ~
+Click!!! The door has shut.
+
+The smell of cold and damp scales stiffens the air...
+Small parts of Human and Monster bodies litter
+the floor and surround..
+~
+210 adfgh 0
+D5
+~
+~
+0 -1 21012
+D4
+~
+door~
+1 21027 21010
+S
+#21012
+ ~
+You walk down a narrow staircase of smooth marble walls turning
+downward and to the right.
+~
+210 adfg 0
+D5
+~
+~
+0 -1 21013
+D4
+~
+~
+0 -1 21011
+S
+#21013
+ ~
+The cold chill of the undead seems to chill your bones 
+as you feel the presence of the undead.
+~
+210 adfgh 0
+D5
+~
+~
+0 -1 21014
+D4
+~
+~
+0 -1 21012
+S
+#21014
+ ~
+You walk down a narrow staircase of smooth marble walls turning
+downward and to the right.
+~
+210 adfg 0
+D5
+~
+~
+0 -1 21015
+D4
+~
+~
+0 -1 21013
+S
+#21015
+ ~
+You walk into a room that SMELLLS BAAAAADDDD.
+Green Slime Covers the walls and floor. You have 
+trouble even standing in this slippery slimy stuff.
+~
+210 adfgh 0
+D5
+~
+~
+0 -1 21016
+D4
+~
+~
+0 -1 21014
+S
+#21016
+ ~
+You walk down a narrow staircase of smooth marble walls turning
+downward and to the right.
+~
+210 adfg 0
+D5
+~
+~
+0 -1 21017
+D4
+~
+~
+0 -1 21015
+S
+#21017
+ ~
+Blood seems to be all over the walls and floors here.
+It seems strange that there is soooooo much blood in this room.
+You see a small grubby door blocking your way down.
+~
+210 adfgh 0
+D5
+~
+door~
+2 21026 21018
+D4
+~
+~
+0 -1 21016
+S
+#21018
+ ~
+Click!!! The door has shut.
+
+You walk down a narrow staircase of smooth marble walls turning
+downward and to the right.
+~
+210 adfgh 0
+D5
+~
+~
+0 -1 21019
+D4
+~
+door~
+1 21026 21017
+S
+#21019
+ ~
+
+From the narrow Stairway you enter into a room that 
+is very dim. Scorch marks and dints from weapons 
+of sorts seem to have marked the walls. 
+~
+210 adfg 0
+D5
+~
+~
+0 -1 21020
+D4
+~
+~
+0 -1 21018
+S
+#21020
+ ~
+You walk down a narrow staircase of smooth marble walls turning
+downward and to the right.
+You see a small jasmin door blocking your way down.
+~
+210 adfgi 0
+D4
+~
+~
+0 -1 21019
+D5
+~
+door~
+2 21025 21021
+S
+#21021
+ ~
+Click!!! The door has shut.
+
+In this room the walls glimmer and shine.
+The Power of Magic is strong here.
+A small narrow staircase leads up to a jasmin door.
+~
+210 adfg 0
+D4
+~
+door~
+1 21025 21020
+D1
+~
+door~
+2 21024 21022
+S
+#21022
+ ~
+The small doorway leads into a Large room. 
+
+********BANG!!!!!!!       THE DOOR SLAMS SHUT!
+
+This seems to be where most of the Magic is coming from.
+I think I would be worried if I were you.
+~
+210 adfgh 0
+D3
+~
+door~
+1 21024 21021
+S
+$
+

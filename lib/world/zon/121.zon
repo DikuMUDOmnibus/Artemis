@@ -1,0 +1,126 @@
+#121
+Dreamplace~
+12199 10 2
+*
+* Load Mobs
+*
+M 0 12101 8 12107     Raven
+M 0 12101 8 12116     Raven
+M 0 12101 8 12116     Raven
+M 0 12101 8 12118     Raven
+M 0 12101 8 12123     Raven
+M 0 12101 8 12180     Raven
+M 0 12101 8 12180     Raven
+M 0 12101 8 12180     Raven
+M 0 12102 1 12120     Lobster
+M 0 12103 10 12146    Leech
+M 0 12103 10 12147    Leech
+M 0 12103 10 12148    Leech
+M 0 12103 10 12149    Leech
+M 0 12103 10 12149    Leech
+M 0 12104 8 12129     Dryad
+M 0 12104 8 12131     Dryad
+M 0 12104 8 12133     Dryad
+M 0 12104 8 12138     Dryad
+M 0 12105 11 12119    Sprite
+M 0 12105 11 12127    Sprite
+M 0 12105 11 12129    Sprite
+M 0 12105 11 12134    Sprite
+G 1 12111 8                Rubber Ducky
+M 0 12105 11 12134    Sprite
+M 0 12105 11 12134    Sprite
+M 0 12105 11 12139    Sprite
+M 0 12105 11 12139    Sprite
+M 0 12105 11 12139    Sprite
+M 0 12105 11 12139    Sprite
+M 0 12105 11 12143    Sprite
+M 0 12106 26 12108    Figment
+M 0 12106 26 12108    Figment
+M 0 12106 26 12109    Figment
+M 0 12106 26 12111    Figment
+M 0 12106 26 12111    Figment
+M 0 12106 26 12112    Figment
+M 0 12106 26 12113    Figment
+M 0 12106 26 12114    Figment
+M 0 12106 26 12115    Figment
+M 0 12106 26 12115    Figment
+M 0 12106 26 12115    Figment
+M 0 12106 26 12166    Figment
+M 0 12106 26 12166    Figment
+M 0 12107 2 12119     White Unicorn
+E 1 12106 3 6              Unicorn Horn
+M 0 12108 8 12121     Little Penguin
+M 0 12108 8 12122     Little Penguin
+M 0 12108 8 12123     Little Penguin
+M 0 12108 8 12124     Little Penguin
+M 0 12108 8 12126     Little Penguin
+M 0 12108 8 12126     Little Penguin
+M 0 12108 8 12168     Little Penguin
+M 0 12108 8 12168     Little Penguin
+M 0 12109 8 12121     Medium Penguin
+M 0 12109 8 12123     Medium Penguin
+M 0 12109 8 12124     Medium Penguin
+M 0 12109 8 12125     Medium Penguin
+E 1 12105 15 17             Book
+M 0 12110 6 12124     Large Penguin
+M 0 12110 6 12125     Large Penguin
+M 0 12111 1 12107     Dreamplace Receptionist
+E 1 12103 5 5              Impressive Bra
+M 0 12112 4 12151     Doom Pegasus
+M 0 12112 4 12185     Doom Pegasus
+M 0 12112 4 12185     Doom Pegasus
+M 0 12112 4 12185     Doom Pegasus
+M 0 12113 20 12100    Ear
+M 0 12113 20 12116    Ear
+M 0 12113 20 12117    Ear
+M 0 12113 20 12117    Ear
+M 0 12113 20 12172    Ear
+M 0 12113 20 12172    Ear
+M 0 12113 20 12172    Ear
+M 0 12113 20 12188    Ear
+M 0 12113 20 12188    Ear
+M 0 12113 20 12188    Ear
+M 0 12114 3 12178     Holy Pegasus
+M 0 12114 3 12178     Holy Pegasus
+M 0 12114 3 12178     Holy Pegasus
+M 0 12115 4 12157     Swear Word
+M 0 12115 4 12157     Swear Word
+M 0 12115 4 12197     Swear Word
+M 0 12115 4 12197     Swear Word
+M 0 12116 3 12157     Swear Word
+M 0 12116 3 12157     Swear Word
+M 0 12116 3 12197     Swear Word
+M 0 12117 1 12159     Sandman
+E 1 12104 5 13             Jockstrap
+M 0 12118 1 12142     Sock
+M 0 12119 1 12188     Insane Avatar
+M 0 12120 1 12172     Shadowy Avatar
+M 0 12121 1 12197     Happy Avatar
+M 0 12122 1 12180     Black Avatar
+M 0 12123 1 12110     Preacher
+E 1 12102 6 3              Collar
+M 0 12124 1 12199     Cretin
+E 1 12112 1 16             Pool Cue
+*
+* Load Objects
+*
+O 0 12101 1 12116     Wieldable Table
+R 0 12117 12111       Remove Ducky
+O 0 12111 8 12117     Rubber Ducky
+O 0 12107 5 12130     Thistle
+O 0 12108 5 12130     Thistle
+R 0 12160 12109       Remove Dream Rose
+O 0 12109 3 12160     Dream Rose
+O 0 12110 1 12185     Pandora's box
+*
+* Set Doors
+*
+D 0 12101 4 1
+D 0 12105 0 1
+D 0 12106 2 1
+D 0 12107 0 1
+D 0 12108 2 1
+*
+S
+#99999
+$~

@@ -1,0 +1,16 @@
+
+MudName      FleshFire
+
+ItemFile     30.obj
+ItemTempFile ietemp.obj
+
+MobileFile     30.mob
+MobileTempFile metemp.mob
+
+RoomFile      30.wld
+RoomTempFile  retemp.wld
+
+ZoneFile      30.zon
+ZoneTempFile  zetemp.zon
+
+AffBitVector 1

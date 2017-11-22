@@ -1,0 +1,318 @@
+#30002
+Room #30002~
+This description is yet unfinished...
+~
+300 4 0
+D1
+~
+~
+0 -1 30003
+D2
+~
+~
+0 -1 30012
+S
+#30003
+Room #30003~
+This description is yet unfinished...
+~
+300 12 0
+D1
+~
+~
+0 -1 30004
+D2
+~
+~
+0 -1 30007
+D3
+~
+~
+0 -1 30002
+S
+#30004
+Room #30004~
+This description is yet unfinished...
+~
+300 12 0
+D5
+~
+~
+0 -1 30008
+S
+#30005
+Room #30005~
+This description is yet unfinished...
+~
+300 12 0
+D2
+~
+~
+0 -1 30009
+D3
+~
+~
+0 -1 30004
+S
+#30006
+Room #30006~
+This description is yet unfinished...
+~
+300 4 0
+D2
+~
+~
+0 -1 30024
+D3
+~
+~
+0 -1 30005
+S
+#30007
+Room #30007~
+This description is yet unfinished...
+~
+300 12 0
+D0
+~
+~
+0 -1 30003
+S
+#30008
+Room #30008~
+This description is yet unfinished...
+~
+300 12 0
+D1
+~
+~
+0 -1 30009
+D3
+~
+~
+0 -1 30007
+D4
+~
+~
+0 -1 30004
+D5
+~
+~
+0 -1 30010
+S
+#30009
+Room #30009~
+This description is yet unfinished...
+~
+300 12 0
+D0
+~
+~
+0 -1 30005
+S
+#30010
+Room #30010~
+This description is yet unfinished...
+~
+300 12 0
+D4
+~
+~
+0 -1 30008
+D5
+~
+~
+0 -1 30011
+S
+#30011
+Room #30011~
+This description is yet unfinished...
+~
+300 12 0
+D4
+~
+~
+0 -1 30010
+D5
+~
+~
+0 -1 30015
+S
+#30012
+Room #30012~
+This description is yet unfinished...
+~
+300 4 0
+D0
+~
+~
+0 -1 30002
+D1
+~
+~
+0 -1 30013
+S
+#30013
+Room #30013~
+This description is yet unfinished...
+~
+300 12 0
+D3
+~
+~
+0 -1 30012
+S
+#30014
+Room #30014~
+This description is yet unfinished...
+~
+300 4 6
+D1
+~
+~
+0 -1 30015
+D3
+~
+~
+0 -1 30013
+S
+#30015
+Room #30015~
+This description is yet unfinished...
+~
+300 12 0
+D3
+~
+~
+0 -1 30014
+D4
+~
+~
+0 -1 30011
+D5
+~
+~
+0 -1 30016
+S
+#30016
+Room #30016~
+This description is yet unfinished...
+~
+300 12 0
+D4
+~
+~
+0 -1 30015
+D5
+~
+~
+0 -1 30017
+S
+#30017
+Room #30017~
+This description is yet unfinished...
+~
+300 12 0
+D2
+~
+~
+0 -1 30018
+D4
+~
+~
+0 -1 30016
+S
+#30018
+Room #30018~
+This description is yet unfinished...
+~
+300 12 0
+D0
+~
+~
+0 -1 30017
+D1
+~
+~
+0 -1 30019
+S
+#30019
+Room #30019~
+This description is yet unfinished...
+~
+300 12 0
+D1
+~
+~
+0 -1 30020
+D3
+~
+~
+0 -1 30018
+S
+#30020
+Room #30020~
+This description is yet unfinished...
+~
+300 12 0
+D1
+~
+~
+0 -1 30021
+D3
+~
+~
+0 -1 30019
+S
+#30021
+Room #30021~
+This description is yet unfinished...
+~
+300 12 0
+D3
+~
+~
+0 -1 30020
+D5
+~
+~
+0 -1 30022
+S
+#30022
+Room #30022~
+This description is yet unfinished...
+~
+300 12 0
+D4
+~
+~
+0 -1 30021
+D5
+~
+~
+0 -1 30023
+S
+#30023
+Room #30023~
+This description is yet unfinished...
+~
+300 12 0
+D1
+~
+~
+0 -1 30024
+D4
+~
+~
+0 -1 30022
+S
+#30024
+Room #30024~
+This description is yet unfinished...
+~
+300 12 0
+D0
+~
+~
+0 -1 30006
+S

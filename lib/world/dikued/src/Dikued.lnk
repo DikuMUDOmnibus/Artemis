@@ -1,0 +1,5 @@
+FROM LIB:c.o "dikucli.o"+"dikusim.o"+"dutil.o"+"iedit.o"+"medit.o"+"redit.o"+"strext.o"+"zedit.o"
+TO "Dikued"
+LIB LIB:sc.lib LIB:amiga.lib
+VERBOSE
+

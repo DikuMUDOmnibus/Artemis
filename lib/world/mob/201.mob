@@ -1,0 +1,321 @@
+#20102
+wild boar~
+A Wild Boar~
+A wild boar is wandering around happily.
+~
+Wild boars are a delicacy around here... if you can chase them down !
+~
+ghno k 0 E
+1 20 0 2d6+3 2d4+2
+150 100
+8 8 1
+BareHandAttack: 4
+Str: 25
+E
+#20103
+roman soldier centurion~
+The Centurion~
+A Roman Centurion stands here giving orders.
+~
+These Romans are crazy.
+~
+bceglmnopr hp 0 S
+10 -5 -5 5d10+2800 20d6+35
+150000 1000000
+8 8 1
+#20104
+roman soldier legionary~
+A legionary~
+A Legionary of Rome is waiting for orders.
+~
+One of the many citizens of Rome drafted into 20 year military service, this
+solider is well trained and handles his weapons with quiet competence.
+~
+ceglmnopr 0 0 S
+5 0 -1 8d6+500 2d6+13
+5000 100000
+8 8 1
+#20105
+roman soldier legionary guard~
+A legionary~
+A Legionary of Rome is here on guard duty.
+~
+One of the many citizens of Rome drafted into 20 year military service, this
+solider is well trained and handles his weapons with quiet competence.
+~
+abceglmnopr h 0 S
+5 0 -1 8d6+500 2d6+13
+5000 100000
+8 8 1
+#20106
+roman soldier legionary resting~
+A legionary~
+A Legionary of Rome is resting here, off duty.
+~
+One of the many citizens of Rome drafted into 20 year military service, this
+solider is well trained and handles his weapons with quiet competence.
+~
+bceglmnopr 0 0 S
+5 0 -1 8d6+500 2d6+13
+5000 100000
+8 8 1
+#20107
+gaul warrior~
+A Gaulish Warrior~
+A Gaulish Warrior is waiting here for something to do or a fight to break out.
+~
+This Gaul has braided hair and carries his arms with the look of a seasoned
+fighter.  Conflicts with Romans have given him a lean, hardened look, helped
+by the scars on his face, arms and body.
+~
+cegilmnopr 0 1000 S
+6 0 -1 10d6+500 3d4+13
+5000 100000
+8 8 1
+#20108
+gaul warrior guard~
+A Gaulish Warrior~
+A Gaulish Warrior stands here on guard duty.
+~
+This Gaul has braided hair and carries his arms with the look of a seasoned
+fighter.  Conflicts with Romans have given him a lean, hardened look, helped
+by the scars on his face, arms and body.
+~
+abcegilmnopr h 1000 S
+6 0 -1 10d6+500 3d4+13
+5000 100000
+8 8 1
+#20109
+gaul warrior resting~
+A Gaulish Warrior~
+A Gaulish Warrior rests here.
+~
+This Gaul has braided hair and carries his arms with the look of a seasoned
+fighter.  Conflicts with Romans have given him a lean, hardened look, helped
+by the scars on his face, arms and body.
+~
+bcegilmnopr 0 1000 S
+6 0 -1 10d6+500 3d4+13
+5000 100000
+8 8 1
+#20110
+gaul wife~
+A Gaulish Housewife~
+A Gaulish Housewife is waiting here to be served.
+~
+Warrior's wives... sheesh.  Dont be free with these ladies - you may end up
+dead.
+~
+bcgilmnopr 0 1000 S
+4 5 10 4d6+300 2d4+6
+10000 40000
+8 8 2
+#20111
+dog dogmatix~
+Dogmatix~
+Dogmatix is waiting here faithfully for Obelix.
+~
+Dogmatix is possibly the only canine ecologist, who howls with dispair when
+a tree is cut down.   Small, white, fluffy and fiercly loyal to Obelix, this
+pup should NEVER be underestimated. Those tiny teeth can hurt..
+~
+cegihlmnopr p 1000 S
+1 10 5 1d6+34 1d4+12
+10 250
+8 8 1
+#20112
+owl~
+The Owl~
+A tufted owl flies about here.
+~
+The tufted owl is a cute specimen of forest wildlife.  With sharp talons and
+curved beak, these can be quite... painful when defending themselves.
+~
+cghlmnopr 0 250 S
+1 20 10 1d4+1 2d4+2
+0 50
+8 8 2
+#20113
+gaul fulliautomatix~
+Fulliautomatix~
+Fulliautomatix is here, working at the forge.
+~
+Fulliautomatix is a tall, brawny gaul with many burn marks from years at
+the forge.  He is dressed in his leather work-apron, and as you look at him
+he pauses in his work and glances expectantly at you.
+~
+bceglmnopr hp 1000 S
+30 -5 -5 10d10+900 8d4+25
+50000 200000
+8 8 1
+#20114
+gaul unhygenix~
+Unhygenix~
+Unhygenix the fisherman is here, waiting to sell you some seafood.
+~
+Unhygenix the fisherman is a large, fat man with a ready smile and a salesman
+attitude.  His cry, "Fresh fish, its luverly !!" can be heard echoing through
+the town square from dawn to dusk.  As you look at him, he smiles and offers
+you a large trout... for a small price, of course.
+~
+bceglmnopr hp 1000 S
+30 -5 -5 10d10+1000 8d4+25
+50000 210000
+8 8 1
+#20115
+gaul druid getafix~
+Getafix the druid~
+Getafix the druid works here over his cauldron.
+~
+Getafix, the venerable village druid, gathers mistletoe and brews magic
+potions.  His specialty is the potion which gives the drinker superhuman
+strength.  But Getafix has other recipies up his sleeve....
+~
+abceghlmnopr hp 1000 S
+30 -5 -5 10d10+1500 8d4+35
+50000 1
+8 8 1
+#20116
+gaul obelix~
+Obelix~
+Obelix the gaul is here working on a menhir.
+~
+Obelix, Asterix's inseperable friend, is a menhir delivery-mna by trade and
+addicted to wild boar.  Obelix is always ready to drop everything and go off
+on a new adventure with Asterix - so long as there's wild boar to eat, and
+plenty of fighting.
+~
+bceglmnopqr hp 1000 E
+30 -10 -15 10d10+4900 15d10+35
+50000 3000000
+8 8 1
+Str: 25
+E
+#20117
+gaul cacofonix~
+Cacofonix~
+Cacofonix, the bard, is here strumming on his harp.
+~
+Cacofonix is the only bard in the Gaulish Village.  Opinion is divided as
+to his musical gifts.  Cacofonix thinks he's a genius.  Everyone else thinks
+he's unspeakable.  But so long as he doesnt speak, let alone sing, everybody
+likes him...
+~
+cgelmnopr hp 1000 S
+20 0 -1 5d410+650 4d6+10
+10000 150000
+8 8 1
+#20118
+gaul geriatrix~
+Geriatrix~
+Geriatrix is sitting here on the sofa, watching TV.
+~
+Geriatrix is the oldest inhabitant of the village.  A young man when Caesar
+defeated the Gauls and Vercingetorix laid down his arms, he is a strong voice
+among the township.  Fortunately, he is not as great a warrior as he says he
+was in his younger years...
+~
+bceglmnopr hp 1000 S
+20 0 -1 10d4+600 4d6+12
+15000 200000
+8 8 1
+#20119
+gaul vitalstatistix~
+Vitalstatistix~
+Vitalstatistix, the chief of the tribe, sits here holding audience.
+~
+Vitalstatistix, the chief of the village is majestic, brave and hot tempered.
+The old warrior is respected by his men and feared by his enemies.
+Vitalstatistix himself has only one fear - that the sky may fall on his head
+tomorrow.  But as he always says, "Tomorrow never comes."
+~
+bceglmnopr hp 1000 S
+30 -10 -10 5d10+3850 30d5+55
+10000 2500000
+8 8 1
+#20120
+gaul asterix~
+Asterix~
+Asterix, the famous Gaulish Warrior is standing here.
+~
+Asterix is the hero of these adventures.  A shrewd, cunning little warrior,
+all perilous missions are immediately entrusted to him.  Asterix gets his
+superhuman strength from the magic potion brewed by the druid Getafix...
+~
+ceglmnopr hp 1000 S
+30 -10 -10 10d10+4800 30d5+50
+10000 5000000
+8 8 1
+#20121
+druid working~
+a druid~
+A druid is here, working over his cauldron.
+~
+One of the many venerable old men who has attended this conference, this druid
+has a VERY long beard, and bushy white eyebrows.  He peers expectantly at you
+as you look towards him.
+~
+abceglmnopr hp 1000 S
+20 -1 -2 8d6+400 5d6+8
+5000 75000
+8 8 1
+#20122
+druid drunken~
+a drunken druid~
+A druid is here, drinking wine.
+~
+One of the many venerable old men who has attended this conference, this druid
+has a VERY long beard, and bushy white eyebrows.  Too caught up in his amphora
+to notice your approach, he burps loudly and drains what is left of his wine.
+~
+abceglmnopr p 1000 S
+20 -1 -2 8d6+600 5d6+8
+2000 75000
+8 8 1
+#20123
+druid head~
+the head druid~
+The head druid is here, presiding over the conference.
+~
+He may not be the oldest druid here, but his peiricing blue eyes certainly lend
+him the appearance of being the wisest.  Elected for this position four years
+running he is NO pushover and will not tolerate anyone, especially YOU, 
+disturbing his conference.
+~
+abceglmnopr hp 1000 S
+30 -5 -5 5d10+1500 6d6+16
+5000 200000
+8 8 1
+#20124
+god toutatis~
+Toutatis~
+Toutatis, one of the Gaulish Gods, is standing here.
+...he glows with a bright light!
+~
+Toutatis is one of the gods of the Gaulish Village, which lies, you guess,
+several hundred miles beneath you.  He is quite handsome (for a god) and 
+smiles happily at you as you approach.
+~
+abceglmnopqr p 1000 E
+33 -20 -30 100d10+19000 25d5+50
+200000 10000000
+8 8 1
+Str: 25
+E
+#20125
+god belenos~
+Belenos~
+Belenos, one of the Gaulish Gods, is standing here.
+...he glows with a bright light!
+~
+Belenos is one of the gods of the Gaulish Village, which lies, you guess,
+several hundred miles beneath you.  He is quite handsome (for a god) and 
+smiles happily at you as you approach.
+~
+abceglmnopqr p 1000 E
+33 -20 -30 100d10+19000 25d5+50
+200000 10000000
+8 8 1
+Str: 25
+E
+$

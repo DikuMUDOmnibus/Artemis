@@ -1,0 +1,215 @@
+#2100
+vanilla fido dog~
+the vanilla beastly fido~
+A vanilla beastly fido is here, mucking through the garbage looking for food
+~
+Yup, a regular "vanilla" fido.  As usual, its a small dog with a foul smell
+and peices of rotted meat hanging around its teeth.
+~
+cghno p -200 E
+1 20 100 1d6+14 1d4+0
+100 100
+8 8 0
+BareHandAttack: 4
+E
+#2101
+golden fido dog~
+the golden beastly fido~
+A golden beastly fido is here, mucking through the garbage looking for food
+~
+This fido is made entirely of pure gold and glows with a bright inner shine.
+Maybe its worth something on the black market ?
+~
+cghno p -200 E
+1 10 50 2d6+28 2d4+2
+500 1300
+8 8 0
+BareHandAttack: 4
+E
+#2102
+silver fido dog~
+the silver beastly fido~
+A beastly fido made entirely of silver is mucking through the garbage.
+~
+This fido is made entirely of sterling silver and shines brightly when the 
+sun is on it.  It doesnt affect the smell of the little beast, however.
+~
+cghno p -200 E
+1 15 75 3d4+18 1d6+2
+250 750
+8 8 0
+BareHandAttack: 4
+E
+#2103
+bronze fido dog~
+the bronze beastly fido~
+A bronzed beastly fido is here, mucking through the garbage looking for food.
+~
+The bronze fido is a small, furless dog with a foul smell and peices of rotted
+meat hanging between its teeth.
+~
+cghno p -200 E
+1 20 100 3d4+13 1d6+2 
+125 455
+8 8 0
+BareHandAttack: 4
+E
+#2104
+ghost~
+the ghost~
+A ghostly figure forms before your eyes...
+~
+This poor soul died some time ago - and hasnt yet realised it.  I wonder who
+it was ?
+~
+bcenoq hkp 0 S
+4 10 25 500d2+24000 1d1+1
+50000 50000
+8 8 0
+#2105
+odif dog~
+the odif yltsaeb~
+A odif yltsaeb is here, walking backwards.
+~
+The odif is a small god that has been reversed by some dog.
+~
+cghno p -200 E
+1 20 100 1d6+14 1d4+0 
+100 300
+8 8 0
+BareHandAttack: 4
+E
+#2106
+strawberry fido dog~
+the strawberry beastly fido~
+A red colored beastly fido is here, wandering aimlessly.
+~
+Hmm... tastes like strawberry.  Kill it and see.
+~
+cghno p -200 E
+1 20 100 1d6+14 1d4+0
+125 150
+8 8 0
+BareHandAttack: 4
+E
+#2107
+licorice fido dog~
+the licorice beastly fido~
+A jet-black beastly fido is here, darting from shadow to shadow.
+~
+Licorice ? What the hell is this ?? Better complain to the management...
+~
+cghno p -200 E
+1 20 100 1d6+14 1d4+0
+75 275
+8 8 0
+BareHandAttack: 4
+E
+#2108
+chocolate fido dog~
+the chocolate beastly fido~
+A brownish, tasty fido is here, waiting to be killed and eaten.
+~
+Mmmmmmmm chocolate.  This is one fido you DONT want to leave dead on the
+ground.  It seems to be distantly related to its cousin fidos, however, since
+it too has peices of rotted meat hanging around its teeth - but at least
+the chocolate has overcome the foul smell !
+~
+cghno p -200 E
+1 20 100 1d6+14 1d4+0
+50 350
+8 8 0
+BareHandAttack: 4
+E
+#2109
+caramel fido dog~
+the caramel beastly fido~
+A beastly fido made of caramel is here, mucking through the garbage for food.
+~
+Caramel ? What the hell is this ?  Better complain to the management...
+~
+cghno p -200 E
+1 20 100 1d6+14 1d4+0
+200 120
+8 8 0
+BareHandAttack: 4
+E
+#2110
+beastly shopkeeper~
+the beastly shopkeeper~
+A beastly shopkeeper is waiting here to take your order.
+~
+You see a beastly shopkeeper.  Very rare - apparently a highly evolved form
+of fido.  Perhaps this is one fido you CANT kill.  Besides, he's got a little
+note on his shirt from the management asking you not to kill him.
+~
+bcegnoqr h 1000 S
+30 0 -99 1d1+29000 1d1+5
+50000 1
+8 8 0
+#2111
+drunk drunken fido dog~
+the drunk beastly fido~
+A beastly fido is here, getting drunk.
+~
+Alcoholic fidos ?  Oh well.  At least this will be an easy kill.
+~
+bcghno p -200 E
+1 20 100 1d6+4 1d4+0
+25 50
+8 8 0
+BareHandAttack: 4
+E
+#2112
+beastly weaponsmith~
+the beastly weaponsmith~
+A beastly weaponsmith is here, buffing a strange sword.
+~
+You see a beastly shopkeeper.  Very rare - apparently a highly evolved form of
+fido.  Perhaps this is one fido you CANT kill.  Besides, he's got a little
+note on his shirt from the management asking you not to.
+~
+bcegnoqr h 1000 S
+30 0 -99 1d1+29000 1d1+9
+50000 1
+8 8 0
+#2113
+beastly templar fido dog~
+the beastly templar~
+A Beastly Templar guards the ruined entrance.
+~
+I have no idea how he got here, or where he got that cleric's uniform.
+~
+bceglmno p -200 S
+1 10 0 6d4+96 2d4+2
+5000 5000
+8 8 0
+#2114
+fido dog~
+the beastly fido~
+A beastly fido is mucking through the garbage looking for food here.
+~
+The fido is a small dog that has a foul smell and pieces of rotted meat
+hanging around his teeth.
+~
+abcegnopqr cdefghkmnpst -200 E
+300 0 -10 1d1+15000000 1d4+0
+100000000 25000000
+8 8 1
+BareHandAttack: 4
+E
+#2115
+Pandion~
+Pandion~
+Pandion  is standing here.
+~
+Heavily armored, this huge knight stands almost 6 feet tall.  His specially
+made combat armor is totally black, absorbing the light as he shifts position
+almost as if it is trying to... hide... what lies beneath the steel skin...
+~
+254042 46204 1000 E
+3 0 -10 1d1+1000000 1d2+0
+0 0
+8 8 1
+E
+$

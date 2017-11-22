@@ -1,0 +1,1436 @@
+#30500
+Overgrown Trail in the Forest~
+  You walk along an overgrown trail in the forest of Haon-Dor.  All about
+you there are trees and plants of all descriptions.  The trail is covered 
+with weeds and other such insidious plants.  The trail leads east-west
+from here.
+~
+305 acegh 3
+D1
+The barely-visible trail goes off to the east.
+~
+~
+0 -1 30501
+D3
+You look back into the depths of Haon-Dor.
+~
+~
+0 -1 6070
+S
+#30501
+Overgrown Trail in the Forest~
+  You walk along an overgrown trail in the forest of Haon-Dor.  All about
+you there are trees and plants of all descriptions.  The trail is covered 
+with weeds and other such insidious plants.  The trail leads east-west
+from here.
+~
+305 ghr 3
+D1
+~
+~
+0 -1 30502
+D3
+~
+~
+0 -1 30500
+S
+#30502
+A Bend in the Overgrown Trail~
+  You stand at a bend in the overgrown trail.  The trail is covered with 
+weeds and other such insidious plants.  The trail leads north-west from 
+here.
+~
+305 ghr 3
+D0
+~
+~
+0 -1 30503
+D3
+~
+~
+0 -1 30501
+S
+#30503
+A Bend in the Overgrown Trail~
+  You stand at a bend in the overgrown trail.  The trail is covered with 
+weeds and other such insidious plants.  The trail leads south-east from 
+here.
+~
+305 ghr 3
+D1
+~
+~
+0 -1 30504
+D2
+~
+~
+0 -1 30502
+S
+#30504
+A Bend in the Overgrown Trail~
+  You stand at a bend in the overgrown trail.  The trail is covered with 
+weeds and other such insidious plants.  The trail leads north-west from 
+here.
+~
+305 ghr 3
+D0
+~
+~
+0 -1 30505
+D3
+~
+~
+0 -1 30503
+S
+#30505
+A Bend in the Overgrown Trail~
+  You stand at a bend in the overgrown trail.  The trail is covered with 
+weeds and other such insidious plants.  The trail leads south-west from 
+here.
+~
+305 ghr 3
+D2
+~
+~
+0 -1 30504
+D3
+~
+~
+0 -1 30506
+S
+#30506
+A Bend in the Overgrown Trail~
+  You stand at a bend in the overgrown trail.  The trail is covered with 
+weeds and other such insidious plants.  The trail leads north-east from 
+here.
+~
+305 ghr 3
+D0
+~
+~
+0 -1 30507
+D1
+~
+~
+0 -1 30505
+S
+#30507
+Overgrown Trail in the Forest~
+  You walk along an overgrown trail in the forest of Haon-Dor.  All about
+you there are trees and plants of all descriptions.  The trail is covered 
+with weeds and other such insidious plants.  You can smell something odd 
+in the air, a kind of salty, coppery smell coming from the north, and 
+wafting through the trees to the east.  It seems somehow familiar...
+The trail leads north-south from here.
+~
+305 ghr 3
+D0
+~
+~
+0 -1 30508
+D2
+~
+~
+0 -1 30506
+S
+#30508
+Overgrown Trail in the Forest~
+  You stand at the end of the overgrown trail, at the edge of the forest.
+Looking south, you see the trail stretch through the trees, and to the east
+the trail leads down a steep slope, out of the trees and onto an outcrop of
+rock.  A strong, coppery smell wafts from that direction, and you feel both
+repulsed and oddly drawn to the smell...
+~
+305 ghr 3
+D2
+~
+~
+0 -1 30507
+D5
+~
+~
+0 -1 30509
+S
+#30509
+Outcrop Of Rock~
+  You stand at the edge of a broad outcrop of rock near the forest of 
+Haon-Dor.  A strong coppery-salty smell assaults your senses from the 
+south, and you recognise it - blood!  Blood on the breeze... even the 
+rocks at your feet are slick with it!  You cango east along the rocky
+outcrop, or up the slope and into the forest, away from the stench of
+blood.
+~
+305 r 3
+D1
+~
+~
+0 -1 30510
+D4
+~
+~
+0 -1 30508
+S
+#30510
+Outcrop Of Rock~
+  You stand at the edge of a broad outcrop of rock near the forest of 
+Haon-Dor.  All to the east and south you can smell the strong odor of 
+blood on the breeze, and even the rocks here have a reddish rime of
+blood on them that almost makes you gag.  You can go east or north along 
+the outcrop, or west towards the edge of the forest.
+~
+305 r 3
+D0
+~
+~
+0 -1 30514
+D1
+~
+~
+0 -1 30511
+D3
+~
+~
+0 -1 30509
+S
+#30511
+Outcrop Of Rock~
+  You stand at the edge of a broad outcrop of rock near the forest of 
+Haon-Dor.  All to the east and south you can smell the strong odor of 
+blood on the breeze, and even the rocks here have a reddish rime of
+blood on them that almost makes you gag.  You can go east, north or 
+west along the outcrop.
+~
+305 r 4
+D0
+~
+~
+0 -1 30515
+D1
+~
+~
+0 -1 30512
+D3
+~
+~
+0 -1 30510
+S
+#30512
+Outcrop Of Rock~
+  You stand at the edge of a broad outcrop of rock near the forest of 
+Haon-Dor.  All to the east and south you can smell the strong odor of 
+blood on the breeze, and even the rocks here have a reddish rime of
+blood on them that almost makes you gag.  You can go east, north or 
+west along the outcrop.
+~
+305 r 4
+D0
+~
+~
+0 -1 30516
+D1
+~
+~
+0 -1 30513
+D3
+~
+~
+0 -1 30511
+S
+#30513
+Outcrop Of Rock~
+  You stand at the edge of a broad outcrop of rock near the forest of 
+Haon-Dor.  All to the east and south you can smell the strong odor of 
+blood on the breeze, wafting off a wide plain of lush, green grass.
+You can go east or north along the outcrop, or down to the plain.  To 
+the north there appears to be a small building.
+~
+305 r 4
+D1
+~
+~
+0 -1 30517
+D3
+~
+~
+0 -1 30512
+D5
+~
+~
+0 -1 30519
+S
+#30514
+Outcrop Of Rock~
+  You stand at the edge of a broad outcrop of rock near the forest of 
+Haon-Dor.  All to the east and south you can smell the strong odor of 
+blood on the breeze, and even the rocks here have a reddish rime of
+blood on them that almost makes you gag.  You can go east or south along 
+the outcrop.
+~
+305 r 4
+D1
+~
+~
+0 -1 30515
+D2
+~
+~
+0 -1 30510
+S
+#30515
+Outcrop Of Rock~
+  You stand at the edge of a broad outcrop of rock near the forest of 
+Haon-Dor.  All to the east and south you can smell the strong odor of 
+blood on the breeze, and even the rocks here have a reddish rime of
+blood on them that almost makes you gag.  You can go east, west or south
+along the outcrop. 
+~
+305 r 4
+D1
+~
+~
+0 -1 30516
+D2
+~
+~
+0 -1 30511
+D3
+~
+~
+0 -1 30514
+S
+#30516
+Outcrop Of Rock~
+  You stand at the edge of a broad outcrop of rock near the forest of 
+Haon-Dor.  All to the east and south you can smell the strong odor of 
+blood on the breeze, and even the rocks here have a reddish rime of
+blood on them that almost makes you gag.  You can go east, west or south
+along the outcrop. 
+~
+305 r 4
+D1
+~
+~
+0 -1 30517
+D2
+~
+~
+0 -1 30512
+D3
+~
+~
+0 -1 30515
+S
+#30517
+Outside a Tiny Old Tumble-down House~
+  The house you stand outside of is barely a house at all - even from here
+you can see the great big holes in the roof, and the makeshift door only
+hangs from one hinge.  It is small, squallid, and reeks of blood, but 
+seems to be habitable - barely.  You can go west or south, or east into the
+house.
+~
+305 r 4
+D1
+This door hangs from one hinge and bangs softly in the blood-stained wind.
+You can see a design painted on it.
+~
+~
+1 -1 30518
+D2
+~
+~
+0 -1 30513
+D3
+~
+~
+0 -1 30516
+E
+design door~
+The design resembles a dagger dripping with blood, inside a double circle,
+surrounded by odd runes and strange slogans in a forgotten language, fouler
+than the Orc-tongue and far less wholesome.  It has been painted in the 
+blood of sentient beings - the sign of the Genocide Clan.
+~
+S
+#30518
+The House of the Hermit~
+  This house is as disgusting inside as out.  Everything is soaked in blood,
+and quite fresh blood by the smell of it.  There is very little furniture, 
+and what little there is reeks of blood, making you gag and almost vomit.
+In the middle of all of this is a little man, hobbling around and beaming 
+with obvious insanity - he beckons you closer.  You can (and want to) leave
+to the west.
+~
+305 dr 0
+D3
+~
+~
+1 -1 30517
+S
+#30519
+The Bloodfed Plain~
+  You stand on the soft ground of a plain, and all about you is lush 
+green grass.  A strong, coppery odor of blood wafts from the ground all
+about you - the blood of hundreds of people fertilize the ground all about
+you.  As you walk the blood rises from the soaked ground to surround your
+toes.  You can go east or south, or up a slope to a rocky outcrop.
+~
+305 r 2
+D1
+~
+~
+0 -1 30520
+D2
+~
+~
+0 -1 30524
+D4
+~
+~
+0 -1 30513
+S
+#30520
+The Bloodfed Plain~
+  You stand on the soft ground of a plain, and all about you is lush 
+green grass.  A strong, coppery odor of blood wafts from the ground all
+about you - the blood of hundreds of people fertilize the ground all about
+you.  As you walk the blood rises from the soaked ground to surround your
+toes.  You can go east, west or south.
+~
+305 r 2
+D1
+~
+~
+0 -1 30521
+D2
+~
+~
+0 -1 30525
+D3
+~
+~
+0 -1 30519
+S
+#30521
+The Bloodfed Plain~
+  You stand on the soft ground of a plain, and all about you is lush 
+green grass.  A strong, coppery odor of blood wafts from the ground all
+about you - the blood of hundreds of people fertilize the ground all about
+you.  As you walk the blood rises from the soaked ground to surround your
+toes.  You can go east, west or south.
+~
+305 r 2
+D1
+~
+~
+0 -1 30522
+D2
+~
+~
+0 -1 30526
+D3
+~
+~
+0 -1 30520
+S
+#30522
+The Bloodfed Plain~
+  You stand on the soft ground of a plain, and all about you is lush 
+green grass.  A strong, coppery odor of blood wafts from the ground all
+about you - the blood of hundreds of people fertilize the ground all about
+you.  As you walk the blood rises from the soaked ground to surround your
+toes.  You can go east, west or south.
+~
+305 r 2
+D1
+~
+~
+0 -1 30523
+D2
+~
+~
+0 -1 30527
+D3
+~
+~
+0 -1 30521
+S
+#30523
+The Bloodfed Plain~
+  You stand on the soft ground of a plain, and all about you is lush 
+green grass.  A strong, coppery odor of blood wafts from the ground all
+about you - the blood of hundreds of people fertilize the ground all about
+you.  As you walk the blood rises from the soaked ground to surround your
+toes.  You can go west or south.
+~
+305 r 2
+D2
+~
+~
+0 -1 30528
+D3
+~
+~
+0 -1 30522
+S
+#30524
+The Bloodfed Plain~
+  You stand on the soft ground of a plain, and all about you is lush 
+green grass.  A strong, coppery odor of blood wafts from the ground all
+about you - the blood of hundreds of people fertilize the ground all about
+you.  As you walk the blood rises from the soaked ground to surround your
+toes.  You can go east, north or south.
+~
+305 r 2
+D0
+~
+~
+0 -1 30519
+D1
+~
+~
+0 -1 30525
+D2
+~
+~
+0 -1 30529
+S
+#30525
+The Bloodfed Plain~
+  You stand on the soft ground of a plain, and all about you is lush 
+green grass.  A strong, coppery odor of blood wafts from the ground all
+about you - the blood of hundreds of people fertilize the ground all about
+you.  As you walk the blood rises from the soaked ground to surround your
+toes.  You can go in all the cardinal directions.
+~
+305 r 2
+D0
+~
+~
+0 -1 30520
+D1
+~
+~
+0 -1 30526
+D2
+~
+~
+0 -1 30530
+D3
+~
+~
+0 -1 30524
+S
+#30526
+The Bloodfed Plain~
+  You stand on the soft ground of a plain, and all about you is lush 
+green grass.  A strong, coppery odor of blood wafts from the ground all
+about you - the blood of hundreds of people fertilize the ground all about
+you.  As you walk the blood rises from the soaked ground to surround your
+toes.  You can go in all the cardinal directions.
+~
+305 r 2
+D0
+~
+~
+0 -1 30521
+D1
+~
+~
+0 -1 30527
+D2
+~
+~
+0 -1 30531
+D3
+~
+~
+0 -1 30525
+S
+#30527
+The Bloodfed Plain~
+  You stand on the soft ground of a plain, and all about you is lush 
+green grass.  A strong, coppery odor of blood wafts from the ground all
+about you - the blood of hundreds of people fertilize the ground all about
+you.  As you walk the blood rises from the soaked ground to surround your
+toes.  You can go in all the cardinal directions.
+~
+305 r 2
+D0
+~
+~
+0 -1 30522
+D1
+~
+~
+0 -1 30528
+D2
+~
+~
+0 -1 30532
+D3
+~
+~
+0 -1 30526
+S
+#30528
+The Bloodfed Plain~
+  You stand on the soft ground of a plain, and all about you is lush 
+green grass.  A strong, coppery odor of blood wafts from the ground all
+about you - the blood of hundreds of people fertilize the ground all about
+you.  As you walk the blood rises from the soaked ground to surround your
+toes.  You can go north, west or south.
+~
+305 r 2
+D0
+~
+~
+0 -1 30523
+D2
+~
+~
+0 -1 30533
+D3
+~
+~
+0 -1 30527
+S
+#30529
+The Bloodfed Plain~
+  You stand on the soft ground of a plain, and all about you is lush 
+green grass.  A strong, coppery odor of blood wafts from the ground all
+about you - the blood of hundreds of people fertilize the ground all about
+you.  As you walk the blood rises from the soaked ground to surround your
+toes.  You can go east or north.
+~
+305 r 2
+D0
+~
+~
+0 -1 30524
+D1
+~
+~
+0 -1 30530
+S
+#30530
+The Bloodfed Plain~
+  You stand on the soft ground of a plain, and all about you is lush 
+green grass.  A strong, coppery odor of blood wafts from the ground all
+about you - the blood of hundreds of people fertilize the ground all about
+you.  As you walk the blood rises from the soaked ground to surround your
+toes.  You can go east, north or west.
+~
+305 r 2
+D0
+~
+~
+0 -1 30525
+D1
+~
+~
+0 -1 30531
+D2
+~
+cliff-face~
+1 -1 30571
+D3
+~
+~
+0 -1 30529
+S
+#30531
+The Bloodfed Plain~
+  You stand on the soft ground of a plain, and all about you is lush 
+green grass.  A strong, coppery odor of blood wafts from the ground all
+about you - the blood of hundreds of people fertilize the ground all about
+you.  As you walk the blood rises from the soaked ground to surround your
+toes.  You can go east, north or west.
+~
+305 r 2
+D0
+~
+~
+0 -1 30526
+D1
+~
+~
+0 -1 30532
+D3
+~
+~
+0 -1 30530
+S
+#30532
+The Bloodfed Plain~
+  You stand on the soft ground of a plain, and all about you is lush 
+green grass.  A strong, coppery odor of blood wafts from the ground all
+about you - the blood of hundreds of people fertilize the ground all about
+you.  As you walk the blood rises from the soaked ground to surround your
+toes.  You can go east, north or west.
+~
+305 r 2
+D0
+~
+~
+0 -1 30527
+D1
+~
+~
+0 -1 30533
+D3
+~
+~
+0 -1 30531
+S
+#30533
+The Bloodfed Plain~
+  You stand on the soft ground of a plain, and all about you is lush 
+green grass.  A strong, coppery odor of blood wafts from the ground all
+about you - the blood of hundreds of people fertilize the ground all about
+you.  As you walk the blood rises from the soaked ground to surround your
+toes.  You can go west or north, or south along a barely visible path into
+a rocky area. 
+~
+305 r 2
+D0
+~
+~
+0 -1 30528
+D2
+~
+~
+0 -1 30534
+D3
+~
+~
+0 -1 30532
+S
+#30534
+Rocky Area~
+  You stand on a wide rocky area, barren of most life.  The rocks here 
+are dark, sharp and numerous, and small pools of blood have formed around 
+them.  This would be a vampire's paradise.  A barely-visible path leads 
+north to a grassy plain, and east through the rocky area - you can leave
+the path to the south.
+~
+305 r 2
+D0
+~
+~
+0 -1 30533
+D1
+~
+~
+0 -1 30535
+D2
+~
+~
+0 -1 30538
+S
+#30535
+Rocky Area~
+  You stand on a wide rocky area, barren of most life.  The rocks here 
+are dark, sharp and numerous, and small pools of blood have formed around 
+them.  This would be a vampire's paradise.  A barely-visible path leads 
+west and south through the area - but you can leave the path to the east.
+~
+305 r 2
+D1
+~
+~
+0 -1 30536
+D2
+~
+~
+0 -1 30539
+D3
+~
+~
+0 -1 30534
+S
+#30536
+Rocky Area~
+  You stand on a wide rocky area, barren of most life.  The rocks here 
+are dark, sharp and numerous, and small pools of blood have formed around 
+them.  This would be a vampire's paradise.  A large cliff blocks your way
+north, but you can go any other way.
+~
+305 r 2
+D1
+~
+~
+0 -1 30537
+D2
+~
+~
+0 -1 30540
+D3
+~
+~
+0 -1 30535
+S
+#30537
+Rocky Area~
+  You stand on a wide rocky area, barren of most life.  The rocks here 
+are dark, sharp and numerous, and small pools of blood have formed around 
+them.  This would be a vampire's paradise.  A huge cliff-face blocks the way
+north and east - you can go west or south.
+~
+305 r 2
+D2
+~
+~
+0 -1 30541
+D3
+~
+~
+0 -1 30536
+S
+#30538
+Rocky Area~
+  You stand on a wide rocky area, barren of most life.  The rocks here 
+are dark, sharp and numerous, and small pools of blood have formed around 
+them.  This would be a vampire's paradise.  A large cliff-face blocks the 
+way west, but you can go north, east or south.
+~
+305 r 2
+D0
+~
+~
+0 -1 30534
+D1
+~
+~
+0 -1 30539
+D2
+~
+~
+0 -1 30542
+D3
+~
+~
+1 -1 30572
+S
+#30539
+Rocky Area~
+  You stand on a wide rocky area, barren of most life.  The rocks here 
+are dark, sharp and numerous, and small pools of blood have formed around 
+them.  This would be a vampire's paradise.  A barely-visible path leads
+north-south through this area.
+~
+305 r 2
+D0
+~
+~
+0 -1 30535
+D1
+~
+~
+0 -1 30540
+D2
+~
+~
+0 -1 30543
+D3
+~
+~
+0 -1 30538
+S
+#30540
+Rocky Area~
+  You stand on a wide rocky area, barren of most life.  The rocks here 
+are dark, sharp and numerous, and small pools of blood have formed around 
+them.  This would be a vampire's paradise.  A strong stench of blood assails
+you from all around.
+~
+305 r 2
+D0
+~
+~
+0 -1 30536
+D1
+~
+~
+0 -1 30541
+D2
+~
+~
+0 -1 30544
+D3
+~
+~
+0 -1 30539
+S
+#30541
+Rocky Area~
+  You stand on a wide rocky area, barren of most life.  The rocks here 
+are dark, sharp and numerous, and small pools of blood have formed around 
+them.  This would be a vampire's paradise.  A large cliff blocks the way 
+east.
+~
+305 r 2
+D0
+~
+~
+0 -1 30537
+D2
+~
+~
+0 -1 30545
+D3
+~
+~
+0 -1 30540
+S
+#30542
+Rocky Area~
+  You stand on a wide rocky area, barren of most life.  The rocks here 
+are dark, sharp and numerous, and small pools of blood have formed around 
+them.  This would be a vampire's paradise.  A barely-visible path leads 
+east through the rocky area, and south out of it through a tight valley.
+~
+305 r 2
+D0
+~
+~
+0 -1 30538
+D1
+~
+~
+0 -1 30543
+D2
+~
+~
+0 -1 30546
+S
+#30543
+Rocky Area~
+  You stand on a wide rocky area, barren of most life.  The rocks here 
+are dark, sharp and numerous, and small pools of blood have formed around 
+them.  This would be a vampire's paradise.  A barely-visible path leads 
+north and west through this area.
+~
+305 r 2
+D0
+~
+~
+0 -1 30539
+D1
+~
+~
+0 -1 30544
+D3
+~
+~
+0 -1 30542
+S
+#30544
+Rocky Area~
+  You stand on a wide rocky area, barren of most life.  The rocks here 
+are dark, sharp and numerous, and small pools of blood have formed around 
+them.  This would be a vampire's paradise.  An un-scalable cliff blocks 
+the way south.
+~
+305 r 2
+D0
+~
+~
+0 -1 30540
+D1
+~
+~
+0 -1 30545
+D3
+~
+~
+0 -1 30543
+S
+#30545
+Rocky Area~
+  You stand on a wide rocky area, barren of most life.  The rocks here 
+are dark, sharp and numerous, and small pools of blood have formed around 
+them.  This would be a vampire's paradise.  A large cliff blocks the way
+east and south...
+~
+305 r 2
+D0
+~
+~
+0 -1 30541
+D1
+~
+~
+0 -1 30573
+D3
+~
+~
+0 -1 30544
+S
+#30546
+An Ancient Path Through A Tight Valley~
+  You are walking through a tight valley between two cliff-faces.  The 
+path you are on is nearly gone, only defined by the actual cliffs on 
+either side.  To the north, the path leads out of this valley into a 
+rocky area, and to the south you can see it lead into an abandoned town.
+The gates, which used to be fixed into the southern end of this valley,
+lie shattered and broken on the valley floor.
+~
+305 cefg 2
+D0
+~
+~
+0 -1 30542
+D2
+~
+~
+0 -1 30547
+S
+#30547
+Main Street of an Abandoned Town~
+  You stand on the Main Street of an abandoned town.  No signs remain to say
+what town this once was - but everywhere there are bones, blood and the sign
+of the Genocide Clan.
+~
+305 r 1
+D0
+~
+~
+0 -1 30546
+D1
+~
+~
+1 -1 30554
+D2
+~
+~
+0 -1 30548
+D3
+~
+~
+1 -1 30553
+S
+#30548
+Centre Square~
+  You stand in the old Centre Square of this uninhabited town.  As the cold,
+blood-soaked wind blows in from the north, it whips up what little dust lies
+around - more often than not it disturbed shales of dried blood.  Something
+terrible beyond imagining must have happened here.  The main road goes north
+and south from here, and a smaller road goes east-west.  In the centre of the
+square is a design - painted in the blood of the town's deceased.
+~
+305 r 1
+E
+design blood~
+You see a huge dagger, dripping blood, inside a double-circle - and shudder
+at the sight of the ever-present sign of the Genocide Clan.
+~
+D0
+~
+~
+0 -1 30547
+D1
+~
+~
+0 -1 30557
+D2
+~
+~
+0 -1 30549
+D3
+~
+~
+0 -1 30556
+S
+#30549
+Main Street of an Abandoned Town~
+  You stand on the Main Street of an abandoned town.  No signs remain to say
+what town this once was - but everywhere there are bones, blood and the sign
+of the Genocide Clan.
+~
+305 r 1
+D0
+~
+~
+0 -1 30548
+D1
+~
+~
+1 -1 30567
+D2
+~
+~
+0 -1 30550
+D3
+~
+~
+1 -1 30566
+S
+#30550
+Main Street of an Abandoned Town~
+  You stand on the Main Street of an abandoned town.  No signs remain to say
+what town this once was - but everywhere there are bones, blood and the sign
+of the Genocide Clan.
+~
+305 r 1
+D0
+~
+~
+0 -1 30549
+D1
+~
+~
+1 -1 30569
+D2
+~
+~
+0 -1 30551
+D3
+~
+~
+1 -1 30568
+S
+#30551
+Main Street of an Abandoned Town~
+  You stand on the Main Street of an abandoned town.  No signs remain to say
+what town this once was - but everywhere there are bones, blood and the sign
+of the Genocide Clan.  To the west you can see the old City Dump.
+~
+305 r 1
+D0
+~
+~
+0 -1 30550
+D3
+~
+~
+0 -1 30552
+S
+#30552
+Old City Dump~
+  You stand in what was once the City's dump.  Now, piled easily fourteen
+feet high, is a nightmare pile of bones of all sorts, all ages and all races.
+Several small skulls indicate childrens' bones.  They are all free from 
+flesh, but several of the larger ones bear the sign of the Genocide 
+Clan.  You can go back east to get out of this nightmare Dump.
+~
+305 r 1
+D1
+~
+~
+0 -1 30551
+D2
+~
+~
+1 -1 30574
+S
+#30553
+Abandoned Building~
+  You stand inside an old, abandoned building, in a state of considerable
+disrepair.  There is nothing here that isn't blood-soaked almost beyond
+recognition.  The one door leads the way you came.
+~
+305 dr 0
+D1
+~
+~
+1 -1 30547
+S
+#30554
+Abandoned Building~
+  You stand inside an old, abandoned building, in a state of considerable
+disrepair.  There is nothing here that isn't blood-soaked almost beyond
+recognition.  The one door leads the way you came.
+~
+305 dr 0
+D3
+~
+~
+1 -1 30547
+S
+#30555
+Street of an Abandoned Town~
+  You stand on a side Street of this decrepit town.  Everywhere you turn there
+are bones, blood and the sign of the Genocide Clan.  Broken and shattered 
+buildings stand - just - on either side of the street.
+~
+305 r 1
+D0
+~
+~
+1 -1 30559
+D1
+~
+~
+0 -1 30556
+D2
+~
+~
+1 -1 30563
+S
+#30556
+Street of an Abandoned Town~
+  You stand on a side Street of this decrepit town.  Everywhere you turn there
+are bones, blood and the sign of the Genocide Clan.  Broken and shattered 
+buildings stand - just - on either side of the street.
+~
+305 r 1
+D0
+~
+~
+1 -1 30560
+D1
+~
+~
+0 -1 30548
+D2
+~
+~
+1 -1 30565
+D3
+~
+~
+0 -1 30555
+S
+#30557
+Street of an Abandoned Town~
+  You stand on a side Street of this decrepit town.  Everywhere you turn there
+are bones, blood and the sign of the Genocide Clan.  Broken and shattered 
+buildings stand - just - on either side of the street.
+~
+305 r 1
+D0
+~
+~
+1 -1 30561
+D1
+~
+~
+0 -1 30558
+D2
+~
+~
+1 -1 30564
+D3
+~
+~
+0 -1 30548
+S
+#30558
+Street of an Abandoned Town~
+  You stand on a side Street of this decrepit town.  Everywhere you turn there
+are bones, blood and the sign of the Genocide Clan.  Broken and shattered 
+buildings stand - just - on either side of the street.
+~
+305 r 1
+D0
+~
+~
+1 -1 30562
+D2
+~
+~
+1 -1 30570
+D3
+~
+~
+0 -1 30557
+S
+#30559
+Abandoned Building~
+  You stand inside an old, abandoned building, in a state of considerable
+disrepair.  There is nothing here that isn't blood-soaked almost beyond
+recognition.  The one door leads the way you came.
+~
+305 dr 0
+D2
+~
+~
+1 -1 30555
+S
+#30560
+Abandoned Building~
+  You stand inside an old, abandoned building, in a state of considerable
+disrepair.  There is nothing here that isn't blood-soaked almost beyond
+recognition.  The one door leads the way you came.
+~
+305 dr 0
+D2
+~
+~
+1 -1 30556
+S
+#30561
+Abandoned Building~
+  You stand inside an old, abandoned building, in a state of considerable
+disrepair.  There is nothing here that isn't blood-soaked almost beyond
+recognition.  The one door leads the way you came.
+~
+305 dr 0
+D2
+~
+~
+1 -1 30557
+S
+#30562
+Abandoned Building~
+  You stand inside an old, abandoned building, in a state of considerable
+disrepair.  There is nothing here that isn't blood-soaked almost beyond
+recognition.  The one door leads the way you came.
+~
+305 dr 0
+D2
+~
+~
+1 -1 30558
+S
+#30563
+Abandoned Building~
+  You stand inside an old, abandoned building, in a state of considerable
+disrepair.  There is nothing here that isn't blood-soaked almost beyond
+recognition.  The one door leads the way you came.
+~
+305 dr 0
+D0
+~
+~
+1 -1 30555
+S
+#30564
+Abandoned Building~
+  You stand inside an old, abandoned building, in a state of considerable
+disrepair.  There is nothing here that isn't blood-soaked almost beyond
+recognition.  The one door leads the way you came.
+~
+305 dr 0
+D0
+~
+~
+1 -1 30557
+S
+#30565
+Abandoned Building~
+  You stand inside an old, abandoned building, in a state of considerable
+disrepair.  There is nothing here that isn't blood-soaked almost beyond
+recognition.  The one door leads the way you came.
+~
+305 dr 0
+D0
+~
+~
+1 -1 30556
+S
+#30566
+Abandoned Building~
+  You stand inside an old, abandoned building, in a state of considerable
+disrepair.  There is nothing here that isn't blood-soaked almost beyond
+recognition.  The one door leads the way you came.
+~
+305 dr 0
+D1
+~
+~
+1 -1 30549
+S
+#30567
+Abandoned Building~
+  You stand inside an old, abandoned building, in a state of considerable
+disrepair.  There is nothing here that isn't blood-soaked almost beyond
+recognition.  The one door leads the way you came.
+~
+305 dr 0
+D3
+~
+~
+1 -1 30549
+S
+#30568
+Abandoned Building~
+  You stand inside an old, abandoned building, in a state of considerable
+disrepair.  There is nothing here that isn't blood-soaked almost beyond
+recognition.  The one door leads the way you came.
+~
+305 dr 0
+D1
+~
+~
+1 -1 30550
+S
+#30569
+Abandoned Building~
+  You stand inside an old, abandoned building, in a state of considerable
+disrepair.  There is nothing here that isn't blood-soaked almost beyond
+recognition.  The one door leads the way you came.
+~
+305 dr 0
+D3
+~
+~
+1 -1 30550
+S
+#30570
+Abandoned Building~
+  You stand inside an old, abandoned building, in a state of considerable
+disrepair.  There is nothing here that isn't blood-soaked almost beyond
+recognition.  The one door leads the way you came.
+~
+305 dr 0
+D0
+~
+~
+1 -1 30558
+S
+#30571
+Secret Room~
+  You stand inside a hidden room that has been carved quite cleverly into 
+the cliff-face.  This looks to have been an old storage room used by 
+raiders in times past, but the little provisions left here are quite
+inedible now.
+~
+305 adi 0
+D0
+~
+~
+1 -1 30530
+S
+#30572
+Secret Room~
+  You stand inside a hidden room that has been carved quite cleverly into 
+the cliff-face.  This looks to have been an old storage room for weapons
+used by raiders in times past, but the few weapons left here are quite
+rusted now.
+~
+305 adi 0
+D1
+~
+~
+1 -1 30538
+S
+#30573
+Secret Room~
+  You stand inside a hidden room that has been carved quite cleverly into 
+the cliff-face.  This looks to have been an old storage room for armor 
+used by raiders in times past, but the few shields and plates left here are 
+quite useless now.
+~
+305 adi 0
+D3
+~
+~
+1 -1 30545
+S
+#30574
+A Burrow Under the Bones~
+  You are within a hollow under the pile of bones.  You feel quite unnerved
+here - you can almost feel the empty eye-sockets around you staring at you
+unrelentlessly.  You feel like you want to get OUT - you'd only come here in
+a REAL emergency.
+~
+305 adi 0
+D0
+~
+~
+1 -1 30552
+S
+#9999
+$~
+

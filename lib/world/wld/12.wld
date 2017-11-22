@@ -1,0 +1,218 @@
+#1200
+The Chat Room~ 
+   You are lounging in a quiet cozy parlor, warmed by a gentle magical fire
+which twinkles happily in a warm fireplace.  There are no doors out.  Clearly
+the owner of this room needs none.
+~
+12 cdej 0
+S
+#1201
+Artemis Hangout~ 
+   You see here a cozy little room with a fireplace.  You can tell it is Moses'
+room by the two stone tablets and a bible on a small ledge near the fireplace.
+This room was designed for total relaxation.  You can watch television, listen
+to the stereo, even soak in a hot tub.
+~
+12 cdehjk 0
+S
+#1202
+The Ice Box Of The Gods~
+   The Ice Box is for little boys and girls that cannot play nice. Be good
+and maybe someone will come and get you.
+~
+12 defh 0
+S
+#1204
+The Main Board Room of the Gods~ 
+   This large room is well decorated, and lit from above by a soft magical
+glow of no particular origin.  Scattered around the room are comfortable chairs
+and piles of furs of various dimensions, and in the very middle there is a
+huge oaken table that shimmers in an odd manner.  A large picture window looks
+down over the whole world, showing the exploits of the many intrepid mortals.
+A well-worn copy of the "HANDBOOK" is hung on a hook next to the bulletin
+board. A spiral staircase leads down to another part of this room.  There is a
+large  hole in the ceiling.
+~
+12 de 0
+D0
+The Relations Room can be seen just to the north.
+~
+~
+0 -1 1208
+D1
+The Builders Room can be seen just to the east.
+~
+~
+0 -1 1206
+D2
+The Quest Room is located to the south.
+~
+~
+0 -1 1207
+D3
+The Gods' Post Office is just to the west.
+~
+~
+0 -1 1205
+D4
+You see a golden light shines from the hole in the ceiling.
+~
+~
+0 -1 1209
+D5
+You see a spiral staircase leading down to Lower Board Room.
+~
+~
+0 -1 1210
+S
+#1205
+The Post Office Of The Gods~
+   The Post Office Of The Gods is the same as most Post Offices except that
+it is not as slow.  Even the Postal service knows not to anger the Gods.
+Piles of junk mail line the walls.  I guess even Gods get on mailing lists.
+The Immortal Board Room is to the east.
+~
+12 dj 0
+D1
+The Main Board Room is just to the east.
+~
+~
+0 -1 1204
+S
+#1206
+The Builders Room~ 
+  This room is reserved for questions of building and maintenance of the world.
+There is a bulletin board in this room for this exact purpose.
+~
+12 de 0
+D3
+The Main Board Room is just to the west.
+~
+~
+0 -1 1204
+S
+#1207
+The Quest Room~
+  This room has been set aside for those involved in the creation of quests
+for mortals. New quest ideas and records of recent quests are found on the
+bulletin board. Please post a brief outline of your quest and the rewards 
+given so that other GODS are aware of how HARD mortal life is...
+~
+12 de 0
+D0
+The Main Board Room is just to the east.
+~
+~
+0 -1 1204
+S
+#1208
+The Relations Room~
+  For those whose main task is interaction with the mortals, this room
+provides a place for discussion, planning, and retribution.  The board in
+this room is for the purpose of discussing the day-to-day mortal concerns
+and concerns about mortals.
+~
+12 de 0
+D2
+The Main Board Room is just to the south.
+~
+~
+0 -1 1204
+S
+#1209
+The Higher Board Room of the Gods~ 
+  You are standing in the holiest room on the MUD.  This is where the higher
+gods gather to discuss the fates of all concerned.  If you aren't sure about
+whether you should be here, you probably should *NOT* be.
+~
+12 dejk 0
+D5
+You can see the Main Board Room through the hole in the floor.
+~
+~
+0 -1 1204
+S
+#1210
+The Lower Board Room of the Gods~ 
+   This room is a close twin to the main Immortal Board Room at the top of 
+the spiral staircase. Here the Gods have magically created an exact copy of 
+the mortal board room.  Any God can easily post and read messages from the 
+mortal board room without being seen by any mortals. Further down this  
+staircase, you the main temple in the city of Midgaard.
+~
+12 de 0
+D0
+The Gods' Inn can be seen just to the north.
+~
+~
+0 -1 1211
+D2
+The Gods' Meeting Room is located to the south.
+~
+~
+0 -1 1212
+D3
+The Gods' Social Gathering Room is located to the west.
+~
+~
+0 -1 1213
+D4
+You see the Main Board Room up the spiral stairs.
+~
+~
+0 -1 1204
+D5
+You see the hustle and bustle of the Temple of Midgaard at the bottom of
+the stairs.
+~
+~
+0 -1 3001
+S
+#1211
+The Inn Of The Gods~
+   The Inn of the Gods is a small room, holding only a shelf with many
+small precious stones on it.  When a God comes to rent his belongings,
+his essence is stored in the stones.  The Lower Board Room is to the south.
+~
+12 dej 0
+D2
+The Lower Board Room can be seen to the south.
+~
+~
+0 -1 1210
+S
+#1212
+The Meeting Room Of The Gods~
+   The meeting room is plain and very simple. A circular table sits in the 
+middle of the room, lit by some unseen light source. There are many chairs 
+around the table, all empty.  The Lower Board Room is to the north.
+~
+12 dej 0
+D0
+The Lower Board Room can be seen to the north.
+~
+~
+0 -1 1210
+S
+#1213
+The Social Gathering Room~
+   This elegantly decorated room has one simple purpose.  To socialize with
+everyone else around in one central location.
+~
+12 de 0
+D1
+The Lower Board Room can be seen to the east.
+~
+~
+0 -1 1210
+S
+#1214
+The Clan Leaders Room~ 
+You are within the clan leaders room--a gathering place for some of the
+more powerful members of the mortal society.  There are no exits.  You
+must recall or use dimension to leave.
+~
+12 de 0
+S
+$
+

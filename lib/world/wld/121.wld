@@ -1,0 +1,2188 @@
+#12100
+Immortal Only Dreamplace Observation Room~
+ As the name of this place suggests, this is STRICTLY an IMMORTAL ONLY room.
+Any mortals entering this room are instantly set upon by a large pack of 
+savage roaming ears, and torn apart.  Sorry...
+ This is a place that immortals everywhere come to relax when they get a little
+sick of the semi-real world.  A set of lawn chairs sit here, with a small waiterrobot that waits nearby.
+~
+121 1026 0
+D4
+There's a convenient shortcut up to the Grunting Boar Inn!
+~
+~
+0 0 3008
+D5
+Need to relax? duck down to the spa for a refreshing bath!
+~
+~
+0 0 12198
+E
+lawn chairs~
+ You could swear you've seen these from a dream about your youth you had once.
+~
+E
+waiter robot~
+ This is one of the many robotic waiters that inhabit the universe, but, unlike
+most, it will not actually SERVE you anything.  It just waits.
+~
+S
+#12101
+Muddy Tunnel entrance~
+ The only thing you can think of when you enter here is the STENCH! It covers
+and pervades everything; the walls, the floor, the air, YOU...  The tunnel
+gets darker to the north, but light is coming from the drain opening above.
+The opening above seems to smell even worse than here.
+~
+121 9 0
+D0
+Nasty Tunnel
+~
+~
+0 0 12102
+D4
+The shimmering haze above you seems to extend to another place...
+~
+drain~
+2 12113 12041
+S
+#12102
+Nasty Tunnel~
+ Well, this tunnel really IS nasty.  Some of the greatest pieces of equipment
+lie strewn about, but covered in a fine layer of clear slime.  You REALLY don't
+like the idea about touching ANY of it.  The tunnel continues both north and
+south. It gets lighter to the south.
+~
+121 9 0
+D0
+The Tunnel
+~
+~
+0 0 12103
+D2
+Tunnel Entrance
+~
+~
+0 0 12101
+S
+#12103
+The Tunnel~
+ You have reached the dead centre of this putrid tunnel.  Decaying matter lies
+everywhere - you don't want to know what it is, but you're willing to bet that
+rocks would decay down here.  The tunnel leads north and south.
+~
+121 9 0
+D0
+Tunnel
+~
+~
+0 0 12104
+D2
+The Tunnel
+~
+~
+0 0 12102
+S
+#12104
+Tunnel~
+ The tunnel here is smelly, messy, wet and unremarkable.  It goes north or
+south.  To the north it gets lighter.
+~
+121 9 0
+D0
+Tunnel's End
+~
+~
+0 0 12105
+D2
+Tunnel
+~
+~
+0 0 12103
+S
+#12105
+Tunnel End~
+ Thank gods, you've made it!  This is the end of this hideous tunnel.  When you
+consider delving back into it, you feel decidedly ill.  A friendly looking door
+is to the north - a window from here lets some light in.
+~
+121 8 0
+D0
+Large, bright room
+~
+door friendly~
+1 -1 12106
+D2
+Tunnel
+~
+~
+0 0 12104
+S
+#12106
+Really big, bright room~
+ You've entered a really big room.  Light floods down from somewhere, and you
+feel a sensation almost like floating as the peacefulness of this place hits
+you.  Looking around, you think this is some sort of foyer.  A reception desk
+is to the north - and the friendly door is to the south.
+~
+121 24 0
+D0
+Reception
+~
+~
+0 0 12107
+D2
+Friendly door
+~
+door friendly~
+1 -1 12105
+S
+#12107
+Dreamplace Reception~
+ This reception area is odd... something seems a little strange.  You could
+SWEAR that wall is made up out of tacky mugs...  But the sight of the woman at
+the Reception brings you back down to somewhere resembling earth.  The foyer is
+to the south, and a  B I G  pair of double doors, made of wood, are to the north.
+~
+121 24 0
+D0
+A wide plain might be seen if the doors are open. If not - hey - it's a dream!
+~
+door big doors double~
+1 -1 12108
+D2
+Really big, bright room
+~
+~
+0 0 12106
+E
+wall mugs~
+ Big ones, little ones, ones with fat tabby cats beating up on wimpy looking
+dogs... EVERY sort of mug in existance is included in this wall.
+~
+S
+#12108
+A large plain~
+ You have entered out onto the Plain of Dreams - a place you know shouldn't
+really exist.  Small figments of a deranged imagination hop past on their way
+somewhere... they seem to be enjoying themselves.  To the south you see a huge
+set of double doors set upright in the field.  They don't seem to be going 
+anywhere and are content in their function as a pair of doors.  The Plain
+stretches out on all sides around you.
+~
+121 c 2
+D0
+The plain
+~
+~
+0 0 12113
+D1
+The plain
+~
+~
+0 0 12115
+D2
+DreamPlace Reception
+~
+door doors HUGE double~
+1 -1 12107
+D3
+The plain
+~
+~
+0 0 12109
+S
+#12109
+The plain~
+ You are on a broad plain.  It seems to go on forever...
+~
+121 0 2
+D0
+The plain
+~
+~
+0 0 12112
+D1
+The plain
+~
+~
+0 0 12108
+D3
+The plain
+~
+~
+0 0 12110
+S
+#12110
+The plain~
+ This plain really IS big.
+~
+121 0 2
+D0
+The plain
+~
+~
+0 0 12111
+D1
+The plain
+~
+~
+0 0 12109
+S
+#12111
+The plain~
+ You're on a plain.  You can't complain.  To the west the plain turns to what
+looks like sand, and a shoreline is evident.  Beyond you can see a strange isle
+and to the far north-east a dark, brooding forest.  Even from here you can see
+the one giant tree, its trunk protruding above all the others, going up and up 
+until it disappears in the clouds.
+~
+121 0 2
+D1
+The plain
+~
+~
+0 0 12112
+D2
+The plain
+~
+~
+0 0 12110
+D3
+Shoreline
+~
+~
+0 0 12120
+S
+#12112
+The plain~
+ You are at the base of a sizeable hill - kind of like a mini mountain.  At the
+top is a dark, brooding forest, one you expect will be full of nasty, evil
+monsters that'll rip you apart, gore flying everywhere, unless you can hack
+your way through the godless creatures one by one...  You can't WAIT to go!!
+
+~
+121 0 2
+D0
+Hillside
+~
+~
+0 0 12118
+D1
+The plain
+~
+~
+0 0 12113
+D2
+The plain
+~
+~
+0 0 12109
+D3
+The plain
+~
+~
+0 0 12111
+S
+#12113
+The plain~
+ You are standing at the border of the plain, and directly in front of you is a
+dirty great cliff.  You look up at it and think, 'Damn that's high.'
+~
+121 0 0
+D1
+The plain
+~
+~
+0 0 12114
+D2
+A plain
+~
+~
+0 0 12108
+D3
+The plain
+~
+~
+0 0 12112
+E
+cliff~
+ 'Damn', you think, 'that's high.'
+~
+S
+#12114
+The plain~
+ You're starting to get slightly sick of seeing a huge, endless plain... and so
+the plain, rather obligingly, reforms!!  It's still a huge, endless plain, but
+it's now done in a tasteless red color.  You shrug - who can explain dream
+logic???
+~
+121 0 2
+D2
+The plain
+~
+~
+0 0 12115
+D3
+The plain
+~
+~
+0 0 12113
+S
+#12115
+The plain~
+ This is the eastern most point of the plain.  The small hopping figments are
+all over the place here.  To the north and west of here you see the plain, but
+to the east you see a tiny old tumble-down house with great big holes in the 
+roof.  The door seems to have been forcibly ripped off its hinges and you see
+it lying... yes... 50 metres to the left.  The thought does not inspire much
+confidence.
+~
+121 0 2
+D0
+The plain
+~
+~
+0 0 12114
+D1
+Horribly torn doorway
+~
+~
+0 0 12116
+D3
+The plain
+~
+~
+0 0 12108
+E
+door~
+It is not very happy with its current situation, and looks ready to cry.
+~
+S
+#12116
+The Mystical House of Abnormal Thoughts~
+ You are standing in a house with all the windows barred and boarded - but that
+doesn't matter because the holes in the roof lets enough light in to see by.
+The smell reminds you of one of those New Age shops, full of incense. 
+~
+121 0 0
+D1
+Bathroom
+~
+~
+0 0 12117
+D3
+Horribly torn doorway
+~
+~
+0 0 12115
+S
+#12117
+Bathroom~
+ You're standing in a tiny bathroom. In it is a tiny bath.  That's about it.
+~
+121 0 0
+D3
+Mystical House's Front Room
+~
+~
+0 0 12116
+E
+tiny bath~
+ It is tiny, stained with a strange pink ring, and there is a tiny black cat
+wearing a strange red-and-white hat with the letter 'A' on it, scrubbing away
+furiously at the long, pink cat-ring.
+~
+E
+cat A~
+ This is Cat A, the first of the Cat in the Hat's helpers.  He seems hard at
+work, and ignores you.
+~
+S
+#12118
+Rocky Hillside~
+ You're on a hillside with more rocks than grass.  You remember a picture of a
+place like this from a book you had as a child - Every Child's Book Of
+Fantastical Monster Spotting.  It was that page that gave you nightmares.  You
+look around paranoically.
+~
+121 0 0
+D2
+The plain
+~
+~
+0 0 12112
+D4
+Mountainous Hilltop
+~
+~
+0 0 12119
+S
+#12119
+Mountainous Hilltop~
+ You're on the top of a BIG hill.  Out of breath, you come panting to a stop,
+leaning against a nearby tree.  Soon after the tree begins quoting Shakespeare
+at you, so you decide to move on.  You look to the forest to the north, and 
+then down at the hillside and the plain below.
+~
+121 0 4
+D0
+The Dark Forest
+~
+~
+0 0 12127
+D5
+Rocky Hillside
+~
+~
+0 0 12118
+E
+quoting tree~
+ The tree peers back at you from behind a pair of horn-rimmed glasses and
+winks at you.
+~
+S
+#12120
+The Shoreline~
+ The shoreline you stand on is rather odd...  Instead of sand or pebbles, this
+shore is made up out of biros!!  This explains where the little buggers go when
+they vanish from your bag...  They are yellow biros, though, with the odd blue
+or red one here and there.  The sea laps gently here against the biro beach, 
+and when you look around something seems to be not quite... right.  To the west
+is a massive bridge made of thoughts and misconcieved ideas, but it looks like
+it'll hold your weight.
+~
+121 0 2
+D1
+The plain
+~
+~
+0 0 12111
+D3
+The bridge to the Island
+~
+~
+0 0 12126
+E
+biro biros~
+ The biros are happy and playing in their new environment.  They crowd around
+your feet and splash the salty water over your feet.
+~
+E
+bridge~
+ This is a huge bridge, and its surface continuously changes and reforms into
+new and more outrageous ideas and thoughts.  At the moment they seem to 
+include chickens, tomato sauce and Vaseline.
+~
+S
+#12121
+On MORE stairs~
+ Further up the stairs now, and you are getting a bit tired.  You rest for a
+moment on a nearby Spanish waiter, and concientiously don't forget to dispose
+of the spanner after.  It has occurred to you before this that the chance of
+anything normal happening to you while in this place is so low, you simply
+don't bother anymore.  You can go, er, up.
+~
+121 0 2
+D4
+Up the stairs
+~
+~
+0 0 12124
+E
+Spanish Waiter~
+ The Spanish Waiter doesn't seem to mind.
+~
+S
+#12122
+On more stairs~
+ You walk further up the stairs, chatting to the more amiable penguins now
+and then, and having your toes squashed by the ruder ones.  It occurs to you
+that you wouldn't mind going down about now, but when you look back you see
+the stairs below vanish into a greenish, cloying mist.  A nearby penguin 
+turns to you and says, 'Yeah, they always do that.'  It gives you a rather
+sympathic smile and wanders off.  The bit that worries you is that it is darn
+near impossible to smile without lips.
+~
+121 0 2
+D4
+Up the stairs
+~
+~
+0 0 12121
+E
+mist stairs~
+ The stairs are turning into a green strange mist that reminds you of the time
+your big brother put your five pet frogs through the blender.
+~
+S
+#12123
+On the stairs~
+ You are on a set of stairs going upwards, wading through a veritable swarm
+of penguins.  You've never seen so many of the little dinner-suited birdies
+in your life!
+~
+121 0 2
+D4
+Up the stairs
+~
+~
+0 0 12122
+S
+#12124
+Yet MORE stairs~
+ This staircase seems to go on forever... and you are starting to think that it
+does.  There seems to be no way down, and so up seems to be the only option.
+~
+121 0 2
+D4
+Up the stairs
+~
+~
+0 0 12125
+S
+#12125
+Long stairs these, eh?~
+ You start to think this is getting to be a bit ridiculous.  A medium-sized
+penguin is sitting to your left, quoting Shakespeare, and a larger one seems
+quite content on the television set in the corner.  You think up would be the
+only way out of here.
+~
+121 0 2
+D4
+Up the stairs
+~
+~
+0 0 12126
+S
+#12126
+Island of Stairs~
+ The island you have stepped onto is made up of nothing but stairs - stairs that go up, and up, and up...
+ You think this is a little odd, but you don't know who to ask about it.  Maybe
+you could ask that penguin over there...
+~
+121 0 2
+D1
+Bridge to the Plain
+~
+~
+0 0 12120
+D4
+Up the stairs
+~
+~
+0 0 12123
+S
+#12127
+The Dark Forest~
+ You have entered an enormous Forest.  This area is lit by a huge abundance of
+giant fireflies which buzz far, far above your head.  It makes you rather dizzy
+just looking up at them.  To the south is the hilltop, and to the east is a
+well-worn, hardened path made of small glass panels the size of... well... the
+size of something quite small.  To the north all is dark.
+~
+121 0 3
+D0
+Forest
+~
+~
+0 0 12128
+D1
+Along The Path
+~
+~
+0 0 12132
+D2
+Mountainous Hilltop
+~
+~
+0 0 12119
+E
+path glass panels~
+ As you look into one of the panels an image of a clown forms in it.  It 
+begins laughing, a harsh, mocking laugh, and you have a nasty feeling it is
+laughing at YOU.  Lifting your weapon, charged by a sudden rush of paranoia,
+you hack ineffectively at the diamond-hard glass.
+~
+S
+#12128
+Forest~
+ It's really dark here, almost as dark as night, and definitely not light
+enough to see by without a lamp or something.  To the south, you can see the 
+path, and to the north and east is forest.
+~
+121 1 3
+D0
+Forest
+~
+~
+0 0 12129
+D1
+Forest
+~
+~
+0 0 12133
+D2
+The Dark Forest
+~
+~
+0 0 12127
+S
+#12129
+Forest~
+ You've come to a point where the trees make travelling impossible to the north
+and west, but there seems to be a clearing to the east, and there's LOTS of
+forest to the south.
+~
+121 1 3
+D1
+The Great Tree
+~
+~
+0 0 12134
+D2
+Forest
+~
+~
+0 0 12128
+S
+#12130
+A Sunny Clearing~
+ You enter a wide circle of space, clear of trees.  The sun illuminates the
+entire clearing, and you feel very peaceful.  You contemplate resting here, and
+finally find a space clear of teddy bears and picnic baskets.  You gaze around
+to see the entire clearing ringed by Scottish Thistles.  The only exit is to
+the east.
+~
+121 131216 3
+D1
+Leafy Path
+~
+~
+0 0 12135
+S
+#12131
+Forest~
+ You are standing in a dark part of the forest, somehow darker than what you
+have so far seen.  A hedge stops you from going to the south, and you really
+don't want to mess with it.  it's made of brambles, and looks like it'd do
+you more damage than you'd do it.  You can go north and east, both to places
+along the path.
+~
+121 1 3
+D0
+The Path
+~
+~
+0 0 12132
+D1
+The Path
+~
+~
+0 0 12136
+S
+#12132
+Along The Path~
+ You are on a path that leads east and west.  The atmosphere is dark and rather
+discomforting.  Strange noises approach you from all sides, and you shiver.
+~
+121 1 3
+D0
+Forest
+~
+~
+0 0 12133
+D1
+Bend In The Path
+~
+~
+0 0 12137
+D2
+Forest
+~
+~
+0 0 12131
+D3
+Dark Forest
+~
+~
+0 0 12127
+S
+#12133
+Forest~
+ This forest is starting to bore you, but to the north an interesting looking
+tree stands.  A path is to the south, and there is forest to the west and
+east.
+~
+121 1 3
+D0
+The Great Tree
+~
+~
+0 0 12134
+D1
+Forest
+~
+~
+0 0 12138
+D2
+The Path
+~
+~
+0 0 12132
+D3
+Forest
+~
+~
+0 0 12128
+S
+#12134
+Base Of The Great Tree~
+ You've entered a wide clearing, and you can see properly here.  The wind is
+cool and calming, and the sun feels good on your face.  You stand under a
+massive tree, the Great Tree of Dreamplace, and just thinking about how high
+it is makes you slightly nauseous.  The funny thing is, you aren't even all
+that afraid of heights!  You think you can climb the Tree, and the only other
+exits are to the west and south into the forest.
+~
+121 0 3
+D2
+Forest
+~
+~
+0 0 12133
+D3
+Forest
+~
+~
+0 0 12129
+D4
+Lower Branches
+~
+~
+0 0 12150
+S
+#12135
+Leafy Path~
+ You are on the leafy path still, and just to the west the sun breaks in on a
+small clearing.  Somehow, the path here is still pitch black, though.  That
+damn hedge stops you from going north, and a sheer cliff face dissuades you
+from going south.  That leaves west to the clearing, or east along the path.
+~
+121 1 3
+D1
+Leafy Path
+~
+~
+0 0 12140
+D3
+The Clearing
+~
+~
+0 0 12130
+S
+#12136
+The Path In The Dark Place~
+ It sure is DARK here.  Even with your light, the darkness seems to press in.
+The path leads east to an intersection, or north along the path.  A prickly
+hedge bars your way south, but you can leave the path west... although leaving
+the path does not sit well with you...
+~
+121 1 3
+D0
+Bend In The Path
+~
+~
+0 0 12137
+D1
+Intersection
+~
+~
+0 0 12141
+D3
+Forest
+~
+~
+0 0 12131
+S
+#12137
+A Bend In The Path~
+ A sudden curve in the glass-paved path causes it to continue west and south.
+~
+121 1 3
+D0
+Forest
+~
+~
+0 0 12138
+D1
+Forest
+~
+~
+0 0 12142
+D2
+The Path
+~
+~
+0 0 12136
+D3
+Along The Path
+~
+~
+0 0 12132
+S
+#12138
+Forest~
+ You don't feel good about being off the path, and the only place around that
+has path in it is to the south.  A large Bayou is to the east, and there is 
+forest in all other directions.
+~
+121 1 3
+D0
+Forest
+~
+~
+0 0 12139
+D1
+The Bayou
+~
+~
+0 0 12146
+D2
+The Path
+~
+~
+0 0 12137
+D3
+Forest
+~
+~
+0 0 12133
+S
+#12139
+Forest~
+ The forest here takes on a strange tone, kind of a deep soprano.  The air
+smells green, the wind tastes of velvet, and the tree-trunks look rather
+sweet.  You are getting confused.  There is forest to the south, a hedge to
+the north that appears to be made of living tree trunks to the west, and a
+large Bayou to the east.
+~
+121 1 3
+D1
+The Bayou
+~
+~
+0 0 12147
+D2
+Forest
+~
+~
+0 0 12138
+S
+#12140
+Leafy Path~
+ This place is nice...  The path is covered in leaves, and they make a nice
+noise as they crunch under your feet.  To the west you see, in the distance, a
+bright clearing, and to the south is black forest.  You can go north to the
+Intersection.
+~
+121 1 3
+D0
+Intersection
+~
+~
+0 0 12141
+D1
+Forest
+~
+~
+0 0 12143
+D3
+Leafy Path
+~
+~
+0 0 12135
+S
+#12141
+Intersection~
+ You have reached an intersection in the path.  You look down to see tiny
+images swell up and vanish continuously in the tiny panels under your feet.
+The path turns marshy to the east, and leafy to the south.  You can leave the
+intersection to the west, or go through the forest by going north.
+~
+121 1 3
+D0
+Forest
+~
+~
+0 0 12142
+D1
+Marshy Path
+~
+~
+0 0 12144
+D2
+Leafy Path
+~
+~
+0 0 12140
+D3
+The Path
+~
+~
+0 0 12136
+S
+#12142
+Forest~
+ This is a part of the Forest that belongs to a wise old Explorer sock who
+escaped the tragic fate of all socks that get lost in the washing machines
+all across the universe.  He now lives his life here in a totally sockoid
+way of thinking, peaceful and happy.  A path borders his home to the east,
+south and west, and a way directly into the Bayou appears to the north.
+~
+121 1 3
+D0
+The Bayou
+~
+~
+0 0 12146
+D1
+Marshy Path
+~
+~
+0 0 12145
+D2
+Intersection
+~
+~
+0 0 12141
+D3
+The Path
+~
+~
+0 0 12137
+S
+#12143
+Forest~
+ You are standing in a pool of light within the dark, nasty Forest.  It's no
+less nasty here, just lighter.  A rather large cliff seems to convince you
+against going south, but there's path to the north and west of here.
+~
+121 0 3
+D0
+Marshy Path
+~
+~
+0 0 12144
+D3
+Leafy Path
+~
+~
+0 0 12140
+S
+#12144
+Marshy Path~
+ Oh, my GOD!  The path here turns right into marsh, and the only way you know
+you're still on it is by the VERY faint glow of the panels beneath the fetid
+water.  You can go north along the path, or west back to the Intersection, or
+even south into the forest.  All you know is you don't wanna stay HERE!!
+~
+121 1 3
+D0
+Marshy Path
+~
+~
+0 0 12145
+D2
+Forest
+~
+~
+0 0 12143
+D3
+Intersection
+~
+~
+0 0 12141
+S
+#12145
+Marshy Path~
+ You are still on that blimmin' path.  A small, enchanted sock runs out of the
+darkness and screams when it sees you, turning tail and dashing off into the
+blackness.  You are slightly confused.  You can go north and enter the Bayou,
+or you can go south along the path.  Another choice is to go west into the
+territory of the sock.
+~
+121 1 3
+D0
+The Bayou
+~
+~
+0 0 12148
+D2
+Marshy Path
+~
+~
+0 0 12144
+D3
+Forest
+~
+~
+0 0 12142
+S
+#12146
+The Bayou~
+ This place really is nasty.  The ground is swampy, the air is almost black
+with mosquitos, and the water makes you think of black tar.  To the north and
+south is more Bayou land, and to the west and south the land firms and becomes
+forest.
+~
+121 0 2
+D0
+The Bayou
+~
+~
+0 0 12147
+D1
+The Bayou
+~
+~
+0 0 12148
+D2
+Forest
+~
+~
+0 0 12142
+D3
+Forest
+~
+~
+0 0 12138
+S
+#12147
+The Bayou~
+ You are beginning to think this is a leech's heaven.  There seem to be enough
+of them around.  You think of going back, as the water is getting too deep to
+continue to the north, but it seems like you could go east a bit more.  You 
+can go west to the forest, or south to another part of the Bayou.
+~
+121 0 3
+D1
+The Bayou
+~
+~
+0 0 12149
+D2
+The Bayou
+~
+~
+0 0 12146
+D3
+Forest
+~
+~
+0 0 12139
+S
+#12148
+The Bayou~
+ You have entered the Bayou.  The entire area is swampy, the water black and
+murky.  Movement here is difficult, and you're SURE you can feel the water in
+your sandals.  Leeches live here abound, and a smaller one loops by, looks at
+you and snickers, saying, 'Have a nice day, SUCKER!!'  The Bayou stretches out
+to the north and west, and the now-vanished path is still visible to the
+south.
+~
+121 0 2
+D0
+The Bayou
+~
+~
+0 0 12149
+D2
+Marshy Path
+~
+~
+0 0 12145
+D3
+The Bayou
+~
+~
+0 0 12146
+S
+#12149
+The Bayou~
+ You can't go any further - the stench is just too much!!  The Bayou stretches
+out in all directions, but travelling is impossible anywhere other than west
+and south.  Looking out to the lake, your heart sinks - this makes your most
+depressing dream seem really lighthearted.  Hey... No-one said all dreams were
+good!!
+~
+121 0 2
+D2
+The Bayou
+~
+~
+0 0 12148
+D3
+The Bayou
+~
+~
+0 0 12147
+S
+#12150
+Lower Branches of the Great Tree~
+ This is a squirrel's dream.  You are high in the branches of the Great Tree
+of Dreamplace, but you could go higher.  The only exits, obviously, are up
+and down.
+~
+121 0 5
+D4
+Upper Branches
+~
+~
+0 0 12151
+D5
+The Forest Floor
+~
+~
+0 0 12134
+S
+#12151
+Upper Branches~
+ You are so high up that your nose has started to bleed.  Staunching the flow
+you look around, and see the massive expanse of the Dreamplace stretching out
+around you.  You nearly faint as you see a shiny black reptile slide in and
+out of space, but learn to ignore it rather quickly.  You can go, err, up, or
+down.  Going sideways is neither possible nor advised.
+~
+121 0 5
+D4
+Tree Top
+~
+~
+0 0 12152
+D5
+Lower Branches
+~
+~
+0 0 12150
+S
+#12152
+Top of the Tree~
+ Finally!!  You've reached the top of the great Tree of Dreamplace, and are now
+on the Upper Level.  The uppermost branch spreads out south, and you can step
+onto the cloud plateau from it, which spreads all around to the south.
+~
+121 0 3
+D2
+Cloud Plateau
+~
+~
+0 0 12154
+D5
+Upper Branches
+~
+~
+0 0 12151
+S
+#12153
+Outside a Portal~
+ The air here is blisteringly hot, and the clouds around reflect that heat in
+a fiendishly, well, HOT way.  To the west is a massive portal, glowing red,
+above which is a massive plaque with a huge symbol on it, something like a lick
+of flame.  You can go east to the Plateau, or the cloud field is to the south.
+~
+121 0 2
+D1
+Cloud Plateau
+~
+~
+0 0 12154
+D2
+Cloud Field
+~
+~
+0 0 12156
+D3
+Through the Firey Portal
+~
+~
+0 0 12182
+S
+#12154
+Cloud Plateau~
+ As you step onto the Cloud Plateau, a feeling of light and energy comes over
+you.  Looking around, you see a broad field of clouds stretching out before
+you, and a strong sense of awe comes across your mind.  To the east you see a
+large opening in the space above the clouds, and above the portal is a large
+stone plaque bearing the alchemical symbol of rocks and earth.  To the west is
+a similar portal, blazing red, with a plaque above it bearing the symbol for
+fire.  Far off to the south you see a pillar of clouds, stretching to the sky.
+~
+121 0 2
+D0
+Tree Top
+~
+~
+0 0 12152
+D1
+Outside the Portal
+~
+~
+0 0 12155
+D2
+Cloud Field
+~
+~
+0 0 12157
+D3
+Outside a Portal
+~
+~
+0 0 12153
+S
+#12155
+Outside a Portal~
+ You approach a massive portal, seemingly into another world, that hangs in a
+highly improbable manner about two feet above the actual ground.  A huge plate
+of stone has been bolted to thin air about a foot above this rather unlikely
+portal, but although not in a naturally tenable position for a huge plate of
+stone, it seems quite happy defying every lesson you ever learnt in those
+boring year 11 physics classes.  It bears a large symbol which you recognise
+as the alchemical symbol of earth and rocks.  The only other exits are south
+and west.
+~
+121 0 2
+D1
+Inside a Portal
+~
+~
+0 0 12190
+D2
+Cloud Field
+~
+~
+0 0 12158
+D3
+Cloud Plateau
+~
+~
+0 0 12154
+S
+#12156
+Cloud Field~
+ This broad field of clouds is the home to a large variety of fantastical
+creatures, recently believed to be extinct.  Since being opened to the Mud
+players that now swarm left, right and centre, a magical dweomer has been 
+placed on this place, known as 'RESET'.  This ensures that the species of
+animals never found anywhere in reality are in abundant supply in Dreamplace.
+~
+121 0 2
+D0
+Outside a Portal
+~
+~
+0 0 12153
+D1
+Cloud Field
+~
+~
+0 0 12157
+D2
+Cloud Field
+~
+~
+0 0 12159
+S
+#12157
+Cloud Field~
+ You stand in a broad filed of clouds.  Small insectile creatures zip and zing
+around your head, and you duck in a futile attempt to get away from them.
+This is what happens to all those swear words that Mud players carelessly
+gossip around, reaching the cloud field and reacting with the powerful magic
+field that surrounds this area.  You can go in any direction except up and
+down.
+~
+121 0 2
+D0
+Cloud Plateau
+~
+~
+0 0 12154
+D1
+Cloud Field
+~
+~
+0 0 12158
+D2
+Cloud Field
+~
+~
+0 0 12160
+D3
+Cloud Field
+~
+~
+0 0 12156
+S
+#12158
+Cloud Field~
+ You've reached one edge of the cloud field, and you can see a long fence
+made out of what appears to be jellybeans that bars your way east.  You can
+go either north, south, or west.
+~
+121 0 2
+D0
+Outside a Portal
+~
+~
+0 0 12155
+D2
+Cloud Field
+~
+~
+0 0 12161
+D3
+Cloud Field
+~
+~
+0 0 12157
+S
+#12159
+Cloud Field~
+ You stand amongst a teeming set of clouds that whip and churn about your
+ankles.  Several of the stranger denizens lope about here looking just a 
+little disturbingly more intelligent than you.  You can go east, south and
+north.
+~
+121 0 2
+D0
+Cloud Field
+~
+~
+0 0 12156
+D1
+Cloud Field
+~
+~
+0 0 12160
+D2
+Outside the Portal
+~
+~
+0 0 12162
+S
+#12160
+Cloud Field~
+ You are standing in the shadow of a massive pillar of cloud which reaches up
+farther than you can ever hope to see.  It has a small sign pinned to it.  You
+can go in any direction but south, as the massive pillar kind of impedes your 
+movement in that direction.
+~
+121 0 2
+D0
+Cloud Field
+~
+~
+0 0 12157
+D1
+Cloud Field
+~
+~
+0 0 12161
+D3
+Cloud Field
+~
+~
+0 0 12159
+E
+sign~
+
+  +----------------------+
+  | This is one of the   |
+  | Pillars of Heaven.   |
+  | Although you haven't |
+  | reached heaven yet,  |
+  | you are about the    |
+  | closest you're going |
+  | to get while still   |
+  | alive, even if you   |
+  | ARE asleep.          |
+  +----------------------+
+~
+S
+#12161
+Cloud Field~
+ This part of the cloud field is tinted a strange burgundy color, and the air
+feels like satin.  You look down, and see, somewhat to your surprise, the
+massive words, "CATHERINE'S PLACE".  A small red fox stands here, and as you
+take a swing at it, hoping for some cheap experience, it sniggers at you and
+begins calling you strange names.  You decide to leave it alone as you see
+your weapon pass through it like a shadow.
+~
+121 0 2
+D0
+Cloud Field
+~
+~
+0 0 12158
+D2
+Outside the Portal
+~
+~
+0 0 12163
+D3
+Cloud Field
+~
+~
+0 0 12160
+E
+fox~
+ This does not seem like a normal fox to you.  It sees you watching you and 
+prances over to make fun of you.
+~
+S
+#12162
+Outside a Portal~
+ As you approach this area, a very light-headed feeling threatens to overwhelm
+you.  You gaze distractedly around and realise you are standing on thin air.
+You are entirely uncertain as to whether or not you are falling, because you 
+can see nothing either up nor down, but the absence of rushing wind and a total
+lack of freezing, gutwrenching panic seems to hint toward the fact that you are
+simply standing in nothing, rather than falling through it.  You slowly start
+to become aware of a portal made of, well, nothing, opening in the, ummm,
+nothingness.  To the north and east there are two paths suddenly existing, and
+you think you can make it to the portal if you go down.
+~
+121 0 2
+D0
+Cloud Field
+~
+~
+0 0 12159
+D1
+Outside a Portal
+~
+~
+0 0 12163
+D5
+Inside the Portal of Air
+~
+~
+0 0 12173
+S
+#12163
+Outside a Portal~
+ Walking along, minding your own business, you are startled to find that the
+ground has decided to take a short trip from the thing that passes for reality
+in this strange zone, and you are now floating in a wet-feeling patch of
+firmament.  This must be what the spaces in the Mud are like before some bored
+Wiz comes along and re-enacts the Act Of Creation (y. -143000000 B.C.).  To
+the north and the west you can get out of the firmament.  Below you, whistling
+nonchalantly, is a blueish-aqua colored portal that seems to go somewhere.
+Upon seeing you it winks, and beckons you in.
+~
+121 0 2
+D0
+Cloud Field
+~
+~
+0 0 12161
+D3
+Outside a Portal
+~
+~
+0 0 12162
+D5
+The Spiral's Entrance
+~
+~
+0 0 12164
+S
+#12164
+The Spiral's Entrance~
+ Oh my god!!!  YOU'RE DROWNING!!!  You've stepped unwittingly into a huge body
+of water...  but just a second!  You're BREATHING!!!  How can this be?  Oh, 
+that's right, Dream Logic.  You stand in the border realm of the Elemental 
+Plane of Water, a massive ocean with no surface and no bottom.  A magic bubble
+has formed around you, allowing perfect breathing and easy movement.  Suddenly
+and without warning, a massive whirlpool forms below you, churning and turning
+and - no, it CAN'T be - stopping?!?  What results from this wierd behaviour is
+a huge spiral tunnel extending south, a much larger tunnel of air, and a total
+and complete distrust of water.  You can go up through the portal, or south 
+along the spiral.
+~
+121 149 6
+D2
+Down the Watery Spiral
+~
+~
+0 0 12165
+D4
+Outside the Portal
+~
+~
+0 0 12163
+S
+#12165
+The Watery Spiral~
+ You stand in a massive spiral of water, something like a corridor.  Ahead of
+you, you see a small fish leap from one side of the corridor through the
+unexpected air and clear through to the other side.  It turns, looks at you
+a little startled, and swims off.  The thought that fish can get through the 
+spiral is a little unnerving - you saw a few large sharks around before.
+~
+121 1 6
+D0
+Up the Watery Spiral
+~
+~
+0 0 12164
+D2
+Down the Watery Spiral
+~
+~
+0 0 12166
+S
+#12166
+The Watery Spiral~
+ You see here a sight you thought could never occur - the little hopping
+figments are around here too!  They hop through the corridor of water quite
+happily, and you could swear you see one or two of them carrying surfboards
+and wearing what appears to be Floaties.  You can go north or east.
+~
+121 1 6
+D0
+Up the Watery Spiral
+~
+~
+0 0 12165
+D1
+Down the Watery Spiral
+~
+~
+0 0 12167
+S
+#12167
+The Watery Spiral~
+ You are further down the spiral, and apart from the odd penguin or two, and
+a figment here and there, you don't see much apart from water.
+~
+121 1 6
+D1
+Down the Spiral
+~
+~
+0 0 12168
+D3
+Up the Spiral
+~
+~
+0 0 12166
+S
+#12168
+The Watery Spiral~
+ You've reached a bend in the spiral.  A few penguins here look a bit bemused
+by your presence, but they seem quite willing to leave you alone.
+~
+121 1 6
+D0
+Down the Watery Spiral
+~
+~
+0 0 12169
+D3
+Up the Watery Spiral
+~
+~
+0 0 12167
+S
+#12169
+The Watery Spiral~
+ This spiral is HUGE!  You keep on plodding, but see a couple of shadowy shapes
+in the water beyond the spiral wall.  They are near invisible, but their 
+movement betrays them.  They seem rather big, and they do, frankly, scare you a
+bit.  You decide to leave this bit of the spiral quickly.
+~
+121 1 6
+D0
+Down the Watery Spiral
+~
+~
+0 0 12170
+D2
+Up the Watery Spiral
+~
+~
+0 0 12168
+S
+#12170
+The Watery Spiral~
+ The shadowy shapes seem a little more numerous here, but you can't be sure.
+They seem to look in at you, and the occasional fish is always sure to avoid
+these patches of moving water.  Further down the spiral, it seems to get a bit
+lighter.
+~
+121 1 6
+D2
+Up the Watery Spiral
+~
+~
+0 0 12169
+D3
+Down the Watery Spiral
+~
+~
+0 0 12171
+S
+#12171
+The Watery Spiral~
+ You've almost reached the end of the spiral, and you can see a set of stairs
+to the south made, like everything else here, out of water, leading to a wide 
+open space.  You can go south down the stairs or east out of the spiral.
+~
+121 1 6
+D1
+Up the Watery Spiral
+~
+~
+0 0 12170
+D2
+The Bottom of the Watery Spiral
+~
+~
+0 0 12172
+S
+#12172
+The Bottom of the Spiral~
+ Coming down the stairs, you step into a huge area of water, and find that even
+without the protection of the bubble you can breathe.  You stand in front of a
+tremendously big pair of gates, which seem to be automatic.  You assume they
+are at any rate, because there is a sign hanging on them saying OUT OF ORDER.
+The only way out seems to be up.
+~
+121 1 6
+D4
+Up the Watery Spiral
+~
+~
+0 0 12171
+S
+#12173
+Inside the Portal of Air~
+ You've stepped through the portal and onto a long, broad path that spirals
+downwards through the air, to an unseeable target below...  You are in the
+border realm of the Elemental Plane of Air, and that is all you see for as far
+as you can see.  This is one enormous sky with no end in any direction, with
+only a few floating platforms of solidified rock-like air, on which entire
+cities have been built by this border-plane's inhabitants.  You look around 
+and shrug - it seems like the only place to go is either through the portal 
+again, or down this path, to the south.
+~
+121 148 2
+D2
+Along the Crystal Path
+~
+~
+0 0 12174
+D4
+Outside the Portal
+~
+~
+0 0 12162
+S
+#12174
+Along the Crystal Path~
+ You stand on a path made of pure crystal, that spirals downward into space,
+towards a platform of rock that looks tiny from up here.  You can see bare
+space all around, and you think that it'd possibly be a dumb thing if you got
+bored with the path and went wandering sideways.  You can go north up the path
+or, er, south, down the path.
+~
+121 0 2
+D0
+Inside the Portal
+~
+~
+0 0 12173
+D2
+The Crystal Path
+~
+~
+0 0 12175
+S
+#12175
+The Crystal Path~
+ As you walk along this path, you get a sense of paranoia, as if someone were
+watching you.  Looking out to the far distance, you see a tiny window opened up
+in the endless sky, and through that window you catch a glimpse of a small room
+with a set of lawn chairs, a pack of savage ears, and a small waiter robot in
+it.  There seems to be a solitary figure on one of the lawn chairs dressed 
+totally in black.  He turns, and winks at you...
+ Shaking yourself, you turn and look up and down the spiralling path of crystal.You can go North, or west.
+~
+121 0 2
+D0
+Along the Crystal Path
+~
+~
+0 0 12174
+D3
+The Crystal Path
+~
+~
+0 0 12176
+S
+#12176
+The Crystal Room~
+ You are trekking down a long crystal slope that seems to have no end.  You
+really don't like this place anymore.  The odd Pegasus that swoops past
+singing, 'My name's Pegasus...  My name means HORSE...' doesn't cheer you up.
+It's peaceful here, maybe too peaceful for your brutal killer instincts.
+You can go east or west.
+~
+121 0 2
+D1
+The Crystal Path
+~
+~
+0 0 12175
+D3
+The Crystal Path
+~
+~
+0 0 12177
+S
+#12177
+The Crystal Path~
+ You're STILL on this bloody path.  You can go either north into the spiral
+or east out of it.
+~
+121 0 2
+D0
+The Crystal Path
+~
+~
+0 0 12178
+D1
+The Crystal Path
+~
+~
+0 0 12176
+S
+#12178
+The Crystal Path~
+ A conglomeration of white Pegasi swim through the air around here, and the
+mere sight of them gives you a bit of heart.  You are near to the platform
+of rock now, and you can clearly see a large city on it.  The platform is
+a lot bigger than you thought.  You can see vague shapes down below.
+~
+121 0 2
+D0
+The Entrance to the City
+~
+~
+0 0 12179
+D2
+The Crystal Path
+~
+~
+0 0 12177
+S
+#12179
+Entrance to the City of Air~
+ You step off the Crystal Path and lightly onto the platform of rock, and here
+before you is a huge archway of tuna cans.  On each of them there seems to be a
+small inscription about a story of a God involving a goat and a hang glider, but
+you pay it no heed.  The city beyond the archway seems to be interesting, but
+to the east you see a large gate that seems securely closed.  You can go east
+towards the gate or south up the spiral again.
+~
+121 0 2
+D1
+Gate of the City
+~
+~
+0 0 12180
+D2
+The Crystal Path
+~
+~
+0 0 12178
+S
+#12180
+The Gate of the City of Air~
+ You stand before a massive gate, made of the purest clear amethyst crystal, 
+and the mere sight of it awes you.  Beyond it there is a beautiful City full
+of wonder and magic, and big blue guys flying around in turbans.  You can go 
+back to the archway by going west.
+~
+121 0 1
+D3
+Entrance to the City
+~
+~
+0 0 12179
+S
+#12181
+The Pits of Everfall~
+You are in the pits of Everfall.  You must have been PRETTY BAD to be put in
+here.  I'd call for someone to summon you out, if I were you.
+~
+121 224 2
+D5
+The Pits of Everfall
+~
+~
+0 0 12181
+S
+#12182
+The Mouth of a Spiral of Fire~
+ You have entered in on the borderlands of the Elemental Plane of Fire, kind of
+like halfway between here and Hell.  To your west you can see a massive Spiral
+made of fire, and to your complete surprise you HAVEN'T been burnt to a crisp.
+This doesn't even make you wonder when you start to think about it... after all
+this IS a world based on Dream Logic.  Going up on a stairway of fire you can
+reach the Portal.
+~
+121 0 2
+D4
+Outside the Portal of Fire
+~
+~
+0 0 12153
+D5
+Into the Spiral of Fire
+~
+~
+0 0 12183
+S
+#12183
+Into the Firey Spiral~
+ You have stepped into a spiral of purest fire, and tiny, incandescent flames
+leap and fly into space all around you.  This is better than ANYTHING that
+Steven Spielberg could come up with!  Faces and forms well up in the hellish
+miasma and melt into memory just as fast.  The spiral continues downwards.
+~
+121 0 2
+D4
+The Mouth of the Firey Spiral
+~
+~
+0 0 12182
+D5
+Inside a Spiral of Fire
+~
+~
+0 0 12184
+S
+#12184
+Firey Spiral~
+ Deeper and deeper you go into this hellish spiral, and more and more do the
+images and forms in the walls of this firey spiral look more and more real.
+A massive flaming horse leaps from this side, and a huge snake composed 
+entirely of sparks, hissing like none other, assaults you from the other.
+Looking downwards, you see more spiralling fire, and you see, well, pretty
+much the same looking upwards.
+~
+121 0 2
+D4
+The Firey Spiral
+~
+~
+0 0 12183
+D5
+Deeper Into the Flames
+~
+~
+0 0 12185
+S
+#12185
+Deeper into the Flames...~
+ You are in a veritable sea of flames, and to your left you see a huge flaming
+stable, filled with firey hay and flaming stablehands, and (this is the bit 
+that makes you pause) several large black Pegasi.  You can go either up, or 
+down.
+Admittedly, it's not much of a choice, but it's better than getting stuck in a
+room with a huge flying horse with an attitude problem and NO DOORS, isn't it?
+~
+121 0 2
+D4
+The Firey Spiral
+~
+~
+0 0 12184
+D5
+Yet More Fire
+~
+~
+0 0 12186
+S
+#12186
+Yet More Fire~
+ You know, this area would get REALLY monotonous if it wasn't for the fact that
+the walls of this corridor were made from greenish and blueish flames, done in
+a way so as to suggest a corridor wallpapered with parrots.  Parrots on fire,
+true, but parrots nonetheless.  You see a face on, or rather IN, the wall.
+Looking over at it, you see it notice you and form itself into an odd symbol:
+
+:)
+
+ A huge hand reaches out, wrenches your head onto its side, and you realise 
+where you've seen this symbol before.
+~
+121 0 2
+D4
+Firey Spiral
+~
+~
+0 0 12185
+D5
+A Corridor of (you guessed it) Fire
+~
+~
+0 0 12187
+S
+#12187
+The Corridor Of (not more...) Fire~
+ Despite your greatest fears, you realise this corridor of fire DOES, in fact, 
+END.  You realise this because a small sign pinned to a conveniently placed
+piece of fire next to you says, 'Don't worry, this place DOES end.  Below you
+is a large platform of Brimstone.'  It has got to be the first time you've
+heard a sign talk but, looking below you, you see that the sign is indeed right.
+~
+121 0 2
+D4
+The Firey Spiral
+~
+~
+0 0 12186
+D5
+The Platform Of Brimstone
+~
+~
+0 0 12188
+S
+#12188
+The Platform Of Brimstone~
+ You stand on a platform of Brimstone, and the stench is INCREDIBLE!!  You
+look to your left and see, beyond all probability, a towering gate made of
+pieces of light blue sponge, like the kind you get in bathrooms.  It looks
+kind of locked.  You can only go up, as the room beyond the gate doesn't 
+exactly exist right now.
+~
+121 0 2
+D4
+Above the Platform
+~
+~
+0 0 12187
+S
+#12189
+The Room Of Eternal Dreams~
+ You are in the Room of Eternal Dreams.  It is filled with pillows and doonas
+as far as you can see.  Most of the inhabitants in this room are gathering 
+cobwebs, as they seem to have been frozen into stasis and put here to ponder
+and dream about their sins.  You see one figure with a sign above its head
+that says 'Men-'-something.  Looking over THERE, you see a sign above a small
+animal that says, 'The Possibility of Cat'.  There aren't many exits, there
+being, well, NONE at last count.
+~
+121 44 2
+S
+#12190
+The Entrance to the Earthen Tunnel~
+ You've stepped through the unlikely looking portal, and into a large, rounded
+tunnel in bare rock and earth.  It is pitch black in here, but as your eyes 
+adjust to the light shed by your lantern, you see a message scratched into one
+of the tunnel walls;  WELCOME TO THE BORDER PLANE OF EARTH.  HAVE A NICE DAY.
+The tunnel goes downwards, and you can walk up the wall to reach the portal 
+that affirms its oddity by hanging temptingly above your head.
+~
+121 145 0
+D4
+Outside the Portal
+~
+~
+0 0 12155
+D5
+Inside a Tunnel In the Earth
+~
+~
+0 0 12191
+S
+#12191
+Into the Tunnel of Earth~
+ You are travelling down a tunnel that is lined on both sides with rock and
+earth, and it is both dark and hot here.  You see an occasional glimmer as 
+the tunnel seems to cross an open vein of silver or some other metal, but you
+don't think you can get at any of it.  The tunnel continues downwards and up.
+~
+121 1 0
+D4
+Next to the Portal
+~
+~
+0 0 12190
+D5
+The Tunnel of Earth
+~
+~
+0 0 12192
+S
+#12192
+The Tunnel~
+You are still going down the same tunnel, and looking around in the gloom of
+this subterrainean environment you see little creatures and gem-like gleams
+from all angles.  Down the tunnel, your torchlight gleams sharply off a 
+metallic surface that appears without warning.  You can go down to investigate
+or back up the tunnel.
+~
+121 1 0
+D4
+The Tunnel of Earth
+~
+~
+0 0 12191
+D5
+The Tunnel's Turn
+~
+~
+0 0 12193
+S
+#12193
+The Turn in the Tunnel~
+ You are almost stunned as you reach this part of the tunnel.  The light from
+your lantern is being reflected from all angles with an almost painful 
+intensity, shining off the purest silver that runs all throughout the walls 
+here.  You consider chipping off some silver from a wall but, considering that
+the tunnel is the only hope of getting back to the DreamPlace dimension, you
+think twice about starting your own mining expedition.  You can go west from
+here, or up.
+~
+121 1 0
+D3
+Along the Tunnel
+~
+~
+0 0 12194
+D4
+The Tunnel of Earth
+~
+~
+0 0 12192
+S
+#12194
+Along the Tunnel~
+ The silver receeds here, but within the walls you now see a mass of emeralds,
+gleaming with a green glow in the dark.  You look around, and see the only two
+exits are east to the Turn, and west.
+~
+121 1 0
+D1
+The Tunnel's Turn
+~
+~
+0 0 12193
+D3
+Further Along the Tunnel
+~
+~
+0 0 12195
+S
+#12195
+Higher Gallery of Faces~
+ Further down the tunnel, you still can see no sign of it ending.  You know it
+must, but you don't know when.  A sudden groan catches your attention, and 
+looking at one of the walls you see a massive face carved into the stone.  A
+noble face, it shows bearing and majesty.  A small inscription below it 
+proclaims it to be 'PlanetMaster'.  Another two by it are named 'The Curious'
+and 'HugLord', followed by 'The Titleless'.  You can see more further along the tunnel.
+~
+121 1 0
+D1
+Along the Tunnel
+~
+~
+0 0 12194
+D3
+Another Stretch of Tunnel
+~
+~
+0 0 12196
+S
+#12196
+Lower Gallery of Faces~
+ More carvings have been made here, these ones being full length.  The first 
+you see is a dark man, carved from black onyx.  His inscription says, 'The 
+DarkLord'.  The next figure is smaller, quicker-looking.  He bears a lightning
+bolt in one hand, and his inscription says, 'The Insane'.  Along still, a tall
+man stand defiantly, a stately bird carved from the blackest of opals sitting 
+on his shoulder.  His inscription is, 'DreamLord'.  Another figure is named
+'The Destroyer', another bears the instruction, 'Harken to He'.  Yet another,
+'The Happy', another 'The Clubber', and another 'JJ', and also 'CarpetLord'.
+'The Knight' also features.  You can continue east into a small room, or west
+out of here.
+~
+121 1 0
+D1
+The Higher Gallery of Faces
+~
+~
+0 0 12195
+D3
+A Room
+~
+~
+0 0 12197
+S
+#12197
+The Room~
+ You have reached the Tunnel's end.  From here the only exits are into the
+tunnel again, and through a large gate, which seems to be held shut by iron
+chains.  Only a few figures are carved here, the most notable being a small,
+attractive lady dressed in a feathered tribal outfit and bearing a falcon on
+her arm.  Her inscription reads, 'The BirdLady'.
+~
+121 1 0
+D1
+The Lower Gallery of Faces
+~
+~
+0 0 12196
+S
+#12198
+The Spa of the Gods~
+ You are in an enormous room, filled with hot, humid air and steam.  Although
+this room can only hold about fifty people, due to a freak accident involving
+a spaceship and a thought-powered broom closet, there are currently 3,674,920
+Gods and Immortals lounging around looking relaxed and sweaty.  You can exit 
+west to the Pool, or up to the Observation Room.
+~
+121 1024 2
+D3
+DreamPlace Pool
+~
+~
+0 0 12199
+D4
+DreamPlace Observation Room
+~
+~
+0 0 12100
+S
+#12199
+The DreamPlace Pool~
+ You are lounging around in an enormous pool which, due to a twist of dream
+logic, contains a large number of alien-looking creatures playing pool.  This
+somehow fails to surprise you.  You can see a small creature in the corner 
+looking bored, but he also looks quite boring, so you let him be.
+~
+121 1032 1
+D1
+DreamPlace Spa
+~
+~
+0 0 12198
+S
+#99999
+$~

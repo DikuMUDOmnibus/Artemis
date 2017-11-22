@@ -1,0 +1,318 @@
+#21100
+key jail~
+a jail key~
+A jail key has been carelessly left here.~
+~
+18 m a
+0 0 0 0 
+1 0 10
+E
+key jail~
+This is the key to the jail of Zedd Town.
+~
+#21101
+agiel~
+a agiel~
+A agiel has been left here.  Looks pretty dangerous.~
+~
+5 0 an
+0 4 6 10
+12 25000 17000
+E
+agiel~
+This is a very deadly weapon, mainly used in the torture chambers to maim and kill.
+~
+A
+1 -1
+A
+18 -2
+#21102
+rusty mail boots~
+a pair of rusty mail boots~
+A pair of rusty mail boots are on the floor.~
+~
+9 0 ag
+1 0 0 0 
+2 50 1
+E
+rusty mail boots~
+These are very old and rusted. They still have some life left in them though.
+~
+#21103 
+mail boots~
+a pair of mail boots~
+A pair of mail boots are on the ground.~
+~
+9 0 ag
+2 0 0 0
+14 60 20
+E
+mail boots~
+These are studded chain covered boots!
+~
+#21104
+stiched leather pants~
+a pair of stiched leather pants~
+A pair of stiched leather pants is lying on the ground.~
+~
+9 0 af
+2 0 0 0
+8 150 30
+#21105
+smelly shirt~
+a smelly shirt~
+A smelly shirt is lying on the ground.~
+~
+9 0 ad 
+1 0 0 0 
+10 200 10
+#21106
+wollen coat~
+an wollen~
+An wollen was thrown on the ground here.~
+~
+11 0 ad
+0 0 0 0
+20 500 50
+A
+17 -4
+#21107
+wollen pants~
+a pair of wollen pants~
+A pair of wollen pants  has been left here.~
+~
+9 0 af
+1 0 0 0
+8 150 10
+#21108
+shoulder spikes~
+a pair of shoulder spikes~
+A pair of shoulder spikes is sitting here.~
+~
+11 0 ac
+0 0 0 0 
+50 5000 1000
+A
+17 -5
+#21109
+gnarled branch~
+a gnarled branch~
+A gnarled branch is lying here.~
+~
+5 0 an
+0 2 6 7
+10 1000 4000
+E
+gnarled branch~
+This looks and feels like a good item to hit somone with.
+~
+A
+19 2
+#21110
+spiked club~
+a spiked club~
+A spiked club is has been left here.~
+~
+5 g an
+0 1 6 7
+6 600 400
+E
+spiked club~
+Just like the ones used to beat any wrong doer!
+~
+A
+19 1
+#21111
+spiny knife~
+a spiny knife~
+A spiny knife has been dropped here.~
+~
+5 0 an
+0 2 3 11
+6 60 400
+E
+spiny knife~
+If you are using this, you are probably a mugger.
+~
+#21112
+sawtooth mace~
+a sawtooth mace~
+A long sawtooth mace is lying on the ground.~
+~
+5 0 ap
+0 3 3 2
+10 300 400
+#21113
+metal rod~
+a metal rod~
+A metal rod is lying on the ground.~
+~
+5 0 an
+0 2 6 3
+20 500 1000
+E
+metal rod~
+A long piece of metal that must have been droped by the blacksmith.
+~
+#21114
+dildo silver~
+a silver dildo~
+A silver dildo is vibrating on the ground.~
+~
+5 b ap
+0 1 4 11
+3 160 20
+E
+silver dildo~
+As it has many uses, this fine piece of both weaponry and pleasure sure
+gets a lot of use.
+~
+#21115
+rock~
+a rock~
+A rock is lying here.~
+~
+5 0 ap
+0 1 3 3
+3 30 10
+#21116
+fish~
+a fish~
+A dead fish has been left here.~
+~
+19 0 a
+12 0 0 0
+1 10 10
+#21117
+belt rock~
+a rock belt~
+A rock belt has been left here.~
+~
+9 0 al
+2 0 0 0
+13 1000 200
+E
+rock belt~
+Another great magic invention. These belts were designed to give the wearer
+protection from falling rocks. 
+~
+#21118
+rock helmet~
+a rock helmet~
+A rock helmet is lying on the ground.~
+~
+9 0 ae
+5 0 0 0 
+6 1500 500
+E
+rock helmet~
+A strange head protection device used by the workers.
+~
+#21119
+axe flaming~
+a flaming axe~
+A flaming axe lies here.~
+~
+5 0 an
+0 2 4 3
+10 50 150
+#21120
+turnip~
+a turnip~
+A turnip is here, waiting to be eaten.~
+~
+19 0 a
+5 0 0 0 
+1 5 5
+#21121
+lobster~
+a lobster~
+A lobster is here, ready to be eaten.~
+~
+19 0 a
+24 0 0 0
+1 25 25
+#21122
+potato~
+a potato~
+A potato has been left here.~
+~
+12 0 a
+12 0 0 0
+1 15 5
+#21123
+pretzel~
+a pretzel~
+A pretzel is here.~
+~
+15 0 a
+18 0 0 0 
+1 18 10
+#21124
+bottle~
+a bottle~
+A bottle for drinking is here.~
+~
+17 0 a
+4 4 15 0
+1 20 10
+#21125
+jug~
+a jug~
+A jug of iced tea is here.~
+~
+17 0 a
+2 2 11 0
+1 10 6
+#21126
+milk jug~
+a jug~
+A jug of milk is here.~
+~
+17 0 a
+2 2 10 0
+1 15 7
+#21127
+hoagie~
+an hoagie~
+An hoagie is sitting here.~
+~
+19 0 a
+11 0 0 0
+1 18 9
+#21128
+jacket mail~
+a mail jacket~
+A mail jacket is lying here.~
+~
+9 0 ad
+2 0 0 0
+3 100 33
+#21129
+pendant neck~
+a pendant for your neck~
+A pendant has been left here.~
+~
+9 0 ac
+2 0 0 0
+1 25 10
+E
+pendant neck~
+This is a strange pendant with a long chain. The pendant depicts a cross of a 
+sword and dagger interlocked over a shield.
+~
+#21130
+magical orb~
+a magical orb~
+A magical orb is on the ground.~
+~
+3 g aco
+8 5 5 4
+24 1500 5000
+E
+magical orb~
+This magical orb is more confusing than any item you have ever seen.
+Since when did an orb have a golden chain on it.
+~
+#99999
+$~

@@ -1,0 +1,39 @@
+*
+*
+*   Hi to anyone concerned.  This is Raven speaking from the interior
+* of a Dos editing program... and this is about my Zone, DreamPlace.
+*
+* Zone #  - 121
+* Rooms   - 100
+* Mobiles - 24
+* Items   - 11
+*
+*   This is a Zone based around the concept of dream logic, and as such
+* contains much which is downright wierd.  The PC entering it will be 
+* faced with a number of wildly diverse mobs, one of the first being the
+* Receptionist of DreamPlace.  This Mob is not intended to be a renting
+* receptionist, but is intended to enhance the atmosphere of a hotel or,
+* more specifically, some form of building, and this atmosphere enhances
+* the surprise the PC experiences when, going through two double doors,
+* they find themselves in a large plain.
+*   The most powerful mobs in this Zone are the three Avatars, level 101
+* critters in remote areas of the zone.  These are intended to keep the 
+* level 45+ PC's VERY busy.  The plain itself contains many low-level mobs
+* (the figments) which are easy pickings, and the forest contains quite a
+* few medium-level mobs (leeches, the unicorn, sprites and dryads, etc.).
+* The 20-30 level PC's are catered for by mobs such as the pegasi (both
+* holy and doom), and a higher level mob is the Sandman (well, this IS a
+* dream zone!).
+*   Many of the mobiles in this zone are hard-hitting or unusually difficult
+* to hit, but each has its own weakness (hard-hitters have bad AC and hard-
+* to-hit critters don't obliterate if they so much as breathe on you).  
+*   There are not many items in the Zone, but those there are, are almost
+* novelty items, yet not toys.  The unicorn's horn is a good example of this.
+*
+*  There is, I must admit, not really all that much left to say but, have a
+* look at it and decide for yourself.
+* 
+*  HAVE FUN, AND DREAM ON!!!!!
+*  Raven.
+*
+*

@@ -1,0 +1,710 @@
+#10101
+Welcome to Artemis MUD~
+   You have entered a room with a high roof supported by large marble arches.
+The feeling of disorientation slowly leaves you and you notice a woman in a 
+black robe standing beside you.
+
+Erydian says, 'Welcome to Artemis MUD my friend.'
+
+Erydian smiles happily at you and gives you some armour and a weapon.
+
+Erydian says, 'You have entered the halls of training. Travel through here as
+you please and I shall follow and instruct you in the ways of this world.'
+
+Erydian makes a magical guesture and a door appears to the west. Erydian walks
+towards the door and beckons you to follow.
+~
+101 f 0
+D1
+This leads to your first lesson.~
+~
+0 -1 10102
+S
+#10102
+The First Lesson~
+   This room is very plain in comparison to the huge chamber you just left.
+There is a stone tablet in the centre of the room and a small bubble floats
+in the air. You notice an exit to the east.
+
+Erydian says, 'Before you can go forth into the full world of Artemis, you 
+must learn the commands.'
+
+Erydian points to a stone tablet in the centre of the room and says, 'look at
+the tablet and understand what it says. If you need more help with the 
+lesson, look at the bubble.'
+
+Erydian says, 'When you are ready, the second lesson is to the east.'
+~
+101 f 0
+E
+stone tablet~
+Basic commands to control your character:
+
+    inventory        : shows the items you are carrying
+
+    equipment        : shows the equipment you are wearing
+
+    wear/hold/wield  : wear a piece of armour
+                       hold a piece of equipment
+                       wield a weapon
+ 
+   Use these commands to use the basic equipment you have been given. If you
+still need more help, look at the bubble.
+
+   Two other useful commands are:
+
+        display all      : puts your current stats next to your prompt
+        autoex           : shows the exits available in a room
+
+   It is best if you use these two commands now.
+~
+E
+bubble~
+   Type these commands to use your equipment:
+
+                   wear all
+                   wield short
+~ 
+D1
+This leads to your second lesson.~
+~
+0 -1 10103
+S
+#10103
+The Second Lesson~
+   This room is just as bare as the previous room. It has exits to the east
+and the west and there is a stone tablet in the centre of the room.
+~ 
+101 f 0
+E
+stone tablet~
+   In Artemis, you become hungry and thirsty just as you do in other worlds.
+Hunger and thirst does not cause death here but it will affect the way you 
+heal and move. You will need to eat and drink when you are hungry and thirsty.
+
+   You have been provided with some meager rations while you are in the 
+training halls. When you enter the world of Artemis, you will need to buy food
+or compete for it with the other inhabitants.
+
+   The commands you will need are:
+
+      eat <something>      : eat some food
+      drink <container>    : quench your thirst
+      fill                 : to refill your canteen when it becomes empty
+
+   Use the inventory command that you learned previously to see what you 
+can eat and drink.
+~
+E
+bubble~
+   Type these commands to eat and drink:
+
+            eat meat
+            drink canteen
+~
+D1
+This leads to the room of the guilds.~
+~
+0 -1 10104
+D3
+This leads back to the first lesson.~
+~
+0 -1 10102
+S
+#10104
+Room of the Guilds~
+   There are exits leading in all directions in this room. Erydian 
+arrives and smiles at you.
+
+Erydian says, 'You must learn the ways of your class.'
+
+Erydian points to the various doors in the room and says, 'Look in the 
+direction of the doors to see which room you should enter (eg. look down).'
+
+Erydian says, 'When you are ready, return here and go to the east.'
+~
+101 f 0
+D0
+If you are a cleric, enter this room.~
+~
+0 -1 10105
+D1
+When you have visited your guildmaster, exit through this door.~
+~
+0 -1 10109
+D2
+If you are a mage, enter this room.~
+~
+0 -1 10106
+D3
+This leads back to the previous lesson.~
+~
+0 -1 10103
+D4
+If you are a warrior, enter this room.~
+~
+0 -1 10107
+D5
+If you are a thief, enter this room.~
+~
+0 -1 10108
+S
+#10105
+The Cleric Master~
+   This is the room for those who have chosen the class of cleric. If you did
+not choose this class, please try another room.
+
+The Guildmaster smiles at you.
+
+The Guildmaster says, 'Clerics are trained in the art of healing and 
+protecting. You will need to practice the spells you have been given.'
+
+The Guildmaster points to the stone tablet in the centre of the room.
+~ 
+101 f 0
+E
+stone tablet~
+   The command you need to practice a spell is
+
+             practice       : funnily enough
+
+   Typing practice will show you which spells you can learn. You will need to
+practice more than once to become proficient in a spell.
+   
+   If you need more help, look at the bubble.
+~
+E
+bubble~
+   Type these commands to practice a spell:
+
+               practice
+               practice armor
+~
+D2
+You see the room of the guilds.~
+~
+0 -1 10104
+S
+#10106
+The Magic Master~
+   This is the room for those who have chosen the class of the mage or magic
+user. If you did not choose this class, please try another room.
+
+The Guildmaster smiles at you.
+
+The Guildmaster says, 'Mages are trained in the art of casting damaging spells.
+These spells can be very destructive and you will need to practice the spells
+you have been given.
+
+The Guildmaster points to the stone tablet in the centre of the room.
+~
+101 f 0
+E
+stone tablet~
+   The command you will need to practice a spell is:
+
+             practice            : funnily enough
+
+   Typing practice will show you which spells you can learn. You will need to
+practice more than once to become proficient in a spell.
+
+
+   If you need more help, look at the bubble.
+~
+E
+bubble~
+   Type these commands to practice a spell:
+
+               practice
+               practice magic missile
+~
+D0
+You see the room of the guilds.~
+~
+0 -1 10104
+S
+#10107
+The Warrior Master~
+   This is the room for those who have chosen the class of the warrior. If you
+did not choose this class, please try another room.
+
+The Guildmaster smiles at you.
+
+The Guildmaster says, 'Warriors are trained to be superior in combat and have
+greater strength and attacking ability. You will need to practice the fighting
+skills you have been given.'
+
+The Guildmaster points to the stone tablet in the centre of the room.
+~
+101 f 0
+E
+stone tablet~
+   The command you will need to practice a skill is:
+
+             practice            : funnily enough
+
+   Typing practice will show you which skills you can learn. You will need to
+practice more than once to become proficient in a skill.
+
+
+   If you need more help, look at the bubble.
+~
+E
+bubble~
+   Type these commands to practice a skill:
+
+               practice
+               practice kick
+~
+D5
+You see the room of the guilds.~
+~
+0 -1 10104
+S
+#10108
+The Master of Thieves~
+   This is the room for those who have chosen the class of the thief. If you
+did not choose this class, please try another room.
+
+The Guildmaster smiles at you.
+
+The Guildmaster says, 'Thieves are trained in the art of lockpicking, sneaking
+and backstabbing. Like the warrior, thieves have great battle skills. You will
+need to practice the skills yuo have been given.'
+
+The Guildmaster points to the stone tablet in the centre of the room.
+~
+101 f 0
+E
+stone tablet~
+   The command you will need to practice a skill is:
+
+            practice             : funnily enough
+
+   Typing practice will show you the skills you can learn. You will need to
+practice more than once to become proficient in a skill.
+
+   If you need more help, look at the bubble.
+~
+E
+bubble~
+   Type these commands to practice a skill:
+
+               practice
+               practice pick lock
+~
+D4
+You see the room of the guilds.~
+~
+0 -1 10104
+S
+#10109
+A Corridor~
+   You are in a corridor leading east. To the west are the training rooms. 
+Erydian has arrived.
+
+Erydian says, 'You should now have learned a skill for your class.'
+
+Erydian says, 'If you are a cleric or a mage, you will need to cast your 
+spell using the cast command. (eg. cast 'armor').'
+
+Erydian walks down the corridor and beckons you to follow.
+~
+101 f 0 
+D1
+You see a bend in the corridor. Erydian is waiting there.~
+~
+0 -1 10110
+D3
+This leads back to the room of the guilds.~
+~
+0 -1 10104
+S
+#10110
+A Bend in the Corridor~
+   You have reached a place where the corridor bends from east to south. 
+You look behind you and see that Erydian is watching you and studying your 
+progress.
+~ 
+101 f 0 
+D2
+That is the way to your third lesson.~
+~
+0 -1 10111
+D3
+This leads back towards the room of the guilds.~
+~
+0 -1 10109
+S
+#10111
+The Third lesson~
+   You enter another bare room with a stone tablet and wait for Erydian 
+to follow you.
+
+Erydian says, 'This lesson is important and you must pay attention. You 
+will now be taught some combat skills. Look at the tablet for instructions.'
+
+Erydian says, 'When you have read and memorised the commands, the exit is 
+south.'
+~
+101 f 0
+E
+stone tablet~
+   These are commands that you will need in combat:
+
+             kill <something>     : attack something
+             assist <playername>  : assist another player
+             wimp <hitpoints>     : number of hitpoints at which to flee.
+
+   Set your wimp level now. It is a useful measure of avoiding death. You 
+should probably set your hitpoints to about one third of the total number of 
+hitpoints that you have.
+~
+D0 
+You see a bend in the corridor.~
+~
+0 -1 10110
+D2
+That is the way to your fourth lesson.~
+~
+0 -1 10112
+S
+#10112
+The Fourth Lesson~
+   You have entered yet another one of these amazingly boring rooms. This one
+however, has two exits. One leads east, and a sloping exit leads south.
+
+Erydian enters and says, 'There are certain places in Artemis that will cause
+great pain and suffering. They are known as DeathTraps and they have been 
+brought into this world by the evil gods.'
+
+Erydian points to the exit to the south.
+
+Erydian says, 'To the south is an example of a DeathTrap. It's trap has been
+disabled by the skilled among us so it is safe for you to enter. However, 
+when you enter the real world, the DeathTraps are not so kind.'
+
+Erydian pauses and then says, 'Examine the DeathTrap and then exit to the 
+west. I will be waiting.'
+~
+101 f 0
+D0
+The third lesson is back that way.~
+~
+0 -1 10111
+D2
+It looks really dangerous, but you trust Erydian.~
+~
+0 -1 10113
+D3
+That is the way to your combat training.~
+~
+0 -1 10114
+S
+#10113
+Impaled!~
+   As you enter the room, there is a small click and then great metal spears 
+shoot out of the wall. The spears collide in the centre of the room with a
+metallic squeal. When you recover from the shock, you notice a small stone
+tablet on the floor. The only exit is back to the north.
+~
+101 f 0
+E
+stone tablet~
+   The tablet reads:
+
+   Part of this DeathTrap has been disabled to let you see what happens when
+you enter one. If this had not been the case, you would now be dead and your
+equipment would be destroyed. Please be careful when exploring new areas and
+always look in the direction you are about to travel before you move. It will
+save much anguish if you are cautious.
+~
+D0
+This leads back to the fourth lesson.~
+~
+0 -1 10112
+S
+#10114
+Combat Training~
+   As you enter this room, the stench of rotting flesh and blood assaults 
+you. Erydian arrives from the west.
+
+Erydian says, 'It is now time to practice your combat skills. To the north,
+south and west, there are some creatures that we have created to aid you in
+gaining combat experience. Kill them and take the equipment from their corpses.
+Then return here and go down to receive your next lesson.'
+~
+101 f 0
+D0
+You see a small troll.~
+~
+0 -1 10115
+D1
+This leads back to the fourth lesson.~
+~
+0 -1 10112
+D2
+You see a small goblin.~
+~
+0 -1 10116
+D3
+You see a stone guardian.~
+~
+0 -1 10117
+D5
+That is the way to the fifth lesson.~
+~
+0 -1 10118
+S
+#10115
+The Troll Room~
+   This room is normally inhabited by a troll that has been created by the 
+gods. If it is not here, be patient, the gods will create another.
+~ 
+101 f 0 
+D2
+This leads back to the combat room.~
+~
+0 -1 10114
+S
+#10116
+The Goblin Room~
+   This room is normally inhabited by a goblin that has been created by the
+gods. If it is not here, be patient, and the gods will create another.
+~ 
+101 f 0 
+D0
+This leaads back to the combat room.~
+~
+0 -1 10114
+S
+#10117
+The Stone Guardian Room~
+   This room is normally inhabited by a stone guardian that has been created
+by the gods. If it is not here, be patient and the gods will create another.
+~ 
+101 f 0 
+D1
+This leads back to the combat room.~
+~
+0 -1 10114
+S
+#10118
+The Fifth Lesson~
+   For some reason which you can't quite pinpoint, this room seems to be much
+louder than the others you have been in. You suddenly realise that you can
+hear people talking around you!
+
+Erydian enters and says, 'Up and till now, we have kept the sounds of the 
+outside world from reaching you. It is now time for you to learn how to 
+communicate with the others in Artemis.
+
+Erydian points to the stone tablet and says, 'When you are ready, leave 
+west.
+~ 
+101 0 0 
+E
+stone tablet~
+   These are the commands you can use to communicate:
+
+          say               : say something in the room you are in
+          tell <playername> : talk to one person only
+          gossip            : talk to everyone in the game (must be level 3)
+          qsay              : talk to people on the quest channel
+          auction           : be involved with an auction
+          grats             : congratulate someone
+          shout             : talk to everyone in your zone
+~ 
+D3
+This leads to the final lesson.~
+~
+0 -1 10119
+D4
+This leads back up to the combat room.~
+~
+0 -1 10114
+S
+#10119
+The Final Lesson~
+   The room you have entered has many doors that are all closed and 
+locked with huge bolts. Erydian arrives from the east.
+
+Erydian says, 'Behind one of these doors is your final challenge before 
+you can leave these halls and enter the world. You should have taken a 
+key from one of the previous combat challenges. Use this key to find the 
+way out.'
+
+Erydian points at the stone tablet and says, 'These are instructions for 
+unlocking and opening doors.'
+~ 
+101 0 0
+E
+stone tablet~
+   In a room with many doors you will need to specify the direction of 
+the door you wish to unlock or open:
+
+               unlock        : unlock door
+               open          : open door
+
+   If you need more help, look at the bubble.
+~
+E
+bubble~
+   To open and unlock a door to the north:
+
+              unlock door n
+              open door n
+~
+D0
+Hmm.. confusing. ~
+door~
+2 10101 10120
+D1
+This leads back to the previous lesson.~
+~
+0 -1 10118
+D2
+Hmm.. confusing. ~
+door~
+2 10101 10124
+D3
+Hmm.. confusing. ~
+door~
+2 10101 10121
+D4
+Hmm.. confusing. ~
+door~
+2 10101 10122
+D5
+Hmm.. confusing. ~
+door~
+2 10101 10123
+S 
+#10120
+A Totally Bare Room~
+   This room is totally bare. Looks like you took the wrong exit. Go back 
+and try another one.
+~
+101 0 0
+D2
+That leads back the way you came. ~
+door~
+2 10101 10119
+S
+#10120
+A Totally Bare Room~
+   This room is totally bare. Looks like you took the wrong exit. Go back
+and try another one.
+~
+101 0 0
+D2
+That leads back the way you came. ~
+door~
+2 10101 10119
+S
+#10121
+A Totally Bare Room~
+   This room is totally bare. Looks like you took the wrong exit. Go back
+and try another one.
+~
+101 0 0
+D1   
+That leads back the way you came. ~
+door~
+2 10101 10119
+S
+#10122
+A Totally Bare Room~
+   This room is totally bare. Looks like you took the wrong exit. Go back
+and try another one.
+~
+101 0 0
+D5   
+That leads back the way you came. ~
+door~
+2 10101 10119
+S
+#10123
+A Totally Bare Room~
+   This room is totally bare. Looks like you took the wrong exit. Go back
+and try another one.
+~
+101 0 0
+D4   
+That leads back the way you came. ~
+door~
+2 10101 10119
+S
+#10124
+The Slobbering beast~
+   Woah... looks like you went the right way as there is a huge slobbering
+beast standing in front of you and it doesn't look too happy. Better kill him
+quick before he rips your arms off, and then exit to the east.
+~ 
+101 0 0
+D0   
+That leads back to the final lesson. ~
+door~
+2 10101 10119
+D1
+You see a large door. ~
+door~
+2 10102 10125
+S
+#10125
+Final Words..~
+   You walk triumphantly through the door and find that Erydian has somehow
+arrived here before you.
+
+Erydian smiles and says, 'Well done. There are just a few minor things to 
+learn and then you may be on your way.'
+
+Erydian points at the stone tablet and leaves east.
+~
+101 0 0
+E
+stone tablet~
+   A few other commands:
+
+         junk          : destroy a piece of equipment
+         donate        : donate a piece of equipment to a good cause
+         score         : shows you your current statistics
+         who           : show the others players in Artemis
+         quit          : arrg.... :)
+         help          : heeeelp.
+~
+D1
+A man is waiting for you there.~
+~
+0 -1 10126
+D3
+This leads back towards that slobbering beast.~
+~
+2 10102 10124
+S
+#10126
+Congratulations~
+   You leave the halls and enter a large room that is very similar to the 
+entrance chamber. Erydian arrives and is joined by another person in a 
+dark green cloak. You cannot see his eyes, but he is smiling.
+
+Erydian says, 'Well done. You have survived the training halls and learnt 
+well. When you next enter Artemis, you will enter into the Temple of 
+Midgaard. If you need to return to the training halls, simply travel down 
+and then south from the temple and we will be here to help you.'
+
+Erydian smiles and says, 'It is time for you to go. Good luck.'
+
+Erydian points at a portal in the floor.
+~
+101 0 0
+D3
+This leads back towards that slobbering beast.~
+~
+0 -1 10125
+D5
+The world is shimmering below.~
+~
+0 -1 3001
+S
+$

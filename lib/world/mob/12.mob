@@ -1,0 +1,114 @@
+#1200
+innkeeper~
+the Immortal Innkeeper~
+The Immortal Innkeeper is organizing her books here.
+~
+She appears to be having no problem tallying things up.
+~
+ab p 0 S
+30 0 -10 1d49+901 4d8+5
+0 0
+8 8 2
+#1201
+postmaster master post~
+the Immortal Postmaster~
+The Immortal Postmaster is hard at work here.
+~
+Scary... a postal worker... working?
+~
+ab p 0 S
+30 0 -10 1d49+901 4d8+5
+0 0
+8 8 2
+#1202
+being amorphous spirit wandering~
+the wandering spirit~
+A strange amorphous being wanders these halls eternally cleaning.
+~
+This spirit, having lived out its days in the mortal world, now
+works off its final sins by doing menial labour in this realm's
+purgatory.  In this case, those chores seem to be cleaning up
+after the immortals of the land.
+~
+acgq dkps 0 S
+30 0 -10 1d49+901 4d8+5
+0 0
+8 8 0
+#1220
+meta man large metaphysician doctor~
+the metaphysician~
+A large man in a lab coat is standing here.
+~
+This man has a large white beard and is wearing a large
+white lab coat.
+~
+belnopqr dkp 1000 E
+34 0 -10 1d30000+1 45d99+99
+0 0
+8 8 1
+BareHandAttack:11
+Str:25
+Int: 25
+Wis: 25
+Dex: 25
+Con: 25
+Cha: 25
+E
+#1221
+barker~
+John Barker~
+John Barker is standing here.
+~
+John is a large man wearing a casino jacket.
+~
+belnopqr dkp 1000 E
+34 0 -10 1d30000+1 5d9+99
+0 0
+8 8 1
+BareHandAttack:11
+Str:25
+Int: 25
+Wis: 25
+Dex: 25
+Con: 25
+Cha: 25
+E
+#1222
+dealer~
+The Card Dealer~
+The card dealer is staning here.
+~
+The Dealer is a large man wearing a casino jacket.
+~
+belnopqr dkp 1000 E
+34 0 -10 1d30000+1 4d9+99
+0 0
+8 8 1
+BareHandAttack:11
+Str:25
+Int: 25
+Wis: 25
+Dex: 25
+Con: 25
+Cha: 25
+E
+#1223
+poker~
+The Poker Dealer~
+The poker dealer is staning here.
+~
+The Poker Dealer is a large man wearing a casino jacket.
+~
+belnopqr dkp 1000 E
+34 0 -10 1d30000+1 4d9+99
+0 0
+8 8 1
+BareHandAttack:11
+Str:25
+Int: 25
+Wis: 25
+Dex: 25
+Con: 25
+Cha: 25
+E
+$

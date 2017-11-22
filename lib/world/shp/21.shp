@@ -1,0 +1,54 @@
+CircleMUD v3.0 Shop File~
+#2105~
+2115
+2121
+-1
+1.1
+0.9
+1
+16
+19
+-1
+%s Sorry, The Management won't let me sell that.~
+%s I see no such thing on you pal.~
+%s I don't buy those mate.~
+%s I will not buy that.~
+%s You can't afford such a fine item. Go away!~
+%s Fine, that'll be %d gold pieces.~
+%s You'll get %d coins for that.~
+0
+0
+2110
+0
+2105
+-1
+0
+22
+0
+0
+#2120~
+2112
+2113
+-1
+1.1
+0.9
+5
+-1
+%s Sorry, The Management won't let me sell that.~
+%s I see no such thing on you pal.~
+%s I don't buy those mate.~
+%s I will not buy that.~
+%s You can't afford such a fine item. Go away!~
+%s Fine, that'll be %d gold pieces.~
+%s You'll get %d coins for that.~
+0
+0
+2112
+0
+2120
+-1
+0
+22
+0
+0
+$~

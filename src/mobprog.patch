@@ -1,0 +1,3534 @@
+diff -acN oldsrc/Makefile src/Makefile
+*** oldsrc/Makefile	Wed May 24 05:49:37 1995
+--- src/Makefile	Sun Aug  6 09:14:24 1995
+***************
+*** 36,44 ****
+  OBJFILES = comm.o act.comm.o act.informative.o act.movement.o act.obj.o \
+  	act.offensive.o act.other.o act.social.o act.wizard.o ban.o boards.o \
+  	castle.o class.o config.o constants.o db.o fight.o graph.o handler.o \
+! 	house.o interpreter.o limits.o magic.o mail.o mobact.o modify.o \
+! 	objsave.o olc.o random.o shop.o spec_assign.o spec_procs.o \
+! 	spell_parser.o spells.o utils.o weather.o
+  
+  default: .accepted
+  	$(MAKE) ../bin/circle
+--- 36,44 ----
+  OBJFILES = comm.o act.comm.o act.informative.o act.movement.o act.obj.o \
+  	act.offensive.o act.other.o act.social.o act.wizard.o ban.o boards.o \
+  	castle.o class.o config.o constants.o db.o fight.o graph.o handler.o \
+! 	house.o interpreter.o limits.o magic.o mail.o mobact.o mobcmd.o \
+!         mobprog.o modify.o objsave.o olc.o random.o shop.o spec_assign.o \
+! 	spec_procs.o spell_parser.o spells.o utils.o weather.o
+  
+  default: .accepted
+  	$(MAKE) ../bin/circle
+***************
+*** 169,174 ****
+--- 169,178 ----
+  mobact.o : mobact.c utils.h structs.h db.h comm.h interpreter.h handler.h \
+  	spells.h
+  	$(CC) -c $(CFLAGS) mobact.c
++ mobcmd.o: mobcmd.c structs.h utils.h comm.h interpreter.h handler.h db.h
++ 	$(CC) -c $(CFLAGS) mobcmd.c
++ mobprog.o: mobprog.c structs.h utils.h comm.h interpreter.h handler.h db.h
++ 	$(CC) -c $(CFLAGS) mobprog.c
+  modify.o : modify.c structs.h utils.h interpreter.h handler.h db.h comm.h \
+  	spells.h mail.h boards.h
+  	$(CC) -c $(CFLAGS) modify.c
+diff -acN oldsrc/act.comm.c src/act.comm.c
+*** oldsrc/act.comm.c	Tue May 23 10:47:47 1995
+--- src/act.comm.c	Sun Aug  6 09:13:50 1995
+***************
+*** 23,28 ****
+--- 23,29 ----
+  extern struct room_data *world;
+  extern struct descriptor_data *descriptor_list;
+  extern struct char_data *character_list;
++ extern void mprog_speech_trigger(char *txt, struct char_data *mob);
+  
+  ACMD(do_say)
+  {
+***************
+*** 32,37 ****
+--- 33,39 ----
+      send_to_char("Yes, but WHAT do you want to say?\r\n", ch);
+    else {
+      sprintf(buf, "$n says, '%s'", argument);
++     MOBTrigger = FALSE;
+      act(buf, FALSE, ch, 0, 0, TO_ROOM);
+      if (PRF_FLAGGED(ch, PRF_NOREPEAT))
+        send_to_char(OK, ch);
+***************
+*** 39,44 ****
+--- 41,47 ----
+        sprintf(buf, "You say, '%s'", argument);
+        act(buf, FALSE, ch, 0, argument, TO_CHAR);
+      }
++   mprog_speech_trigger(argument, ch);
+    }
+  }
+  
+diff -acN oldsrc/act.movement.c src/act.movement.c
+*** oldsrc/act.movement.c	Tue May 23 11:06:15 1995
+--- src/act.movement.c	Sun Aug  6 09:13:50 1995
+***************
+*** 33,40 ****
+  int special(struct char_data *ch, int cmd, char *arg);
+  void death_cry(struct char_data *ch);
+  int find_eq_pos(struct char_data * ch, struct obj_data * obj, char *arg);
+! 
+! 
+  
+  /* simple function to determine if char can walk on water */
+  int has_boat(struct char_data *ch)
+--- 33,40 ----
+  int special(struct char_data *ch, int cmd, char *arg);
+  void death_cry(struct char_data *ch);
+  int find_eq_pos(struct char_data * ch, struct obj_data * obj, char *arg);
+! void mprog_greet_trigger(struct char_data * ch);
+! void mprog_entry_trigger(struct char_data * mob);
+  
+  /* simple function to determine if char can walk on water */
+  int has_boat(struct char_data *ch)
+***************
+*** 146,151 ****
+--- 146,153 ----
+      extract_char(ch);
+      return 0;
+    }
++   mprog_entry_trigger(ch);
++   mprog_greet_trigger(ch);
+    return 1;
+  }
+  
+diff -acN oldsrc/act.obj.c src/act.obj.c
+*** oldsrc/act.obj.c	Tue May 23 10:48:38 1995
+--- src/act.obj.c	Sun Aug  6 09:13:50 1995
+***************
+*** 26,31 ****
+--- 26,33 ----
+  extern char *drinks[];
+  extern int drink_aff[][3];
+  
++ void mprog_give_trigger(struct char_data * mob, struct char_data * ch, struct obj_data * obj);
++ void mprog_bribe_trigger(struct char_data * mob, struct char_data * ch, int amount);
+  
+  void perform_put(struct char_data * ch, struct obj_data * obj,
+  		      struct obj_data * cont)
+***************
+*** 530,538 ****
+--- 532,544 ----
+    }
+    obj_from_char(obj);
+    obj_to_char(obj, vict);
++   MOBTrigger = FALSE; 
+    act("You give $p to $N.", FALSE, ch, obj, vict, TO_CHAR);
++   MOBTrigger = FALSE;
+    act("$n gives you $p.", FALSE, ch, obj, vict, TO_VICT);
++   MOBTrigger = FALSE;
+    act("$n gives $p to $N.", TRUE, ch, obj, vict, TO_NOTVICT);
++   mprog_give_trigger(vict, ch, obj);
+  }
+  
+  /* utility function for give */
+***************
+*** 566,574 ****
+--- 572,583 ----
+      return;
+    }
+    send_to_char(OK, ch);
++   mprog_bribe_trigger(vict, ch, amount);
+    sprintf(buf, "$n gives you %d gold coins.", amount);
++   MOBTrigger = FALSE;
+    act(buf, FALSE, ch, 0, vict, TO_VICT);
+    sprintf(buf, "$n gives %s to $N.", money_desc(amount));
++   MOBTrigger = FALSE;
+    act(buf, TRUE, ch, 0, vict, TO_NOTVICT);
+    if (IS_NPC(ch) || (GET_LEVEL(ch) < LVL_GOD))
+      GET_GOLD(ch) -= amount;
+diff -acN oldsrc/act.offensive.c src/act.offensive.c
+*** oldsrc/act.offensive.c	Tue May 23 23:07:57 1995
+--- src/act.offensive.c	Sun Aug  6 09:13:50 1995
+***************
+*** 26,33 ****
+  extern int pk_allowed;
+  
+  /* extern functions */
+! void raw_kill(struct char_data * ch);
+! 
+  
+  ACMD(do_assist)
+  {
+--- 26,32 ----
+  extern int pk_allowed;
+  
+  /* extern functions */
+! void raw_kill(struct char_data * ch, struct char_data * killer);
+  
+  ACMD(do_assist)
+  {
+***************
+*** 124,130 ****
+        act("You chop $M to pieces!  Ah!  The blood!", FALSE, ch, 0, vict, TO_CHAR);
+        act("$N chops you to pieces!", FALSE, vict, 0, ch, TO_CHAR);
+        act("$n brutally slays $N!", FALSE, ch, 0, vict, TO_NOTVICT);
+!       raw_kill(vict);
+      }
+    }
+  }
+--- 123,129 ----
+        act("You chop $M to pieces!  Ah!  The blood!", FALSE, ch, 0, vict, TO_CHAR);
+        act("$N chops you to pieces!", FALSE, vict, 0, ch, TO_CHAR);
+        act("$n brutally slays $N!", FALSE, ch, 0, vict, TO_NOTVICT);
+!       raw_kill(vict, ch);
+      }
+    }
+  }
+diff -acN oldsrc/act.other.c src/act.other.c
+*** oldsrc/act.other.c	Tue May 23 10:46:40 1995
+--- src/act.other.c	Sun Aug  6 09:13:50 1995
+***************
+*** 42,48 ****
+  
+  ACMD(do_quit)
+  {
+!   void die(struct char_data * ch);
+    void Crash_rentsave(struct char_data * ch, int cost);
+    extern int free_rent;
+    struct descriptor_data *d, *next_d;
+--- 42,48 ----
+  
+  ACMD(do_quit)
+  {
+!   void die(struct char_data * ch, struct char_data * killer);
+    void Crash_rentsave(struct char_data * ch, int cost);
+    extern int free_rent;
+    struct descriptor_data *d, *next_d;
+***************
+*** 56,62 ****
+      send_to_char("No way!  You're fighting for your life!\r\n", ch);
+    else if (GET_POS(ch) < POS_STUNNED) {
+      send_to_char("You die before your time...\r\n", ch);
+!     die(ch);
+    } else {
+      if (!GET_INVIS_LEV(ch))
+        act("$n has left the game.", TRUE, ch, 0, 0, TO_ROOM);
+--- 56,62 ----
+      send_to_char("No way!  You're fighting for your life!\r\n", ch);
+    else if (GET_POS(ch) < POS_STUNNED) {
+      send_to_char("You die before your time...\r\n", ch);
+!     die(ch, NULL);
+    } else {
+      if (!GET_INVIS_LEV(ch))
+        act("$n has left the game.", TRUE, ch, 0, 0, TO_ROOM);
+diff -acN oldsrc/act.wizard.c src/act.wizard.c
+*** oldsrc/act.wizard.c	Wed May 24 00:20:46 1995
+--- src/act.wizard.c	Sun Aug  6 09:13:50 1995
+***************
+*** 82,92 ****
+        sprintf(buf, "$n %s", argument);
+      else
+        strcpy(buf, argument);
+      act(buf, FALSE, ch, 0, 0, TO_ROOM);
+      if (PRF_FLAGGED(ch, PRF_NOREPEAT))
+        send_to_char(OK, ch);
+!     else
+        act(buf, FALSE, ch, 0, 0, TO_CHAR);
+    }
+  }
+  
+--- 82,95 ----
+        sprintf(buf, "$n %s", argument);
+      else
+        strcpy(buf, argument);
++     MOBTrigger = FALSE;
+      act(buf, FALSE, ch, 0, 0, TO_ROOM);
+      if (PRF_FLAGGED(ch, PRF_NOREPEAT))
+        send_to_char(OK, ch);
+!     else {
+!       MOBTrigger = FALSE;
+        act(buf, FALSE, ch, 0, 0, TO_CHAR);
++     }
+    }
+  }
+  
+diff -acN oldsrc/comm.c src/comm.c
+*** oldsrc/comm.c	Wed May 24 01:40:10 1995
+--- src/comm.c	Sun Aug  6 09:13:50 1995
+***************
+*** 60,65 ****
+--- 60,66 ----
+  int avail_descs = 0;		/* max descriptors available */
+  int tics = 0;			/* for extern checkpointing */
+  int scheck = 0;			/* for syntax checking mode */
++ bool MOBTrigger = TRUE;		/* For MOBProgs */
+  extern int nameserver_is_slow;	/* see config.c */
+  extern int auto_save;		/* see config.c */
+  extern int autosave_time;	/* see config.c */
+***************
+*** 96,102 ****
+  void show_string(struct descriptor_data * d, char *input);
+  int isbanned(char *hostname);
+  void weather_and_time(int mode);
+! 
+  
+  
+  /* *********************************************************************
+--- 97,103 ----
+  void show_string(struct descriptor_data * d, char *input);
+  int isbanned(char *hostname);
+  void weather_and_time(int mode);
+! extern void mprog_act_trigger(char *buf, struct char_data *mob, struct char_data *ch, struct obj_data *obj, void *vo);
+  
+  
+  /* *********************************************************************
+***************
+*** 1478,1485 ****
+    *(--buf) = '\r';
+    *(++buf) = '\n';
+    *(++buf) = '\0';
+  
+-   SEND_TO_Q(CAP(lbuf), to->desc);
+  }
+  
+  
+--- 1479,1489 ----
+    *(--buf) = '\r';
+    *(++buf) = '\n';
+    *(++buf) = '\0';
++   if (to->desc)
++      SEND_TO_Q(CAP(lbuf), to->desc);
++   if (MOBTrigger)
++      mprog_act_trigger(lbuf, to, ch, obj, vict_obj);
+  
+  }
+  
+  
+***************
+*** 1492,1499 ****
+    struct char_data *to;
+    static int sleep;
+  
+!   if (!str || !*str)
+      return;
+  
+    /*
+     * Warning: the following TO_SLEEP code is a hack.
+--- 1496,1506 ----
+    struct char_data *to;
+    static int sleep;
+  
+!   if (!str || !*str) {
+!     MOBTrigger = TRUE;
+      return;
++     }
++ 
+  
+    /*
+     * Warning: the following TO_SLEEP code is a hack.
+***************
+*** 1512,1523 ****
+    if (type == TO_CHAR) {
+      if (ch && SENDOK(ch))
+        perform_act(str, ch, obj, vict_obj, ch);
+!     return;
+    }
+    if (type == TO_VICT) {
+      if ((to = (struct char_data *) vict_obj) && SENDOK(to))
+        perform_act(str, ch, obj, vict_obj, to);
+!     return;
+    }
+    /* ASSUMPTION: at this point we know type must be TO_NOTVICT or TO_ROOM */
+  
+--- 1519,1532 ----
+    if (type == TO_CHAR) {
+      if (ch && SENDOK(ch))
+        perform_act(str, ch, obj, vict_obj, ch);
+!       MOBTrigger = TRUE;
+!       return;
+    }
+    if (type == TO_VICT) {
+      if ((to = (struct char_data *) vict_obj) && SENDOK(to))
+        perform_act(str, ch, obj, vict_obj, to);
+!       MOBTrigger = TRUE;
+!       return;
+    }
+    /* ASSUMPTION: at this point we know type must be TO_NOTVICT or TO_ROOM */
+  
+***************
+*** 1534,1537 ****
+--- 1543,1547 ----
+      if (SENDOK(to) && !(hide_invisible && ch && !CAN_SEE(to, ch)) &&
+  	(to != ch) && (type == TO_ROOM || (to != vict_obj)))
+        perform_act(str, ch, obj, vict_obj, to);
++    MOBTrigger = TRUE;
+  }
+diff -acN oldsrc/db.c src/db.c
+*** oldsrc/db.c	Wed May 24 01:32:00 1995
+--- src/db.c	Sun Aug  6 09:13:51 1995
+***************
+*** 27,32 ****
+--- 27,36 ----
+  #include "interpreter.h"
+  #include "house.h"
+  
++ void mprog_read_programs(FILE * fp, struct index_data * pMobIndex);
++ 
++ char err_buf[MAX_STRING_LENGTH];
++ 
+  /**************************************************************************
+  *  declarations of most of the 'global' variables                         *
+  ************************************************************************ */
+***************
+*** 321,326 ****
+--- 325,332 ----
+    }
+    boot_time = time(0);
+  
++   MOBTrigger = TRUE;
++ 
+    log("Boot db -- DONE.");
+  }
+  
+***************
+*** 618,623 ****
+--- 624,637 ----
+    return flags;
+  }
+  
++ char fread_letter(FILE *fp)
++ {
++   char c;
++   do {
++    c = getc(fp);
++   } while (isspace(c));
++   return c;
++ }
+  
+  /* load the rooms */
+  void parse_room(FILE * fl, int virtual_nr)
+***************
+*** 1036,1041 ****
+--- 1050,1061 ----
+    mob_proto[i].nr = i;
+    mob_proto[i].desc = NULL;
+  
++           letter=fread_letter(mob_f);
++           if(letter == '>') {
++              ungetc(letter, mob_f);
++              (void) mprog_read_programs(mob_f, &mob_index[i]);
++           } else ungetc(letter, mob_f);
++ 
+    top_of_mobt = i++;
+  }
+  
+***************
+*** 2312,2315 ****
+--- 2332,2644 ----
+      else
+        bot = mid + 1;
+    }
++ }
++ 
++ /* the functions */
++ 
++ /* This routine transfers between alpha and numeric forms of the
++  *  mob_prog bitvector types. This allows the use of the words in the
++  *  mob/script files.
++  */
++ 
++ int mprog_name_to_type (char *name)
++ {
++    if (!str_cmp(name, "in_file_prog"  ))    return IN_FILE_PROG;
++    if (!str_cmp(name, "act_prog"      ))    return ACT_PROG;
++    if (!str_cmp(name, "speech_prog"   ))    return SPEECH_PROG;
++    if (!str_cmp(name, "rand_prog"     ))    return RAND_PROG;
++    if (!str_cmp(name, "fight_prog"    ))    return FIGHT_PROG;
++    if (!str_cmp(name, "hitprcnt_prog" ))    return HITPRCNT_PROG;
++    if (!str_cmp(name, "death_prog"    ))    return DEATH_PROG;
++    if (!str_cmp(name, "entry_prog"    ))    return ENTRY_PROG;
++    if (!str_cmp(name, "greet_prog"    ))    return GREET_PROG;
++    if (!str_cmp(name, "all_greet_prog"))    return ALL_GREET_PROG;
++    if (!str_cmp(name, "give_prog"     ))    return GIVE_PROG;
++    if (!str_cmp(name, "bribe_prog"    ))    return BRIBE_PROG;
++ 
++    return(ERROR_PROG);
++ }
++ 
++  /*
++   * Read a number from a file.
++   */
++  int fread_number(FILE *fp)
++  {
++      int number;
++      bool sign;
++      char c;
++  
++      do {
++          c = getc(fp);
++      } while (isspace(c));
++  
++      number = 0;
++  
++      sign   = FALSE;
++      if (c == '+') {
++          c = getc(fp);
++      } else if (c == '-') {
++          sign = TRUE;
++          c = getc(fp);
++      }
++  
++      if (!isdigit(c)) {
++          log("Fread_number: bad format.");
++          exit(1);
++      }
++  
++      while (isdigit(c)) {
++          number = number * 10 + c - '0';
++          c      = getc(fp);
++      }
++  
++      if (sign)
++          number = 0 - number;
++  
++      if (c == '|')
++          number += fread_number(fp);
++      else if (c != ' ')
++          ungetc(c, fp);
++  
++      return number;
++  }
++  
++  /*
++   * Read to end of line (for comments).
++   */
++  void fread_to_eol(FILE *fp)
++  {
++      char c;
++  
++      do {
++          c = getc(fp);
++      } while (c != '\n' && c != '\r');
++  
++      do {
++          c = getc(fp);
++      } while (c == '\n' || c == '\r');
++  
++      ungetc(c, fp);
++      return;
++  }
++  
++  /*
++   * Read one word (into static buffer).
++   */
++  char *fread_word(FILE *fp)
++  {
++      static char word[MAX_INPUT_LENGTH];
++      char *pword;
++      char cEnd;
++  
++      do
++      {
++          cEnd = getc(fp);
++      }
++      while (isspace(cEnd));
++  
++      if (cEnd == '\'' || cEnd == '"')
++      {
++          pword   = word;
++      }
++      else
++      {
++          word[0] = cEnd;
++          pword   = word+1;
++          cEnd    = ' ';
++      }
++  
++      for (; pword < word + MAX_INPUT_LENGTH; pword++)
++      {
++          *pword = getc(fp);
++          if (cEnd == ' ' ? isspace(*pword) || *pword == '~' : *pword == cEnd)
++          {
++              if (cEnd == ' ' || cEnd == '~')
++                  ungetc(*pword, fp);
++              *pword = '\0';
++              return word;
++          }
++      }
++  
++      log("SYSERR: Fread_word: word too long.");
++      exit(1);
++      return NULL;
++  }
++  
++  
++  /* This routine reads in scripts of MOBprograms from a file */
++  
++  MPROG_DATA* mprog_file_read(char *f, MPROG_DATA *mprg,
++                              struct index_data *pMobIndex)
++  {
++  
++    char        MOBProgfile[ MAX_INPUT_LENGTH ];
++    MPROG_DATA *mprg2;
++    FILE       *progfile;
++    char        letter;
++    bool        done = FALSE;
++  
++    sprintf(MOBProgfile, "%s/%s", MOB_DIR, f);
++  
++    progfile = fopen(MOBProgfile, "r");
++    if (!progfile)
++    {
++       sprintf(err_buf, "Mob: %d couldnt open mobprog file", pMobIndex->virtual);
++       log(err_buf);
++       exit(1);
++    }
++  
++    mprg2 = mprg;
++    switch (letter = fread_letter(progfile))
++    {
++      case '>':
++       break;
++      case '|':
++         log("empty mobprog file.");
++         exit(1);
++       break;
++      default:
++         log("in mobprog file syntax error.");
++         exit(1);
++       break;
++    }
++  
++    while (!done)
++    {
++      mprg2->type = mprog_name_to_type(fread_word(progfile));
++      switch (mprg2->type)
++      {
++       case ERROR_PROG:
++          log("mobprog file type error");
++          exit(1);
++        break;
++       case IN_FILE_PROG:
++          log("mprog file contains a call to file.");
++          exit(1);
++        break;
++       default:
++          sprintf(buf2, "Error in file %s", f);
++          pMobIndex->progtypes = pMobIndex->progtypes | mprg2->type;
++          mprg2->arglist       = fread_string(progfile,buf2);
++          mprg2->comlist       = fread_string(progfile,buf2);
++          switch (letter = fread_letter(progfile))
++          {
++            case '>':
++               mprg2->next = (MPROG_DATA *)malloc(sizeof(MPROG_DATA));
++               mprg2       = mprg2->next;
++               mprg2->next = NULL;
++             break;
++            case '|':
++               done = TRUE;
++             break;
++            default:
++               sprintf(err_buf,"in mobprog file %s syntax error.", f);
++               log(err_buf);
++               exit(1);
++             break;
++          }
++        break;
++      }
++    }
++    fclose(progfile);
++    return mprg2;
++  }
++  
++  struct index_data *get_obj_index (int vnum)
++  {
++    int nr;
++    for(nr = 0; nr <= top_of_objt; nr++) {
++      if(obj_index[nr].virtual == vnum) return &obj_index[nr];
++    }
++    return NULL;
++  }
++  
++  struct index_data *get_mob_index (int vnum)
++  {
++    int nr;
++    for(nr = 0; nr <= top_of_mobt; nr++) {
++      if(mob_index[nr].virtual == vnum) return &mob_index[nr];
++    }
++    return NULL;
++  }
++  
++  /* This procedure is responsible for reading any in_file MOBprograms.
++   */
++  
++  void mprog_read_programs(FILE *fp, struct index_data *pMobIndex)
++  {
++    MPROG_DATA *mprg;
++    char        letter;
++    bool        done = FALSE;
++  
++    if ((letter = fread_letter(fp)) != '>')
++    {
++        sprintf(err_buf,"Load_mobiles: vnum %d MOBPROG char", pMobIndex->virtual);
++        log(err_buf);
++        exit(1);
++    }
++    pMobIndex->mobprogs = (MPROG_DATA *)malloc(sizeof(MPROG_DATA));
++    mprg = pMobIndex->mobprogs;
++  
++    while (!done)
++    {
++      mprg->type = mprog_name_to_type(fread_word(fp));
++      switch (mprg->type)
++      {
++       case ERROR_PROG:
++          sprintf(err_buf, "Load_mobiles: vnum %d MOBPROG type.", pMobIndex->virtual);
++          log(err_buf);
++          exit(1);
++        break;
++       case IN_FILE_PROG:
++          sprintf(buf2, "Mobprog for mob #%d", pMobIndex->virtual);
++          mprg = mprog_file_read(fread_word(fp), mprg,pMobIndex);
++          fread_to_eol(fp);   /* need to strip off that silly ~*/
++          switch (letter = fread_letter(fp))
++          {
++            case '>':
++               mprg->next = (MPROG_DATA *)malloc(sizeof(MPROG_DATA));
++               mprg       = mprg->next;
++               mprg->next = NULL;
++             break;
++            case '|':
++               mprg->next = NULL;
++               fread_to_eol(fp);
++               done = TRUE;
++             break;
++            default:
++               sprintf(err_buf, "Load_mobiles: vnum %d bad MOBPROG.", pMobIndex->virtual);
++               log(err_buf);
++               exit(1);
++             break;
++          }
++        break;
++       default:
++          sprintf(buf2, "Mobprog for mob #%d", pMobIndex->virtual);
++          pMobIndex->progtypes = pMobIndex->progtypes | mprg->type;
++          mprg->arglist        = fread_string(fp, buf2);
++          mprg->comlist        = fread_string(fp, buf2);
++          switch (letter = fread_letter(fp))
++          {
++            case '>':
++               mprg->next = (MPROG_DATA *)malloc(sizeof(MPROG_DATA));
++               mprg       = mprg->next;
++               mprg->next = NULL;
++             break;
++            case '|':
++               mprg->next = NULL;
++               fread_to_eol(fp);
++               done = TRUE;
++             break;
++            default:
++               sprintf(err_buf, "Load_mobiles: vnum %d bad MOBPROG (%c).", pMobIndex->virtual, letter);
++               log(err_buf);
++               exit(1);
++             break;
++          }
++        break;
++      }
++    }
++  
++    return;
+  }
+diff -acN oldsrc/db.h src/db.h
+*** oldsrc/db.h	Tue May 23 02:14:43 1995
+--- src/db.h	Sun Aug  6 09:13:54 1995
+***************
+*** 23,28 ****
+--- 23,29 ----
+  #define OBJ_PREFIX	"world/obj"	/* object prototypes		*/
+  #define ZON_PREFIX	"world/zon"	/* zon defs & command tables	*/
+  #define SHP_PREFIX	"world/shp"	/* shop definitions		*/
++ #define MOB_DIR		"world/prg"	/* Mob programs			*/
+  
+  #define CREDITS_FILE	"text/credits"	/* for the 'credits' command	*/
+  #define NEWS_FILE	"text/news"	/* for the 'news' command	*/
+diff -acN oldsrc/fight.c src/fight.c
+*** oldsrc/fight.c	Tue May 23 23:15:52 1995
+--- src/fight.c	Sun Aug  6 09:13:51 1995
+***************
+*** 43,48 ****
+--- 43,51 ----
+  void forget(struct char_data * ch, struct char_data * victim);
+  void remember(struct char_data * ch, struct char_data * victim);
+  int ok_damage_shopkeeper(struct char_data * ch, struct char_data * victim);
++ void mprog_hitprcnt_trigger(struct char_data * mob, struct char_data * ch);
++ void mprog_death_trigger(struct char_data * mob, struct char_data * killer);
++ void mprog_fight_trigger(struct char_data * mob, struct char_data * ch);
+  
+  /* Weapon attack texts */
+  struct attack_hit_type attack_hit_text[] =
+***************
+*** 308,314 ****
+  
+  
+  
+! void raw_kill(struct char_data * ch)
+  {
+    if (FIGHTING(ch))
+      stop_fighting(ch);
+--- 311,317 ----
+  
+  
+  
+! void raw_kill(struct char_data * ch, struct char_data *killer)
+  {
+    if (FIGHTING(ch))
+      stop_fighting(ch);
+***************
+*** 316,322 ****
+    while (ch->affected)
+      affect_remove(ch, ch->affected);
+  
+!   death_cry(ch);
+  
+    make_corpse(ch);
+    extract_char(ch);
+--- 319,328 ----
+    while (ch->affected)
+      affect_remove(ch, ch->affected);
+  
+! /*  death_cry(ch); */
+! 
+!   if (killer)
+!      mprog_death_trigger(ch, killer);
+  
+    make_corpse(ch);
+    extract_char(ch);
+***************
+*** 324,335 ****
+  
+  
+  
+! void die(struct char_data * ch)
+  {
+    gain_exp(ch, -(GET_EXP(ch) >> 1));
+    if (!IS_NPC(ch))
+      REMOVE_BIT(PLR_FLAGS(ch), PLR_KILLER | PLR_THIEF);
+!   raw_kill(ch);
+  }
+  
+  
+--- 330,341 ----
+  
+  
+  
+! void die(struct char_data * ch, struct char_data *killer)
+  {
+    gain_exp(ch, -(GET_EXP(ch) >> 1));
+    if (!IS_NPC(ch))
+      REMOVE_BIT(PLR_FLAGS(ch), PLR_KILLER | PLR_THIEF);
+!   raw_kill(ch, killer);
+  }
+  
+  
+***************
+*** 746,752 ****
+        if (MOB_FLAGGED(ch, MOB_MEMORY))
+  	forget(ch, victim);
+      }
+!     die(victim);
+    }
+  }
+  
+--- 752,758 ----
+        if (MOB_FLAGGED(ch, MOB_MEMORY))
+  	forget(ch, victim);
+      }
+!     die(victim, ch);
+    }
+  }
+  
+***************
+*** 772,777 ****
+--- 778,786 ----
+      send_to_char("This room just has such a peaceful, easy feeling...\r\n", ch);
+      return;
+    }
++ 
++   mprog_hitprcnt_trigger(ch, FIGHTING(ch));
++   mprog_fight_trigger(ch, FIGHTING(ch));
+  
+    if (wielded && GET_OBJ_TYPE(wielded) == ITEM_WEAPON)
+      w_type = GET_OBJ_VAL(wielded, 3) + TYPE_HIT;
+diff -acN oldsrc/interpreter.c src/interpreter.c
+*** oldsrc/interpreter.c	Tue May 23 10:40:43 1995
+--- src/interpreter.c	Sun Aug  6 09:13:51 1995
+***************
+*** 111,116 ****
+--- 111,129 ----
+  ACMD(do_levels);
+  ACMD(do_load);
+  ACMD(do_look);
++ ACMD(do_mpasound);
++ ACMD(do_mpjunk);
++ ACMD(do_mpecho);
++ ACMD(do_mpechoat);
++ ACMD(do_mpechoaround);
++ ACMD(do_mpkill);
++ ACMD(do_mpmload);
++ ACMD(do_mpoload);
++ ACMD(do_mppurge);
++ ACMD(do_mpgoto);
++ ACMD(do_mpat);
++ ACMD(do_mptransfer);
++ ACMD(do_mpforce);
+  ACMD(do_move);
+  ACMD(do_not_here);
+  ACMD(do_offer);
+***************
+*** 352,357 ****
+--- 365,383 ----
+    { "massage"  , POS_RESTING , do_action   , 0, 0 },
+    { "mute"     , POS_DEAD    , do_wizutil  , LVL_GOD, SCMD_SQUELCH },
+    { "murder"   , POS_FIGHTING, do_hit      , 0, SCMD_MURDER },
++   { "mpasound" , POS_DEAD    , do_mpasound , 0, 0 },
++   { "mpjunk"   , POS_DEAD    , do_mpjunk   , 0, 0 },
++   { "mpecho"   , POS_DEAD    , do_mpecho   , 0, 0 },
++   { "mpechoat" , POS_DEAD    , do_mpechoat , 0, 0 }, 
++   { "mpechoaround" , POS_DEAD, do_mpechoaround, 0, 0 },
++   { "mpkill"   , POS_DEAD    , do_mpkill   , 0, 0 },
++   { "mpmload"  , POS_DEAD    , do_mpmload  , 0, 0 },
++   { "mpoload"  , POS_DEAD    , do_mpoload  , 0, 0 },
++   { "mppurge"  , POS_DEAD    , do_mppurge  , 0, 0 },
++   { "mpgoto"   , POS_DEAD    , do_mpgoto   , 0, 0 },
++   { "mpat"     , POS_DEAD    , do_mpat	   , 0, 0 },
++   { "mptransfer" , POS_DEAD  , do_mptransfer, 0, 0 },
++   { "mpforce"  , POS_DEAD    , do_mpforce  , 0, 0 },
+  
+    { "news"     , POS_SLEEPING, do_gen_ps   , 0, SCMD_NEWS },
+    { "nibble"   , POS_RESTING , do_action   , 0, 0 },
+diff -acN oldsrc/mobact.c src/mobact.c
+*** oldsrc/mobact.c	Mon May 22 10:04:16 1995
+--- src/mobact.c	Sun Aug  6 09:13:51 1995
+***************
+*** 25,30 ****
+--- 25,35 ----
+  extern struct room_data *world;
+  extern struct str_app_type str_app[];
+  
++ void mprog_random_trigger(struct char_data * mob);
++ void mprog_wordlist_check(char *arg, struct char_data * mob, struct char_data * actor,
++                           struct obj_data * obj, void *vo, int type);
++ extern int is_empty(int zone_nr);
++ 
+  #define MOB_AGGR_TO_ALIGN (MOB_AGGR_EVIL | MOB_AGGR_NEUTRAL | MOB_AGGR_GOOD)
+  
+  void mobile_activity(void)
+***************
+*** 56,61 ****
+--- 61,69 ----
+  	  continue;		/* go to next char */
+        }
+      }
++ 
++     if(!is_empty(world[ch->in_room].zone)) mprog_random_trigger(ch);
++ 
+      /* Scavenger (picking up objects) */
+      if (MOB_FLAGGED(ch, MOB_SCAVENGER) && !FIGHTING(ch) && AWAKE(ch))
+        if (world[ch->in_room].contents && !number(0, 10)) {
+***************
+*** 81,86 ****
+--- 89,110 ----
+  	 (world[EXIT(ch, door)->to_room].zone == world[ch->in_room].zone))) {
+        perform_move(ch, door, 1);
+      }
++ 
++    /* MOB Prog foo */
++    if(IS_NPC(ch) && ch->mpactnum > 0 && !is_empty(world[ch->in_room].zone)) {
++       MPROG_ACT_LIST *tmp_act, *tmp2_act;
++       for(tmp_act = ch->mpact; tmp_act != NULL; tmp_act=tmp_act->next) {
++       mprog_wordlist_check(tmp_act->buf, ch, tmp_act->ch,
++                            tmp_act->obj, tmp_act->vo, ACT_PROG);
++                free(tmp_act->buf);
++              }
++              for(tmp_act = ch->mpact; tmp_act != NULL; tmp_act=tmp2_act) {
++                tmp2_act = tmp_act->next;
++                free(tmp_act);
++              }
++              ch->mpactnum = 0;
++              ch->mpact = NULL;
++            }
+  
+      /* Aggressive Mobs */
+      if (MOB_FLAGGED(ch, MOB_AGGRESSIVE | MOB_AGGR_TO_ALIGN)) {
+diff -acN oldsrc/mobcmd.c src/mobcmd.c
+*** oldsrc/mobcmd.c	Thu Jan  1 01:00:00 1970
+--- src/mobcmd.c	Sun Aug  6 09:13:51 1995
+***************
+*** 0 ****
+--- 1,704 ----
++ /***************************************************************************
++  * MOBProgram ported for CircleMUD 3.0 by Mattias Larsson		   *
++  * Traveller@AnotherWorld (ml@eniac.campus.luth.se 4000) 		   *
++  **************************************************************************/
++ 
++ /***************************************************************************
++  *  Original Diku Mud copyright (C) 1990, 1991 by Sebastian Hammer,        *
++  *  Michael Seifert, Hans Henrik St{rfeldt, Tom Madsen, and Katja Nyboe.   *
++  *                                                                         *
++  *  Merc Diku Mud improvments copyright (C) 1992, 1993 by Michael          *
++  *  Chastain, Michael Quan, and Mitchell Tse.                              *
++  *                                                                         *
++  *  In order to use any part of this Merc Diku Mud, you must comply with   *
++  *  both the original Diku license in 'license.doc' as well the Merc       *
++  *  license in 'license.txt'.  In particular, you may not remove either of *
++  *  these copyright notices.                                               *
++  *                                                                         *
++  *  Much time and thought has gone into this software and you are          *
++  *  benefitting.  We hope that you share your changes too.  What goes      *
++  *  around, comes around.                                                  *
++  ***************************************************************************/
++ 
++ /***************************************************************************
++  *  The MOBprograms have been contributed by N'Atas-ha.  Any support for   *
++  *  these routines should not be expected from Merc Industries.  However,  *
++  *  under no circumstances should the blame for bugs, etc be placed on     *
++  *  Merc Industries.  They are not guaranteed to work on all systems due   *
++  *  to their frequent use of strxxx functions.  They are also not the most *
++  *  efficient way to perform their tasks, but hopefully should be in the   *
++  *  easiest possible way to install and begin using. Documentation for     *
++  *  such installation can be found in INSTALL.  Enjoy........    N'Atas-Ha *
++  ***************************************************************************/
++ 
++ #include <sys/types.h>
++ #include <stdio.h>
++ #include <string.h>
++ #include <stdlib.h>
++ #include <ctype.h>
++ #include "structs.h"
++ #include "db.h"
++ #include "utils.h"
++ #include "handler.h"
++ #include "interpreter.h"
++ #include "comm.h"
++ 
++ extern struct index_data *mob_index;
++ extern struct room_data *world;
++ extern struct index_data *obj_index;
++ extern struct descriptor_data *descriptor_list;
++ 
++ extern struct index_data *get_mob_index(int vnum);
++ extern struct index_data *get_obj_index(int vnum);
++ 
++ extern sh_int find_target_room(struct char_data * ch, char *rawroomstr);
++ 
++ #define bug(x, y) { sprintf(buf2, (x), (y)); log(buf2); }
++ 
++ /*
++  * Local functions.
++  */
++ 
++ char *			mprog_type_to_name	(int type);
++ 
++ /* This routine transfers between alpha and numeric forms of the
++  *  mob_prog bitvector types. It allows the words to show up in mpstat to
++  *  make it just a hair bit easier to see what a mob should be doing.
++  */
++ 
++ char *mprog_type_to_name(int type)
++ {
++     switch (type)
++     {
++     case IN_FILE_PROG:          return "in_file_prog";
++     case ACT_PROG:              return "act_prog";
++     case SPEECH_PROG:           return "speech_prog";
++     case RAND_PROG:             return "rand_prog";
++     case FIGHT_PROG:            return "fight_prog";
++     case HITPRCNT_PROG:         return "hitprcnt_prog";
++     case DEATH_PROG:            return "death_prog";
++     case ENTRY_PROG:            return "entry_prog";
++     case GREET_PROG:            return "greet_prog";
++     case ALL_GREET_PROG:        return "all_greet_prog";
++     case GIVE_PROG:             return "give_prog";
++     case BRIBE_PROG:            return "bribe_prog";
++     default:                    return "ERROR_PROG";
++     }
++ }
++ 
++ /* string prefix routine */
++ 
++ bool str_prefix(const char *astr, const char *bstr)
++ {
++   if (!astr) {
++     log("Strn_cmp: null astr.");
++     return TRUE;
++   }
++   if (!bstr) {
++     log("Strn_cmp: null astr.");
++     return TRUE;
++   }
++   for(; *astr; astr++, bstr++) {
++     if(LOWER(*astr) != LOWER(*bstr)) return TRUE;
++   }
++   return FALSE;
++ }
++ 
++ /* prints the argument to all the rooms aroud the mobile */
++ 
++ ACMD(do_mpasound)
++ {
++ 
++   room_num was_in_room;
++   int              door;
++ 
++     if (!IS_NPC(ch) || IS_AFFECTED(ch, AFF_CHARM) || ch->desc)
++     {
++         send_to_char("Huh?\n\r", ch);
++         return;
++     }
++ 
++     if (argument[0] == '\0')
++     {
++         bug("Mpasound - No argument: vnum %d.", mob_index[ch->nr].virtual);
++ 	return;
++     }
++     one_argument(argument, arg);
++ 
++     was_in_room = ch->in_room;
++     for (door = 0; door <= 5; door++)
++     {
++       struct room_direction_data       *pexit;
++       
++       if ((pexit = world[was_in_room].dir_option[door]) != NULL
++ 	  && pexit->to_room != NOWHERE
++ 	  && pexit->to_room != was_in_room)
++       {
++ 	ch->in_room = pexit->to_room;
++ 	MOBTrigger  = FALSE;
++ 	act(arg, FALSE, ch, NULL, NULL, TO_ROOM);
++       }
++     }
++ 
++   ch->in_room = was_in_room;
++   return;
++ 
++ }
++ 
++ /* lets the mobile kill any player or mobile without murder*/
++ 
++ ACMD(do_mpkill)
++ {
++     char      arg[ MAX_INPUT_LENGTH ];
++     struct char_data *victim;
++ 
++     if (!IS_NPC(ch) || IS_AFFECTED(ch, AFF_CHARM) || ch->desc)
++     {
++         send_to_char("Huh?\n\r", ch);
++ 	return;
++     }
++ 
++     one_argument(argument, arg);
++ 
++     if (arg[0] == '\0')
++     {
++ 	bug("MpKill - no argument: vnum %d.",
++ 		mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     if ((victim = get_char_room_vis(ch, arg)) == NULL)
++     {
++ 	bug("MpKill - Victim not in room: vnum %d.",
++ 	    mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     if (victim == ch)
++     {
++ 	bug("MpKill - Bad victim to attack: vnum %d.",
++ 	    mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     if (IS_AFFECTED(ch, AFF_CHARM) && ch->master == victim)
++     {
++ 	bug("MpKill - Charmed mob attacking master: vnum %d.",
++ 	    mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     if (ch->char_specials.position == POS_FIGHTING)
++     {	
++ 	bug("MpKill - Already fighting: vnum %d",
++ 	    mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     hit(ch, victim, -1);
++     return;
++ }
++ 
++ 
++ /* lets the mobile destroy an object in its inventory
++    it can also destroy a worn object and it can destroy 
++    items using all.xxxxx or just plain all of them */
++ 
++ ACMD(do_mpjunk)
++ {
++     char      arg[ MAX_INPUT_LENGTH ];
++     int pos;
++     struct obj_data *obj;
++     struct obj_data *obj_next;
++ 
++     if (!IS_NPC(ch) || IS_AFFECTED(ch, AFF_CHARM) || ch->desc) {
++         send_to_char("Huh?\n\r", ch);
++ 	return;
++     }
++ 
++     one_argument(argument, arg);
++ 
++     if (arg[0] == '\0') {
++         bug("Mpjunk - No argument: vnum %d.", mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     if (str_cmp(arg, "all") && str_prefix("all.", arg)) {
++       if ((obj=get_object_in_equip_vis(ch,arg,ch->equipment,&pos))!= NULL) {
++ 	unequip_char(ch, pos);
++ 	extract_obj(obj);
++ 	return;
++       }
++       if ((obj = get_obj_in_list_vis(ch, arg, ch->carrying)) != NULL)
++         extract_obj(obj);
++       return;
++     } else {
++       for (obj = ch->carrying; obj != NULL; obj = obj_next) {
++         obj_next = obj->next_content;
++         if (arg[3] == '\0' || isname(arg+4, obj->name)) {
++           extract_obj(obj);
++         }
++       }
++       while((obj=get_object_in_equip_vis(ch,arg,ch->equipment,&pos))!=NULL){
++           unequip_char(ch, pos);
++           extract_obj(obj);
++       }   
++     }
++     return;
++ }
++ 
++ /* prints the message to everyone in the room other than the mob and victim */
++ 
++ ACMD(do_mpechoaround)
++ {
++   char       arg[ MAX_INPUT_LENGTH ];
++   struct char_data *victim;
++   char *p;
++ 
++     if (!IS_NPC(ch) || IS_AFFECTED(ch, AFF_CHARM) || ch->desc)
++     {
++        send_to_char("Huh?\n\r", ch);
++        return;
++     }
++ 
++     p=one_argument(argument, arg);
++     while(isspace(*p)) p++; /* skip over leading space */
++ 
++     if (arg[0] == '\0')
++     {
++        bug("Mpechoaround - No argument:  vnum %d.", mob_index[ch->nr].virtual);
++        return;
++     }
++ 
++     if (!(victim=get_char_room_vis(ch, arg)))
++     {
++         bug("Mpechoaround - victim does not exist: vnum %d.",
++ 	    mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     act(p, FALSE, ch, NULL, victim, TO_NOTVICT);
++     return;
++ }
++ 
++ /* prints the message to only the victim */
++ 
++ ACMD(do_mpechoat)
++ {
++   char       arg[ MAX_INPUT_LENGTH ];
++   struct char_data *victim;
++   char *p;
++ 
++     if (!IS_NPC(ch) || IS_AFFECTED(ch, AFF_CHARM) || ch->desc)
++     {
++        send_to_char("Huh?\n\r", ch);
++        return;
++     }
++ 
++     p = one_argument(argument, arg);
++     while(isspace(*p)) p++; /* skip over leading space */
++ 
++     if (arg[0] == '\0')
++     {
++        bug("Mpechoat - No argument:  vnum %d.",
++ 	   mob_index[ch->nr].virtual);
++        return;
++     }
++ 
++     if (!(victim = get_char_room_vis(ch, arg)))
++     {
++         bug("Mpechoat - victim does not exist: vnum %d.",
++ 	    mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     act(p,FALSE,  ch, NULL, victim, TO_VICT);
++     return;
++ }
++ 
++ /* prints the message to the room at large */
++ 
++ ACMD(do_mpecho)
++ {
++     char *p;
++ 
++     if (!IS_NPC(ch) || IS_AFFECTED(ch, AFF_CHARM) || ch->desc)
++     {
++         send_to_char("Huh?\n\r", ch);
++         return;
++     }
++ 
++     if (argument[0] == '\0')
++     {
++         bug("Mpecho - called w/o argument: vnum %d.",
++ 	    mob_index[ch->nr].virtual);
++         return;
++     }
++     p = argument;
++     while(isspace(*p)) p++;
++ 
++     act(p,FALSE,  ch, NULL, NULL, TO_ROOM);
++     return;
++ 
++ }
++ 
++ /* lets the mobile load an item or mobile.  All items
++ are loaded into inventory.  you can specify a level with
++ the load object portion as well. */
++ 
++ ACMD(do_mpmload)
++ {
++     char            arg[ MAX_INPUT_LENGTH ];
++     struct index_data *pMobIndex;
++     struct char_data      *victim;
++ 
++     if (!IS_NPC(ch) || IS_AFFECTED(ch, AFF_CHARM) || ch->desc)
++     {
++         send_to_char("Huh?\n\r", ch);
++ 	return;
++     }
++ 
++     one_argument(argument, arg);
++ 
++     if (arg[0] == '\0' || !is_number(arg))
++     {
++ 	bug("Mpmload - Bad vnum as arg: vnum %d.", mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     if ((pMobIndex = get_mob_index(atoi(arg))) == NULL)
++     {
++ 	bug("Mpmload - Bad mob vnum: vnum %d.", mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     victim = read_mobile(atoi(arg), VIRTUAL);
++     char_to_room(victim, ch->in_room);
++     return;
++ }
++ 
++ ACMD(do_mpoload)
++ {
++     char arg1[ MAX_INPUT_LENGTH ];
++     struct index_data *pObjIndex;
++     struct obj_data       *obj;
++ 
++     if (!IS_NPC(ch) || IS_AFFECTED(ch, AFF_CHARM) || ch->desc)
++     {
++         send_to_char("Huh?\n\r", ch);
++ 	return;
++     }
++ 
++     argument = one_argument(argument, arg1);
++  
++     if (arg1[0] == '\0' || !is_number(arg1))
++     {
++         bug("Mpoload - Bad syntax: vnum %d.",
++ 	    mob_index[ch->nr].virtual);
++         return;
++     }
++  
++     if ((pObjIndex = get_obj_index(atoi(arg1))) == NULL)
++     {
++ 	bug("Mpoload - Bad vnum arg: vnum %d.", mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     obj = read_object(atoi(arg1), VIRTUAL);
++     if (obj == NULL)
++        return;
++     if (CAN_WEAR(obj, ITEM_WEAR_TAKE)) {
++ 	obj_to_char(obj, ch);
++     } else {
++ 	obj_to_room(obj, ch->in_room);
++     }
++ 
++     return;
++ }
++ 
++ /* lets the mobile purge all objects and other npcs in the room,
++    or purge a specified object or mob in the room.  It can purge
++    itself, but this had best be the last command in the MOBprogram
++    otherwise ugly stuff will happen */
++ 
++ ACMD(do_mppurge)
++ {
++     struct char_data *victim;
++     struct obj_data  *obj;
++ 
++     if (!IS_NPC(ch) || IS_AFFECTED(ch, AFF_CHARM) || ch->desc)
++     {
++         send_to_char("Huh?\n\r", ch);
++ 	return;
++     }
++ 
++     one_argument(argument, arg);
++ 
++     if (arg[0] == '\0')
++     {
++         /* 'purge' */
++         struct char_data *vnext;
++         struct obj_data  *obj_next;
++ 
++ 	for (victim = world[ch->in_room].people; victim != NULL; victim = vnext)
++ 	{
++ 	  vnext = victim->next_in_room;
++ 	  if (IS_NPC(victim) && victim != ch)
++ 	    extract_char(victim);
++ 	}
++ 
++ 	for (obj = world[ch->in_room].contents; obj != NULL; obj = obj_next)
++ 	{
++ 	  obj_next = obj->next_content;
++ 	  extract_obj(obj);
++ 	}
++ 
++ 	return;
++     }
++ 
++     if (!(victim = get_char_room_vis(ch, arg)))
++     {
++ 	if ((obj = get_obj_vis(ch, arg))) {
++ 	    extract_obj(obj);
++ 	} else {
++ 	    bug("Mppurge - Bad argument: vnum %d.",mob_index[ch->nr].virtual);
++ 	}
++ 	return;
++     }
++ 
++     if (!IS_NPC(victim))
++     {
++ 	bug("Mppurge - Purging a PC: vnum %d.", mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     extract_char(victim);
++     return;
++ }
++ 
++ 
++ /* lets the mobile goto any location it wishes that is not private */
++ 
++ ACMD(do_mpgoto)
++ {
++     char             arg[ MAX_INPUT_LENGTH ];
++     sh_int location;
++ 
++     if (!IS_NPC(ch) || IS_AFFECTED(ch, AFF_CHARM) || ch->desc)
++     {
++         send_to_char("Huh?\n\r", ch);
++ 	return;
++     }
++ 
++     one_argument(argument, arg);
++     if (arg[0] == '\0')
++     {
++ 	bug("Mpgoto - No argument: vnum %d.", mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     if ((location = find_target_room(ch, arg)) < 0)
++     {
++ 	bug("Mpgoto - No such location: vnum %d.", mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     if (FIGHTING(ch) != NULL)
++ 	stop_fighting(ch);
++ 
++     char_from_room(ch);
++     char_to_room(ch, location);
++ 
++     return;
++ }
++ 
++ /* lets the mobile do a command at another location. Very useful */
++ 
++ ACMD(do_mpat)
++ {
++     char             arg[ MAX_INPUT_LENGTH ];
++     sh_int location;
++     sh_int original;
++ /*    struct char_data       *wch; */
++ 
++     if (!IS_NPC(ch) || IS_AFFECTED(ch, AFF_CHARM) || ch->desc)
++     {
++         send_to_char("Huh?\n\r", ch);
++ 	return;
++     }
++  
++     argument = one_argument(argument, arg);
++ 
++     if (arg[0] == '\0' || argument[0] == '\0')
++     {
++ 	bug("Mpat - Bad argument: vnum %d.", mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     if ((location = find_target_room(ch, arg)) < 0)
++     {
++ 	bug("Mpat - No such location: vnum %d.", mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     original = ch->in_room;
++     char_from_room(ch);
++     char_to_room(ch, location);
++     command_interpreter(ch, argument);
++ 
++     /*
++      * See if 'ch' still exists before continuing!
++      * Handles 'at XXXX quit' case.
++      */
++     if(ch->in_room == location) {
++       char_from_room(ch);
++       char_to_room(ch, original);
++     }
++ 
++     return;
++ }
++  
++ /* lets the mobile transfer people.  the all argument transfers
++    everyone in the current room to the specified location */
++ 
++ ACMD(do_mptransfer)
++ {
++     char             arg1[ MAX_INPUT_LENGTH ];
++     char             arg2[ MAX_INPUT_LENGTH ];
++     sh_int location;
++     struct descriptor_data *d;
++     struct char_data       *victim;
++     ACMD(do_trans);
++ 
++     if (!IS_NPC(ch) || IS_AFFECTED(ch, AFF_CHARM) || ch->desc)
++     {
++ 	send_to_char("Huh?\n\r", ch);
++ 	return;
++     }
++     argument = one_argument(argument, arg1);
++     argument = one_argument(argument, arg2);
++ 
++     if (arg1[0] == '\0')
++     {
++ 	bug("Mptransfer - Bad syntax: vnum %d.", mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     if (!str_cmp(arg1, "all"))
++     {
++ 	for (d = descriptor_list; d != NULL; d = d->next)
++ 	{
++ 	    if (d->connected == CON_PLAYING
++ 	    &&   d->character != ch
++ 	    &&   d->character->in_room != NOWHERE
++ 	    &&   CAN_SEE(ch, d->character))
++ 	    {
++ 		char buf[MAX_STRING_LENGTH];
++ 		sprintf(buf, "%s %s", d->character->player.name, arg2);
++ 		do_trans(ch, buf, cmd, 0);
++ 	    }
++ 	}
++ 	return;
++     }
++ 
++     /*
++      * Thanks to Grodyn for the optional location parameter.
++      */
++     if (arg2[0] == '\0')
++     {
++ 	location = ch->in_room;
++     }
++     else
++     {
++ 	if ((location = find_target_room(ch, arg2)) < 0)
++ 	{
++ 	    bug("Mptransfer - No such location: vnum %d.",
++ 	        mob_index[ch->nr].virtual);
++ 	    return;
++ 	}
++ 
++ 	if (IS_SET(world[location].room_flags, ROOM_PRIVATE))
++ 	{
++ 	    bug("Mptransfer - Private room: vnum %d.",
++ 		mob_index[ch->nr].virtual);
++ 	    return;
++ 	}
++     }
++ 
++     if ((victim = get_char_vis(ch, arg1)) == NULL)
++     {
++ 	bug("Mptransfer - No such person: vnum %d.",
++ 	    mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     if (victim->in_room == 0)
++     {
++ 	bug("Mptransfer - Victim in Limbo: vnum %d.",
++ 	    mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     if (FIGHTING(victim) != NULL)
++ 	stop_fighting(victim);
++ 
++     char_from_room(victim);
++     char_to_room(victim, location);
++ 
++     return;
++ }
++ 
++ /* lets the mobile force someone to do something.  must be mortal level
++    and the all argument only affects those in the room with the mobile */
++ 
++ ACMD(do_mpforce)
++ {
++     char arg[ MAX_INPUT_LENGTH ];
++ 
++     if (!IS_NPC(ch) || IS_AFFECTED(ch, AFF_CHARM) || ch->desc)
++     {
++ 	send_to_char("Huh?\n\r", ch);
++ 	return;
++     }
++ 
++     argument = one_argument(argument, arg);
++ 
++     if (arg[0] == '\0' || argument[0] == '\0')
++     {
++ 	bug("Mpforce - Bad syntax: vnum %d.", mob_index[ch->nr].virtual);
++ 	return;
++     }
++ 
++     if (!str_cmp(arg, "all")) {
++         struct descriptor_data *i;
++         struct char_data *vch;
++ 
++ 	for (i = descriptor_list; i ; i = i->next) {
++           if(i->character != ch && !i->connected &&
++              i->character->in_room == ch->in_room) {
++             vch = i->character;
++             if(GET_LEVEL(vch) < GET_LEVEL(ch) && CAN_SEE(ch, vch)) {
++ 		command_interpreter(vch, argument);
++ 	    }
++ 	  }
++         }
++     } else {
++ 	struct char_data *victim;
++ 
++ 	if ((victim = get_char_room_vis(ch, arg)) == NULL) {
++ 	    bug("Mpforce - No such victim: vnum %d.",
++ 	  	mob_index[ch->nr].virtual);
++ 	    return;
++ 	}
++ 
++ 	if (victim == ch) {
++ 	    bug("Mpforce - Forcing oneself: vnum %d.",
++ 	    	mob_index[ch->nr].virtual);
++ 	    return;
++ 	}
++ 
++ 	command_interpreter(victim, argument);
++     }
++ 
++     return;
++ }
+diff -acN oldsrc/mobprog.c src/mobprog.c
+*** oldsrc/mobprog.c	Thu Jan  1 01:00:00 1970
+--- src/mobprog.c	Sun Aug  6 09:13:51 1995
+***************
+*** 0 ****
+--- 1,1775 ----
++ /***************************************************************************
++  * MOBProgram ported for CircleMUD 3.0 by Mattias Larsson		   *
++  * Traveller@AnotherWorld (ml@eniac.campus.luth.se 4000) 		   *
++  **************************************************************************/
++ 
++ /***************************************************************************
++  *  Original Diku Mud copyright (C) 1990, 1991 by Sebastian Hammer,        *
++  *  Michael Seifert, Hans Henrik St{rfeldt, Tom Madsen, and Katja Nyboe.   *
++  *                                                                         *
++  *  Merc Diku Mud improvments copyright (C) 1992, 1993 by Michael          *
++  *  Chastain, Michael Quan, and Mitchell Tse.                              *
++  *                                                                         *
++  *  In order to use any part of this Merc Diku Mud, you must comply with   *
++  *  both the original Diku license in 'license.doc' as well the Merc       *
++  *  license in 'license.txt'.  In particular, you may not remove either of *
++  *  these copyright notices.                                               *
++  *                                                                         *
++  *  Much time and thought has gone into this software and you are          *
++  *  benefitting.  We hope that you share your changes too.  What goes      *
++  *  around, comes around.                                                  *
++  ***************************************************************************/
++ 
++ /***************************************************************************
++  *  The MOBprograms have been contributed by N'Atas-ha.  Any support for   *
++  *  these routines should not be expected from Merc Industries.  However,  *
++  *  under no circumstances should the blame for bugs, etc be placed on     *
++  *  Merc Industries.  They are not guaranteed to work on all systems due   *
++  *  to their frequent use of strxxx functions.  They are also not the most *
++  *  efficient way to perform their tasks, but hopefully should be in the   *
++  *  easiest possible way to install and begin using. Documentation for     *
++  *  such installation can be found in INSTALL.  Enjoy...         N'Atas-Ha *
++  ***************************************************************************/
++ 
++ #include <sys/types.h>
++ #include <stdio.h>
++ #include <string.h>
++ #include <stdlib.h>
++ #include <ctype.h>
++ #include "structs.h"
++ #include "utils.h"
++ #include "interpreter.h"
++ #include "handler.h"
++ #include "db.h"
++ 
++ char buf2[MAX_STRING_LENGTH];
++ 
++ extern struct index_data *mob_index;
++ extern struct index_data *obj_index;
++ extern struct room_data *world;
++ 
++ extern void death_cry (struct char_data *ch);
++ extern bool str_prefix (const char *astr, const char *bstr);
++ extern int number_percent(void);
++ extern int number_range(int from, int to);
++ 
++ #define bug(x, y) { sprintf(buf2, (x), (y)); log(buf2); }
++ 
++ 
++ /*
++  * Local function prototypes
++  */
++ 
++ char *	mprog_next_command	(char* clist);
++ int     mprog_seval		(char *lhs, char *opr, char *rhs);
++ int	mprog_veval		(int lhs, char* opr, int rhs);
++ int	mprog_do_ifchck		(char* ifchck, struct char_data* mob,
++ 				       struct char_data* actor, struct obj_data* obj,
++ 				       void* vo, struct char_data* rndm);
++ char *	mprog_process_if	(char* ifchck, char* com_list, 
++ 				       struct char_data* mob, struct char_data* actor,
++ 				       struct obj_data* obj, void* vo,
++ 				       struct char_data* rndm);
++ void	mprog_translate		(char ch, char* t, struct char_data* mob,
++ 				       struct char_data* actor, struct obj_data* obj,
++ 				       void* vo, struct char_data* rndm);
++ void	mprog_process_cmnd	(char* cmnd, struct char_data* mob, 
++ 				       struct char_data* actor, struct obj_data* obj,
++ 				       void* vo, struct char_data* rndm);
++ void	mprog_driver		(char* com_list, struct char_data* mob,
++ 				       struct char_data* actor, struct obj_data* obj,
++ 				       void* vo);
++ 
++ /***************************************************************************
++  * Local function code and brief comments.
++  */
++ 
++ /* Used to get sequential lines of a multi line string (separated by "\n\r")
++  * Thus its like one_argument(), but a trifle different. It is destructive
++  * to the multi line string argument, and thus clist must not be shared.
++  */
++ 
++ char *mprog_next_command(char *clist)
++ {
++ 
++   char *pointer = clist;
++ 
++   if (*pointer == '\r')
++     pointer++;  
++   if (*pointer == '\n')
++     pointer++;
++ 
++   while (*pointer != '\n' && *pointer != '\0' && *pointer != '\r')
++     pointer++;
++   if (*pointer == '\n') {
++     *pointer = '\0';
++     pointer++; }
++   if (*pointer == '\r') {
++     *pointer = '\0';
++     pointer++; }
++     
++   return (pointer);
++ 
++ }
++ 
++ /* we need str_infix here because strstr is not case insensitive */
++ 
++ bool str_infix(const char *astr, const char *bstr)
++ {
++     int sstr1;
++     int sstr2;
++     int ichar;
++     char c0;
++ 
++     if ((c0 = LOWER(astr[0])) == '\0')
++         return FALSE;
++ 
++     sstr1 = strlen(astr);
++     sstr2 = strlen(bstr);
++ 
++     for (ichar = 0; ichar <= sstr2 - sstr1; ichar++) {
++         if (c0 == LOWER(bstr[ichar]) && !str_prefix(astr, bstr + ichar))
++             return FALSE;
++     }
++ 
++     return TRUE;
++ }
++ 
++ /* These two functions do the basic evaluation of ifcheck operators.
++  *  It is important to note that the string operations are not what
++  *  you probably expect.  Equality is exact and division is substring.
++  *  remember that lhs has been stripped of leading space, but can
++  *  still have trailing spaces so be careful when editing since:
++  *  "guard" and "guard " are not equal.
++  */
++ int mprog_seval(char *lhs, char *opr, char *rhs)
++ {
++ 
++   if (!str_cmp(opr, "=="))
++     return (!str_cmp(lhs, rhs));
++   if (!str_cmp(opr, "!="))
++     return (str_cmp(lhs, rhs));
++   if (!str_cmp(opr, "/"))
++     return (!str_infix(rhs, lhs));
++   if (!str_cmp(opr, "!/"))
++     return (str_infix(rhs, lhs));
++ 
++   log("Improper MOBprog operator");
++   return 0;
++ 
++ }
++ 
++ int mprog_veval(int lhs, char *opr, int rhs)
++ {
++ 
++   if (!str_cmp(opr, "=="))
++     return (lhs == rhs);
++   if (!str_cmp(opr, "!="))
++     return (lhs != rhs);
++   if (!str_cmp(opr, ">"))
++     return (lhs > rhs);
++   if (!str_cmp(opr, "<"))
++     return (lhs < rhs);
++   if (!str_cmp(opr, "<="))
++     return (lhs <= rhs);
++   if (!str_cmp(opr, ">="))
++     return (lhs >= rhs);
++   if (!str_cmp(opr, "&"))
++     return (lhs & rhs);
++   if (!str_cmp(opr, "|"))
++     return (lhs | rhs);
++ 
++   log("Improper MOBprog operator");
++   return 0;
++ 
++ }
++ 
++ /* This function performs the evaluation of the if checks.  It is
++  * here that you can add any ifchecks which you so desire. Hopefully
++  * it is clear from what follows how one would go about adding your
++  * own. The syntax for an if check is: ifchck (arg) [opr val]
++  * where the parenthesis are required and the opr and val fields are
++  * optional but if one is there then both must be. The spaces are all
++  * optional. The evaluation of the opr expressions is farmed out
++  * to reduce the redundancy of the mammoth if statement list.
++  * If there are errors, then return -1 otherwise return boolean 1,0
++  */
++ int mprog_do_ifchck(char *ifchck, struct char_data *mob, struct char_data *actor,
++ 		     struct obj_data *obj, void *vo, struct char_data *rndm)
++ {
++ 
++   char buf[MAX_INPUT_LENGTH];
++   char arg[MAX_INPUT_LENGTH];
++   char opr[MAX_INPUT_LENGTH];
++   char val[MAX_INPUT_LENGTH];
++   struct char_data *vict = (struct char_data *) vo;
++   struct obj_data *v_obj = (struct obj_data  *) vo;
++   char     *bufpt = buf;
++   char     *argpt = arg;
++   char     *oprpt = opr;
++   char     *valpt = val;
++   char     *point = ifchck;
++   int       lhsvl;
++   int       rhsvl;
++ 
++   if (*point == '\0') 
++     {
++       bug ("Mob: %d null ifchck", (int)mob_index[mob->nr].virtual); 
++       return -1;
++     }   
++   /* skip leading spaces */
++   while (*point == ' ')
++     point++;
++ 
++   /* get whatever comes before the left paren.. ignore spaces */
++   while (*point != '(') 
++     if (*point == '\0') 
++       {
++ 	bug ("Mob: %d ifchck syntax error", mob_index[mob->nr].virtual); 
++ 	return -1;
++       }   
++     else
++       if (*point == ' ')
++ 	point++;
++       else 
++ 	*bufpt++ = *point++; 
++ 
++   *bufpt = '\0';
++   point++;
++ 
++   /* get whatever is in between the parens.. ignore spaces */
++   while (*point != ')') 
++     if (*point == '\0') 
++       {
++ 	bug ("Mob: %d ifchck syntax error", mob_index[mob->nr].virtual); 
++ 	return -1;
++       }   
++     else
++       if (*point == ' ')
++ 	point++;
++       else 
++ 	*argpt++ = *point++; 
++ 
++   *argpt = '\0';
++   point++;
++ 
++   /* check to see if there is an operator */
++   while (*point == ' ')
++     point++;
++   if (*point == '\0') 
++     {
++       *opr = '\0';
++       *val = '\0';
++     }   
++   else /* there should be an operator and value, so get them */
++     {
++       while ((*point != ' ') && (!isalnum(*point))) 
++ 	if (*point == '\0') 
++ 	  {
++ 	    bug ("Mob: %d ifchck operator without value",
++ 		 mob_index[mob->nr].virtual); 
++ 	    return -1;
++ 	  }
++ 	else
++ 	  *oprpt++ = *point++; 
++ 
++       *oprpt = '\0';
++  
++       /* finished with operator, skip spaces and then get the value */
++       while (*point == ' ')
++ 	point++;
++       for(;;)
++ 	{
++ 	  if ((*point != ' ') && (*point == '\0')) 
++ 	    break;
++ 	  else
++ 	    *valpt++ = *point++; 
++ 	}
++ 
++       *valpt = '\0';
++     }
++   bufpt = buf;
++   argpt = arg;
++   oprpt = opr;
++   valpt = val;
++ 
++   /* Ok... now buf contains the ifchck, arg contains the inside of the
++    *  parentheses, opr contains an operator if one is present, and val
++    *  has the value if an operator was present.
++    *  So.. basically use if statements and run over all known ifchecks
++    *  Once inside, use the argument and expand the lhs. Then if need be
++    *  send the lhs,opr,rhs off to be evaluated.
++    */
++ 
++   if (!str_cmp(buf, "rand"))
++     {
++       return (number(0,100) <= atoi(arg));
++     }
++ 
++   if (!str_cmp(buf, "ispc"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': return 0;
++ 	case 'n': if (actor)
++  	             return (!IS_NPC(actor));
++ 	          else return -1;
++ 	case 't': if (vict)
++                      return (!IS_NPC(vict));
++ 	          else return -1;
++ 	case 'r': if (rndm) 
++                      return (!IS_NPC(rndm));
++ 	          else return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'ispc'",
++                 mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "isnpc"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': return 1;
++ 	case 'n': if (actor)
++ 	             return IS_NPC(actor);
++ 	          else return -1;
++ 	case 't': if (vict)
++                      return IS_NPC(vict);
++ 	          else return -1;
++ 	case 'r': if (rndm)
++ 	             return IS_NPC(rndm);
++ 	          else return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'isnpc'",
++                mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "isgood"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': return IS_GOOD(mob);
++ 	case 'n': if (actor) 
++ 	          return IS_GOOD(actor);
++ 	          else { return -1; }
++ 	case 't': if (vict)
++ 	             return IS_GOOD(vict);
++ 	          else return -1;
++ 	case 'r': if (rndm)
++ 	             return IS_GOOD(rndm);
++ 	          else return -1;
++ 	default:
++ 	  bug("Mob: %d bad argument to 'isgood'",
++                 mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "isfight"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': return (FIGHTING(mob)) ? 1 : 0;
++ 	case 'n': if (actor)
++ 	             return(FIGHTING(actor)) ? 1 : 0;
++ 	          else return -1;
++ 	case 't': if (vict)
++ 	             return (FIGHTING(vict)) ? 1 : 0;
++ 	          else return -1;
++ 	case 'r': if (rndm)
++ 	             return (FIGHTING(rndm)) ? 1 : 0;
++ 	          else return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'isfight'",
++                 mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "isimmort"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': return (GET_LEVEL(mob) > LVL_IMMORT);
++ 	case 'n': if (actor)
++ 	             return (GET_LEVEL(actor) > LVL_IMMORT);
++   	          else return -1;
++ 	case 't': if (vict)
++ 	             return (GET_LEVEL(vict) > LVL_IMMORT);
++                   else return -1;
++ 	case 'r': if (rndm)
++ 	             return (GET_LEVEL(rndm) > LVL_IMMORT);
++                   else return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'isimmort'",
++                 mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "ischarmed"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': return IS_AFFECTED(mob, AFF_CHARM);
++ 	case 'n': if (actor)
++ 	             return IS_AFFECTED(actor, AFF_CHARM);
++ 	          else return -1;
++ 	case 't': if (vict)
++ 	             return IS_AFFECTED(vict, AFF_CHARM);
++ 	          else return -1;
++ 	case 'r': if (rndm)
++ 	             return IS_AFFECTED(rndm, AFF_CHARM);
++ 	          else return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'ischarmed'",
++ 	       mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "isfollow"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': return (mob->master != NULL
++ 			  && mob->master->in_room == mob->in_room);
++ 	case 'n': if (actor)
++ 	             return (actor->master != NULL
++ 			     && actor->master->in_room == actor->in_room);
++ 	          else return -1;
++ 	case 't': if (vict)
++ 	             return (vict->master != NULL
++ 			     && vict->master->in_room == vict->in_room);
++ 	          else return -1;
++ 	case 'r': if (rndm)
++ 	             return (rndm->master != NULL
++ 			     && rndm->master->in_room == rndm->in_room);
++ 	          else return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'isfollow'", 
++                 mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "isaffected"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': return (mob->char_specials.saved.affected_by & atoi(arg));
++ 	case 'n': if (actor)
++ 	             return (actor->char_specials.saved.affected_by & atoi(arg));
++ 	          else return -1;
++ 	case 't': if (vict)
++ 	             return (vict->char_specials.saved.affected_by & atoi(arg));
++ 	          else return -1;
++ 	case 'r': if (rndm)
++ 	             return (rndm->char_specials.saved.affected_by & atoi(arg));
++ 	          else return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'isaffected'",
++ 	       mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "hitprcnt"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': lhsvl = mob->points.hit / mob->points.max_hit;
++ 	          rhsvl = atoi(val);
++          	  return mprog_veval(lhsvl, opr, rhsvl);
++ 	case 'n': if (actor)
++ 	          {
++ 		    lhsvl = actor->points.hit / actor->points.max_hit;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 't': if (vict)
++ 	          {
++ 		    lhsvl = vict->points.hit / vict->points.max_hit;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 'r': if (rndm)
++ 	          {
++ 		    lhsvl = rndm->points.hit / rndm->points.max_hit;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'hitprcnt'",
++                 mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "inroom"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': lhsvl = mob->in_room;
++ 	          rhsvl = real_room(atoi(val));
++ 	          return mprog_veval(lhsvl, opr, rhsvl);
++ 	case 'n': if (actor)
++ 	          {
++ 		    lhsvl = actor->in_room;
++ 		    rhsvl = real_room(atoi(val));
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 't': if (vict)
++ 	          {
++ 		    lhsvl = vict->in_room;
++ 		    rhsvl = real_room(atoi(val));
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 'r': if (rndm)
++ 	          {
++ 		    lhsvl = rndm->in_room;
++ 		    rhsvl = real_room(atoi(val));
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'inroom'",
++                 mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "sex"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': lhsvl = mob->player.sex;
++ 	          rhsvl = atoi(val);
++ 	          return mprog_veval(lhsvl, opr, rhsvl);
++ 	case 'n': if (actor)
++ 	          {
++ 		    lhsvl = actor->player.sex;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 't': if (vict)
++ 	          {
++ 		    lhsvl = vict->player.sex;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 'r': if (rndm)
++ 	          {
++ 		    lhsvl = rndm->player.sex;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'sex'",
++                 mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "position"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': lhsvl = mob->char_specials.position;
++ 	          rhsvl = atoi(val);
++ 	          return mprog_veval(lhsvl, opr, rhsvl);
++ 	case 'n': if (actor)
++ 	          {
++ 		    lhsvl = actor->char_specials.position;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 't': if (vict)
++ 	          {
++ 		    lhsvl = vict->char_specials.position;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 'r': if (rndm)
++ 	          {
++ 		    lhsvl = rndm->char_specials.position;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'position'",
++                 mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "level"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': lhsvl = GET_LEVEL(mob);
++ 	          rhsvl = atoi(val);
++ 	          return mprog_veval(lhsvl, opr, rhsvl);
++ 	case 'n': if (actor)
++ 	          {
++ 		    lhsvl = GET_LEVEL(actor);
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else 
++ 		    return -1;
++ 	case 't': if (vict)
++ 	          {
++ 		    lhsvl = GET_LEVEL(vict);
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 'r': if (rndm)
++ 	          {
++ 		    lhsvl = GET_LEVEL(rndm);
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'level'",
++                 mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "class"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': lhsvl = mob->player.class;
++ 	          rhsvl = atoi(val);
++                   return mprog_veval(lhsvl, opr, rhsvl);
++ 	case 'n': if (actor)
++ 	          {
++ 		    lhsvl = actor->player.class;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else 
++ 		    return -1;
++ 	case 't': if (vict)
++ 	          {
++ 		    lhsvl = vict->player.class;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 'r': if (rndm)
++ 	          {
++ 		    lhsvl = rndm->player.class;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'class'", mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "goldamt"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': lhsvl = mob->points.gold;
++                   rhsvl = atoi(val);
++                   return mprog_veval(lhsvl, opr, rhsvl);
++ 	case 'n': if (actor)
++ 	          {
++ 		    lhsvl = actor->points.gold;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 't': if (vict)
++ 	          {
++ 		    lhsvl = vict->points.gold;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 'r': if (rndm)
++ 	          {
++ 		    lhsvl = rndm->points.gold;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'goldamt'", mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "objtype"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'o': if (obj)
++ 	          {
++ 		    lhsvl = obj->obj_flags.type_flag;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	         else
++ 		   return -1;
++ 	case 'p': if (v_obj)
++ 	          {
++ 		    lhsvl = v_obj->obj_flags.type_flag;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'objtype'", mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "objval0"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'o': if (obj)
++ 	          {
++ 		    lhsvl = obj->obj_flags.value[0];
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 'p': if (v_obj)
++ 	          {
++ 		    lhsvl = v_obj->obj_flags.value[0];
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else 
++ 		    return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'objval0'", mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "objval1"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'o': if (obj)
++ 	          {
++ 		    lhsvl = obj->obj_flags.value[1];
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 'p': if (v_obj)
++ 	          {
++ 		    lhsvl = v_obj->obj_flags.value[1];
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'objval1'", mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "objval2"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'o': if (obj)
++ 	          {
++ 		    lhsvl = obj->obj_flags.value[2];
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 'p': if (v_obj)
++ 	          {
++ 		    lhsvl = v_obj->obj_flags.value[2];
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'objval2'", mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "objval3"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'o': if (obj)
++ 	          {
++ 		    lhsvl = obj->obj_flags.value[3];
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 'p': if (v_obj) 
++ 	          {
++ 		    lhsvl = v_obj->obj_flags.value[3];
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'objval3'", mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "number"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': lhsvl = mob->points.gold;
++ 	          rhsvl = atoi(val);
++ 	          return mprog_veval(lhsvl, opr, rhsvl);
++ 	case 'n': if (actor)
++ 	          {
++ 		    if IS_NPC(actor)
++ 		    {
++ 		      lhsvl = mob_index[actor->nr].virtual;
++ 		      rhsvl = atoi(val);
++ 		      return mprog_veval(lhsvl, opr, rhsvl);
++ 		    }
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 't': if (vict)
++ 	          {
++ 		    if IS_NPC(actor)
++ 		    {
++ 		      lhsvl = mob_index[vict->nr].virtual;
++ 		      rhsvl = atoi(val);
++ 		      return mprog_veval(lhsvl, opr, rhsvl);
++ 		    }
++ 		  }
++                   else
++ 		    return -1;
++ 	case 'r': if (rndm)
++ 	          {
++ 		    if IS_NPC(actor)
++ 		    {
++ 		      lhsvl = mob_index[rndm->nr].virtual;
++ 		      rhsvl = atoi(val);
++ 		      return mprog_veval(lhsvl, opr, rhsvl);
++ 		    }
++ 		  }
++ 	         else return -1;
++ 	case 'o': if (obj)
++ 	          {
++ 		    lhsvl = obj_index[obj->item_number].virtual;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	case 'p': if (v_obj)
++ 	          {
++ 		    lhsvl = obj_index[v_obj->item_number].virtual;
++ 		    rhsvl = atoi(val);
++ 		    return mprog_veval(lhsvl, opr, rhsvl);
++ 		  }
++ 	          else
++ 		    return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'number'", mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   if (!str_cmp(buf, "name"))
++     {
++       switch (arg[1])  /* arg should be "$*" so just get the letter */
++ 	{
++ 	case 'i': return mprog_seval(mob->player.name, opr, val);
++ 	case 'n': if (actor)
++ 	            return mprog_seval(actor->player.name, opr, val);
++ 	          else
++ 		    return -1;
++ 	case 't': if (vict)
++ 	            return mprog_seval(vict->player.name, opr, val);
++ 	          else
++ 		    return -1;
++ 	case 'r': if (rndm)
++ 	            return mprog_seval(rndm->player.name, opr, val);
++ 	          else
++ 		    return -1;
++ 	case 'o': if (obj)
++ 	            return mprog_seval(obj->name, opr, val);
++ 	          else
++ 		    return -1;
++ 	case 'p': if (v_obj)
++ 	            return mprog_seval(v_obj->name, opr, val);
++ 	          else
++ 		    return -1;
++ 	default:
++ 	  bug ("Mob: %d bad argument to 'name'", mob_index[mob->nr].virtual); 
++ 	  return -1;
++ 	}
++     }
++ 
++   /* Ok... all the ifchcks are done, so if we didnt find ours then something
++    * odd happened.  So report the bug and abort the MOBprogram (return error)
++    */
++   bug ("Mob: %d unknown ifchck", mob_index[mob->nr].virtual); 
++   return -1;
++ 
++ }
++ /* Quite a long and arduous function, this guy handles the control
++  * flow part of MOBprograms.  Basicially once the driver sees an
++  * 'if' attention shifts to here.  While many syntax errors are
++  * caught, some will still get through due to the handling of break
++  * and errors in the same fashion.  The desire to break out of the
++  * recursion without catastrophe in the event of a mis-parse was
++  * believed to be high. Thus, if an error is found, it is bugged and
++  * the parser acts as though a break were issued and just bails out
++  * at that point. I havent tested all the possibilites, so I'm speaking
++  * in theory, but it is 'guaranteed' to work on syntactically correct
++  * MOBprograms, so if the mud crashes here, check the mob carefully!
++  */
++ 
++ char null[1];
++ 
++ char *mprog_process_if(char *ifchck, char *com_list, struct char_data *mob,
++ 		       struct char_data *actor, struct obj_data *obj, void *vo,
++ 		       struct char_data *rndm)
++ {
++ 
++  char buf[ MAX_INPUT_LENGTH ];
++  char *morebuf = '\0';
++  char    *cmnd = '\0';
++  int loopdone = FALSE;
++  int     flag = FALSE;
++  int  legal;
++ 
++  *null = '\0';
++ 
++  /* check for trueness of the ifcheck */
++  if ((legal = mprog_do_ifchck(ifchck, mob, actor, obj, vo, rndm))) 
++    if(legal != 0)
++      flag = TRUE;
++    else
++      return null;
++ 
++  while(loopdone == FALSE) /*scan over any existing or statements */
++  {
++      cmnd     = com_list;
++      com_list = mprog_next_command(com_list);
++      while (*cmnd == ' ')
++        cmnd++;
++      if (*cmnd == '\0')
++      {
++ 	 bug ("Mob: %d no commands after IF/OR", mob_index[mob->nr].virtual); 
++ 	 return null;
++      }
++      morebuf = one_argument(cmnd,buf);
++      if (!str_cmp(buf, "or"))
++      {
++ 	 if ((legal = mprog_do_ifchck(morebuf,mob,actor,obj,vo,rndm)))
++ 	   if (legal != 0)
++ 	     flag = TRUE;
++ 	   else
++ 	     return null;
++      }
++      else
++        loopdone = TRUE;
++  }
++  
++  if (flag)
++    for (; ;) /*ifcheck was true, do commands but ignore else to endif*/ 
++    {
++        if (!str_cmp(buf, "if"))
++        { 
++ 	   com_list = mprog_process_if(morebuf,com_list,mob,actor,obj,vo,rndm);
++ 	   while (*cmnd==' ')
++ 	     cmnd++;
++ 	   if (*com_list == '\0')
++ 	     return null;
++ 	   cmnd     = com_list;
++ 	   com_list = mprog_next_command(com_list);
++ 	   morebuf  = one_argument(cmnd,buf);
++ 	   continue;
++        }
++        if (!str_cmp(buf, "break"))
++ 	 return null;
++        if (!str_cmp(buf, "endif"))
++ 	 return com_list; 
++        if (!str_cmp(buf, "else")) 
++        {
++ 	   while (str_cmp(buf, "endif")) 
++ 	   {
++ 	       cmnd     = com_list;
++ 	       com_list = mprog_next_command(com_list);
++ 	       while (*cmnd == ' ')
++ 		 cmnd++;
++ 	       if (*cmnd == '\0')
++ 	       {
++ 		   bug ("Mob: %d missing endif after else",
++ 			mob_index[mob->nr].virtual);
++ 		   return null;
++ 	       }
++ 	       morebuf = one_argument(cmnd,buf);
++ 	   }
++ 	   return com_list; 
++        }
++        mprog_process_cmnd(cmnd, mob, actor, obj, vo, rndm);
++        cmnd     = com_list;
++        com_list = mprog_next_command(com_list);
++        while (*cmnd == ' ')
++ 	 cmnd++;
++        if (*cmnd == '\0')
++        {
++            bug ("Mob: %d missing else or endif", mob_index[mob->nr].virtual); 
++            return null;
++        }
++        morebuf = one_argument(cmnd, buf);
++    }
++  else /*false ifcheck, find else and do existing commands or quit at endif*/
++    {
++      while ((str_cmp(buf, "else")) && (str_cmp(buf,"endif")))
++        {
++ 	 cmnd     = com_list;
++ 	 com_list = mprog_next_command(com_list);
++ 	 while (*cmnd == ' ')
++ 	   cmnd++;
++ 	 if (*cmnd == '\0')
++ 	   {
++ 	     bug ("Mob: %d missing an else or endif",
++ 		  mob_index[mob->nr].virtual); 
++ 	     return null;
++ 	   }
++ 	 morebuf = one_argument(cmnd, buf);
++        }
++ 
++      /* found either an else or an endif.. act accordingly */
++      if (!str_cmp(buf, "endif")) {
++        return com_list;
++ 	}
++      cmnd     = com_list;
++      com_list = mprog_next_command(com_list);
++      while (*cmnd == ' ')
++        cmnd++;
++      if (*cmnd == '\0')
++        { 
++ 	 bug ("Mob: %d missing endif", mob_index[mob->nr].virtual); 
++ 	 return null;
++        }
++      morebuf = one_argument(cmnd, buf);
++      
++      for (; ;) /*process the post-else commands until an endif is found.*/
++        {
++ 	 if (!str_cmp(buf, "if"))
++ 	   { 
++ 	     com_list = mprog_process_if(morebuf, com_list, mob, actor,
++ 					 obj, vo, rndm);
++ 	     while (*cmnd == ' ')
++ 	       cmnd++;
++ 	     if (*com_list == '\0')
++ 	       return null;
++ 	     cmnd     = com_list;
++ 	     com_list = mprog_next_command(com_list);
++ 	     morebuf  = one_argument(cmnd,buf);
++ 	     continue;
++ 	   }
++ 	 if (!str_cmp(buf, "else")) 
++ 	   {
++ 	     bug ("Mob: %d found else in an else section",
++ 		  mob_index[mob->nr].virtual); 
++ 	     return null;
++ 	   }
++ 	 if (!str_cmp(buf, "break"))
++ 	   return null;
++ 	 if (!str_cmp(buf, "endif"))
++ 	   return com_list; 
++ 	 mprog_process_cmnd(cmnd, mob, actor, obj, vo, rndm);
++ 	 cmnd     = com_list;
++ 	 com_list = mprog_next_command(com_list);
++ 	 while (*cmnd == ' ')
++ 	   cmnd++;
++ 	 if (*cmnd == '\0')
++ 	   {
++ 	     bug ("Mob:%d missing endif in else section",
++ 		  mob_index[mob->nr].virtual); 
++ 	     return null;
++ 	   }
++ 	 morebuf = one_argument(cmnd, buf);
++        }
++    }
++ }
++ 
++ /* This routine handles the variables for command expansion.
++  * If you want to add any go right ahead, it should be fairly
++  * clear how it is done and they are quite easy to do, so you
++  * can be as creative as you want. The only catch is to check
++  * that your variables exist before you use them. At the moment,
++  * using $t when the secondary target refers to an object 
++  * i.e. >prog_act drops~<nl>if ispc($t)<nl>sigh<nl>endif<nl>~<nl>
++  * probably makes the mud crash (vice versa as well) The cure
++  * would be to change act() so that vo becomes vict & v_obj.
++  * but this would require a lot of small changes all over the code.
++  */
++ void mprog_translate(char ch, char *t, struct char_data *mob, struct char_data *actor,
++                     struct obj_data *obj, void *vo, struct char_data *rndm)
++ {
++  static char *he_she        [] = { "it",  "he",  "she" };
++  static char *him_her       [] = { "it",  "him", "her" };
++  static char *his_her       [] = { "its", "his", "her" };
++  struct char_data   *vict             = (struct char_data *) vo;
++  struct obj_data    *v_obj            = (struct obj_data  *) vo;
++ 
++  *t = '\0';
++  switch (ch) {
++      case 'i':
++          one_argument(mob->player.name, t);
++       break;
++ 
++      case 'I':
++          strcpy(t, mob->player.short_descr);
++       break;
++ 
++      case 'n':
++          if (actor) {
++ 	   if (CAN_SEE(mob,actor)) {
++              if (!IS_NPC(actor)) {
++                strcpy(t, actor->player.name);
++              } else
++ 	       one_argument(actor->player.name, t);
++            } else
++              strcpy(t, "Someone");
++          }
++       break;
++ 
++      case 'N':
++          if (actor) 
++             if (CAN_SEE(mob, actor))
++ 	       if (IS_NPC(actor))
++ 		 strcpy(t, actor->player.short_descr);
++ 	       else
++ 	       {
++ 		   strcpy(t, actor->player.name);
++ 		   strcat(t, " ");
++ 		   strcat(t, actor->player.title);
++ 	       }
++ 	    else
++ 	      strcpy(t, "someone");
++ 	 break;
++ 
++      case 't':
++          if (vict) {
++ 	   if (CAN_SEE(mob, vict)) {
++              if (!IS_NPC(vict))
++                strcpy(t, vict->player.name);
++              else
++ 	       one_argument(vict->player.name, t);
++            } else
++              strcpy(t, "Someone");
++          }
++ 	 break;
++ 
++      case 'T':
++          if (vict) 
++             if (CAN_SEE(mob, vict))
++ 	       if (IS_NPC(vict))
++ 		 strcpy(t, vict->player.short_descr);
++ 	       else
++ 	       {
++ 		 strcpy(t, vict->player.name);
++ 		 strcat(t, " ");
++ 		 strcat(t, vict->player.title);
++ 	       }
++ 	    else
++ 	      strcpy(t, "someone");
++ 	 break;
++      
++      case 'r':
++          if (rndm) {
++ 	   if (CAN_SEE(mob, rndm)) {
++              if (!IS_NPC(rndm))
++                strcpy(t, rndm->player.name);
++ 	     else
++                one_argument(rndm->player.name, t);
++            } else
++              strcpy(t, "Someone");
++          }
++       break;
++ 
++      case 'R':
++          if (rndm) 
++             if (CAN_SEE(mob, rndm))
++ 	       if (IS_NPC(rndm))
++ 		 strcpy(t,rndm->player.short_descr);
++ 	       else
++ 	       {
++ 		 strcpy(t, rndm->player.name);
++ 		 strcat(t, " ");
++ 		 strcat(t, rndm->player.title);
++ 	       }
++ 	    else
++ 	      strcpy(t, "someone");
++ 	 break;
++ 
++      case 'e':
++          if (actor)
++ 	   CAN_SEE(mob, actor) ? strcpy(t, he_she[(int) actor->player.sex ])
++ 	                         : strcpy(t, "someone");
++ 	 break;
++   
++      case 'm':
++          if (actor)
++ 	   CAN_SEE(mob, actor) ? strcpy(t, him_her[(int) actor->player.sex ])
++                                  : strcpy(t, "someone");
++ 	 break;
++   
++      case 's':
++          if (actor)
++ 	   CAN_SEE(mob, actor) ? strcpy(t, his_her[(int) actor->player.sex ])
++ 	                         : strcpy(t, "someone's");
++ 	 break;
++      
++      case 'E':
++          if (vict)
++ 	   CAN_SEE(mob, vict) ? strcpy(t, he_she[(int) vict->player.sex ])
++                                 : strcpy(t, "someone");
++ 	 break;
++   
++      case 'M':
++          if (vict)
++ 	   CAN_SEE(mob, vict) ? strcpy(t, him_her[(int) vict->player.sex ])
++                                 : strcpy(t, "someone");
++ 	 break;
++   
++      case 'S':
++          if (vict)
++ 	   CAN_SEE(mob, vict) ? strcpy(t, his_her[(int) vict->player.sex ])
++                                 : strcpy(t, "someone's"); 
++ 	 break;
++ 
++      case 'j':
++ 	 strcpy(t, he_she[(int) mob->player.sex ]);
++ 	 break;
++   
++      case 'k':
++ 	 strcpy(t, him_her[(int) mob->player.sex ]);
++ 	 break;
++   
++      case 'l':
++ 	 strcpy(t, his_her[(int) mob->player.sex ]);
++ 	 break;
++ 
++      case 'J':
++          if (rndm)
++ 	   CAN_SEE(mob, rndm) ? strcpy(t, he_she[(int) rndm->player.sex ])
++ 	                        : strcpy(t, "someone");
++ 	 break;
++   
++      case 'K':
++          if (rndm)
++ 	   CAN_SEE(mob, rndm) ? strcpy(t, him_her[(int) rndm->player.sex ])
++                                 : strcpy(t, "someone");
++ 	 break;
++   
++      case 'L':
++          if (rndm)
++ 	   CAN_SEE(mob, rndm) ? strcpy(t, his_her[(int) rndm->player.sex ])
++ 	                        : strcpy(t, "someone's");
++ 	 break;
++ 
++      case 'o':
++          if (obj)
++ 	   CAN_SEE_OBJ(mob, obj) ? one_argument(obj->name, t)
++                                    : strcpy(t, "something");
++ 	 break;
++ 
++      case 'O':
++          if (obj)
++ 	   CAN_SEE_OBJ(mob, obj) ? strcpy(t, obj->short_description)
++                                    : strcpy(t, "something");
++ 	 break;
++ 
++      case 'p':
++          if (v_obj)
++ 	   CAN_SEE_OBJ(mob, v_obj) ? one_argument(v_obj->name, t)
++                                      : strcpy(t, "something");
++ 	 break;
++ 
++      case 'P':
++          if (v_obj)
++ 	   CAN_SEE_OBJ(mob, v_obj) ? strcpy(t, v_obj->short_description)
++                                      : strcpy(t, "something");
++       break;
++ 
++      case 'a':
++          if (obj) 
++           switch (*(obj->name))
++ 	  {
++ 	    case 'a': case 'e': case 'i':
++             case 'o': case 'u': strcpy(t, "an");
++ 	      break;
++             default: strcpy(t, "a");
++           }
++ 	 break;
++ 
++      case 'A':
++          if (v_obj) 
++           switch (*(v_obj->name))
++ 	  {
++             case 'a': case 'e': case 'i':
++ 	    case 'o': case 'u': strcpy(t, "an");
++ 	      break;
++             default: strcpy(t, "a");
++           }
++ 	 break;
++ 
++      case '$':
++          strcpy(t, "$");
++ 	 break;
++ 
++      default:
++          bug("Mob: %d bad $var", mob_index[mob->nr].virtual);
++ 	 break;
++        }
++ 
++  return;
++ 
++ }
++ 
++ /* This procedure simply copies the cmnd to a buffer while expanding
++  * any variables by calling the translate procedure.  The observant
++  * code scrutinizer will notice that this is taken from act()
++  */
++ void mprog_process_cmnd(char *cmnd, struct char_data *mob, struct char_data *actor,
++ 			struct obj_data *obj, void *vo, struct char_data *rndm)
++ {
++   char buf[ MAX_INPUT_LENGTH ];
++   char tmp[ MAX_INPUT_LENGTH ];
++   char *str;
++   char *i;
++   char *point;
++   int j;
++ 
++   point   = buf;
++   str     = cmnd;
++ 
++   while (*str != '\0')
++   {
++     if (*str != '$')
++     {
++       *point++ = *str++;
++       continue;
++     }
++     str++;
++     mprog_translate(*str, tmp, mob, actor, obj, vo, rndm);
++     i = tmp;
++     ++str;
++     while ((*point = *i) != '\0')
++       ++point, ++i;
++   }
++   *point = '\0';
++   str = buf;
++   j = 1;
++   while (j < MAX_INPUT_LENGTH-2)
++   {
++    if(str[j] == '\n') {
++      str[j] = '\0';
++      break;
++      }
++    if(str[j] == '\r') {
++      str[j] = '\0';
++      break;
++      }
++    if(str[j] == '\0')
++      break;
++    j++;
++   }
++ 
++   command_interpreter(mob, buf);
++ 
++   return;
++ 
++ }
++ 
++ /* The main focus of the MOBprograms.  This routine is called 
++  *  whenever a trigger is successful.  It is responsible for parsing
++  *  the command list and figuring out what to do. However, like all
++  *  complex procedures, everything is farmed out to the other guys.
++  */
++ void mprog_driver (char *com_list, struct char_data *mob, struct char_data *actor,
++ 		   struct obj_data *obj, void *vo)
++ {
++ 
++  char tmpcmndlst[ MAX_STRING_LENGTH ];
++  char buf       [ MAX_INPUT_LENGTH ];
++  char *morebuf;
++  char *command_list;
++  char *cmnd;
++  struct char_data *rndm  = NULL;
++  struct char_data *vch   = NULL;
++  int        count = 0;
++ 
++  if IS_AFFECTED(mob, AFF_CHARM)
++    return;
++ 
++  /* get a random visable mortal player who is in the room with the mob */
++  for (vch = world[mob->in_room].people; vch; vch = vch->next_in_room)
++    if (!IS_NPC(vch)
++        &&  vch->player.level < LVL_IMMORT
++        &&  CAN_SEE(mob, vch))
++      {
++        if (number(0, count) == 0)
++ 	 rndm = vch;
++        count++;
++      }
++   
++  strcpy(tmpcmndlst, com_list);
++  command_list = tmpcmndlst;
++  cmnd         = command_list;
++  command_list = mprog_next_command(command_list);
++  while (*cmnd != '\0')
++    {
++      morebuf = one_argument(cmnd, buf);
++      if (!str_cmp(buf, "if"))
++        command_list = mprog_process_if(morebuf, command_list, mob,
++ 				       actor, obj, vo, rndm);
++      else
++        mprog_process_cmnd(cmnd, mob, actor, obj, vo, rndm);
++      cmnd         = command_list;
++      command_list = mprog_next_command(command_list);
++    }
++ 
++  return;
++ 
++ }
++ 
++ /***************************************************************************
++  * Global function code and brief comments.
++  */
++ 
++ /* The next two routines are the basic trigger types. Either trigger
++  *  on a certain percent, or trigger on a keyword or word phrase.
++  *  To see how this works, look at the various trigger routines..
++  */
++ void mprog_wordlist_check(char *arg, struct char_data *mob, struct char_data *actor,
++ 			  struct obj_data *obj, void *vo, int type)
++ {
++ 
++   char        temp1[ MAX_STRING_LENGTH ];
++   char        temp2[ MAX_INPUT_LENGTH ];
++   char        word[ MAX_INPUT_LENGTH ];
++   MPROG_DATA *mprg;
++   char       *list;
++   char       *start;
++   char       *dupl;
++   char       *end;
++   int         i;
++ 
++   for (mprg = mob_index[mob->nr].mobprogs; mprg != NULL; mprg = mprg->next)
++     if (mprg->type & type)
++       {
++ 	strcpy(temp1, mprg->arglist);
++ 	list = temp1;
++         while(isspace(*list)) list++;
++ 	for (i = 0; i < strlen(list); i++)
++ 	  list[i] = LOWER(list[i]);
++ 	strcpy(temp2, arg);
++ 	dupl = temp2;
++ 	for (i = 0; i < strlen(dupl); i++)
++ 	  dupl[i] = LOWER(dupl[i]);
++ 	if ((list[0] == 'p') && (list[1] == ' '))
++ 	  {
++ 	    list += 2;
++ 	    while ((start = strstr(dupl, list)))
++ 	      if ((start == dupl || *(start-1) == ' ')
++ 		  && (*(end = start + strlen(list)) == ' '
++ 		      || *end == '\n'
++ 		      || *end == '\r'
++ 		      || *end == '\0'))
++ 		{
++ 		  mprog_driver(mprg->comlist, mob, actor, obj, vo);
++ 		  break;
++ 		}
++ 	      else
++ 		dupl = start+1;
++ 	  }
++ 	else
++ 	  {
++ 	    list = one_argument(list, word);
++ 	    for(; word[0] != '\0'; list = one_argument(list, word))
++ 	      while ((start = strstr(dupl, word)))
++ 		if ((start == dupl || *(start-1) == ' ')
++ 		    && (*(end = start + strlen(word)) == ' '
++ 			|| *end == '\n'
++ 			|| *end == '\r'
++ 			|| *end == '\0'))
++ 		  {
++ 		    mprog_driver(mprg->comlist, mob, actor, obj, vo);
++ 		    break;
++ 		  }
++ 		else
++ 		  dupl = start+1;
++ 	  }
++       }
++ 
++   return;
++ 
++ }
++ 
++ void mprog_percent_check(struct char_data *mob, struct char_data *actor, struct obj_data *obj,
++ 			 void *vo, int type)
++ {
++  MPROG_DATA * mprg;
++ 
++  for (mprg = mob_index[mob->nr].mobprogs; mprg != NULL; mprg = mprg->next)
++    if ((mprg->type & type)
++        && (number(0,100) < atoi(mprg->arglist)))
++      {
++        mprog_driver(mprg->comlist, mob, actor, obj, vo);
++        if (type != GREET_PROG && type != ALL_GREET_PROG)
++ 	 break;
++      }
++ 
++  return;
++ 
++ }
++ 
++ /* The triggers.. These are really basic, and since most appear only
++  * once in the code (hmm. i think they all do) it would be more efficient
++  * to substitute the code in and make the mprog_xxx_check routines global.
++  * However, they are all here in one nice place at the moment to make it
++  * easier to see what they look like. If you do substitute them back in,
++  * make sure you remember to modify the variable names to the ones in the
++  * trigger calls.
++  */
++ void mprog_act_trigger(char *buf, struct char_data *mob, struct char_data *ch,
++ 		       struct obj_data *obj, void *vo)
++ {
++ 
++   MPROG_ACT_LIST * tmp_act;
++ 
++   if (IS_NPC(mob)
++       && (mob_index[mob->nr].progtypes & ACT_PROG)
++       && (mob != ch))
++     {
++       tmp_act = malloc(sizeof(MPROG_ACT_LIST));
++       if (mob->mpactnum > 0)
++ 	tmp_act->next = mob->mpact;
++       else
++ 	tmp_act->next = NULL;
++ 
++       mob->mpact      = tmp_act;
++       mob->mpact->buf = str_dup(buf);
++       mob->mpact->ch  = ch; 
++       mob->mpact->obj = obj; 
++       mob->mpact->vo  = vo; 
++       mob->mpactnum++;
++ 
++     }
++   return;
++ 
++ }
++ 
++ void mprog_bribe_trigger(struct char_data *mob, struct char_data *ch, int amount)
++ {
++ 
++   MPROG_DATA *mprg;
++   struct obj_data   *obj;
++ 
++   if (IS_NPC(mob)
++       && (mob_index[mob->nr].progtypes & BRIBE_PROG))
++     {
++       obj = create_money(amount);
++       obj_to_char(obj, mob);
++       mob->points.gold -= amount;
++ 
++       for (mprg = mob_index[mob->nr].mobprogs; mprg != NULL; mprg = mprg->next)
++ 	if ((mprg->type & BRIBE_PROG)
++ 	    && (amount >= atoi(mprg->arglist)))
++ 	  {
++ 	    mprog_driver(mprg->comlist, mob, ch, obj, NULL);
++ 	    break;
++ 	  }
++     }
++   
++   return;
++ 
++ }
++ 
++ void mprog_death_trigger(struct char_data *mob, struct char_data *killer)
++ {
++ 
++  if (IS_NPC(mob)
++      && (mob_index[mob->nr].progtypes & DEATH_PROG))
++    {
++      mprog_percent_check(mob, killer, NULL, NULL, DEATH_PROG);
++    }
++ 
++  death_cry(mob);
++  return;
++ 
++ }
++ 
++ void mprog_entry_trigger(struct char_data *mob)
++ {
++ 
++  if (IS_NPC(mob)
++      && (mob_index[mob->nr].progtypes & ENTRY_PROG))
++    mprog_percent_check(mob, NULL, NULL, NULL, ENTRY_PROG);
++ 
++  return;
++ 
++ }
++ 
++ void mprog_fight_trigger(struct char_data *mob, struct char_data *ch)
++ {
++ 
++  if (IS_NPC(mob)
++      && (mob_index[mob->nr].progtypes & FIGHT_PROG))
++    mprog_percent_check(mob, ch, NULL, NULL, FIGHT_PROG);
++ 
++  return;
++ 
++ }
++ 
++ void mprog_give_trigger(struct char_data *mob, struct char_data *ch, struct obj_data *obj)
++ {
++ 
++  char        buf[MAX_INPUT_LENGTH];
++  MPROG_DATA *mprg;
++ 
++  if (IS_NPC(mob)
++      && (mob_index[mob->nr].progtypes & GIVE_PROG))
++    for (mprg = mob_index[mob->nr].mobprogs; mprg != NULL; mprg = mprg->next)
++      {
++        one_argument(mprg->arglist, buf);
++        if ((mprg->type & GIVE_PROG)
++ 	   && ((!str_infix(obj->name, mprg->arglist))
++ 	       || (!str_cmp("all", buf))))
++ 	 {
++ 	   mprog_driver(mprg->comlist, mob, ch, obj, NULL);
++ 	   break;
++ 	 }
++      }
++ 
++  return;
++ 
++ }
++ 
++ void mprog_greet_trigger(struct char_data *ch)
++ {
++ 
++  struct char_data *vmob;
++ 
++  for (vmob = world[ch->in_room].people; vmob != NULL; vmob = vmob->next_in_room)
++    if (IS_NPC(vmob)
++        && ch != vmob
++        && CAN_SEE(vmob, ch)
++        && (vmob->char_specials.fighting == NULL)
++        && AWAKE(vmob)
++        && (mob_index[vmob->nr].progtypes & GREET_PROG))
++      mprog_percent_check(vmob, ch, NULL, NULL, GREET_PROG);
++    else
++      if (IS_NPC(vmob)
++ 	 && (vmob->char_specials.fighting == NULL)
++ 	 && AWAKE(vmob)
++ 	 && (mob_index[vmob->nr].progtypes & ALL_GREET_PROG))
++        mprog_percent_check(vmob,ch,NULL,NULL,ALL_GREET_PROG);
++ 
++  return;
++ 
++ }
++ 
++ void mprog_hitprcnt_trigger(struct char_data *mob, struct char_data *ch)
++ {
++ 
++  MPROG_DATA *mprg;
++ 
++  if (IS_NPC(mob)
++      && (mob_index[mob->nr].progtypes & HITPRCNT_PROG))
++    for (mprg = mob_index[mob->nr].mobprogs; mprg != NULL; mprg = mprg->next)
++      if ((mprg->type & HITPRCNT_PROG)
++ 	 && ((100*mob->points.hit / mob->points.max_hit) < atoi(mprg->arglist)))
++        {
++ 	 mprog_driver(mprg->comlist, mob, ch, NULL, NULL);
++ 	 break;
++        }
++  
++  return;
++ 
++ }
++ 
++ void mprog_random_trigger(struct char_data *mob)
++ {
++   if (mob_index[mob->nr].progtypes & RAND_PROG)
++     mprog_percent_check(mob,NULL,NULL,NULL,RAND_PROG);
++ 
++   return;
++ 
++ }
++ 
++ void mprog_speech_trigger(char *txt, struct char_data *mob)
++ {
++ 
++   struct char_data *vmob;
++ 
++   for (vmob = world[mob->in_room].people; vmob != NULL; vmob = vmob->next_in_room)
++     if ((mob != vmob) && IS_NPC(vmob) && (mob_index[vmob->nr].progtypes & SPEECH_PROG))
++       mprog_wordlist_check(txt, vmob, mob, NULL, NULL, SPEECH_PROG);
++   
++   return;
++ 
++ }
+diff -acN oldsrc/structs.h src/structs.h
+*** oldsrc/structs.h	Tue May 23 22:10:25 1995
+--- src/structs.h	Sun Aug  6 09:13:55 1995
+***************
+*** 593,598 ****
+--- 593,635 ----
+  
+  typedef struct memory_rec_struct memory_rec;
+  
++ /* MOBProgram foo */
++ struct mob_prog_act_list {
++   struct mob_prog_act_list *next;
++   char *buf;
++   struct char_data *ch;
++   struct obj_data *obj;
++   void *vo;
++ };
++ typedef struct mob_prog_act_list MPROG_ACT_LIST;
++ 
++ struct mob_prog_data {
++   struct mob_prog_data *next;
++   int type;
++   char *arglist;
++   char *comlist;
++ };
++ 
++ typedef struct mob_prog_data MPROG_DATA;
++ 
++ extern bool MOBTrigger;
++ 
++ #define ERROR_PROG        -1
++ #define IN_FILE_PROG       0
++ #define ACT_PROG           1
++ #define SPEECH_PROG        2
++ #define RAND_PROG          4
++ #define FIGHT_PROG         8
++ #define DEATH_PROG        16
++ #define HITPRCNT_PROG     32
++ #define ENTRY_PROG        64
++ #define GREET_PROG       128
++ #define ALL_GREET_PROG   256
++ #define GIVE_PROG        512
++ #define BRIBE_PROG      1024
++ 
++ /* end of MOBProg foo */
++ 
+  
+  /* This structure is purely intended to be an easy way to transfer */
+  /* and return information about time (real or mudwise).            */
+***************
+*** 601,607 ****
+     sh_int year;
+  };
+  
+- 
+  /* These data contain information about a players time data */
+  struct time_data {
+     time_t birth;    /* This represents the characters age                */
+--- 638,643 ----
+***************
+*** 816,821 ****
+--- 852,860 ----
+  
+     struct follow_type *followers;        /* List of chars followers       */
+     struct char_data *master;             /* Who is char following?        */
++    MPROG_ACT_LIST *mpact;
++    int mpactnum;
++    
+  };
+  /* ====================================================================== */
+  
+***************
+*** 981,985 ****
+--- 1020,1026 ----
+  struct index_data {
+     int	virtual;    /* virtual number of this mob/obj           */
+     int	number;     /* number of existing units of this mob/obj	*/
++    int  progtypes;  /* program types for MOBProg		*/
++    MPROG_DATA *mobprogs; /* programs for MOBProg		*/
+     SPECIAL(*func);
+  };

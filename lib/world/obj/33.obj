@@ -1,0 +1,141 @@
+#3300
+key~
+an old twisted piece of iron that looks like a key~
+A twisted rusty key.~
+~
+18 adegq aco 
+0 0 0 0 
+0 10000 10000 0
+E
+key~
+This rusted looking key is tied to a piece of string and glows faintly
+with a magical aura.
+~
+#3301
+wings wing angel~
+a pair of angel wings~
+A pair of clipped angelic wings.~
+~
+9 adegiklq ak
+10 0 0 0
+200 750000 250000 30
+E
+wings wing angel~
+A pair of giant white wings that looks like as if it came from an angel.
+This pair of gorgeous glowing wings seems to be clipped and cut off from
+the poor now flightless angel and attached to a golden clip as if to be 
+worn like a cloak about your body. The wings are so huge that it looks 
+like it could impede your fighting ability if worn.
+~
+A 
+2 +2
+A
+14 +100
+A
+12 +100
+A
+18 -4
+A
+19 -4
+R
+30 30
+#3302
+halo~
+an angel's halo~
+A discarded angel's halo.~
+~
+9 adegiklq aeo
+10 0 0 0 
+10 500000 250000 45
+E
+halo~
+A golden halo that use to be hovering above an angel's head but now 
+seems to be discarded for some reason. The glowing circlet seems to be 
+emiting great magical energy that fills you with confidence and magic
+while protection as well.
+~
+A
+12 +100
+A
+18 +5
+A
+17 -5
+R
+30 30
+#3303
+spade~
+Caretaker's spade~
+The caretaker's spade.~
+~
+5 deghjq ano
+0 10 2 7
+15 100000 100000 30
+E
+spade~
+A odd looking spade made from somekind of unknown material.
+~
+A
+1 +2
+A
+13 +25
+A
+19 +3
+A
+18 +2
+R
+25 25
+#3304
+mystic gem eye~
+a mystic gem~
+The fabled mummy's eye.~
+~
+1 adeghnpq amo
+0 0 -1 0
+1 125000 125000 30
+E
+gem mystic eye~
+This is the fabled mysterious gem of the mummy. Placed on the coffins of 
+the buried bodies. It is supposed to be used by the soul as an eye to 
+watch the world as things happen around them. This red gem glows with a 
+bright magical intensity that it could be used as a light source. 
+Furthermore this gem has a small golden clasp that can be worn around 
+the wrist.
+~
+A
+9 +10
+A
+12 +50
+A
+18 +2
+A
+17 -5
+R
+10 10
+#3305
+cloak vampire~
+a vampire cloak~
+A dark velvet vampire cloak~
+~
+9 dgjq ak
+10 0 0 0 
+5 0 100000 50
+E
+cloak vampire~
+This is a dark velvet cloak. Though a lustrous black on the outside, the
+inside lining of the cloak is a deep blood red. This looks like a typical
+cloak described in the mediaeval times as the typical cloaks worn by 
+vampires.
+~
+A 
+9 +10
+A
+12 +50
+A
+13 +50
+A
+18 +2
+A
+19 +2
+R
+50 50
+$

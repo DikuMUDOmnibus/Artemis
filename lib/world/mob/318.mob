@@ -1,0 +1,254 @@
+#31801
+Jaguar~
+A Jaguar~
+A Black jaguar pads along silently
+~
+The jaguar has a beautiful glossy black coat. it slinks along between 
+the trees , prowling for its next meal. It moves with uncanny stealth.
+~
+gno fkps 0 S
+13 11 2 1d12+161 2d8+2
+900 13000
+8 8 0
+#31802
+Female~
+The female cannibal~
+A Female cannibal is here planting vegetables
+~
+The woman works hard at her gardening.
+~
+bchlop c 0 S
+22 0 -31 1d49+301 2d8+2
+6500 55000
+8 8 2
+#31803
+Boa constrictor~
+A boa constrictor~
+A huge snake is about to drop on you from a tree
+~
+The huge snake slithers and hisses in the branches above your head.
+~
+befgnor dfgk -30 S
+15 6 1 1d11+244 2d8+2
+900 22000
+8 8 1
+#31804
+Warrior Headhunter~
+The fierce warrior~
+A Headhunter guards the path
+~
+The warrior stares at you coldly, it is his duty to kill all 
+intruders. What he does after that you'd rather not
+guess at.
+~
+abcfglno chjk -30 S
+45 6 1 10d11+244 2d8+2
+900 22000
+8 8 1
+#31805
+Child~
+A grubby child~
+A child plays in the dirt
+~
+~
+cghop c -30 S
+15 6 3 1d11+186 2d8+2
+900 16000
+8 8 1
+#31806
+Female woman~
+A female cannibal~
+A woman stands here staring at you
+~
+~
+bchlmop c -30 S
+22 0 4 1d49+351 2d8+2
+6000 55000
+8 8 1
+#31807
+Cannibal~
+A Male cannibal~
+A cannibal stands here sizing you up for dinner
+~
+The cannibal looks at you and licks his lips
+~
+bcfhlop c -100 S
+24 0 1 1d49+451 3d8+4
+6500 70000
+8 8 1
+#31808
+Hippopotamus~
+A Hippo~
+A hippo splashes noisily in the water
+~
+The hippo is all grey and baggy. The hippo squirts water
+all over you.
+~
+bjnoq ck 0 S
+20 1 7 1d12+248 3d6+4
+3000 33000
+8 8 1
+#31809
+Crocodile~
+A Crocodile~
+A crocodile stealthily swims by
+~
+The crocodile is green, scaly and has huge teeth
+~
+fgnoq fghjk 0 S
+21 0 5 1d89+261 3d7+4
+5000 70000
+8 8 1
+#31810
+Warrior Headhunter~
+The Headhunter~
+A warrior stands here menacingly
+~
+The warrior has huge bulging muscles. You guess by the way he is 
+staring at you that you better get out of here before he attacks you.
+~
+aghjlmno ceh 0 S
+45 0 -4 1d49+501 4d6+4
+8000 90000
+8 8 1
+#31811
+female~
+A busy woman~
+A woman busily rushes around
+~
+the woman rushes here there and everywhere, she really must have a lot
+to do.
+~
+cghklmno ck 0 S
+22 0 4 1d49+351 2d8+2
+6000 55000
+8 8 2
+#31812
+woman~
+The Woman cook~
+A woman busily stirs a pot with her spear
+~
+The woman works so hard she hardly notices that you have arrived.
+But now that she has noticed you get the feeling she'd rather see
+you boiling in the pot
+~
+bglmno defj 0 S
+22 0 4 1d49+351 2d8+2
+6000 55000
+8 8 2
+#31813
+Hyena~
+The hyena~
+A hyena busily chews away on a bone
+~
+The hyena laughs then slinks away from you when it realises that you 
+are not going to run away.
+~
+bcegho f 0 S
+14 7 6 1d12+103 4d6+4
+900 15000
+8 8 1
+#31814
+Witchdoctor~
+The witchdoctor~
+The witchdoctor is incensed at your prescence
+~
+the witchdoctor is wearing a huge painted wooden mask. It looks rather
+strange on his skinny little body.
+~
+abcglmnoqr dehkmn 0 S
+50 0 -10 1d49+1551 5d8+8
+15000 350000
+8 8 1
+#31815
+zombie~
+A zombie~
+A zombie rises up out of the pot
+~
+The zombie looks like it is about to fall apart
+~
+bgnopr defhk -1000 S
+16 12 10 1d12+198 2d8+2
+1000 17000
+8 8 0
+#31816
+concubine~
+The concubine~
+the chiefs concubine smiles and winks at you sugestively
+~
+the concubine lazily sprawls over the bed
+~
+ibgho c -1000 S
+16 14 10 1d12+198 2d8+0
+1000 17000
+5 8 2
+#31817
+Chieftan~
+The chieftan~
+The chief is here giving orders
+~
+The chief is grossly fat, it looks like he could hardly stand let 
+alone defend himself
+~
+beglnoq c -550 S
+50 0 -10 1d49+1990 4d8+5
+15000 300000
+5 8 2
+#31818
+bodyguard~
+The bodyguard~
+The chiefs bodyguard is ready to give his life for the chief
+~
+The bodyguard looks like every bodyguard, big, tough and stupid.
+~
+abglno ch -550 S
+45 2 0 1d11+236 3d6+3
+1500 28000
+5 8 1
+#31819
+Leper~
+Leper~
+A leper wanders here busily being avoided
+~
+The leper looks like he is about to fall to pieces any minute now.
+~
+bgho j -550 S
+10 11 10 1d12+123 2d6+1
+500 7000
+5 8 2
+#31820
+Holy guardian~
+The Holy guardian~
+The holy guardian stands here barring all from entry
+~
+The holy guardian looks just like a pretty little girl.
+~
+abglmnoqr defh -550 S
+28 0 -8 1d49+651 4d6+5
+10000 180000
+5 8 2
+#31821
+Holy prophet~
+The Holy prophet~
+The holy prophet is giving prophecies to all who will listen
+~
+The holy prophet looks like a little girl from the waist up but from 
+the waist down she looks like a giant snake.
+~
+abglmnoqr defh -1000 S
+45 0 -10 10d20+1500 4d8+5
+15000 250000
+5 8 2
+#31822
+bear~
+The Huge bear~
+The huge bear is jealously guarding its cave
+~
+The bear is big and brown, it also has very large claws and sharp teeth
+~
+bfgno f 0 S
+40 0 -10 2d49+1500 4d8+10
+15000 600000
+5 8 2
+#99999
+$~

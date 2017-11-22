@@ -1,0 +1,115 @@
+#19000
+sword diamond edge edged long~
+a diamond-edged sword~
+A long sharp-edged sword is stuck half into a stone.~
+~
+5 67 24577
+0 6 5 3
+15 16384 1000 0
+E
+diamond edge edged sword long~
+This is a long slim sword with diamond edges on its silver blade.
+On the silver blade are some writings in a long forgotten language.
+The diamond edges of the blade are as sharp as razors and hard as dimonds.
+~
+E
+writings~
+You can't make out anything of it, sorry. Maybe you should ask a sage or
+a wizard for help in this matter...
+~
+A
+18 5
+A
+19 5
+R
+40 40
+#19001
+Sword long longsword weapon~
+a fine Longsword~
+A shiny longsword is lying on the ground.~
+~
+5 1024 24577
+0 3 4 3
+8 600 200 0
+A
+18 3
+A
+19 3
+R
+5 5
+#19002
+armor elven chain chainmail~
+an Elven chainmail~
+A nice looking chainmail is lying on the ground here.~
+~
+9 1024 16393
+6 0 0 0
+45 5500 2000 0
+#19003
+mithril elven armor chain~
+a Mithril chainmail~
+A white chainmail is lying on the ground.~
+~
+9 1024 16393
+6 0 0 0
+60 34000 8500 0
+A
+13 10
+A
+12 10
+#19004
+mithril sword twohanded~
+a Two-handed Mithril Sword~
+A large sword is stuck into the ground.~
+~
+5 1345 8193
+0 4 4 3
+18 32768 10000 0
+A
+18 1
+A
+19 2
+#19005
+scope telescope large~
+a large telescope~
+A large telescope is fastened on a tree.~
+~
+12 1024 0
+0 0 0 0
+600 999999 10 0
+#19006
+bow hunting elven~
+an Elven hunting bow~
+A wooden bow has been left here lying on the ground.~
+~
+5 1024 8193
+0 2 6 7
+1 1000 330 0
+A
+18 2 
+#19007
+cap coif chain elven~
+an Elven Chaincoif~
+A chainmail coif has been left here on the ground.~
+~
+9 1024 17
+6 0 0 0
+20 1750 500 0
+#19008
+leggings chain elven~
+a pair of Elven Chain leggings~
+Some chain leggings has been left here unguarded.~
+~
+9 1027 33
+6 0 0 0
+25 1750 500 0
+#19009
+green leafgreen potion~
+a Leaf-green potion~
+A green potion is standing on the ground.~
+~
+10 1088 16385
+30 25 28 15
+1 44900 50 0
+#99999
+$~

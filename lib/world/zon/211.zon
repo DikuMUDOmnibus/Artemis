@@ -1,0 +1,373 @@
+#211
+Zedd Town~
+21199 30 2
+* Mobiles
+M 0 21100 1 21181       Goethe -- Shopkeeper
+G 1 3050 100                    Scroll Of Identify
+G 1 3052 100                    Scroll Of Recall
+M 0 21101 1 21113       Harry -- Shopkeeper
+G 1 4103 20                     Green Slime Mould
+G 1 6106 30                     Toadstool
+M 0 21102 1 21168       Kaloor -- Shopkeeper
+G 1 3032 20                     Bag
+G 1 3051 20                     Yellow Potion
+G 1 3053 20                     Grey Wand
+G 1 3054 20                     Gnarled Staff
+M 0 21103 10 21105      guard
+E 1 21110 100 16                spiked club
+M 0 21103 10 21170      guard
+E 1 21110 100 16                spiked club
+M 0 21103 10 21199      guard
+E 1 21110 100 16                spiked club
+M 0 21103 10 21129      guard
+E 1 21110 100 16                spiked club
+M 0 21103 10 21116      guard
+E 1 21110 100 16                spiked club
+M 0 21103 10 21107      guard
+E 1 21110 100 16                spiked club
+M 0 21103 10 21107      guard
+E 1 21110 100 16                spiked club
+M 0 21103 10 21113      guard
+E 1 21110 100 16                spiked club
+M 0 21103 10 21173      guard
+E 1 21110 100 16                spiked club
+M 0 21103 10 21174      guard
+E 1 21110 100 16                spiked club
+M 0 21103 10 21276      guard
+E 1 21110 100 16                spiked club
+M 0 21104 10 21101      big guard
+E 1 21110 100 16                spiked club
+M 0 21104 10 21127      big guard
+E 1 21110 100 16                spiked club
+M 0 21104 10 21107      big guard
+E 1 21110 100 16                spiked club
+M 0 21104 10 21111      big guard
+E 1 21110 100 16                spiked club
+M 0 21104 10 21169      big guard
+E 1 21110 100 16                spiked club
+M 0 21104 10 21197      big guard
+E 1 21110 100 16                spiked club
+M 0 21104 10 21172      big guard
+E 1 21110 100 16                spiked club
+M 0 21104 10 21122      big guard
+E 1 21110 100 16                spiked club
+M 0 21104 10 21114      big guard
+E 1 21110 100 16                spiked club
+M 0 21104 10 21130      big guard
+E 1 21110 100 16                spiked club
+M 0 21105 2 21128       Mugger
+E 1 21111 100 16                Switchblade
+M 0 21105 2 21115       Mugger
+E 1 21111 100 16                Switchblade
+M 0 21106 14 21102      old rich man
+E 1 21130 20 17                 magical orb
+M 0 21106 14 21102      old rich man
+E 1 21130 20 17                 magical orb
+M 0 21106 14 21135      old rich man
+E 1 21130 20 17                 magical orb
+M 0 21106 14 21174      old rich man
+E 1 21130 20 17                 magical orb
+M 0 21106 14 21112      old rich man
+E 1 21130 20 17                 magical orb
+M 0 21106 14 21129      old rich man
+E 1 21130 20 17                 magical orb
+M 0 21106 14 21110      old rich man
+E 1 21130 20 17                 magical orb
+M 0 21106 14 21110      old rich man
+E 1 21130 20 17                 magical orb
+M 0 21106 14 21105      old rich man
+E 1 21130 20 17                 magical orb
+M 0 21106 14 21104      old rich man
+E 1 21130 20 17                 magical orb
+M 0 21106 14 21170      old rich man
+E 1 21130 20 17                 magical orb
+M 0 21106 14 21169      old rich man
+E 1 21130 20 17                 magical orb
+M 0 21106 14 21197      old rich man
+E 1 21130 20 17                 magical orb
+M 0 21107 1 21184       Mattoc
+M 0 21108 1 21184       Cliff
+M 0 21109 1 21185       Carla
+M 0 21110 1 21183       Woody -- Shopkeeper
+G 1 3000 20                     Beer Barrel
+G 1 3001 20                     Beer Bottle
+G 1 3002 20                     Ale bottle
+M 0 21111 1 21193       Mayor Abe
+M 0 21112 1 21191       sonia
+M 0 21113 1 21183       Sam
+E 1 21109 4 16                  gnarled branch
+M 0 21114 1 21187       crane
+M 0 21115 1 21183       Lili
+M 0 21116 1 21189       Paul
+M 0 21117 15 21106      Alley Cat
+M 0 21117 15 21106      Alley Cat
+M 0 21117 15 21106      Alley Cat
+M 0 21117 15 21106      Alley Cat
+M 0 21117 15 21106      Alley Cat
+M 0 21117 15 21106      Alley Cat
+M 0 21117 15 21106      Alley Cat
+M 0 21117 15 21106      Alley Cat
+M 0 21117 15 21106      Alley Cat
+M 0 21117 15 21106      Alley Cat
+M 0 21117 15 21106      Alley Cat
+M 0 21117 15 21106      Alley Cat
+M 0 21117 15 21106      Alley Cat
+M 0 21117 15 21122      Alley Cat
+M 0 21117 15 21108      Alley Cat
+M 0 21118 1 21127       Pee Wee
+E 1 21114 2 16                  Silver Dildo
+M 0 21119 5 21115       tough guy
+E 1 21111 100 16                spiny knife
+M 0 21119 5 21127       tough guy
+E 1 21111 100 16                spiny knife
+M 0 21119 5 21197       tough guy
+E 1 21111 100 16                spiny knife
+M 0 21119 5 21122       tough guy
+E 1 21111 100 16                spiny knife
+M 0 21119 5 21115       tough guy
+E 1 21111 100 16                spiny knife
+M 0 21120 5 21127       alley kid 
+E 1 21112 100 16                Club
+M 0 21120 5 21166       alley kid
+E 1 21112 100 16                Club
+M 0 21120 5 21108       alley kid
+E 1 21112 100 16                Club
+M 0 21120 5 21181       alley kid
+E 1 21112 100 16                Club
+M 0 21120 5 21115       alley kid
+E 1 21112 100 16                Club
+M 0 21121 5 21127       harlet
+M 0 21121 5 21127       harlet
+M 0 21121 5 21128       harlet
+M 0 21121 5 21128       harlet
+M 0 21121 5 21128       harlet
+M 0 21122 1 21190       Jona
+M 0 21123 1 21101       Bishop
+M 0 21124 4 21104       Dockworker
+M 0 21124 4 21105       Dockworker
+M 0 21124 4 21101       Dockworker
+M 0 21124 4 21101       Dockworker
+M 0 21125 3 21115       whitch
+M 0 21125 3 21128       whitch
+M 0 21125 3 21127       whitch
+M 0 21126 1 21128       Pimp
+E 1 21111 100 16                spiny knife
+M 0 21127 4 21161       Orc
+M 0 21127 4 21158       Orc
+M 0 21127 4 21153       Orc
+M 0 21128 4 21153       Human
+M 0 21128 4 21149       Human
+M 0 21128 4 21157       Human
+M 0 21129 2 21157       Orc
+M 0 21129 2 21150       Orc
+M 0 21130 2 21159       Human
+M 0 21130 2 21161       Human
+M 0 21131 2 21148       Orc
+M 0 21131 2 21155       Orc
+M 0 21132 2 21155       Human
+M 0 21132 2 21149       Human
+M 0 21133 2 21154       Orc
+M 0 21133 2 21158       Orc
+M 0 21134 2 21152       Human
+M 0 21134 2 21149       Human
+M 0 21135 1 21154       Orc
+E 1 21108 10 3                  Shoulder Pads
+M 0 21136 1 21151       Human
+E 1 21108 10 3                  Shoulder Pads
+M 0 21127 4 21149       Orc
+M 0 21128 4 21158       Human
+M 0 21137 7 21132       spectator 
+M 0 21137 7 21133       spectator 
+M 0 21137 7 21133       spectator 
+M 0 21137 7 21134       spectator 
+M 0 21137 7 21135       spectator 
+M 0 21137 7 21135       spectator 
+M 0 21137 7 21136       spectator 
+M 0 21138 6 21134       Child
+M 0 21138 6 21132       Child
+M 0 21138 6 21110       Child
+M 0 21138 6 21109       Child
+M 0 21138 6 21197       Child
+M 0 21138 6 21170       Child
+M 0 21139 7 21135       Vendor
+M 0 21139 7 21133       Vendor
+M 0 21139 7 21145       Vendor
+M 0 21139 7 21143       Vendor
+M 0 21139 7 21102       Vendor
+M 0 21139 7 21102       Vendor
+M 0 21139 7 21116       Vendor
+M 0 21139 7 21276       Vendor
+M 0 21140 5 21104       quarry worker
+E 1 21113 100 16                Rod
+E 1 21117 20 13                 Belt
+E 1 21118 10 6                  rock Hat
+M 0 21140 5 21104       quarry worker
+E 1 21113 100 16                Rod
+E 1 21117 20 13                 Belt
+E 1 21118 10 6                  rock Hat
+M 0 21140 5 21183       quarry worker
+M 0 21140 5 21144       quarry worker
+M 0 21140 5 21145       quarry worker
+M 0 21141 5 21143       rowdy drunk
+G 1 3001 100                    Beer Bottle
+M 0 21141 5 21144       rowdy drunk
+G 1 3001 100                    Beer Bottle
+M 0 21141 5 21145       rowdy drunk       
+G 1 3001 100                    Beer Bottle
+M 0 21142 4 21140       hary guard
+E 1 21110 100 16                spiked club
+M 0 21142 4 21135       hary guard
+E 1 21110 100 16                spiked club
+M 0 21142 4 21133       hary guard
+E 1 21110 100 16                spiked club
+M 0 21142 4 21144       hary guard
+E 1 21110 100 16                spiked club
+M 0 21144 1 21102       fire golemn
+G 1 5473 888                    Off White Potion
+M 0 21145 5 21103       living fire
+E 1 21119 100 16                flaming axe
+M 0 21145 5 21103       living fire
+E 1 21119 100 16                flaming axe
+M 0 21145 5 21103       living fire
+E 1 21119 100 16                flaming axe
+M 0 21145 5 21101       living fire
+E 1 21119 100 16                flaming axe
+M 0 21145 5 21101       living fire 
+E 1 21119 100 16                flaming axe
+M 0 21152 6 21160       fat lady
+E 1 21115 100 16                rock
+M 0 21152 6 21160       fat lady
+E 1 21115 100 16                rock
+M 0 21152 6 21162       fat lady
+E 1 21115 100 16                rock
+M 0 21152 6 21162       fat lady
+E 1 21115 100 16                rock
+M 0 21152 6 21159       fat lady
+E 1 21115 100 16                rock
+M 0 21152 6 21159       fat lady
+E 1 21115 100 16                rock
+M 0 21153 1 21160       old man
+E 1 21115 100 16                rock
+M 0 21154 1 21109       chief guard
+E 1 21101 2 16                  Agiel
+M 0 21155 1 21110       Warden
+G 1 21100 1                     Jail Key
+E 1 21110 100 16                spiked club
+M 0 21156 1 21194       Maid
+M 0 21157 1 21111       Tang
+M 0 21158 1 21197       Cashier -- Shopkeeper
+G 1 21103 20                    mail boots
+G 1 21104 20                    stitched leather pants
+G 1 21105 20                    smelly shirt
+G 1 21106 20                    wollen coat
+G 1 21107 20                    wollen pants
+G 1 21114 20                    Silver Dildo
+G 1 21128 20                    mail Jacket
+G 1 21129 20                    Neck pendant
+M 0 21159 2 21118       big guard 
+E 1 21110 100 16                spiked club
+M 0 21159 2 21118       big guard 
+E 1 21110 100 16                spiked club
+M 0 21160 2 21187       big guard 
+E 1 21110 100 16                spiked club
+M 0 21160 2 21187       big guard 
+E 1 21110 100 16                spiked club
+M 0 21161 2 21197       Shoplifter
+M 0 21161 2 21197       Shoplifter
+M 0 21162 1 21107       Fisherman -- Shopkeeper
+G 1 3010 200                    Loaf Of Bread
+G 1 21116 200                   Fish
+G 1 21121 100                   Lobster
+M 0 21163 1 21117       Weapon Dealer -- Shopkeeper
+G 1 3020 100                    Dagger
+G 1 3021 100                    Small Sword
+G 1 3022 100                    Long Sword
+G 1 3023 100                    Wooden Club
+G 1 3024 100                    Warhammer
+G 1 3025 100                    Flail
+G 1 21110 100                   spiked club
+G 1 21111 100                   spiny knife
+G 1 21119 100                   living fire's Axe
+M 0 21164 1 21118       Manager -- Shopkeeper
+G 1 21120 100                   Doughnut
+G 1 21122 100                   Potato
+G 1 21123 100                   Pretzel
+G 1 21124 100                   Bottle
+G 1 21125 100                   jug Of Tea
+G 1 21126 100                   jug Of Milk
+G 1 21127 100                   Hoagie
+M 0 21166 1 21110       Bimbo
+M 0 21167 4 21127       Stripper
+M 0 21167 4 21127       Stripper
+M 0 21167 4 21127       Stripper
+M 0 21167 4 21127       Stripper
+M 0 21168 1 21175       Mage Guildguard
+M 0 21169 1 21119       Cleric Guildguard
+M 0 21170 1 21114       Thief Guildguard
+M 0 21171 1 21123       Warrior Guildguard
+M 0 21172 1 21177       Mage Guildmaster
+M 0 21173 1 21121       Cleric Guildmaster
+M 0 21174 1 21196       Thief Guildmaster
+M 0 21175 1 21125       Warrior Guildmaster
+M 0 21176 1 21101       Captain -- Shopkeeper
+G 1 3060 20                     Raft
+G 1 3061 15                     Canoe
+M 0 21177 1 21167       Armorer -- Shopkeeper
+G 1 3040 100                    Breast Plate
+G 1 3041 100                    Club Mail Shirt
+G 1 3042 100                    Wooden Shield
+G 1 3043 100                    Leather Jacket
+G 1 3044 100                    Studded Leather Jacket
+G 1 3046 100                    Bronze Breast Plate
+G 1 3070 100                    Bronze Gauntlets
+G 1 3071 100                    Leather Gloves
+G 1 3075 100                    Bronze Helmet
+G 1 3076 100                    Leather Cap
+G 1 3080 100                    Bronze Leggings
+G 1 3081 100                    Leather Pants
+G 1 3085 100                    Bronze Sleeves
+G 1 3086 100                    Leather Sleeves
+M 0 21178 1 21194       Receptionist
+M 0 21179 1 21112       Waiter -- Shopkeeper
+G 1 3100 100                    Tea Cup
+G 1 3101 100                    Coffee Cup
+G 1 3104 100                    Water Canteen
+G 1 6013 100                    Water Barrel
+M 0 21180 1 21176       Mage Waiter
+M 0 21181 1 21120       Cleric Waiter
+M 0 21182 1 21195       Thief Waiter
+M 0 21183 1 21124       Warrior Waiter
+M 0 21184 5 21173       Janitor
+M 0 21184 5 21106       Janitor
+M 0 21184 5 21170       Janitor
+M 0 21184 5 21116       Janitor
+M 0 21185 20 21106      Fido
+M 0 21185 20 21106      Fido
+M 0 21185 20 21106      Fido
+M 0 21185 20 21106      Fido
+M 0 21185 20 21106      Fido
+M 0 21185 20 21106      Fido
+M 0 21185 20 21106      Fido
+M 0 21185 20 21106      Fido
+M 0 21185 20 21106      Fido
+M 0 21185 20 21106      Fido
+M 0 21186 8 21184       Drunk
+M 0 21186 8 21185       Drunk
+M 0 21186 8 21189       Drunk
+M 0 21186 8 21127       Drunk
+M 0 21186 8 21127       Drunk
+M 0 21186 8 21180       Drunk
+* Objects
+O 0 3034 7 21179        ATM
+* Doors
+D 0 21122 3 2           Hell's Kitchen
+D 0 21138 0 2           Warriors' Locker Room
+D 0 21140 1 2           SuperBoxes' Door
+D 0 21188 3 1            Office
+D 0 21191 1 1
+*D 0 21107 2 1           Chief's Office
+*D 0 21110 2 2           Jail Door
+*
+S
+#99999
+$~

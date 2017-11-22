@@ -1,0 +1,868 @@
+#5500
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D1
+~
+~
+0 -1 5158
+D2
+~
+~
+0 -1 5501
+S
+#5501
+The Spider Caverns~
+You stand at a three-way junction within this maze of tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5500
+D1
+~
+~
+0 -1 5526
+D3
+~
+~
+0 -1 5502
+S
+#5502
+The Spider Caverns~
+You stand at a three-way junction within this maze of tunnels.
+~
+55 0 2
+D1
+~
+~
+0 -1 5501
+D2
+~
+~
+0 -1 5503
+D3
+~
+~
+0 -1 5534
+S
+#5503
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5502
+D1
+~
+~
+0 -1 5504
+S
+#5504
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D2
+~
+~
+0 -1 5505
+D3
+~
+~
+0 -1 5503
+S
+#5505
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5504
+D2
+~
+~
+0 -1 5506
+S
+#5506
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5505
+D3
+~
+~
+0 -1 5507
+S
+#5507
+The Spider Caverns~
+You stand at a three-way junction within this maze of tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5508
+D1
+~
+~
+0 -1 5506
+D2
+~
+~
+0 -1 5548
+S
+#5508
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D2
+~
+~
+0 -1 5507
+D3
+~
+~
+0 -1 5509
+S
+#5509
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D1
+~
+~
+0 -1 5508
+D2
+~
+~
+0 -1 5510
+S
+#5510
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5509
+D3
+~
+~
+0 -1 5511
+S
+#5511
+The Spider Caverns~
+You stand at a three-way junction within this maze of tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5551
+D1
+~
+~
+0 -1 5510
+D2
+~
+~
+0 -1 5512
+S
+#5512
+The Spider Caverns~
+You stand at a three-way junction within this maze of tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5511
+D2
+~
+~
+0 -1 5513
+D3
+~
+~
+0 -1 5553
+S
+#5513
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5512
+D2
+~
+~
+0 -1 5514
+S
+#5514
+The Spider Caverns~
+You stand at a three-way junction within this maze of tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5513
+D1
+~
+~
+0 -1 5556
+D2
+~
+~
+0 -1 5515
+S
+#5515
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5514
+D3
+~
+~
+0 -1 5516
+S
+#5516
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D1
+~
+~
+0 -1 5515
+D2
+~
+~
+0 -1 5517
+S
+#5517
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5516
+D3
+~
+~
+0 -1 5518
+S
+#5518
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D1
+~
+~
+0 -1 5517
+D2
+~
+~
+0 -1 5519
+S
+#5519
+The Spider Caverns~
+You stand at a three-way junction within this maze of tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5518
+D1
+~
+~
+0 -1 5520
+D3
+~
+~
+0 -1 5558
+S
+#5520
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D2
+~
+~
+0 -1 5521
+D3
+~
+~
+0 -1 5519
+S
+#5521
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5520
+D2
+~
+~
+0 -1 5522
+S
+#5522
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5521
+D3
+~
+~
+0 -1 5523
+S
+#5523
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D1
+~
+~
+0 -1 5522
+D3
+~
+~
+0 -1 5524
+S
+#5524
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D1
+~
+~
+0 -1 5523
+D2
+~
+~
+0 -1 5525
+S
+#5525
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5524
+D3
+~
+~
+0 -1 5100
+S
+#5526
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D2
+~
+~
+0 -1 5527
+D3
+~
+~
+0 -1 5501
+S
+#5527
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5526
+D1
+~
+~
+0 -1 5528
+S
+#5528
+The Spider Caverns~
+You stand at a three-way junction within this maze of tunnels.
+~
+55 0 2
+D1
+~
+~
+0 -1 5529
+D2
+~
+~
+0 -1 5530
+D3
+~
+~
+0 -1 5527
+S
+#5529
+The Spider Caverns~
+You have entered a small alcove within the rockface of one of the tunnels.
+There is not much room to move here, but the diminutive size of the space
+makes the alcove a relatively safe place to rest.
+~
+55 0 2
+D3
+~
+~
+0 -1 5528
+S
+#5530
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5528
+D3
+~
+~
+0 -1 5531
+S
+#5531
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D1
+~
+~
+0 -1 5530
+D2
+~
+~
+0 -1 5532
+S
+#5532
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5531
+D2
+~
+~
+0 -1 5533
+S
+#5533
+The Spider Caverns~
+You have reached a dead end within the twisting tunnels of this spider
+infested labyrinth.
+~
+55 0 2
+D0
+~
+~
+0 -1 5532
+S
+#5534
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5535
+D1
+~
+~
+0 -1 5502
+S
+#5535
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D2
+~
+~
+0 -1 5534
+D3
+~
+~
+0 -1 5536
+S
+#5536
+The Spider Caverns~
+You stand at a three-way junction within this maze of tunnels.
+~
+55 0 2
+D1
+~
+~
+0 -1 5535
+D2
+~
+~
+0 -1 5538
+D3
+~
+~
+0 -1 5537
+S
+#5537
+The Spider Caverns~
+You have entered a small alcove within the rockface of one of the tunnels.
+There is not much room to move here, but the diminutive size of the space
+makes the alcove a relatively safe place to rest.
+~
+55 0 2
+D1
+~
+~
+0 -1 5536
+S
+#5538
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5536
+D3
+~
+~
+0 -1 5539
+S
+#5539
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D1
+~
+~
+0 -1 5538
+D2
+~
+~
+0 -1 5540
+S
+#5540
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5539
+D3
+~
+~
+0 -1 5541
+S
+#5541
+The Spider Caverns~
+You stand at a three-way junction within this maze of tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5544
+D1
+~
+~
+0 -1 5540
+D3
+~
+~
+0 -1 5542
+S
+#5542
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D1
+~
+~
+0 -1 5541
+D2
+~
+~
+0 -1 5543
+S
+#5543
+The Spider Caverns~
+You have reached a dead end within the twisting tunnels of this spider
+infested labyrinth.
+~
+55 0 2
+D0
+~
+~
+0 -1 5542
+S
+#5544
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D2
+~
+~
+0 -1 5541
+D3
+~
+~
+0 -1 5545
+S
+#5545
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5546
+D1
+~
+~
+0 -1 5544
+S
+#5546
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D1
+~
+~
+0 -1 5547
+D2
+~
+~
+0 -1 5545
+S
+#5547
+The Spider Caverns~
+You have reached a dead end within the twisting tunnels of this spider
+infested labyrinth.
+~
+55 0 2
+D3
+~
+~
+0 -1 5546
+S
+#5548
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5507
+D1
+~
+~
+0 -1 5549
+S
+#5549
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D2
+~
+~
+0 -1 5550
+D3
+~
+~
+0 -1 5548
+S
+#5550
+The Spider Caverns~
+You have reached a dead end within the twisting tunnels of this spider
+infested labyrinth.
+~
+55 0 2
+D0
+~
+~
+0 -1 5549
+S
+#5551
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D2
+~
+~
+0 -1 5511
+D3
+~
+~
+0 -1 5552
+S
+#5552
+The Spider Caverns~
+You have reached a dead end within the twisting tunnels of this spider
+infested labyrinth.
+~
+55 0 2
+D1
+~
+~
+0 -1 5551
+S
+#5553
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D1
+~
+~
+0 -1 5512
+D2
+~
+~
+0 -1 5554
+S
+#5554
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5553
+D2
+~
+~
+0 -1 5555
+S
+#5555
+The Spider Caverns~
+You have reached a dead end within the twisting tunnels of this spider
+infested labyrinth.
+~
+55 0 2
+D0
+~
+~
+0 -1 5554
+S
+#5556
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D2
+~
+~
+0 -1 5557
+D3
+~
+~
+0 -1 5514
+S
+#5557
+The Spider Caverns~
+You have reached a dead end within the twisting tunnels of this spider
+infested labyrinth.
+~
+55 0 2
+D0
+~
+~
+0 -1 5556
+S
+#5558
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D1
+~
+~
+0 -1 5519
+D2
+~
+~
+0 -1 5559
+S
+#5559
+The Spider Caverns~
+You are standing within a dark series of twisting, forbidding tunnels.
+~
+55 0 2
+D0
+~
+~
+0 -1 5558
+D3
+~
+~
+0 -1 5560
+S
+#5560
+The Spider Caverns~
+You have reached a dead end within the twisting tunnels of this spider
+infested labyrinth.
+~
+55 0 2
+D1
+~
+~
+0 -1 5559
+S
+#9999
+$~

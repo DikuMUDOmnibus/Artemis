@@ -1,0 +1,39 @@
+#212
+The Sea~
+21299 6 2
+*
+* Zedd Town Overflow room mobs number 21160-->21175
+*
+* Mobs
+M 0 3089 1 21276         Pet Shop Boy
+M 0 21187 1 21276       ally cat
+M 0 21188 1 21276       lane puppy
+M 0 21189 1 21276       lane dog
+M 0 21190 1 21276       quarry dog
+M 0 21191 1 21276       fighting dog
+*
+*
+* Mobiles
+M 0 7041 9  21220     *sea hag
+M 0 7041 9  21220     *sea hag
+M 0 7041 9  21220     *sea hag
+M 0 7041 9  21220     *sea hag
+*
+M 0 21200 9  21230     *sea witch
+M 0 21200 9  21230     *sea witch
+M 0 21200 9  21230     *sea witch
+M 0 21200 9  21230     *sea witch
+*
+M 0 21200 9  21235     *sea witch
+M 0 21200 9  21235     *sea witch
+M 0 21200 9  21235     *sea witch
+M 0 21200 9  21235     *sea witch
+*
+M 0 7041 9  21240     *sea hag
+M 0 7041 9  21240     *sea hag
+M 0 7041 9  21240     *sea hag
+M 0 7041 9  21240     *sea hag
+*
+S
+#99999
+$~

@@ -1,0 +1,389 @@
+#30001
+A nice cosy dark room.~
+You look in a room with lots of holes and boxes.
+It would seem a thief would like it here. ~
+300 9 0
+D2
+Door to thiev's alley~
+dagger~
+7 777 3045
+D5
+You see nothing of interest.~
+~
+3 0 30004
+S
+#30002
+Room #30002~
+This description is yet unfinished...
+~
+300 4 0
+D1
+~
+~
+0 -1 30003
+D2
+~
+~
+0 -1 30012
+S
+#30003
+living death~
+You step into the magic room.
+Your body shudders as you stand.
+You feel the power in the room.. in the...
+  in...
+
+   Ohhh Noooo...
+
+~
+300 12 0
+D1
+~
+~
+0 -1 30004
+D2
+~
+~
+0 -1 30007
+D3
+~
+~
+0 -1 30002
+S
+#30004
+ladder room~
+A small room littered with boxes, paper and cloth.
+The room is well lit by a ladder????? 
+The ladder is floating in the middle of the room. Humph magic!
+You see a hole leading down.~
+300 12 0
+D4
+You see a small ladder leading up to a small trap door~
+small door~
+3 0 30001
+D5
+~
+~
+0 -1 30008
+S
+#30005
+my items~
+You walk into a dim room.
+You see Magical markings on the floor and walls.
+
+Many items lay here before you.
+
+~
+300 12 0
+D2
+~
+~
+0 -1 30009
+D3
+~
+~
+0 -1 30004
+S
+#30006
+Room #30006~
+This description is yet unfinished...
+~
+300 4 0
+D2
+~
+~
+0 -1 30024
+D3
+~
+~
+0 -1 30005
+S
+#30007
+one way~
+You carefully walk along the passage....
+
+     *********   THUMP    *********
+
+A wall is now behind you. You sigh
+and relise that you have set a 
+one way path for yourself now.
+
+The exit North in front of you glows 
+with a magical aura.~
+300 13 0
+D0
+The room before you glows with magic~
+~
+0 -1 30003
+S
+#30008
+deadly path~
+Pheewww. what a bad smell.
+
+Small feet scurry off into the darkness. 
+You see the remains of many people.  
+
+On the walls and floor you see a symbol.
+The symbol of the Assasin.~
+300 13 0
+D1
+~
+~
+0 -1 30009
+D3
+~
+~
+0 -1 30007
+D4
+~
+~
+0 -1 30004
+D5
+~
+~
+0 -1 30010
+S
+#30009
+one way~
+You carefully walk along the passage.... 
+
+     *********   CCRRREEEEKKK  CRUNCH   ********
+
+A wall is now behind you. You sigh 
+and relise that you have stuffed up.
+A one way path for yourself now.
+~
+300 13 0
+D0
+~
+~
+0 -1 30005
+S
+#30010
+fight 1~
+
+Whhhoooooaaaa... What a STINK..  
+
+You have trouble breathing from the smell.   
+You see in the corner the reason for the stink.    
+
+you see a small trapdoor in the floor.  
+
+~
+300 9 0
+D4
+~
+~
+0 -1 30008
+D5
+The oily smelly trapdoor opens~
+trapdoor~
+3 -1 30011
+S
+#30011
+less of a smell~
+The room has spatterings of oil and flesh 
+mixed with dried blood. 
+Some remnants of body parts and armour
+are lying around the room.
+The smell is not so bad down here because
+of a yellowy fungus growing on the floor.
+~
+300 9 0
+D4
+~
+~
+0 -1 30010
+D5
+~
+~
+0 -1 30015
+S
+#30012
+Room #30012~
+This description is yet unfinished...
+~
+300 4 0
+D0
+~
+~
+0 -1 30002
+D1
+~
+~
+0 -1 30013
+S
+#30013
+Room #30013~
+This description is yet unfinished...
+~
+300 12 0
+D3
+~
+~
+0 -1 30012
+S
+#30014
+swim~
+An underound river passes by this path. 
+The river is wide and lazy in movement.
+To the East you hear fast running water.
+
+~
+300 4 6
+D1
+You can only hear the sound of water in 
+tat direction~
+~
+0 -1 30015
+D3
+~
+~
+0 -1 30013
+S
+#30015
+choice~
+Down another ladder.
+The yellow fungi seems to be creating light here.
+Before you stands a Westward doorway.
+The ladder continues down.
+~
+300 8 0
+D3
+you smell salt water
+~
+~
+0 -1 30014
+D4
+~
+~
+0 -1 30011
+D5
+~
+~
+0 -1 30016
+S
+#30016
+Room #30016~
+This description is yet unfinished...
+~
+300 12 0
+D4
+~
+~
+0 -1 30015
+D5
+~
+~
+0 -1 30017
+S
+#30017
+Room #30017~
+This description is yet unfinished...
+~
+300 12 0
+D2
+~
+~
+0 -1 30018
+D4
+~
+~
+0 -1 30016
+S
+#30018
+Room #30018~
+This description is yet unfinished...
+~
+300 12 0
+D0
+~
+~
+0 -1 30017
+D1
+~
+~
+0 -1 30019
+S
+#30019
+Room #30019~
+This description is yet unfinished...
+~
+300 12 0
+D1
+~
+~
+0 -1 30020
+D3
+~
+~
+0 -1 30018
+S
+#30020
+Room #30020~
+This description is yet unfinished...
+~
+300 12 0
+D1
+~
+~
+0 -1 30021
+D3
+~
+~
+0 -1 30019
+S
+#30021
+Room #30021~
+This description is yet unfinished...
+~
+300 12 0
+D3
+~
+~
+0 -1 30020
+D5
+~
+~
+0 -1 30022
+S
+#30022
+Room #30022~
+This description is yet unfinished...
+~
+300 12 0
+D4
+~
+~
+0 -1 30021
+D5
+~
+~
+0 -1 30023
+S
+#30023
+Room #30023~
+This description is yet unfinished...
+~
+300 12 0
+D1
+~
+~
+0 -1 30024
+D4
+~
+~
+0 -1 30022
+S
+#30024
+Room #30024~
+This description is yet unfinished...
+~
+300 12 0
+D0
+~
+~
+0 -1 30006
+S
+#99999
+$~

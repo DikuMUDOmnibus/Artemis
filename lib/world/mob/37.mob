@@ -1,0 +1,150 @@
+#3700
+grey pawn~
+the Pawn of the Grey Court~
+You see a pawn standing here waiting for orders.
+~
+The Grey Pawn looks quite like a small knight without his powerful steed.
+His armor is shiny and grey.  He stands ready to give his life for the
+Crown.
+~
+bcghmnor dhk -400 S
+6 2 -5 5d40+1950 2d24+2
+5000 700000
+8 8 1
+#3701
+blue pawn~
+the Pawn of the Blue Court~
+You see a pawn standing here waiting for orders.
+~
+The Blue Pawn looks quite like a small knight without his powerful steed.
+His armor is spotless and blue.  He stands ready to give his life for the
+Crown.
+~
+bcghmnor dhk 400 S
+6 2 -5 5d40+1950 2d24+2
+5000 700000
+8 8 1
+#3702
+grey rook castle~
+the Grey Rook~
+In the corner you see a large, grey, stone castle on wheels.
+~
+The Grey Rook is a very large man-made tomb on wheels.  Just
+from the looks of it, it will probably be YOUR tomb.
+~
+bpqmnor dhk -600 S
+27 11 -12 2d60+6500 4d38+45
+15000 1385000
+8 8 0
+#3703
+blue rook castle~
+the Blue Rook~
+In the corner you see a large, blue, stone castle on wheels.
+~
+The Blue Rook is a very large man-made tomb on wheels.  Just
+from the looks of it, it will probably be YOUR tomb.
+~
+bpqmnor dhk 600 S
+27 11 -12 2d60+6500 4d38+45
+15000 1385000
+8 8 0
+#3704
+grey knight~
+the Grey Knight~
+Here stands a magnificent knight of the dark realm.
+~
+The Grey Knight is here, riding his ebony grey war horse.  His eyes
+flash behind his visor in vengence.
+~
+bfmnor dhk -400 S
+18 8 -9 4d80+9350 4d48+41
+30000 1922500
+8 8 0
+#3705
+blue knight~
+the Blue Knight~
+Here stands a magnificent knight of the light realm.
+~
+The Blue Knight is here, riding his ivory blue war horse.  His eyes
+gleam behind his visor in joy.
+~
+bfmnor dhk 400 S
+18 8 -9 4d80+9350 4d48+41
+30000 1922500
+8 8 0
+#3706
+grey bishop priest~
+the Grey Bishop~
+A dark priest stands here.
+~
+The Grey Bishop seems willing to help you straight into your grave so
+he can bless you properly.
+~
+bmnor dhk -500 S
+24 11 -10 5d58+11350 5d56+53
+40000 12543500
+8 8 0
+#3707
+blue bishop priest~
+the Blue Bishop~
+A light priest stands here.
+~
+The Blue Bishop seems willing to help you in any possible so that he can
+attain a higher spirituality.
+~
+bmnor dhk 500 S
+24 11 -10 5d58+11350 5d56+53
+40000 12543500
+8 8 0
+#3708
+grey queen~
+the Grey Queen~
+The Grey Queen stands here.
+~
+The Grey Queen is a strikingly beautiful woman with pale skin and a
+mass of dark hair that crowns her head like a grey cloud.  If looks
+could kill, you would already be dead.
+~
+bcflmnor dhkt -750 S
+32 11 -17 5d100+16900 4d60+53
+100000 17500000
+8 8 0
+#3709
+blue queen~
+the Blue Queen~
+The Blue Queen stands here.
+~
+The Blue Queen is a stunningly beautiful woman with dark skin and a mass
+of light hair that frames her head like the sun.  This is surely love at
+first sight for you.
+~
+bcflmnor dhk 750 S
+32 11 -17 5d100+16900 4d60+53
+100000 17500000
+8 8 0
+#3710
+grey king~
+the Grey King~
+The Grey King stands here.
+~
+The Grey King is a menacing figure.  You can easily understand why he
+is the king and you are not.
+~
+bceflmnor dhkt -999 S
+36 14 -20 10d100+20000 5d80+69
+20000 25300000
+8 8 0
+#3711
+blue king~
+the Blue King~
+The Blue King stands here.
+~
+The Blue King is a stately figure.  You can easily understand why he
+is the king and you are not.
+~
+bceflmnor dhkt 999 S
+36 14 -20 10d100+20000 5d80+69
+200000 25300000
+8 8 0
+
+$

@@ -1,0 +1,160 @@
+#7501
+A Wide Path~ 
+You are standing on a wide dirt path heading towards the hillside.  It has been
+hard packed by constant use, and has several ruts were wagons have dug into it
+with there wheels.
+~
+75 ac 4
+D0
+The path continues to the north.
+~
+~
+0 0 7502
+D1
+~
+~
+0 0 6103
+S
+#7502
+A Wide Path~
+The path continues here and becomes a bit steeper.  Far to the north you can 
+make out what looks to be a large castle.  The path continues to the north.
+~
+75 ac 4
+D0
+The path continues to the north.
+~
+~
+0 0 7503
+D2
+You see the path back to the start of the hill.
+~
+~
+0 0 7501
+S
+#7503
+A Turn in the Path~  
+The path turn here as the slope becomes too steep for a striaght climb up to
+the castle.  As it turns to the west, you catch a sight of large fields of
+grain and a few small farm houses.
+~
+75 ac 4
+D2
+This way leads back down the mountain on a wide dirt path.
+~
+~
+0 0 7502
+D3
+This path turn this way around the hill.
+~
+~
+0 0 7504
+S
+#7504
+A Path Around the Hill~
+The path now turns back north and continues it's climb up the hill.  It becomes
+rather steep here.  It looks to be almost too steep for a wagon to make it up
+this slope.
+~
+75 ac 4
+D1
+This way leads back down the hill.
+~
+~
+0 0 7503
+D4
+The steep climb leads up the hill this way.
+~
+~
+0 0 7505
+S
+#7505
+A Path Along the Hillside~
+The path continues here to north.  The slope has lessened and it looks to be
+an easy climb from here to the castle.
+~
+75 ac 4
+D0
+The path continues this way.
+~
+~
+0 0 7506
+D5
+This way leads back down the hill.
+~
+~
+0 0 7504
+S
+#7506
+A Turn in the Path~
+The path turns back east towards the castle.  The slope here is shallow as you
+appear to be getting near the top of the hill and the castle.
+~
+75 ac 4
+D1
+The path continues to the east.
+~
+~
+0 0 7507
+D2
+This way leads back down the hill.
+~
+~
+0 0 7505
+S
+#7507
+Before the Castle~
+Before you now you can see the castle of Ctlulac.  Red banners on the stone
+battlements stand straight in a stiff breeze.  The stonework appears to be old
+and much of it seems to be in need of repair.  Ahead you see the gates of the 
+castle.
+~
+75 ac 4
+D0
+You see the gates of the castle. You think you spot several guards.
+~
+~
+0 0 7508
+D3
+This way leads back down the hill.
+~
+~
+0 0 7506
+S
+#7508
+At the Gates~
+You stand before the gates of the castle of Ctlulac.  While old and in a state
+of disrepair, they still look strong enough to hold intruders out.  To the side
+you notice a smaller, man-sized gate, protected by two guards.
+~
+75 ad 0
+D0
+A small, man-sized gate is here.
+~
+man gate~
+2 7546 7509
+D2
+This way leads back to the path down the hill.
+~
+~
+0 0 7507
+S
+#7509
+Inside the Gate~
+You are standing inside the the man-sized gate.  The stonework here seems to be
+crumbling in several places, but it still look sturdy enough to be safe.  Up
+ahead you see another man-sized gate which leads to the courtyard.
+~
+75 acd 0
+D0
+Another man-szied gate stands here.
+~
+man gate~
+2 7546 7510
+D2
+A man-sized gate stands here.
+~
+man gate~
+2 7546 7508
+S
+$

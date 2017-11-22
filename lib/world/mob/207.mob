@@ -1,0 +1,327 @@
+#20701
+arctic fox~
+an arctic fox~
+A white-coated fox pads along the frozen ground here.
+~
+This sprightly fox bears a pelt of silvery white, blending with the snow.
+~
+deghiq 819366 500 E
+20 11 -130 1d1+6600 4d40+45
+15 1385500
+8 8 0
+BareHandAttack: 4
+Dex: 18
+E
+#20702
+bardelot~
+a female bardelot~
+A huge bardelot is hunting mammoths here.
+~
+This creature is a descendant of common rodents, but is about the size
+and shape of a polar bear.  It has white fur, and its huge sabre teeth
+declare it to be a female.
+~
+defgoq 32896 0 E
+50 0 -200 1d1+20420 5d80+70
+0 25300000
+8 8 2
+BareHandAttack: 9
+Con: 18
+Str: 18
+E
+#20703
+Eskimo shopkeep~
+an Eskimo shopkeep~
+A fur-coated eskimo awaits your request.
+~
+This is an eskimo, hardened from her life in the freezing conditions,
+but still cheerful and friendly.
+~
+bdg 8 0 E
+44 -20 -300 30000d2+1 50d50+50
+15 20000000
+8 8 2
+E
+#20704
+Eskimo fishmonger~
+an Eskimo fishmonger~
+A fur-coated eskimo stands here, displaying his fish.
+~
+He looks well-wrapped against the chilly atmosphere of his shop.  He
+holds a sharp ice pick for cutting the fish and meat out of the huge
+blocks of ice in which they are kept.
+~
+bdg 8 0 E
+1 1 -300 30000d2+1 50d50+50
+15 20
+8 8 1
+E
+#20705
+Eskimo fur trader~
+an Eskimo fur trader~
+The hard-hearted Fur trader stands here, in no mood for Animal Rights
+Activists.
+~
+He definitely looks hard-hearted.  You wonder what it'd look like out of
+his body.
+~
+bdg 8 0 E
+1 1 -300 30000d2+1 50d50+50
+15 20
+8 8 1
+E
+#20706
+Ice Devil~
+the Ice Devil~
+A hellish Ice Devil stands here, performing an evil rite.
+~
+A greater Devil from the eighth plane of hell, the Ice Devil has an
+insectile face, barbed tail and huge claws on its hands and feet.
+~
+abcdefglnopqr 33928 -1000 E
+101 -5 -850 305000d1+1 80d60+2000
+1000000 260050000
+8 8 0
+BareHandAttack: 8
+Str: 18
+StrAdd: 100
+Con: 18
+E
+#20707
+Giant black ice~
+the Giant of Black Ice~
+A massive fist of black ice hurtles out of nowhere and smashes at the
+ground by your feet!
+~
+This massive humanoid seems to be composed entirely of coal-black ice, and
+it blends in perfectly with the ground.
+~
+acdefgloq 525480 -500 E
+99 0 -800 300000d1+1 79d50+2000
+800000 245000000
+8 8 0
+BareHandAttack: 13
+Str: 18
+Con: 18
+E
+#20708
+Ice wyrm snake~
+the Ice wyrm~
+A huge, coiled snake with ice-white scales turns to watch you enter.
+~
+The Ice wyrm says, 'MMMMmmmmmm, adventurer for lunch!!'
+The Ice wyrm coils to strike!!
+
+Ice wyrms are huge creatures, and this one is one of the biggest.  It is a
+gigantic reptile, covered in glittering scales of white and light blue, and
+it has six inch long fangs.
+~
+abdefgmnopq 558268 -600 E
+100 -3 -450 52500d1+0 50d55+1000
+10000000 80000000
+8 8 0
+BareHandAttack: 4
+Str: 18
+Int: 18
+E
+#20709
+mighty massive mammoth~
+a massive mammoth~
+A huge, mighty mammoth stands here, knee-deep in snow.
+~
+It looks like a huge elephant with thick shaggy fur, and it glares at you
+through tiny, mad, red eyes.  It waves its huge curved tusks menacingly.
+~
+adghlmnopqr 188 0 E
+60 0 -300 1d1+26450 5d80+70
+0 25300000
+8 8 0
+BareHandAttack: 5
+Str: 18
+Con: 18
+E
+#20710
+mountain goaty goat~
+a mountain goat~
+You see a goat with wooly fur traversing the rocks.
+~
+It looks at you, startled, and carefully begins to back away.
+~
+deghpq 32776 0 E
+30 12 -130 1d1+7000 4d40+50
+35 1385500
+8 8 0
+BareHandAttack: 7
+Con: 18
+Dex: 18
+E
+#20711
+penguin swimming~
+a penguin~
+A small penguin darts quickly through the water.
+~
+It must be hunting for fish.
+~
+bdgopqr 32832 0 E
+20 5 -90 1d1+3500 3d25+2
+15 800000
+8 8 0
+BareHandAttack: 4
+Dex: 18
+E
+#20712
+sliding penguin~
+a penguin~
+You watch as a penguin happily slides along the ice on his belly.
+~
+He tobogans along quite happily.  Despite your previous encounters with
+penguins, this one seems entirely normal.
+~
+bdeghl 128 0 E
+20 5 -90 1d1+3500 3d25+2
+15 800000
+8 8 0
+BareHandAttack: 4
+Dex: 18
+E
+#20713
+judge penguin~
+a penguin~
+A penguin wearing zinc cream and holding a notepad sits here.
+~
+He SEEMS to be judging the toboganing penguins.  He must be on holiday from
+Dreamplace.
+~
+abdeghl 13404 0 E
+20 10 -110 1d1+4000 3d30+10
+15 805000
+8 8 0
+BareHandAttack: 4
+E
+#20714
+polar ravene cave~
+a polar ravene~
+A white-furred polar ravene snarls at you as you enter.
+~
+This fox-sized predator is a descendant of the common rat, and is the size
+and shape of a wolverine, with less temper.  You have just entered its den.
+~
+bcdefgmnoq 296064 0 E
+60 11 -100 1d1+11600 5d60+55
+0 12543500
+8 8 0
+BareHandAttack: 9
+Str: 18
+Con: 18
+E
+#20715
+polar ravene hunting~
+a polar ravene~
+A white-furred polar ravene is out hunting...
+~
+This fox-sized predator is a descendant of the common rat, and is the size
+and shape of a wolverine, with less temper.  You are on its menu.  Uh oh...
+~
+cdefgnoq 787616 0 E
+60 11 -100 1d1+11600 5d60+55
+0 12543500
+8 8 0
+BareHandAttack: 9
+Str: 18
+Con: 18
+E
+#20716
+vortex~
+the Vortex~
+Your boat rocks violently as a majestic VORTEX comes up for air!!!
+~
+Descended from polar birds, this massive creature looks like a 12-metre-plus
+whale, with a huge beak used for straining the plankton that are this
+gentle creature's food.
+~
+bdglnopqr 33020 0 E
+50 -2 -300 50000d4+1 20d55+500
+0 100000000
+8 8 0
+BareHandAttack: 10
+Str: 18
+StrAdd: 100
+Con: 18
+E
+#20717
+wooly figment~
+a wooly figment~
+A figment with shaggy fur shivers here, trying desperately to evolve.
+~
+Half rabbit and half... something? with shaggy white fur.  It is too cold to
+hop.
+~
+bdhnopr 787584 0 E
+20 2 -80 1d1+2050 2d26+4
+15 700000
+8 8 0
+Dex: 18
+E
+#20718
+young wooly figment~
+a juvenile wooly figment~
+A young wooly figment shivers here, trying desperately to evolve.
+~
+Awwww, how cute.....
+~
+bdeghlnopqr 786560 0 E
+15 2 -30 30d1+1800 2d25+2
+15 650000
+8 8 0
+Dex: 18
+E
+#20719
+wooly figment outcast~
+the outcast wooly figment~
+A wooly figment, outcast from his tribe, skis along here.
+~
+This figment was thrown out of his tribe after DARING to go about on new,
+evil blasphemous devices he calls 'SKEES' instead of doing the decent thing
+that all good wooly figments do - hop along in the snow, fall down a hole
+and freeze to death.
+~
+acdeglnopqr 263356 0 E
+25 -1 -100 1d1+3050 2d30+6
+15 750000
+8 8 0
+Dex: 18
+E
+#20720
+huge hairy yeti~
+a huge hairy yeti~
+A huge hairy shape leaps out at you and attacks!!!
+~
+Now's not the time to be taking pictures!  It's trying to EAT you!!!
+~
+abdflnopqr 820412 0 E
+50 10 -200 40000d1+1 16d50+300
+15 75000000
+8 8 0
+BareHandAttack: 8
+Str: 18
+Con: 18
+E
+#20721
+guardian ice~
+an ice guardian~
+A great figure, made from ice, opens its fell maw and roars at you!!
+~
+This is a huge figure made completely of ice.  Ice guardians come from
+some evil nether world, and although they are usually white, this one is
+as black as its unholy surroundings.  It looks hungry, and seems to think
+that your warmth would make a nice feast.
+~
+abdefgq 532668 -1000 E
+100 -10 -600 150000d1+1 50d50+1000
+10000 170000000
+8 8 0
+BareHandAttack: 6
+Str: 18
+StrAdd: 100
+E
+$~

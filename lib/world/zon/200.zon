@@ -1,0 +1,98 @@
+#200
+The Super Chessboard ~
+20099 25 2
+*
+* Modified by Tomas to cope with Super Board Players
+*
+* Mobiles
+M 0 20000 8 20009         Death Pawn
+M 0 20000 8 20010         Death Pawn
+M 0 20000 8 20011         Death Pawn
+M 0 20000 8 20012         Death Pawn
+M 0 20000 8 20013         Death Pawn
+M 0 20000 8 20014         Death Pawn
+M 0 20000 8 20015         Death Pawn
+M 0 20000 8 20016         Death Pawn
+M 0 20001 8 20049         Life Pawn
+M 0 20001 8 20050         Life Pawn
+M 0 20001 8 20051         Life Pawn
+M 0 20001 8 20052         Life Pawn
+M 0 20001 8 20053         Life Pawn
+M 0 20001 8 20054         Life Pawn
+M 0 20001 8 20055         Life Pawn
+M 0 20001 8 20056         Life Pawn
+M 0 20002 8 20025         Balance Pawn
+M 0 20002 8 20027         Balance Pawn
+M 0 20002 8 20029         Balance Pawn
+M 0 20002 8 20031         Balance Pawn
+M 0 20002 8 20034         Balance Pawn
+M 0 20002 8 20036         Balance Pawn
+M 0 20002 8 20038         Balance Pawn
+M 0 20002 8 20040         Balance Pawn
+M 0 20003 2 20002         Death Knight
+M 0 20003 2 20007         Death Knight
+M 0 20004 2 20058         Life Knight
+M 0 20004 2 20063         Life Knight
+M 0 20005 2 20026         Balance Knight
+M 0 20005 2 20039         Balance Knight
+M 0 20006 2 20001         Death Rook
+M 0 20006 2 20008         Death Rook
+M 0 20007 2 20057         Life Rook
+M 0 20007 2 20064         Life Rook
+M 0 20008 2 20032         Balance Rook
+M 0 20008 2 20033         Balance Rook
+M 0 20009 2 20003         Death Bishop
+E 1 20000 2 17                   Death Bishop Staff
+M 0 20009 2 20006         Death Bishop
+E 1 20000 2 17                   Death Bishop Staff
+M 0 20010 2 20059         Life Bishop
+E 1 20001 2 17                   Life Bishop Staff
+M 0 20010 2 20062         Life Bishop
+E 1 20001 2 17                   Life Bishop Staff
+M 0 20011 2 20030         Balance Bishop
+E 1 20002 2 17                   Balance Bishop Staff
+M 0 20011 2 20035         Balance Bishop
+E 1 20002 2 17                   Balance Bishop Staff
+M 0 20012 1 20004         Death Queen
+E 1 20003 1 6                    Death Queen Crown
+M 0 20013 1 20060         Life Queen
+E 1 20004 1 6                    Life Queen Crown
+M 0 20014 1 20028         Balance Queen
+E 1 20005 1 6                    Balance Queen Crown
+M 0 20015 1 20005         Death King
+G 1 20009 1                      Death Treasury Key
+E 1 20006 1 17                   Death King Sceptre
+M 0 20016 1 20061         Life King
+G 1 20010 1                      Life Treasury Key
+E 1 20007 1 17                   Life King Sceptre
+M 0 20017 1 20037         Balance King
+G 1 20011 1                      Balance Treasury Key
+E 1 20008 1 17                   Balance King Sceptre
+* Objects
+O 0 20012 1 20065         Death Treasury Gold
+O 0 20013 1 20066         Life Treasury Gold
+O 0 20014 1 20068         Balance Treasury Gold
+* Doors
+D 0 20000 4 1            Entry way. Door into 100+ C.B
+D 0 20069 4 1            Entry way. Door into 100+ C.B
+D 0 20004 5 2            Death Treasury Door
+D 0 20065 4 2            (Death Treasury)
+D 0 20060 5 2            Life Treasury Door
+D 0 20066 4 2            (Life Treasury)
+D 0 20028 5 2            Balance Treasury Door
+D 0 20068 4 2            (Balance Treasury)
+D 0 20068 5 1            Sneaky link to Gaulish gods
+D 0 20065 5 1            Sneaky link to Jupiter
+D 0 20066 5 1            Sneaky link to recall
+D 0 20048 1 1            Secret door link around B (east)
+D 0 20000 1 1            Secret door link around B (east)
+D 0 20067 1 1            (Secret Door room)
+D 0 20067 3 1            (Secret Door room)
+D 0 20069 3 1            Secret door link around B (west)
+D 0 20041 3 1            Secret door link around B (west)
+D 0 20070 1 1            (Secret Door room)
+D 0 20070 3 1            (Secret Door room)
+*
+S
+
+$

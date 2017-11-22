@@ -1,0 +1,1617 @@
+#3700
+A high entrance~
+
+
+Phhheeewwwww   What a climb. Better rest for a while.
+
+              
+   You stand in the entrance looking at a board.  The giant
+limbs of the tree below your feet leads down to the real world.
+A board opens up to the west.
+
+A sign says      DEATH ... If you are below level 50 
+                           and YOU are alone, 
+                           THEN DIE!
+
+~
+37 c 1
+D3
+The huge board opens up to the west.
+~
+~
+0 -1 3732
+D5
+A path leads down through a great tree.
+~
+~
+0 -1 6025
+S
+#3701
+A Blue Square~
+   You are standing on a blue dirt square.  This is usually the home
+of the Grey Queen's Rook.
+~
+37 0 1
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3702
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3709
+S
+#3702
+A Grey Square~
+   You are standing on a grey dirt square.  This is usually the home
+of the Grey Queen's Knight.
+~
+37 0 1
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3703
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3710
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3701
+S
+#3703
+A Blue Square~
+   You are standing on a blue dirt square.  This is usually the home
+of the Grey Queen's Bishop.
+~
+37 0 1
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3704
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3711
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3702
+S
+#3704
+A Grey Square~
+   You are standing on a grey dirt square.  This is usually the home
+of the Grey Queen.
+~
+37 0 1
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3705
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3712
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3703
+D5
+~
+dirt square~
+2 3714 3765
+S
+#3705
+A Blue Square~
+   You are standing on a blue dirt square.  This is usually the home
+of the Grey King.
+~
+37 0 1
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3706
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3713
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3704
+S
+#3706
+A Grey Square~
+   You are standing on a grey dirt square.  This is usually the home
+of the Grey King's Bishop.
+~
+37 0 1
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3707
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3714
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3705
+S
+#3707
+A Blue Square~
+   You are standing on a blue dirt square.  This is usually the home
+of the Grey King's Knight.
+~
+37 0 1
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3708
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3715
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3706
+S
+#3708
+A Grey Square~
+   You are standing on a grey dirt square.  This is usually the home
+of the Grey King's Rook.
+~
+37 0 1
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3716
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3707
+S
+#3709
+A Grey Square~
+   You are standing on a grey dirt square.  This is usually the home
+of one of the Grey Queen's Pawns.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3701
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3710
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3717
+S
+#3710
+A Blue Square~
+   You are standing on a blue dirt square.  This is usually the home
+of one of the Grey Queen's Pawns.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3702
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3711
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3718
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3709
+S
+#3711
+A Grey Square~
+   You are standing on a grey dirt square.  This is usually the home
+of one of the Grey Queen's Pawns.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3703
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3712
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3719
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3710
+S
+#3712
+A Blue Square~
+   You are standing on a blue dirt square.  This is usually the home
+of one of the Grey Queen's Pawns.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3704
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3713
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3720
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3711
+S
+#3713
+A Grey Square~
+   You are standing on a grey dirt square.  This is usually the home
+of one of the Grey King's Pawns.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3705
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3714
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3721
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3712
+S
+#3714
+A Blue Square~
+   You are standing on a blue dirt square.  This is usually the home
+of one of the Grey King's Pawns.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3706
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3715
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3722
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3713
+S
+#3715
+A Grey Square~
+   You are standing on a grey dirt square.  This is usually the home
+of one of the Grey King's Pawns.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3707
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3716
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3723
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3714
+S
+#3716
+A Blue Square~
+   You are standing on a blue dirt square.  This is usually the home
+of one of the Grey King's Pawns.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3708
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3724
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3715
+S
+#3717
+A Blue Square~
+   You are standing on a blue dirt square.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3709
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3718
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3725
+S
+#3718
+A Grey Square~
+   You are standing on a grey dirt square.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3710
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3719
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3726
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3717
+S
+#3719
+A Blue Square~
+   You are standing on a blue dirt square.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3711
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3720
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3727
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3718
+S
+#3720
+A Grey Square~
+   You are standing on a grey dirt square.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3712
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3721
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3728
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3719
+S
+#3721
+A Blue Square~
+   You are standing on a blue dirt square.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3713
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3722
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3729
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3720
+S
+#3722
+A Grey Square~
+   You are standing on a grey dirt square.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3714
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3723
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3730
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3721
+S
+#3723
+A Blue Square~
+   You are standing on a blue dirt square.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3715
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3724
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3731
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3722
+S
+#3724
+A Grey Square~
+   You are standing on a grey dirt square.  You can see a tree 
+to the south.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3716
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3732
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3723
+S
+#3725
+A Grey Square~
+   You are standing on a grey dirt square.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3717
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3726
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3733
+S
+#3726
+A Blue Square~
+   You are standing on a blue dirt square.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3718
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3727
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3734
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3725
+S
+#3727
+A Grey Square~
+   You are standing on a grey dirt square.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3719
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3728
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3735
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3726
+S
+#3728
+A Blue Square~
+   You are standing on a blue dirt square.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3720
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3729
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3736
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3727
+S
+#3729
+A Grey Square~
+   You are standing on a grey dirt square.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3721
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3730
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3737
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3728
+S
+#3730
+A Blue Square~
+   You are standing on a blue dirt square.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3722
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3731
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3738
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3729
+S
+#3731
+A Grey Square~
+   You are standing on a grey dirt square.  There is a tree 
+a short distance to the east.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3723
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3732
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3739
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3730
+S
+#3732
+A Blue Square~
+   You are standing on a blue dirt square.  There is a large tree
+to the east.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3724
+D1
+The tree to the board is just to the east.
+~
+~
+0 -1 3700
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3740
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3731
+S
+#3733
+A Blue Square~
+   You are standing on a blue dirt square.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3725
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3734
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3741
+S
+#3734
+A Grey Square~
+   You are standing on a grey dirt square.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3726
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3735
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3742
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3733
+S
+#3735
+A Blue Square~
+   You are standing on a blue dirt square.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3727
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3736
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3743
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3734
+S
+#3736
+A Grey Square~
+   You are standing on a grey dirt square.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3728
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3737
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3744
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3735
+S
+#3737
+A Blue Square~
+   You are standing on a blue dirt square.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3729
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3738
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3745
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3736
+S
+#3738
+A Grey Square~
+   You are standing on a grey dirt square.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3730
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3739
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3746
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3737
+S
+#3739
+A Blue Square~
+   You are standing on a blue dirt square.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3731
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3740
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3747
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3738
+S
+#3740
+A Grey Square~
+   You are standing on a grey dirt square.  There is a tree
+to the north.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3732
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3748
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3739
+S
+#3741
+A Grey Square~
+   You are standing on a grey dirt square.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3733
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3742
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3749
+S
+#3742
+A Blue Square~
+   You are standing on a blue dirt square.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3734
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3743
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3750
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3741
+S
+#3743
+A Grey Square~
+   You are standing on a grey dirt square.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3735
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3744
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3751
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3742
+S
+#3744
+A Blue Square~
+   You are standing on a blue dirt square.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3736
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3745
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3752
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3743
+S
+#3745
+A Grey Square~
+   You are standing on a grey dirt square.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3737
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3746
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3753
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3744
+S
+#3746
+A Blue Square~
+   You are standing on a blue dirt square.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3738
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3747
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3754
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3745
+S
+#3747
+A Grey Square~
+   You are standing on a grey dirt square.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3739
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3748
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3755
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3746
+S
+#3748
+A Blue Square~
+   You are standing on a blue dirt square.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3740
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3756
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3747
+S
+#3749
+A Blue Square~
+   You are standing on a blue dirt square.  This is usually the home
+of one of the Blue Queen's Pawns.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3741
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3750
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3757
+S
+#3750
+A Grey Square~
+   You are standing on a grey dirt square.  This is usually the home
+of one of the Blue Queen's Pawns.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3742
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3751
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3758
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3749
+S
+#3751
+A Blue Square~
+   You are standing on a blue dirt square.  This is usually the home
+of one of the Blue Queen's Pawns.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3743
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3752
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3759
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3750
+S
+#3752
+A Grey Square~
+   You are standing on a grey dirt square.  This is usually the home
+of one of the Blue Queen's Pawns.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3744
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3753
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3760
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3751
+S
+#3753
+A Blue Square~
+   You are standing on a blue dirt square.  This is usually the home
+of one of the Blue King's Pawns.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3745
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3754
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3761
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3752
+S
+#3754
+A Grey Square~
+   You are standing on a grey dirt square.  This is usually the home
+of one of the Blue King's Pawns.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3746
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3755
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3762
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3753
+S
+#3755
+A Blue Square~
+   You are standing on a blue dirt square.  This is usually the home
+of one of the Blue King's Pawns.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3747
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3756
+D2
+A grey square lies to the south.
+~
+~
+0 -1 3763
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3754
+S
+#3756
+A Grey Square~
+   You are standing on a grey dirt square.  This is usually the home
+of one of the Blue King's Pawns.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3748
+D2
+A blue square lies to the south.
+~
+~
+0 -1 3764
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3755
+S
+#3757
+A Grey Square~
+   You are standing on a grey dirt square.  This is usually the home
+of the Blue Queen's Rook.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3749
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3758
+S
+#3758
+A Blue Square~
+   You are standing on a blue dirt square.  This is usually the home
+of the Blue Queen's Knight.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3750
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3759
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3757
+S
+#3759
+A Grey Square~
+   You are standing on a grey dirt square.  This is usually the home
+of the Blue Queen's Bishop.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3751
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3760
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3758
+S
+#3760
+A Blue Square~
+   You are standing on a blue dirt square.  This is usually the home
+of the Blue Queen.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3752
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3761
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3759
+D5
+~
+dirt square~
+2 3715 3766
+S
+#3761
+A Grey Square~
+   You are standing on a grey dirt square.  This is usually the home
+of the Blue King.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3753
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3762
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3760
+S
+#3762
+A Blue Square~
+   You are standing on a blue dirt square.  This is usually the home
+of the Blue King's Bishop.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3754
+D1
+A grey square lies to the east.
+~
+~
+0 -1 3763
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3761
+S
+#3763
+A Grey Square~
+   You are standing on a grey dirt square.  This is usually the home
+of the Blue King's Knight.
+~
+37 0 1
+D0
+A blue square lies to the north.
+~
+~
+0 -1 3755
+D1
+A blue square lies to the east.
+~
+~
+0 -1 3764
+D3
+A blue square lies to the west.
+~
+~
+0 -1 3762
+S
+#3764
+A Blue Square~
+   You are standing on a blue dirt square.  This is usually the home
+of the Blue King's Rook.
+~
+37 0 1
+D0
+A grey square lies to the north.
+~
+~
+0 -1 3756
+D3
+A grey square lies to the west.
+~
+~
+0 -1 3763
+S
+#3765
+The Grey Treasury~
+   You are standing in the treasury of the Grey Court.  Hopefully no one 
+has looted the Crown's treasure.
+~
+37 adj 0
+D4
+A small staircase rises above you.
+~
+dirt square~
+2 3714 3704
+D5
+Nothing special there...
+~
+secret~
+1 -1 20000
+S
+#3766
+The Blue Treasury~
+   You are standing in the treasury of the Blue Court.  Hopefully no one 
+has looted the Crown's treasure.
+~
+37 adj 0
+D4
+A small staircase rises above you.
+~
+dirt square~
+2 3715 3760
+D5
+Nothing special there...
+~
+secret~
+1 -1 20069
+S
+
+$

@@ -1,0 +1,59 @@
+#301
+The Ice Caves of Atavia~
+30150 32 2
+*
+M 0 30102 3 30102   blood snake
+M 0 30102 3 30102   blood snake
+M 0 30100 1 30104   shaggy bear
+E 1 30100 20 13     pelt
+M 0 30102 3 30105   blood snake
+M 0 30101 2 30106   wild man
+E 1 30101 20 13     loincloth
+M 0 30101 2 30109   wild man
+E 1 30101 20 13     loincloth
+M 0 30105 4 30114   sloth
+M 0 30103 5 30114   penguin
+M 0 30105 4 30116   sloth
+M 0 30104 1 30119   snow zombie
+M 0 30106 9 30120   snowman
+M 0 30105 4 30123   sloth
+M 0 30106 9 30124   snowman
+M 0 30105 4 30124   sloth
+M 0 30103 5 30124   penguin
+M 0 30103 5 30125   penguin
+M 0 30106 9 30126   snowman
+E 1 30103 20 17     snowball
+M 0 30103 5 30126   penguin
+M 0 30106 9 30127   snowman
+M 0 30103 5 30128   penguin
+M 0 30107 7 30131   iceman
+M 0 30106 9 30131   snowman
+M 0 30109 6 30133   icecube
+M 0 30107 7 30133   iceman
+M 0 30106 9 30133   snowman
+M 0 30107 7 30134   iceman
+E 1 30102 20 16     icicle
+M 0 30110 1 30135   yeti
+M 0 30109 6 30135   icecube
+M 0 30106 9 30137   snowman
+E 1 30103 20 17     snowball
+M 0 30106 9 30138   snowman
+M 0 30109 6 30140   icecube
+M 0 30109 6 30140   icecube
+M 0 30106 9 30140   snowman
+M 0 30109 6 30143   icecube
+M 0 30107 7 30143   iceman
+M 0 30107 7 30144   iceman
+M 0 30109 6 30145   icecube
+M 0 30107 7 30146   iceman
+M 0 30108 1 30148   iceking
+E 1 30104 20 16     sword
+E 1 30105 20 6      crown
+E 1 30106 20 3      cape
+M 0 30107 7 30148   iceman
+*
+D 0 30141 1 2      icedoor east
+D 0 30142 3 2      icedoor west
+S
+#99999
+$~

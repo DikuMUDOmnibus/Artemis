@@ -1,0 +1,99 @@
+*
+*  Zone Written By Graeme Mc Donough   For the Artemis Mud 
+*
+*
+*
+#210
+Spiral of Death~
+21099 15 1
+* 
+*       Setting initial state of door
+*
+D 0 21021 1 2
+D 0 21020 5 2
+D 0 21017 5 2
+D 0 21010 5 2
+*
+*
+*       Loading mobs and eqipment
+*
+M 0 21000 4 21001       * -Huge Entrance Guard
+E 1 21001 1 12          * Violet breast plate
+E 1 21005 1 16          * Violet bastard Sword
+M 0 21001 4 21002       * -Huge Female Entrance guard
+E 1 21005 1 16          * Violet bastard Sword
+E 1 21003 1 8           * Violet Boots
+M 0 21001 4 21003       * -Huge Female Entrance guard
+E 1 21005 1 16          * Violet bastard Sword
+E 1 21004 1 10          * Violet Braces
+M 0 21001 4 21007       * -Huge Female Entrance guard
+E 1 21005 1 16          * Violet bastard Sword
+E 1 21002 1 17          * Violet Greaves
+M 0 21001 4 21009       * -Huge Female Entrance guard
+E 1 21005 1 16          * Violet bastard Sword
+E 1 21008 1 6           * Violet Helm
+M 0 21002 10 21005      * -Room Guardian
+E 1 21010 1 16          * Rusty Iron Bar
+E 1 21013 1 5           * Violet vest
+M 0 21003 3 21007       * -Scaladar
+M 0 21004 4 21005       * -Sharn
+M 0 21004 4 21006       * -Sharn
+M 0 21004 14 21009      * -Sharn
+M 0 21005 2 21010       * -Water Golem
+E 1 21027 1 17          * Tawny key
+M 0 21006 2 21005       * -Snake
+M 0 21006 4 21007       * -Snake
+M 0 21006 8 21009       * -Snake
+M 0 21006 18 21011      * -Snake
+M 0 21007 3 21012       * -Black Aourmour
+E 1 21006 2 1           * Violet finger
+E 1 21006 2 2           * Violet finger
+M 0 21008 3 21013       * -Watchghost
+M 0 21009 1 21011       * -Giant Lizard
+E 1 21026 1 17          * Grubby key
+E 1 21017 1 8           * Lizard feet
+M 0 21010 4 21017       * -Beholder Kin
+M 0 21011 3 21015       * -Slime Golem
+E 1 21018 2 16          * Erry Green Sword
+M 0 21012 2 21019       * -Beholder
+M 0 21013 1 21016       * -Small Demon
+M 0 21014 2 21017       * -Small fat Demon
+E 1 21011 2 17          * leg
+M 0 21015 2 21002       * -Gohul
+M 0 21015 2 21004       * -Gohul
+M 0 21015 2 21006       * -Gohul
+M 0 21015 2 21008       * -Gohul
+M 0 21015 2 21010       * -Gohul
+M 0 21016 2 21022       * -Medium Demon
+E 1 21011 1 17          * leg
+E 1 21023 1 14          * bracelet green
+E 1 21021 2 16          * Black Dirk
+E 1 21016 2 6           * Demon Horns
+E 1 21022 1 15          * bracelet violet
+M 0 21017 3 21018       * -Black Knight
+E 1 21007 1 16          * Huge Black Sword
+E 1 21015 1 17          * ball
+M 0 21018 1 21021       * -Yachol
+M 0 21019 1 21021       * -Minor Demon
+E 1 21014 1 17          * twisted Black Staff
+*
+*
+*       Loading objects, Containers and objects in containers
+*
+O 0 21009 5 21014       * leg
+O 0 21009 5 21017       * leg
+O 0 21009 5 21019       * leg
+O 0 21009 5 21021       * leg
+O 0 21019 1 21022       * Black Chest
+P 1 21020 1 21019       * Violet Ring
+O 0 21009 3 21001       * Broken Box
+O 0 21009 3 21005       * Broken Box
+O 0 21012 3 21005       * Table 
+O 0 21015 3 21021       * Table 
+O 0 21009 3 21007       * Broken Box
+O 0 21009 3 21013       * Broken Box
+O 0 21009 3 21017       * Broken Box
+O 0 21009 3 21019       * Broken Box
+O 0 21009 3 21021       * Broken Box
+S
+$

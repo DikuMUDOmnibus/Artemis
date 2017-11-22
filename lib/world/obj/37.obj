@@ -1,0 +1,231 @@
+#3700
+armour grey pawn~
+some Grey Pawn Armour~
+A pile of grey armour is here.~
+~
+9 j 9
+1 0 0 0
+13 3000 1 0
+A
+23 2
+A
+24 -1
+R
+20 20
+#3701
+armour blue pawn~
+some Blue Pawn Armour~
+A pile of blue armour is here.~
+~
+9 k 9
+1 0 0 0
+13 3000 1 0
+A
+11 5
+A
+21 1
+R
+20 20
+#3702
+sword grey pawn~
+a Grey Pawn's Sword~
+The sword of a Grey Pawn lies here.~
+~
+5 j 8193
+0 3 4 3
+10 100 1 0
+A
+9 33
+A
+20 2
+R
+20 20
+#3703
+sword blue pawn~
+a Blue Pawn's Sword~
+The sword of a Blue Pawn lies here.~
+~
+5 k 8193
+0 3 4 3
+10 100 1 0
+A
+9 24
+A
+20 2
+R
+20 20
+#3704
+armour grey rook~
+some Grey Rook Armour~
+Some armour made from the remains of a grey rook lies heaped on the floor.~
+~
+9 ahj 9
+2 0 0 0
+60 17000 5 0
+A
+17  4
+A
+5  3
+R
+30 30
+#3705
+armour blue rook~
+some Blue Rook Armour~
+Some armour made from the remains of a blue rook lies heaped on the floor.~
+~
+9 agk 9
+2 0 0 0
+60 17000 5 0
+A
+17  4
+A
+5  3
+R
+30 30
+#3706
+lance grey knight~
+the Lance of the Grey Knight~
+The Lance of the Grey Knight lies here, waiting to rust.~
+~
+5 bgj 8193
+0 3 6 6
+18 10000 3 0
+A
+19  4
+A
+23  8
+R
+25 25
+#3707
+lance blue knight~
+the Lance of the Blue Knight~
+The Lance of the Blue Knight lies here, waiting to rust.~
+~
+5 bgk 8193
+0 3 6 6
+18 10000 3 0
+A
+19  4
+A
+23  8
+R
+25 25
+#3708
+staff grey bishop~
+the Staff of the Grey Bishop~
+The Grey Bishop's Staff is lying here.~
+~
+4 agj 16385
+20 5 5 36
+3 20000 6 0
+#3709
+staff blue bishop~
+the Staff of the Blue Bishop~
+The Blue Bishop's Staff is lying here.~
+~
+4 agk 16385
+20 5 5 36
+3 20000 6 0
+#3710
+crown grey queen~
+the Crown of the Grey Queen~
+The Crown of the Grey Queen lies here, looking neglected.~
+~
+9 bgj 17
+2 0 0 0
+4 3000 5 0
+A
+3  3
+A
+4  3
+R
+45 45
+#3711
+crown blue queen~
+the Crown of the Blue Queen~
+The Crown of the Blue Queen lies here, looking neglected.~
+~
+9 bgk 17
+2 0 0 0
+4 3000 5 0
+A
+3  3
+A
+4  3
+R
+45 45
+#3712
+sceptre grey king~
+the Grey King's Sceptre~
+The Sceptre of the Grey King lies here, collecting dust.~
+~
+8 bfgj ano
+0 0 0 0
+100 85000 1 0
+A
+1  3
+A
+18 3
+#3713
+sceptre blue king~
+the Blue King's Sceptre~
+The Sceptre of the Blue King lies here, collecting dust.~
+~
+8 bfgk ano
+0 0 0 0
+100 85000 10 0
+A
+1  3
+A
+18 3
+R
+20 20
+#3714
+key grey treasury~
+The Key to the Grey Treasury~
+There is a sinister grey key lying here.~
+~
+18 cdfq aco
+3714 0 0 0
+1 1000 300 0
+R 
+75 75
+#3715
+key blue treasury~
+the Key to the Blue Treasury~
+There is a bright blue key lying here.~
+~
+18 cdfq aco
+3715 0 0 0
+1 1000 300 0
+R
+75 75
+#3716
+coins gold grey royal treasure~
+the Grey Royal Treasure~
+There are a LOT of coins here.~
+~
+20 0 1
+10000 0 0 0
+10 10000 0 0
+#3717
+coins gold blue royal treasure~
+the Blue Royal Treasure~
+There are a LOT of coins here.~
+~
+20 0 1
+10000 0 0 0
+10 10000 0 0
+#3718
+bag dragon chromatic dsb cb~
+A chromatic dragon-skin bag~
+A pile of multi-coloured scales lie here.~
+~
+15 abgqr a
+1500 0 0 0
+10 200000 20000
+R
+20 20
+A
+23 -5 
+$

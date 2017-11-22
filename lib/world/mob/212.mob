@@ -1,0 +1,14 @@
+#21200
+witch sea~
+the sea witch~
+A sea witch is here, swimming around.
+~
+The sea witch is so ghastly looking that you feel the deepest fear: Big yellow
+eyes and sharp teeth.  lots of seaweed drapes and covers her body.
+This type of monster hates anything except another sea witch.
+~
+cfgnopr k -800 S
+14 7 1 1d8+172 2d8+1
+0 18000
+8 8 2
+$~

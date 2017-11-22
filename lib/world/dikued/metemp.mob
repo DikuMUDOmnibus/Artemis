@@ -1,0 +1,32 @@
+#30001
+Fly~
+A grubby buzzing fly.~
+A fly buzzes around in the air.
+~
+You see a fly.~
+32 128 0 S
+51 1 -100 1d1000+1 1d100+1
+0 1
+8 8 0
+#30002
+killer blob~
+A large brown oily smelly blob.~
+A large blob Squelches and rolls towards you. 
+~
+You see a brown oily smelly mass~
+116 786442 -500 S
+39 -4 70 4d30+1500 4d4+6
+10000 40000
+8 8 0
+#30003
+mudfish~
+large mudfish~
+The mudfish looks at you and stares.
+~
+you see a funny looking fish with arms~
+2052 128 0 S
+49 4 -200 4d20+1000 2d9+9
+0 70000
+8 5 1
+#99999
+$~

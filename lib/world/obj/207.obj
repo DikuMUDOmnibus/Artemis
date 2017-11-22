@@ -1,0 +1,309 @@
+#20700
+ice key~
+a key of black ice~
+A key of strange black ice lays here, refusing to melt.~
+~
+18 acdeq a
+0 0 0 0
+3 0 0
+E
+key ice black~
+This strange key is made of black ice, a kind of ice that looks quite 
+capable of refusing to melt.
+~
+#20701
+pelt fur~
+a pelt of white fur~
+A beautiful pelt of dazzlingly white fur lies here.~
+~
+11 cde ak
+0 0 0 0
+5 0 0
+R
+5 5
+A
+2 1
+A
+17 -1
+#20702
+sabre teeth~
+a pair of sabre teeth~
+A pair of ivory sabre-like teeth lie here.~
+~
+12 0 ao
+0 0 0 0
+10 0 0
+R
+25 25
+A
+18 2
+A
+19 3
+#20703
+Snowshoes snow shoes~
+a pair of snowshoes~
+A pair of well-made snowshoes rest here, snow melting on them.~
+~
+9 deop ag
+1 0 0 0
+3 0 0
+A
+14 20
+#20704
+jacket fur lined~
+a fur lined jacket~
+A heavy, warm-looking furlined jacket lies here.~
+~
+9 emo ak
+4 0 0 0
+8 0 0
+A
+5 1
+#20705
+pentagram~
+an evil-looking pentagram~
+An evil-looking pentagram has been chalked onto the floor here.~
+~
+12 abg 0
+0 0 0 0
+200 0 0
+E
+pentagram~
+It seems that the chalk used to mark this pentagram was mixed with blood
+prior to being compounded, as the pentagram smells sickly-sweet and is an
+ugly red color.  The runes around it definitely look evil in nature, and
+seem to twist as you look at them, almost as if they don't want to be read.
+~
+#20706
+spear iron~
+a great iron spear~
+A great iron spear lies here, ice crystals forming on its blade.~
+~
+5 adegjlnoqr an
+7 5 3 14
+22 0 0
+R
+65 65
+E
+spear iron blade ice crystals~
+This is a huge iron spear, radiating an aura of unnatural cold.  It is
+wreathed in cold air, and ice crystals are forming slowly on its blade,
+stained red from the blood of some poor creature.  It is covered with
+evil looking runes.
+~
+A
+18 5
+A
+19 5
+A
+5 2
+#20707
+icy pole green~
+a green icy pole~
+A green icy pole has been left to melt here.~
+~
+19 0 a
+3 0 0 0
+2 8 0
+#20708
+icy pole cola~
+a cola icy pole~
+A cola icy pole has been left here, and it melts slowly.~
+~
+19 0 a
+4 0 0 0
+2 8 0
+#20709
+meat chunk~
+a chunk of meat~
+A chunk of meat lies here, steaming gently.~
+~
+19 0 a
+8 0 0 0
+7 0 0
+#20710
+icy pole red~
+a red icy pole~
+A red icy pole rests here, melting fast.~
+~
+19 0 a
+4 0 0 0
+2 8 0
+#20711
+goatskin goat skin strips~
+two strips of goatskin~
+Two strips of goatskin lie here.~
+~
+9 ehq af
+3 0 0 0
+5 0 0
+R
+5 5
+A
+14 3 
+A
+2 1
+#20712
+sno cone~
+a Sno Cone~
+A Sno Cone melts softly here.~
+~
+19 0 a
+5 0 0 0
+2 0 0
+#20713
+shield black ice~
+a shield of black ice~
+A great shield of ice stained black lies here, not melting.~
+~
+9 degjmnoq aj
+15 0 0 0
+20 0 0
+R
+65 70
+A
+1 2
+A
+5 2
+A
+19 2
+A
+24 -6
+#20714
+squid polar~
+a polar squid~
+A hideous polar squid lies here, dead.~
+~
+19 0 a
+15 0 0 0
+8 20 0
+#20715
+meat slab~
+a slab of meat~
+A huge slab of meat lies here, steaming.~
+~
+19 0 a
+30 0 0 0
+12 35 0
+#20716
+fish~
+a fish~
+A fish lies here, quite dead.~
+~
+19 0 a
+12 0 0 0
+4 20 0
+#20717
+talisman ice~
+a talisman of black ice~
+A talisman carved of strange black ice lies here, unmelted.~
+~
+11 0 ac
+0 0 0 0
+12 0 0
+R
+35 35
+A
+5 3
+A
+4 1
+A
+2 -2
+#20718
+carcass huge~
+a huge carcass~
+The huge carcass of a mammoth lies here, blood seeping into the snow.~
+~
+15 0 0
+2000 0 -1 0
+2000 0 0
+E
+carcass huge mammoth~
+This huge carcass has been badly savaged, but doesn't seem completely
+finished. Ragged chunks of meat still hang here and there.
+~
+#20719
+intestines coils~
+some long, coiling intestines~
+A pile of meaty coils lie here, steaming and smelling slightly.~
+~
+19 cdehq a
+8 0 0 5
+8 0 0
+E
+coils intestines~
+These long coils of intestines seem to have been laid aside by whatever
+beasts were savaging this carcass.  They smell slightly, but look almost
+edible.
+~
+#20720
+trunk mammoth~
+a huge trunk~
+The huge trunk of a mammoth lies here, bleeding.~
+~
+5 0 n
+0 0 0 0 
+0 0 0
+R
+300 300
+#20721
+ice pick~
+an ice pick~
+A slim ice pick lies here.~
+~
+5 0 an
+5 3 5 11
+6 0 0
+#20722
+scales icy~
+some icy scales~
+Some icy scales lie here, glittering.~
+~
+9 deiq ai
+9 0 0 0
+8 0 0
+R
+45 45
+A
+19 1
+#20723
+claws yeti~
+some huge claws~
+A set of huge black claws lie on the ground here.~
+~
+5 deq an
+10 6 8 8
+10 0 0
+R
+50 50
+#20724
+skees planks~
+a pair of skees~
+A pair of small planks lie here - they have 'SKEES' written on them.~
+~
+9 dekmnpq ag
+2 0 0 0
+12 0 0
+R
+15 15
+A
+2 2
+A
+14 30
+#20725
+helm ice black~
+a helm of black ice~
+A helm of black ice lies here.  It isn't melting.~
+~
+9 degmnoq ae
+12 0 0 0
+14 0 0
+R
+50 50
+A
+1 1
+A
+5 1
+A
+4 -3
+$~

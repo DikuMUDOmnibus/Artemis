@@ -1,0 +1,97 @@
+CircleMUD v3.0 Shop File~
+#20100~
+20109
+20110
+20111
+20112
+20113
+20100
+20114
+20145
+20146
+20147
+20148
+20149
+20150
+-1
+1.1
+0.9
+2
+3
+4
+10
+-1
+%s I dont have that in storage.. try LIST.~
+%s You must be roman - always trying to sell what they dont have.~
+%s I only buy magic items.~
+%s I dont have enough sestertii for that.~
+%s What are you, crazy ?  I dont give away my magic for free !!~
+%s Here you go, thats %d coins.~
+%s Here's %d coins for that, friend.~
+2
+2
+20115
+18
+20135
+-1
+6
+18
+0
+0
+#20101~
+20107
+20108
+-1
+1.1
+0.9
+19
+-1
+%s I dont have that in storage.. try LIST.~
+%s It sounds like good food.  Where is it ?~
+%s I only buy food !~
+%s I dont have enough sestertii for that.~
+%s If you want free fish, try the SEA !!~
+%s Here you go, thats %d coins.~
+%s Here's %d coins for that, friend.~
+0
+0
+20114
+2
+20132
+-1
+6
+18
+0
+0
+#20102~
+20127
+20128
+20129
+20130
+20131
+20132
+20135
+-1
+1.1
+0.9
+5
+9
+-1
+%s I dont have that in storage.. try LIST.~
+%s Thats a nice bit of armor you offer - I wish you HAD it.~
+%s Sorry pal - weapons and armor, thats my lot.~
+%s I dont have enough sestertii for that.~
+%s You try buying it for that someplace else !  No deal !!~
+%s Here you go, thats %d coins.~
+%s Here's %d coins for that, friend.~
+0
+0
+20113
+2
+20131
+-1
+6
+18
+0
+0
+$~

@@ -1,0 +1,160 @@
+#3300
+zombie~
+the super zombie~
+A giant rotting zombie is looking for mortals to sink its teeth into.
+~
+A giant rotting corpse that has been reanimated by an evil spell caster 
+or higher undead to do their bidding. This mindless flesh has been 
+enhanced and would attack anyone on SIGHT!
+~
+cfgnopr dfk -1000 E
+18 10 3 100d2+400  2d6+6
+10000 100000 
+8 8 0 
+BareHandAttack: 4
+E
+#3301
+zombie~
+the zombie~
+A rotting zombie is looking for mortals to sink its teeth into.
+~
+A rotting corpse that has been reanimated by an evil being. This 
+mindless flesh would attack anyone on SIGHT!
+~
+cfgnopr dfk -1000 E
+10 13 5 0d0+300 2d4+4
+5000 75000
+8 8 0 
+BareHandAttack: 4
+E
+#3302
+Ghoul~
+The ghoul~
+A miserable ghoul is seeking vengence.
+~
+A fresh corpse that has been recently animated by an evil being. This
+mindless flesh would attack anyone on SIGHT!
+~
+cfgnopr dfk -1000 E
+15 10 5 0d0+350 3d6+6
+12500 85000
+8 8 0
+BareHandAttack: 7
+E
+#3303
+skeleton~
+The skeleton~
+A bony skeleton is wreaking havoc.
+~
+The animated remains of a skeleton to do the bidding of its creator.
+This mindless being would attack anyone on SIGHT!
+~
+cfgnopr dfk -1000  E
+14 12 0 0d0+600 3d6+6
+1000 145000
+8 8 0 
+BareHandAttack: 8
+E
+#3304
+mummy~
+The mummy~
+A mummy is seeking vengenge for its entrapment.
+~
+A corpse wrapped and preserved in bandages. Though dead, these trapped
+souls became mad and seek to kill all living things due to their
+jealous rage.
+~
+bcflmnopr adefhk -1000 E
+25 8 5 0d0+2000 3d6+18
+25000 1250000
+8 8 0
+BareHandAttack: 7
+Str: 18
+E
+#3305
+spectre~
+a guardian spectre~
+A guardian spectre guards the the path.
+~
+An incoporeal being from the depths of hell that has been summoned to
+guard the crypt or lair of a powerful master. These evil beings will attack
+any being passing by!
+~
+bcefglmnopqr bdefghkps -1000 E
+25 5 -5 0d0+4500 10d4+20
+20000 2600000
+8 8 0
+BareHandAttack: 9
+E
+#3306
+angel~
+a baby angel~
+A baby angel flies around merrily.
+~
+A small beautiful angel that continually dances around in the air while 
+singing a merry tune. Her gorgeous wings supports her in midflight as she
+strums a beautiful incoporeal harp. This baby angel helps travellers in 
+need and fights for the cause of good.
+~
+cghilmnopqr cdefhknp 900 E
+20 8 0 0d0+750 6d4+0
+25000 225000
+8 8 2
+BareHandAttack: 13
+E
+#3307
+angel~
+An angel~
+An angel looks for souls to save.
+~
+A beautiful angel that countinually tries to help the needy and save
+the souls of the dammed. Filled with purity, the angel fights off evil
+at all cost.
+~
+cghilmnopqr cdefhknp 1000 E
+30 3 -9 0d0+7500 20d3+40
+45000 2125000
+8 8 2
+BareHandAttack: 13
+Str:18
+E
+#3308
+caretaker man~
+The caretaker~
+A deformed caretaker limps about here.
+~
+A deformed man here moves about here with an uncanny gait. This person
+looks like he escaped from the failed genetics experiment of some crazy
+doctor. His legs are bent at odd angles and his face is about the size
+of a watermelon. His small beady eyes are almost lost in huge eyebrows
+and his gaping mouth is so large that it could fit several apples in
+there without any trouble. His disjointed arms are so long that they drag
+along behind him as he continues on his sloppy and untidy work.
+~
+cghlmnopr dfhk -950 E
+30 0 -5 0d0+12500  20d4+40
+10000 4500000 
+8 8 0 
+BareHandAttack: 7
+Str: 18
+Cha: 2
+E
+#3309
+vampire~
+A vampire~
+A blood thirsty vampire looking for some blood.
+~
+This is a blood thirsty vampire lusting after some of your blood. Though
+usually only allowed to be out during the day, they somehow are able to
+withstand the light due to the mystical powers of the graveyard.
+~
+bcfghjklmnopqr cdfghkps -1000 E
+30 0 -9 0d0+25000 40d6+50
+125000 12250000
+5 5 1
+BareHandAttack: 8
+Str: 20
+Int: 18
+Cha: 16
+E
+$

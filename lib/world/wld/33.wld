@@ -1,0 +1,1315 @@
+#3300
+Gates of Ravenloft~
+    Here in front of you are the rusty gates of the famous graveyard 
+Ravenloft. Beyond this gates are where the deepest horrors of the realm 
+are kept at bay; and yet the most angelic and holy of them guard and 
+protect the wary traveller that dares to enter. A small sign next to 
+the gate scrawled in what seems to be fresh blood reads as follows:
+                
+                ****************************
+                * PROCEED AT YOUR OWN RISK *
+                ****************************
+~
+33 ag 4
+D0
+The mist that arises from the grounds of Ravenloft prevents you from 
+seeing much in that direction.
+~
+gate gates~
+1 3300 3301
+D2
+A T-junction can be seen from here.
+~
+~
+0 -1 3072
+E
+gate gates~
+Though rusted and hanging from its hinges, the gate is still barely 
+functional and looks like it could be closed or opened.
+~
+E
+sign~
+Scrawled in blood the sign reads as follows:
+
+                ****************************
+                * PROCEED AT YOUR OWN RISK *
+                ****************************
+~
+S
+#3301
+Entrance of Ravenloft~
+    Upon entering the misbegotten grounds of Ravenloft, you are quickly
+surrounded by a thick mist which chills you to the bone. Graves of 
+adventurers lie scattered about. A few of them are old and hold names of
+famous and powerful mortals while others are fresh and unknown names 
+that have met an untimely end to their short lifespan. The feeling of 
+evil is great as you slowly continue on your march forwards.
+~
+33 ag 4
+D0
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3305
+D2
+You see the shadowy shapes of gates ahead.
+~
+gate gates~
+1 3300 3300
+E
+grave graves~
+Here lie several old gravestones. The writing on the stones are
+illegible due to the years of corrosion from the natural elements.
+~
+S
+#3302
+Storeroom~
+    Here is a small storeroom where the caretaker of the graveyard leaves
+his equipment. The room seems to have been unused for years and has 
+degraded to a state of disrepair. Cobwebs and dust can be seen
+on the walls and floor. There seems to be nothing of use here.
+~
+33 adg 0
+D1
+The graveyard covered with mist can be seen from here.
+~
+~
+0 -1 3303
+S
+#3303
+Graveyard~
+    Here lie several graves of adventurers that have met an untimely
+end. From the distance towards the west, a vague shape can be made 
+within the mist of what seems to be a small building of some sort.
+~
+33 ag 4
+D3
+A small building with broken doors.
+~
+~
+0 -1 3302
+D0
+The mist prevents you from seeing far ahead.  
+~
+~
+0 -1 3309
+D1
+The mist prevents you from seeing far ahead.  
+~
+~
+0 -1 3304
+E
+grave graves~
+Here lie several old gravestones. The writing on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+E
+building~
+A small building can be seen in the distance. This building is most
+probably the storage room for the caretaker to use.
+~
+S
+#3304
+Graveyard~
+    The mist swirls around you as you continue your onward march 
+through the graveyard. The area is littered with graves of different
+sizes and shapes.
+~
+33 ag 4
+D0
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3310
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3305
+D3
+The mist prevents your from seeing far ahead.
+~
+~
+0 -1 3303
+E
+grave graves~
+Here lie several old gravestones. The writing on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3305
+Graveyard~
+    The mist swirls around you as you continue your onward march 
+through the graveyard. The area is littered with graves of different
+sizes and shapes.
+~
+33 ag 4
+D0
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3311
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3306
+D2
+The mist seems to be lighter in this direction, probably towards an
+exit!
+~
+~
+0 -1 3301
+D3
+The mist prevents your from seeing far ahead.
+~
+~
+0 -1 3304
+E
+grave graves~
+Here lie several old gravestones. The writing on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3306
+Graveyard~
+    The graves of adventurers fill the surrounding area as the mist
+continue to blur your vision of distant objects. The presence of 
+evil seems to be slightly less overbearing around here.
+~
+33 ag 4
+D0
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3312
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3307
+D3
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3305
+E
+grave graves~
+Here lie several old gravestones. The writing on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3307
+Graveyard~
+    The graveyard still filled with graves here seems to be more at 
+peace and the evil presence is almost non-existent. Though the 
+occasional feeling of dread and evil can be felt, it is as though a faint 
+holy aura is trying to protect travellers from the oppressing evil. 
+It looks safe to rest here.
+~
+33 acg 4
+D0
+The mist there seems to be so thick that you can't even see more than a
+few feet in front of you.
+~
+~
+0 -1 3313
+D3
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3306
+E
+grave graves~
+Here lie several old gravestones. The writing on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3308
+Graveyard~
+    This place in the graveyard looks as if there has been people moving
+about constantly. Towards the north, a rather large building can be seen
+through the thick mist but it looks deserted. 
+~
+33 ag 4
+D0
+A large building that looks as if it could be haunted.
+~
+~
+0 -1 3316
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3309
+E
+grave graves~
+Here lie several old gravestones. The writing on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+E
+building~
+A rather large building can be seen towards the north. This building 
+seems deserted until a flash of light appears in one of the upper 
+windows for an instant. You wonder who could be in such a run down 
+place.
+~
+S
+#3309
+Graveyard~
+    The mist swirls around you as you continue your onward march 
+through the graveyard. The area is littered with graves of different
+sizes and shapes.
+~
+33 ag 4
+D0
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3317
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3310
+D2
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3303
+D3
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3308
+E
+grave graves~
+Here lie several old gravestones. The writing on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3310
+Graveyard~
+    The mist swirls around you as you continue your onward march 
+through the graveyard. The area is littered with graves of different
+sizes and shapes.
+~
+33 ag 4
+D0
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3318
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3311
+D2
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3304
+D3
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3309
+E
+grave graves~
+Here lie several old gravestones. The writing on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3311
+Graveyard~
+    The mist swirls around you as you continue your onward march 
+through the graveyard. The area is littered with graves of different
+sizes and shapes.
+~
+33 ag 4
+D0
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3319
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3312
+D2
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3305
+D3
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3310
+E
+grave graves~
+Here lie several old gravestones. The writing on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3312 
+Graveyard~
+    The area here seems to be more quiet then the rest of the graveyard.
+The feeling of peace and tranquility can be barely felt within here. It
+looks like it is safe to rest here for a while.
+~
+33 acg 4
+D0
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3320
+D1
+The mist is so dense towards the east that you couldn't make out a
+single thing.
+~
+~
+0 -1 3313
+D2
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3306
+D3
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3311
+E
+grave graves~
+Here lie several old gravestones. The writing on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3313
+Thick mist~
+    The mist here seems to be extremely thick. So thick that you think
+you might just be able to walk on it! The graves here seems to be
+in better condition than the others in the graveyard though still 
+illegible. There seems to be a sign hanging in mid air blocking your
+path to be what seems like stairs made from mist.
+~
+33 ag 4
+D2
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3307
+D3
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3312
+E
+grave graves~
+Here lie several old gravestones. The writing on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+E
+sign~
+My apologies but currently misty heaven is under renovation. Due
+to the risk of deadly mist falling on mortals, we (the gods) have
+decided to close the area for your well being.
+~
+S
+#3314
+Stairs~
+    Here is a small room with a flight of stairs leading down into
+the depths of the unknown. The room is filled with cobwebs and dust
+showing evidence of no recent use. On one wall a strange marking
+can be distinguished from the other walls. There is a sign blocking 
+the stairwell.... Probably you should read it.
+~
+33 ad 0
+D0
+A corridor can be seen from here.
+~
+~
+0 -1 3322
+E
+markings mark wall~
+The marking on the wall seems to be a primitive etching of what looks 
+like a man with horns wielding a pitch fork of some kind stabbing other
+men in what looks to be in a fiery place. Could it be hell? A small
+arrow points towards the stairs from the drawings.
+~
+E 
+sign~
+Due to the recent reset, there are certain unstable environments below
+and the area has been closed to mortals for their well being. Please be
+patient as the gods make their repairs to the rooms.
+~
+S
+#3315
+A twisted corridor~
+    Here is a twisted corridor that seems to bend at odd angles. The 
+dust on the floor shows that this corridor has not been recently used.
+In fact, the dust is so thick here it seems that it may not have been
+used for centuries!
+~
+33 ad 0
+D0
+The twisted corridor continues on its way here.
+~
+~
+0 -1 3323
+D1
+The entrance to the crypt can be seen from here.
+~
+~
+0 -1 3316
+S
+#3316
+Crypt entrance~
+    What you initially thought to be a house of some sort turns out 
+to be a crypt that has been left open untended. The floor is covered 
+with dust and cobwebs hang from the walls. As well there is an eerie feeling
+of being continually watched.
+~
+33 ad 0
+D0
+A long straight corridor can be seen.
+~
+~
+0 -1 3324
+D1
+The graveyard can be seen from here but the mist blocks out anything
+distinguishable.
+~
+~
+0 -1 3317
+D2
+The graveyard can be seen from here but the mist blocks out anything
+distinguishable.
+~
+~
+0 -1 3308
+D3
+A strange twisted corridor can be seen from here.
+~
+~
+0 -1 3315
+S
+#3317
+Graveyard~
+Here the grounds of the graveyard show signs of recent passage. The
+mist continues to swirl around you but glimpses of a building can be seen
+in the distance somewhere towards the west.
+~
+33 ag 4
+D0
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3325
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3318
+D2
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3309
+D3
+A large building can be seen from here.
+~
+~
+0 -1 3316
+E
+grave graves~
+Here lie several old gravestones. The writing on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+E
+Building~
+In the distance, a large hazy building can be barely seen as the mist
+continues to hide it from view. Gazing at the structure you glimpse
+a flash of light before the mist swirls up and the light disappears
+as quickly as it came. There is probably someone in there!
+~
+S
+#3318
+Graveyard~
+    The mist swirls around you as you continue your onward march 
+through the graveyard. The area is littered with graves of different
+sizes and shapes.
+~
+33 ag 4
+D0
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3326
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3319
+D2
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3310
+D3
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3317
+E
+grave graves~
+Here lie several old gravestones. The writing on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3319
+Graveyard~
+    The mist swirls around you as you continue your onward march 
+through the graveyard. The area is littered with graves of different
+sizes and shapes.
+~
+33 ag 4
+D0
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3327
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3320
+D2
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3311
+D3
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3318
+E
+grave graves~
+Here lie several old gravestones. The writing on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3320
+Graveyard~
+    Here the ground seems to be rather worn from frequent use. There
+seems to be a track heading towards the east where within the mist a
+building of some sort can be seen.
+~
+33 ag 4
+D1
+A building of some sort can be seen within the mist.
+~
+~
+0 -1 3321
+D2
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3312
+D3
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3319
+E
+grave graves~
+Here lie several old gravestones. The writing on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+E
+building~
+Off in the distance towards the east a building can be seen within the
+mist. It seems to be deserted except for the occasional noise comming 
+from deep within.
+~
+S
+#3321
+Crypt entrance~
+    The entrance to this building distinguish it to be a small crypt.
+The floors and walls shows no sign of recent use or tending as dust and
+cobwebs are easily visible.
+~
+33 ad 0
+D0
+A stairwell can be seen from here.
+~
+~
+0 -1 3329
+D3
+The graveyard can be seen through the broken doors.
+~
+~
+0 -1 3320
+S
+#3322
+A straight corridor~
+    A straight corridor here connects to a strange twisted
+corridor towards the east. The floor is completely barren of any signs
+of recent use. It seems that if anything passed through here it either
+flew or leaves no tracks.
+~
+33 ad 0
+D0
+The continuation of the straight corridor is seen from here.
+~
+~
+0 -1 3330
+D1
+A twisted corridor can be seen here.
+~
+~
+0 -1 3323
+D2
+A stairwell can be seen from here.
+~
+~
+0 -1 3314
+S
+#3323
+A twisted corridor~
+    The corridor continues to twist at odd angles as if the architecture
+was hiding secret panels here. But through greater observation, you
+conclude that if there was a secret panel it would be too small to
+contain anything of value.
+~
+33 ad 0
+D2
+The continuation of the twisted corridors can be seen from here.
+~
+~
+0 -1 3315
+D3
+A T-junction can be seen here.
+~
+~
+0 -1 3322
+S
+#3324
+A straight corridor~
+    Numerous paintings line the corridor here where each portrait is 
+of what you can conclude to be a family line. The corridor is bare 
+besides these paintings and the floor is full of dust as you continue
+to walk onwards.
+~
+33 ad 4
+D0
+The end of the straight corridor can be seen from here.
+~
+~
+0 -1 3332
+D2
+The crypt entrance can be seen from here.
+~
+~
+0 -1 3316
+E
+paintings painting portrait portraits~
+The portraits here show a haughty family. Strangely enough
+they all wear capes of some sort in dark dreary colors.
+~
+S
+#3325
+Graveyard~
+    The mist swirls around you as you continue your onward march 
+through the graveyard. The area is littered with graves of different
+sizes and shapes.
+~
+33 ag 4
+D0
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3333
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3326
+D2
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3317
+E
+grave graves~
+Here lie several old gravestones. The writting on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3326
+Graveyard~
+    The mist swirls around you as you continue your onward march 
+through the graveyard. The area is littered with graves of different
+sizes and shapes.
+~
+33 ag 4
+D0
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3334
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3327
+D2
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3318
+D3
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3325
+E
+grave graves~
+Here lie several old gravestones. The writting on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3327
+Graveyard~
+    The mist swirls around you as you continue your onward march 
+through the graveyard. The area is littered with graves of different
+sizes and shapes.
+~
+33 ag 4
+D0
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3335
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3328
+D2
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3319
+D3
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3326
+E
+grave graves~
+Here lie several old gravestones. The writting on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3328
+Graveyard~
+    The mist swirls around you as you continue your onward march 
+through the graveyard. The area is littered with graves of different
+sizes and shapes.
+~
+33 ag 4
+D0
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3336
+D3
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3327
+E
+grave graves~
+Here lie several old gravestones. The writting on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3329
+Stairwell~
+    Here in this room a stairwell leads down deep into the underground.
+Rumour has it that below was once the burial place of an emperor and all
+his servants were buried with him as well. This room is unkept and the 
+dust that covers the floor could easily reach three inches deep while the
+cobwebs are so thick that passing through towards the stairwell is difficult.
+There is a sign hanging on the stairwell which effectively blocks you
+from proceeding further.
+~
+33 ad 5
+D2
+The entrance of the crypt can be seen from here.
+~
+~
+0 -1 3321
+E
+sign~
+Due to the recent tourist venture to this area, the crypt is undergoing 
+renovations whereby it will be currently closed to visitors for a short 
+period of time. For your well being of course.
+~
+S
+#3330
+A turning~
+    Here is most probably one corner of the building. As usual there is
+no sign of any recent activities. Examining carefully, this room
+shows signs of recent corrosion from some kind of acidic substance. The
+floor is devoid of any dust or cobwebs.
+~
+33 ad 0
+D1
+A large dark room can be seen. Faint glittering reflections can be seen
+caused by your light source.
+~
+~
+0 -1 3331
+D2
+This looks like a corridor where shadows continue to loom just outside
+of your light's range.
+~
+~
+0 -1 3322
+E
+corrosion substance~
+The corrosion seems to be from some kind of highly acidic substance.
+Whatever caused this kind of damage to the stone walls should be treated
+with caution.~
+S
+#3331
+Ante chamber~
+    This large room looks like the ante chamber. There is a door to the 
+north jammed open which leads to some kind of large room with a throne 
+and a stairwell. There are doors to both the east and the west which 
+lead to corridors. The room itself is rather cool and dusty as 
+gentle breezes from somewhere swirl the dust up and cover all the
+tracks - if any were made recently.
+~
+33 ad 0
+D0
+It seems to be a room with a stairwell and a throne in it.
+~
+~
+0 -1 3338
+D1
+It seems to be a junction that leads to a corridor of some kind.
+~
+~
+0 -1 3332
+D3
+It seems to be a junction that leads to a corridor of some kind.
+~
+~
+0 -1 3330
+S
+#3332
+End of corridor~
+    Here is the end of a corridor. Towards the west looks like an 
+ante chamber to an important room while to the south the corridor 
+extends onwards. The dust here covers the floor and no recent tracks
+are visible. There seems to be no signs of anything remotely living
+in these areas.
+~
+33 ag 4
+D2
+A long straight corridor leading towards the entrance of the building.
+~
+~
+0 -1 3324
+D3
+An large room that looks like an ante chamber.
+~
+~
+0 -1 3331
+S
+#3333
+Graveyard~
+    The mist swirls around you as you continue your onward march 
+through the graveyard. The area is littered with graves of different
+sizes and shapes.
+~
+33 ag 4
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3334
+D2
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3325
+E
+grave graves~
+Here lie several old gravestones. The writting on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3334
+Graveyard~
+    The mist swirls around you as you continue your onward march 
+through the graveyard. The area is littered with graves of different
+sizes and shapes.
+~
+33 ag 4
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3335
+D2
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3326
+D3
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3333
+E
+grave graves~
+Here lie several old gravestones. The writting on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3335
+Graveyard~
+    The mist swirls around you as you continue your onward march 
+through the graveyard. The area is littered with graves of different
+sizes and shapes.
+~
+33 ag 4
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3336
+D2
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3327
+D3
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3334
+E
+grave graves~
+Here lie several old gravestones. The writting on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+S
+#3336
+Graveyard~
+    The mist swirls around you as you continue your onward march 
+through the graveyard. The area is littered with graves of different
+sizes and shapes. Towards the east a small shack can be barely seen
+from here.
+~
+33 ag 4
+D1
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3337
+D2
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3328
+D3
+The mist prevents you from seeing far ahead.
+~
+~
+0 -1 3335
+E
+grave graves~
+Here lie several old gravestones. The writting on the stones is
+illegible due to years of corrosion from the natural elements.
+~
+E
+shack~
+From a distance a shack can be seen through the mist. This is most 
+probably where the caretaker used to live while he was still alive.
+~
+S
+#3337
+Shack~
+    This is a small shack that once most probably belonged to the
+caretaker of the graveyard. Now this is just a shambles and nothing is
+left untouched by the ravages of time. There is pottery smashed along the
+floor as well as dust coating everywhere. There is a broken bench and 
+table in one corner of the shack as well as what could be an unused stove
+which could serve as a fireplace as well.
+~
+33 ad 0
+D3
+The graveyard can be seen from here covered over with a thick blanket of
+mist.
+~
+~
+0 -1 3336
+S
+#3338
+Throne room~
+    This could be described at best as a deserted old throne room. What was
+once lovely walls covered with murals and marble floors with thick rugs
+of exquisite taste, now torn cloth and cracked walls and floors. This 
+room looked as if a dreadful and evil spell of decay has been placed on
+it. A stench can be smelt from the the stairwell near the north east 
+corner of the room.
+~
+33 ad 0
+D2
+This leads to an ante chamber of some sort.
+~
+~
+0 -1 3331
+D4
+There's a musty stairwell leading up here.
+~
+~
+0 -1 3339
+S
+#3339
+Stairwell~
+    The stairwell before you leads into the dark depths below where soft
+groaning sounds can be heard. The room is barren of any interest except  
+for the soft sickly glow emanating from the walls. Though unable to 
+produce enough light, the dim glow illuminates the area with a feeling
+of dread. There is an archway to the south leading into the dark 
+corridors.
+~
+33 adg 0
+D2
+A dark corridor of the mansion.
+~
+~
+0 -1 3341
+D5
+A dark room.
+~
+~
+0 -1 3338
+S
+#3340
+A bedroom~
+    This room seems to have been utterly destroyed by some ravaging
+marauders. The bed is overturned and the springs are exposed in several
+places. The doors has been ripped from its hinges and the curtains are in 
+tatters. The remains of a shattered mirror are visible in the corner while
+the wooden splinters of what used to be a cabinet lies next to it. There
+is an exit to the south and one towards the east.
+~
+33 adg 0
+D1
+A dark corridor can be seen through the broken doorway.
+~
+~
+0 -1 3341
+D2
+A dark corridor can be seen through the broken doorway.
+~
+~
+0 -1 3343
+S
+#3341
+A corridor~
+    This is a small corridor with three exits. The wall seems barren of
+of any paintings except for the dried blood splashed in a gruesome display
+of some satanic pentagram design. Towards the north is a chamber containing 
+a stairwell. Towards the east and west there seem to be bedrooms of some sort. 
+To the south there is a T-junction that seem eerie.
+~
+33 adg 0
+D0
+A small chamber with a stairwell.
+~
+~
+0 -1 3339
+D1
+A small room can be seen though the broken doors.
+~
+~
+0 -1 3342
+D2
+A T-junction can be seen from here.
+~
+~
+0 -1 3344
+D3
+A small room which seems to be a bedroom can be seen from here.
+~
+~
+0 -1 3340
+S
+#3342
+A small room~
+    This is a small room that looks like what used to be a storage area of 
+some kind. The cabinets have been destroyed and all that are left are
+splinters and pieces of wood scattered around the dusty floor.
+~
+33 adg 0
+D2
+A corridor can be seen from here.
+~
+~
+0 -1  3345
+D3
+A corridor can be seen from here.
+~
+~
+0 -1 3341
+S
+#3343
+A corridor~
+    This is a small corridor with an eerie glow emanating from the walls.
+Some parts of the wall has been splattered with dried blood while there
+has been scratch marks of some kind on the plastered walls. The dusty 
+floor shows some recent use leading towards the south mainly. There is a 
+broken archway leading to the north while the corridor continues on towards 
+the east and south.
+~
+33 adg 0
+D0
+A bedroom can be seen from here through the broken archway.
+~
+~
+0 -1 3340
+D1
+A T-junction can be seen from here.
+~
+~
+0 -1 3344
+D2
+The corridor continues on this way ending in a doorway.
+~
+~
+0 -1 3346
+E
+blood~
+Splatters of dried blood are visible in the pale light. This blood seems to
+be from some poor soul that wasn't able to survive this horrible place.
+~
+S
+#3344
+A T-junction~
+    This is a T-junction that seems to continually have light breezes 
+passing through from the east towards the west. The dust from the floor
+is continually being blown up masking any signs of recent passage.
+~
+33 adg 0
+D0
+A corridor can be seen from here.
+~
+~
+0 -1 3341
+D1
+The corridor continues on towards the east.
+~
+~
+0 -1 3345
+D3
+The corridor continues on towards the west.
+~
+~
+0 -1 3343
+S
+#3345 
+A corridor's end~
+    This is the end of a corridor where the wooden walls have been splattered
+with dried blood. There is a closed window that seems to draw a cold draft 
+that sweeps along the corridor. There is an exit towards the north and the
+corridor continues on towards the west.
+~
+33 adg 0
+D0
+You see what seems to be a storage room of some sort.
+~
+~
+0 -1 3342
+D3
+You see the continuation of the corridor.
+~
+~
+0 -1 3344
+E
+window~
+This is a small window which has been barred. Though shut, a cool breeze
+seems to pass through it as if it was opened.
+~
+S
+#3346
+A corridor~
+    The corridor here ends here with a door leading towards the east. The
+walls are covered in dried blood and the floor is also coated in a thick 
+coat of dried blood. On the door are the designs of a pentagram drawn out
+in blood.
+~
+33 adg 0
+D0
+The corridor continues on towards the north.
+~
+~
+0 -1 3343
+D1
+A room of some sort can be seen.
+~
+door~
+2 3300 3347
+S
+#3347
+Master bedroom~
+    This what looks like a master bedroom. Though a bit shabby this once 
+used to be a spectacular room. There is a king size bed dominating the 
+centre of the room which has a couple of springs showing at certain places.
+What used to be a large mirror in a corner lies shattered and the cabinet
+next to it has deteriorated to a state of uselessness. There is a door 
+towards the east which most probably leads to the bathroom. There is a 
+door towards the west which leads out.
+~
+33 adg 0
+D1
+You see what looks like a bathroom.
+~
+door~
+2 3300 3348
+D3
+You see a corridor through the doors.
+~
+~
+2 3300 3346
+E
+bed~
+This is a king size bed that dominates most of the room. The bed has 
+tattered covering and springs can be seem at certain areas.
+~
+S
+#3348
+A bathroom~
+    This looks like an advanced bathroom compared to what you adventuring 
+heroes are use to. There is a white ceramic sink on one side of the room
+about waist height while a larger human-sized sink is on the floor.
+~
+33 adg 0
+D3
+~
+~
+2 3300 3347
+S
+$
+

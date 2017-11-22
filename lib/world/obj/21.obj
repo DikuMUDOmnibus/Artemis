@@ -1,0 +1,300 @@
+#2100
+intangible light~
+an intangible light~
+Nothing seems to be here to light your way.~
+~
+1 a ao
+0 0 -1 0
+1 1 1 0
+A
+1 3
+R
+30 30
+#2101
+intangible breastplate~
+an intangible breastplate~
+There doesnt appear anything here to wear.~
+~
+9 adfghq ad
+10 0 -1 0
+1 1 1 0
+R
+30 30
+#2102
+intangible sword~
+an intangible sword~
+Nothing is here for you to wield.~
+~
+5 gkq an
+5 11 3 4
+1 1 1 0
+A
+18 10
+A
+19 -2
+R
+30 30
+#2103
+intangible backpack~
+an intangible backpack~
+Nothing is here to put your items in.~
+~
+15 b ak
+1500 0 -1 0
+1 1 1 0
+A
+10 -100
+A
+5 4
+A
+6 10
+R
+30 30
+#2104
+intangible key~
+an intangible key~
+The key to nothing has been dropped here.~
+~
+18 cdeq ao
+0 0 -1 0
+1 1 1 0
+R
+30 30
+#2105
+gold coins~
+an absolutely stupendously colossal everest of gold coins~
+Some idiot dropped a mountain range of gold here.~
+~
+20 a 1
+10000 0 0 0
+1 1 1 0
+#2106
+red rose~
+a red, red rose~
+A red, red rose grows quietly here.~
+~
+18 cdeq ao 1
+0 0 -1 0
+1 1 1 0
+#2107
+vanilla meat~
+a dubious piece of vanilla meat~
+A rather dubious looking piece of vanilla meat is on the ground here.~
+~
+19 0 1
+14 0 0 0
+5 24 10 0
+#2108
+licorice meat~
+a dubious piece of licorice meat~
+A rather dubious lookine piece of licorice meat is on the ground here.~
+~
+19 0 1
+14 0 0 0
+5 24 10 0
+#2109
+chocolate meat~
+a dubious piece of chocolate meat~
+A rather dubious looking piece of chocolate meat is on the ground here.~
+~
+19 0 1
+14 0 0 0
+5 24 10 0
+#2110
+caramel meat~
+a dubious piece of caramel meat~
+A rather dubious looking piece of caramel meat is on the ground here.~
+~
+19 0 1
+14 0 0 0
+5 24 10 0
+#2111
+strawberry meat~
+a dubious piece of strawberry meat~
+A rather dubious looking piece of strawberry meat is on the ground here.~
+~
+19 0 1
+14 0 0 0
+5 24 10 0
+#2112
+beastly dagger~
+a beastly dagger~
+A beastly dagger has been dropped here.~
+~
+5 0 ano
+0 1 4 11
+5 100 10 0
+A
+18 1
+#2113
+beastly sword~
+a beastly sword~
+A beastly sword has been left here.~
+~
+5 0 ano
+0 2 4 3
+8 200 20 0
+A
+19 1
+#2114
+beastly sword bane~
+the bane of the beastly fido~
+A strange looking sword has been left here by someone.~
+~
+5 af ano
+0 2 4 3
+10 500 20 0
+A
+19 1
+A
+18 1
+#2115
+fido fest tshirt shirt~
+a Fido Fest T-Shirt (tm)~
+Someone left a cool t-shirt here.~
+~
+9 a ad
+1 0 0 0
+5 10 1 0
+E
+tshirt t-shirt shirt~
+This t-shirt is the latest thing in kewl endorsements.  With a huge flag and
+the words FIDO FEST emblazoned across the front over the picture of a dead
+fido, and along the back, the words "... i survived".  Perhaps you can live up
+to the ideals of this shirt...
+~
+#2116
+cover~
+cover~
+A manhole leads downwards into the sewers from here.~
+~
+13 0 0
+0 0 0 0
+1 1 1 0
+#2117
+corpse~
+the corpse of Pandion~
+Someone's corpse is here, decaying quietly.~
+~
+13 0 0
+0 0 0 0
+40 1 1 0
+E
+corpse~
+As you look at the corpse you suddenly realise that it bears a familiar face,
+that of Pandion !! Emotions cover you from sorrow to extreme happiness (you
+decide, hmm ?) as you realise at last Pandion has fallen in battle.  Perhaps
+it was his time to go ?  You shall never know..
+~
+#2118
+beastly flag~
+a beastly quest flag~
+A flag is mouted here, with the Fido Fest emblem on it.~
+~
+13 0 1
+0 0 0 0
+1 1 1 0
+E
+flag~
+This is the Fido Fest Offical Quest flag.  At the base of it a few words are
+printed....  "Congratulations,  from the management of Fido Fest."
+~
+#2119
+warning sign~
+a sign of warning~
+A sign is here, posted by the management.~
+~
+13 0 0
+0 0 0 0
+16959 1 1 0
+E
+sign~
+WARNING:  There is a dangerous area of Fido Fest nearby.  For your own safety
+          do not venture far and be careful which exit you choose.
+
+The Management, Fido Fest.
+~
+#2120
+warning grats~
+a congratulation sign~
+A sign is here, informing you that you are an idiot that has just walked into   another death trap.  Congratulations.~
+~
+13 0 0
+0 0 0 0
+16959 1 1 0
+#2121
+map of fido fest~
+a map of Fido Fest~
+Someone left a useful looking map here.~
+~
+13 0 1
+0 0 0 0
+5 1 1 0
+E
+map~
+ABOVEGROUND:  
+  Fido alley (west)  ----  North of Fido Fest  ----  Fido Alley  (east)
+       |                         |                         |
+       |                         |                         |
+       |                         |                         |
+       |                         |                         |
+       |                         |                         |
+    Alleyway      Reading -- ENTRANCE -- Donation       Alleyway
+    (sewers)       Room          |         Room         (sewers)
+       |                         |                         |
+       |          Cleric  --  Beastly -- Beastly -- Bar    |
+       |          Chapel      Fountain     Inn             |
+       |                         |                         |
+       |          Weaponsmith    |       General Store     |
+       |               |         |              |          |
+  Odif Alley (west)  ----  South of Fido Fest  ----  Odif Alley (east)
+
+SEWERS:    
+    Sewers   --------------------------------------------  Sewers
+  (alleyway)                                             (alleyway)
+~
+#2122
+computer~
+Computer~
+A Computer is here, in use.~
+~
+13 0 0
+0 0 0 0
+57599 1 1 0
+E
+computer screen video~
+It looks like it is running an endless demo of Doom.  From time to time the
+screen goes red as the unknown player of the recording is killed.
+~
+#2123
+doom~
+a copy of DOOM~
+A copy of DOOM is waiting here to be played.~
+~
+9 abcdegkq ao
+0 0 0 0
+5 1 1 0
+E
+doom game~
+What a game !! Just holding it makes you want to grab a shotgun and run out and
+kill, and kill, and kill, and KILL !!!
+~
+#2199
+beastly fountain~
+the beastly fountain~
+A beastly fountain has been built here for your convenience.~
+~
+23 begi 1
+100000 100000 15 0
+9999 9999 9999 0
+E
+fountain~
+Whoever carved this fountain had a sick mind.  Clearly at a loss for inspir-
+-ation, the carver must have grabbed a nearby fido and gone mad - for the 
+fountain itself looks almost exactly like a huge, sleeping fido.  At the base
+of the fountain, as if to condone the artist, a little note is attached...
+
+For Your Pleasure,
+                   The Management, Fido Fest.
+~
+$

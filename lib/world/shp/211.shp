@@ -1,0 +1,320 @@
+#21100~
+3050
+3052
+-1
+-1
+-1
+1.05
+0.15
+2
+0
+0
+0
+0
+%s Terribly sorry, I don't have one of those, but I have a poem about one.  Would you like to hear it?~
+%s Don't you know Goethe knows all?  Sell me something you have.~
+%s Get a clue!  Try the store next door.  Non-poets can't stand them.~
+%s I've spent all my money to feed all the hungry artists in the world.  I can't afford that.~
+%s Sorry, you can't afford that, but you can afford a copy of 'Goethe: the poet's early years' (autographed version).~
+%s That will cost you %d coins.  And with that fine purchase you recieve a free copy of 'Goethe: Mere Genius or God.'~
+%s Money is but transient ether.  I will buy it for %d coins.~
+0
+0
+21100
+0
+21181
+0
+28
+0
+0
+#21101~
+4103
+6106
+-1
+-1
+-1
+1.2
+0.05
+4
+10
+0
+0
+0
+%s I beg your pardon sir, but I do not seem to have that right now.~
+%s I see no such item on your person kind sir.~
+%s Sorry, sir, but I do not buy anything of that sort.~
+%s Sorry, but I do not seem to be in a position to buy that item.~
+%s I do not mean to be rude, but you cannot afford that item.~
+%s Kind sir, that will be %d coins and thank you for your patronage.~
+%s Oh, thank you for the opportunity to buy from you.~
+0
+0
+21101
+0
+21113
+0
+28
+0
+0
+#21102~
+3032
+3051
+3053
+3054
+-1
+1.05
+0.15
+3
+4
+15
+0
+0
+%s I don't have that item...better try again sometime later.~
+%s I might be old, but I'm not stupid.  You don't have that item.~
+%s I have no interest in anything like that, go try somewhere else.~
+%s Sorry, but buying that item would put me over my budget.~
+%s Come back after you get a job to earn some money to buy that!~
+%s That will be %d coins.~
+%s Thank you for helping enlarge my collection, here are %d coins.~
+0
+0
+21102
+0
+21168
+0
+28
+0
+0
+#21110~
+3000
+3001
+3002
+-1
+-1
+1
+0.01
+0
+0
+0
+0
+0
+%s Oops, I forgot to order more, sorry.~
+%s You trying to cheat me ehh!~
+%s HA HA, now why would I want something like that?~
+%s Sorry, I have run out of money!~
+%s All Itams Must and Will be Payed for Now!~
+%s That will be %d coins.~
+%s Here are %d coins, I seem to get ripped off by the best of them.~
+0
+0
+21110
+0
+21183
+0
+28
+0
+0
+#21158~
+21103
+21104
+21105
+21106
+21128
+1.0
+0.1
+5
+9
+16
+18
+21
+%s Sorry, but that item hasn't been unloaded from the ships yet.~
+%s Like, stop wasting my time with things you don't have!~
+%s You can't return something that you can't buy here!~
+%s Sorry, the store's going through financial difficulties now.~
+%s Look, I've got better things to do than talking to dead beats!~
+%s That will be %d coins, thank you and come again!~
+%s Here is your %d coins for your item.~
+0
+0
+21158
+0
+21197
+0
+28
+0
+0
+#21162~
+3010
+21116
+21121
+-1
+-1
+1
+0.01
+0
+0
+0
+0
+0
+%s Sorry, I don't have that right now.~
+%s What the hell's wrong with you, boy...you blind?!~
+%s This is a fish store...you can't expect me to buy that!~
+%s Sorry, business is bad, so I can't buy that right now.~
+%s If you want that, you'd better come back with some money.~
+%s That will be %d coins.~
+%s Here are %d coins.~
+0
+0
+21162
+0
+21107
+0
+28
+0
+0
+#21163~
+3022
+3024
+21110
+21111
+21119
+2
+0.1
+5
+0
+0
+0
+0
+%s What are you, blind?  Can't you see I don't have that right now?!~
+%s Do you think I'm blind!?  Get out of here, you con artist!~
+%s I don't buy that sh*t!~
+%s Sorry, but all my money went into bailing me out of jail!~
+%s Get out of here, you no good bum, come back when you get some money!~
+%s Pssst, I'll let you have it for %d coins.~
+%s You got yourself a deal.~
+0
+0
+21163
+0
+21117
+0
+28
+0
+0
+#21164~
+21120
+21121
+21122
+21126
+21127
+1.0
+1.0
+0
+0
+0
+0
+0
+%s Sorry, I don't have that right now.~
+%s What the hell's wrong with you, boy...you blind?!~
+%s This is a fish store...you can't expect me to buy that!~
+%s Sorry, business is bad, so I can't buy that right now.~
+%s If you want that, you'd better come back with some money.~
+%s That will be %d coins.~
+%s Here are %d coins.~
+0
+0
+21164
+0
+21118
+0
+28
+0
+0
+#21177~
+3040
+3042
+3044
+3076
+3081
+1.0
+0.5
+9
+0
+0
+0
+0
+%s Haven't got that on storage -- try list!~
+%s You don't seem to have that.~
+%s I only buy armors.. Go away!~
+%s That is too expensive for me - Try a wizard!~
+%s You can't afford it!~
+%s That'll be %d coins, please.~
+%s You'll get %d coins for it!~
+0
+0
+21177
+0
+21167
+0
+28
+0
+0
+#21176~
+3060
+3061
+-1
+-1
+-1
+1.0
+0.5
+22
+0
+0
+0
+0
+%s I don't have that!  Try list!~
+%s Show me one and I'll buy it!  You don't have one!~
+%s Sorry, that thing doesn't look like it floats too well!~
+%s That's such a fine vessel... too bad, I can't afford it.~
+%s Har!  No free rides here!  Come back when you have more money!~
+%s That'll be %d coins, matie.  Happy sailing.~
+%s I'll give you %d coins for that fine craft.~
+0
+0
+21176
+0
+21101
+0
+28
+0
+0
+#21179~
+3100
+3101
+3104
+6013
+-1
+1.0
+1.0
+0
+0
+0
+0
+0
+%s Sorry, I don't have that -- try list!~
+%s I don't buy!~
+%s I don't buy!~
+%s I don't buy!~
+%s Friend, you don't seem to have enough money for that.~
+%s That'll be %d coins.~
+%s Oops - %d a minor bug - please report.~
+0
+0
+21179
+0
+21112
+0
+28
+0
+0
+$~

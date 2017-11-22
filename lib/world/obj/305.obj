@@ -1,0 +1,87 @@
+#30500
+bone talisman~
+a talisman of bone~
+An evil-looking talisman of bone lies here.~
+~
+12 0 aco
+0 0 0 0
+8 1 1
+E
+talisman bone~
+This talisman has been fashioned cleverly out of bone and twisted wire, and
+has been made to resemble a dagger dripping blood in a double-circle of wire.
+~
+#30501
+death certificate scroll~
+a death certificate~
+A tightly-rolled scroll, sealed with wax, lies here.~
+~
+2 cdgh ao 
+100 201 -1 -1
+3 1 1
+E
+certificate scroll death~
+In strong, bold, black writing, the scroll says this...
+
+  +---------------------------------+
+  | THIS IS TO CERTIFY THE DEATH OF |
+  |                                 |
+  | ............................... |
+  |                                 |
+  | WHO DIED TO FEED THE ETERNALLY  |
+  |                                 |
+  |    THIRSTY FIELDS OF DEATH.     |
+  |                                 | 
+  |  Authorised by the High Priest  |
+  |  of the Genocide Clan.  ^G^     |
+  +---------------------------------+
+
+In scarlet letters, YOUR NAME has been written in blood on the dotted 
+line!!
+~
+#30502
+shroud funeral gown~
+a solemn funeral shroud~
+A solemn gown lies here.~
+~
+9 0 ak
+1 0 0 0
+5 1 1
+E
+shroud funeral gown~
+This is a solemn gown used for funerals, and imposes a feeling of serious
+air.  It is white, but on the front an image has been spattered with 
+fresh blood - the image of a dripping dagger in a double circle.
+~
+#30503
+lily funeral~
+a funeral lily~
+A white funeral lily is growing strong here.~
+~
+1 0 0
+0 0 0 0
+1 1 1
+E
+funeral lily~
+This is a quite healthy and beautiful lily, stark and white, but tinged 
+with red from the thick blood from which it gets most of its nutrients.
+~
+#30504
+bones~
+a pile of bones~
+A pile of bones is stacked up here, easily twelve feet high.~
+~
+13 0 0
+0 0 0 0
+1 1 1
+E
+bones~
+A huge pile of bones has been stacked up, full of skulls, femurs, ribs, and
+all other bones of several races.  Some of the skulls are quite small - the
+bones of children.  This is where the late inhabitants dumped their 
+slaughtered kin when it became too dangerous to bury them decently.  
+Several skulls have a dagger-in-double-circle design scrawled on them in
+blood.
+~
+#19999
+$~

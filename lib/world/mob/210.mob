@@ -1,0 +1,261 @@
+#21000
+huge entrance guard~
+a Huge entrance Guard~
+A Huge entrance Guard stands here looking at you.
+~
+This guard is Big.
+He holds a Huge Bastard Sword as he looks you over.
+~
+bcehjlmnopr dfhk -950 E
+125 65 -50 4d800+9000 4d60+200
+10000 2000000
+8 8 1
+Class: 3
+E
+#21001
+huge female entrance guard~
+a entrance Guard~
+A entrance Guard is looking for intruders.
+~
+This guard is an over strong woman, but she is no less dangerous than any man.
+She snarls and stomps over to kill you.
+~
+cefglmnor dfhkn 900 E
+125 55 -50 4d800+8000 4d50+200
+100000 1800000
+8 8 2
+Class: 3
+E
+#21002
+room guardian~
+a Room Guardian~
+A Room Guardian is standing protecting the room that you are in.
+~
+You see many faces of Guards. There must be something good down here
+to have sooooo many guards.
+The Guards attack.....AAAAAAAAAARRRRRGGGGHHHHHH!
+~
+bcefglmnopr dfk -900 E
+135 15 -50 4d1800+4000 4d59+300
+100010 2100000
+8 8 1
+Class: 3
+E
+#21003
+scaladar red~
+a red scaladar~
+The scorpion-like red scaladar stands in the corner clicking.
+~
+The scaladar slowly turns in your direction clicking even more.
+~
+bceln0pr dfk 0 S
+130 11 -60 4d3800+110000 25d65+425
+200000 150000000
+8 8 1
+#21004
+sharn~
+the floating Sharn~
+The Floating Sharn hovers in the air showing the teeth from 
+its 3 heads.
+~
+You see a strange looking black animal that is floating in the air 
+above you. 
+3 head HISS and SNAP at you.
+~
+belnopr dfk 0 S
+60 0 -10 1d1+15000 6d6+50
+20000 400000
+8 8 1
+#21005
+water golem~
+a water golem~
+A water golem shimmers and wavers as it stands.
+~
+The Water golem is a creature of pure water.
+It stands not moving only shimmering.  
+~
+bceflnopr dfk 0 S
+240 6 -20 1d1+50000 25d50+50
+20000 100000000
+8 8 1
+#21006
+snake~
+a flying snake~
+A flying snake, flies around the room.
+~
+The snake flies around the room hissing and snapping it's small
+jaw.
+~
+abcelnopr dfk 0 S
+65 0 -90 4d8+1200 5d5+30
+30000 100000
+8 8 1
+#21007
+black armour~
+The pile of Black armour stands up and~
+Black armour stirs and moves.  You watch the jerky movement. 
+~
+Black armour walks towards you in jerky movements, it draws
+an eery green sword.
+.
+~
+ceghlmnopr dfk 0 S
+240 8 -20 5d10+40000 25d45+35
+40000 70280000
+8 8 1
+#21008
+watchghost~
+a watchghost~
+A huge Watchghost rears up and attacks.
+~
+You have upset a Watchghost of overpowering size. It attacks.
+~
+bcelnopr dfk 0 E
+225 0 0 5d10+90000 12d30+250
+0 80000000
+8 8 0
+BareHandAttack:4
+E
+#21009
+lizard~
+a giant lizard~
+A giant lizard is sleeping here.
+~
+Bones of past adventurers litter the floor around the sleeping giant lizard.
+~
+bceflnopr dfhkp -350 S
+260 10 -10  5d10+55000 25d60+240
+100000 153000000
+8 8 2
+#21010
+beholder kin~
+a beholder kin ~
+A beholder kin looks at you through it's one large eye.
+~
+A large round ball with many tentacles and a probing eye, floats towards you.
+~
+bceflnopr dfhkp -400 S
+90 0 -10 5d10+17000 7d6+60
+150000 8000000
+8 8 1
+#21011
+slime golem~
+a slime Golem~
+A slime Golem rises up from the floor.
+~
+This large golem is made completely of green slime.
+What a horrible smell it makes....EEEECCHHH
+It slowly moves towards you.
+~
+bcelmnopr dfkp 0 S
+250 10 -60 5d10+120000 24d66+385
+40000 170000000
+8 8 0
+#21012
+beholder~
+a beholder~
+A beholder floats in the middle of the room.
+~
+One large eye, many sharp teeth and lots of extra eyes on a floating 
+ball Moves at you leaving a drooling acidic trail.
+~
+bcelnopr dfhkp -400 E
+50 0 -10 5d10+3100 5d6+50
+90000 880000
+8 8 1
+Class: 1
+E
+#21013
+small demon~
+a small Demon~
+A small Demon stands in a pentagram symbol on the floor.
+~
+In the middle of the room you see a small demon. The demon seems to be 
+scratching at an invisible wall made by the pentagram symbol.
+~
+bcelnopr dfhkpt -500 E
+250 0 -10 5d10+32000 5d6+35
+50000 80000000
+8 8 1
+Class: 0
+E
+#21014
+small fat demon~
+small fat Demon~
+A small fat demon sits on the floor chewing on a past adventurer.
+~
+Sitting on the floor, a small fat demon chews on the leg of 
+a now dead adventurer. It stops chewing and snarls.
+~
+bcelnopr dfhkpt -500 E
+40 0 -10 5d10+7000 6d6+35
+50000 2800000
+8 8 1
+Class: 3
+E
+#21015
+ghoul~
+a ghoul~
+A ghoul is here munching on some human fingers.
+~
+The ghoul stands and walks towards you, arms out stretched.
+~
+bcelnopr dfhkp -1000 S
+40 0 -10 5d10+2400 5d7+35
+30000 340000
+8 8 0
+#21016
+medium demon~
+a medium demon~
+A medium demon stands here holding an item of evil.
+~
+The same size as a human, the Medium demon stands and holds the 
+Item of Evil high above its head.... The demon chants.
+~
+bceflmnopr dfhkp -750 E
+45 10 -70 5d10+95000 24d60+350
+40000 190000000
+8 8 1
+Class: 2
+E
+#21017
+black knight~
+a Black Knight~
+A Black Knight stands here guarding a large chest.
+~
+A Black Knight watches you as you walk into the room. It shuffles
+on the spot as it seems to yearn to have the warmth from your body.
+~
+bcelnopr dfhkp -750 E
+45 0 -10 5d10+2000 4d6+30
+30000 270000
+8 8 0
+Class: 3
+E
+#21018
+yachol~
+a yachol~
+A yachol resides in one side of the room.
+~
+A Large smelly blob with HUGE Teeth and long tentacles Snorts as you 
+enter the room.
+~
+bcelnopr dfhkp 0 S
+45 0 -10 5d10+2200 5d6+40
+40000 290000
+8 8 1
+#21019
+minor demon~
+a minor demon~
+A minor demon unfolds it's wings and wields a demonic weapon.
+~
+A black glossy demon with glowing red eyes that seem to 
+look right into your soul prepares for a fight.
+~
+bcelnopr dfhkp 1000 E
+50 0 -10 5d10+3000 5d6+40
+50000 340000
+8 8 1      
+Class: 2
+E
+$

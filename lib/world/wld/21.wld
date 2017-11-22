@@ -1,0 +1,809 @@
+#2100
+The entrance to Fido Fest~
+You stand at the entrance to Fido Fest, the latest in MUD Theme Parks.  Here,
+the name of the game, in fact the only game, is KILL FIDO.  A small sign
+has been pinned to the wall for your convenience:
+   +------------------------------+
+   |   NEW ENTRANTS TO FIDO FEST  |
+   |                              |
+   |          WELCOME !!          |
+   |                              |
+   | PLEASE READ NOTICE BOARD FOR |
+   |  DETAILS ON FIDO FEST RULES  |
+   +------------------------------+
+North: The North of Fido Fest
+South: Beastly Square and the Beastly Fountain
+East:  The Beastly Donation Room  (OUT OF ORDER)
+West:  The Reading Room
+Up:    The Express Exit
+~
+21 0 0
+D0
+This way leads to the north part of Fido Fest.
+~
+~
+0 0 2104
+D1
+This way leads to the old donation room.
+~
+~
+0 0 2119
+D2
+This leads to Beastly Square.
+~
+~
+0 0 2103
+D3
+The Fido Fest Reading Room lies west of here.
+~
+~
+0 0 2101
+D4
+An Express Elevator will take you straight back to the Temple of Midguaard.
+~
+~
+0 0 3001
+S
+#2101
+The Fido Fest Reading Room~
+You stand in the Reading Room of Fido Fest.  A sign here explains the rules:
+_______________________________________________________________________________
+FIDO FEST RULES AND REGULATIONS:
+
+1> Chase only fidos.  There have been reports of a ghost running around, and
+   if you can kill it that is all well and good, but the theme park is about
+   fidos.  Please respect this.
+
+2> Gold fidos are the most rewarding, but most .. dangerous.  Next is silver
+   and bronze fidos.  Regular "vanilla" fidos are still worth more than 
+   normal so dont ignore them either.  The management has yet to decide 
+   whether to bring in strawberry fidos - but keep watching the board for 
+   details.
+
+3> Please take care, and read signs.  We pin them up for your safety.
+
+The Management, Fido Fest.
+------------------------------------------------------------------------------
+~
+21 0 0
+D1
+The Entrance to Fido Fest lies to the east.
+~
+~
+0 0 2100
+S
+#2102
+The South limits of Fido Fest~
+You stand at the south limit of Fido Fest.  This appears to be the old market
+square of the town, but ruins to the south block the way to the common square
+and, presumably, the levee.  The only exits are north to the Beastly Square,
+and east and west along the old Main Street, now called Odif Alley.
+A huge wall, the boundary to Fido Fest, blocks any further progress south.
+~
+21 0 0
+D0
+To the north lies Beastly Square.
+~
+~
+0 0 2103
+D1
+This leads to the eastern side of Odif Alley
+~
+~
+0 0 2106
+D3
+This leads to the west side of Odif Alley
+~
+~
+0 0 2107
+S
+#2103
+Beastly Square~
+The centre of all fido killing in this park, Beastly Square was formed out
+of a simple need of all newbies to have some place to rest, and recuperate.
+However, many fidos have worked this out as well, often coming here to rest
+in the shade of the Beastly Fountain like puppies.
+~
+21 0 0
+D0
+That way leads back to the entrance of Fido Fest.
+~
+~
+0 0 2100
+D1
+This looks like the old Inn of Fido Fest.  A worn sign above the store
+proclaims to be the Beastly Inn.  Someone here has a sick mind...
+~
+~
+0 0 2117
+D2
+That way leads to the gate, and the exit of Fido Fest.
+~
+~
+0 0 2102
+D3
+This leads to the entrance of the Clerics Chapel.
+~
+~
+0 0 2122
+D4
+Where does this lead ??
+~
+air~
+2 2106 2131
+D5
+It looks very, very dark down there.  You think you should take torches -
+and perhaps a dozen or so friends.  The space below the manhole looks very
+cramped though - and for a brief second you see a wisp of.. something ? down
+there....  perhaps a ghost...
+~
+manhole~
+2 2104 2110
+S
+#2104
+The north end of Fido Fest~
+You are standing in the northern "district" of Fido Fest.  Looking around
+you realise just how small Fido Fest is.. barely more than a city block.
+A huge wall, the boundary to Fido Fest, blocks further progress north.
+~
+21 0 0
+D1
+In this direction you can see the east end of Fido Alley
+~
+~
+0 0 2108
+D2
+Looking south, you see the entrance to Fido Fest.
+~
+~
+0 0 2100
+D3
+In this direction you can see the west end of Fido Alley.
+~
+~
+0 0 2109
+S
+#2105
+The General Store~
+This is the General Store of Fido Fest - the management's attempt to make
+Fido Fest more than just a "killing zone".  Hundreds of little trinkets are
+on sale, including those kewl t-shirts that say "I experienced Fido Fest -
+and survived".  Hmm.. it looks like a good deal.
+~
+21 deh 0
+D2
+The exit to the shop leads out to the east end of Odif Alley.
+~
+~
+0 0 2106
+S
+#2106
+Odif Alley (east)~
+You stand in Odif Alley, one of the back alleys of Fido Fest.  Even here, the
+fidos are in large numbers - but you're gonna thin them out, arent you ?
+A large wall blocks your progress south.
+~
+21 0 0
+D0
+It looks to be the General Store - and it looks open for buisness !
+~
+~
+0 0 2105
+D1
+Odif alley continues in this direction but seems make a sharp turn to the
+north.
+~
+~
+0 0 2111
+D3
+This leads back to the southern limits of Fido Fest.
+~
+~
+0 0 2102
+S
+#2107
+Odif Alley (west)~
+You stand in Odif Alley, one of the back alleys of Fido Fest.  Even here, the
+fidos are in large numbers - but you're gonna thin them out, arent you ?
+A large wall blocks your progress south.
+~
+21 0 0
+D0
+It looks like the old bakery - but a sign above the store proclaims it to
+be the weaponsmith of Fido Fest.  It looks open for buisness.
+~
+~
+0 0 2120
+D1
+This leads back to the southern limits of Fido Fest.
+~
+~
+0 0 2102
+D3
+Odif alley falls into disrepair in this direction - but it looks passable.
+~
+~
+0 0 2112
+S
+#2108
+Fido Alley (east)~
+You stand in Fido Alley, one of the back alleys of Fido Fest.  Even here, the
+fidos are in large numbers - but you're gonna thin them out, arent you ?
+A large wall blocks your progress north.
+~
+21 0 0
+D1
+This leads to the end of Fido Alley (east).
+~
+~
+0 0 2113
+D3
+This leads back to just south of the General Store
+~
+~
+0 0 2104
+S
+#2109
+Fido Alley (west)~
+You stand in Fido Alley, one of the back alleys of Fido Fest.  Even here, the
+fidos are in large numbers - but you're gonna thin them out, arent you ?
+A large wall blocks your progress north.
+~
+21 0 0
+D1
+This leads back to the main street just south of the General Store
+~
+~
+0 0 2104
+D3
+This leads to the western end of Fido Alley.
+~
+~
+0 0 2114
+S
+#2110
+Your Worst Nightmare~
+As soon as you descend through the sewers you realise you have made a very,
+very bad mistake.  It gets worse when you realise that the secret you came
+through is now LOCKED and you have no way of getting out !!!
+You dimly realise that you will probably starve to death here before ANYONE 
+comes down to rescue you.
+~
+21 afgh 0
+D4
+This leads to safety.  Better take the option.
+~
+manhole~
+1 2104 2103
+S
+#2111
+Odif Alley (east)~
+Odif Alley ends abruptly, against a boarded up tenament.  The road makes a 
+sharp turn to the north, and becomes a back alley behind a large structure.
+To the west, Odif Alley continues back to the main street.
+To the south, a wall blocks your progress.
+~
+21 0 0
+D0
+This leads northwards along a darkened alleyway.
+~
+~
+0 0 2115
+D3
+This leads along the east end of Odif Alley.
+~
+~
+0 0 2106
+S
+#2112
+Odif Alley (west)~
+Here, Odif Alley finally passes into disrepair, the street becoming totally
+impassible and the ruined buildings at the side of the road too dangerous to
+venture between.  To the north, a small alley leads behind a large building.
+To the south, a large wall blocks your way.
+~
+21 0 0
+D0
+This leads northwards along a darkened, but SAFE, alleyway.
+~
+~
+0 0 2116
+D1
+This leads back along Odif alley to the Main Street.
+~
+~
+0 0 2107
+D3
+It looks far too dangerous to continue in this direction.  The road looks
+totally unsafe and the buildings very dangerous.  Not even the fidos venture
+here.
+~
+~
+0 0 2198
+S
+#2113
+Fido Alley (east)~
+You stand at the end of Fido Alley.  To the south a small alleyway continues
+behind a large structure, and to the west Fido Alley continues back to the Main
+Street.
+A large wall blocks your way north.
+~
+21 0 0
+
+D2
+This leads south along a darkened alleyway.
+~
+~
+0 0 2115
+D3
+This leads back along Fido Alley.
+~
+~
+0 0 2108
+S
+#2114
+Fido Alley (west)~
+You stand at the western end of Fido Alley.  Here, a small path opens from 
+between the derelict buildings leaing southwards, and to the east Fido Alley
+continues back to the Main Street just south of the General Store.
+A large wall blocks your way north.
+~
+21 0 0
+D1
+This leads back along Fido Alley.
+~
+~
+0 0 2109
+D2
+This leads south along a darkened alleyway.
+~
+~
+0 0 2116
+S
+#2115
+The dark alley between the buildings.~
+You move along a darkened north-south alleyway between buldings.  To the
+north is Fido alley, and the south is Odif Alley, each swarming with wonderful
+little beasts which you came here to kill.
+~
+21 a 0
+D0
+This leads to the end of Fido Alley.
+~
+~
+0 0 2113
+D2
+This leads to Odif Alley.
+~
+~
+0 0 2111
+D5
+Through the manhole is the sewers of Fido Fest.  It looks dark, and very
+foreboding, and you suddenly feel that being alone in the sewers is a bad
+idea - perhaps you should take some friends..
+~
+manhole~
+1 -1 2123
+S
+#2116
+The dark alley between the buildings.~
+You move along a darkened north-south alleyway between buldings.  To the
+north is Fido alley, and the south is Odif Alley, each swarming with wonderful
+little beasts which you came here to kill.
+~
+21 a 0
+D0
+This leads to the end of Fido Alley.
+~
+~
+0 0 2114
+D2
+This leads to Odif Alley.
+~
+~
+0 0 2112
+D5
+Through the manhole lies the sewers of Fido Fest.  It looks very dark and
+very forboding.  Suddenly you think that going into the sewers alone is a
+bad idea - perhaps you should take a friend of two with you...
+~
+manhole~
+1 -1 2124
+S
+#2117
+The entrance to the Beastly Inn.~
+You stand in the remains of the Beastly Inn.  By the looks of it, it has been
+abandoned for a long time, and has fallen into such disrepair that the entire
+second floor, the renting and cryogenic area, is totally unsafe.  Better not
+go up there, huh ?
+~
+21 0 0
+D1
+This leads to the Beastly Inn proper - such that is left of it.
+~
+~
+0 0 2118
+D3
+This leads back to the Beastly Square.
+~
+~
+0 0 2103
+D4
+This leads upwards to the old reception of the Inn.  Since the whole inn is
+run down it doesnt look very safe up there.  In fact, as you look, the roof
+creaks as a stray wind buffets the run down building.  I wouldnt go up there
+if I were you...
+~
+~
+0 0 2197
+S
+#2118
+The Beastly Inn.~
+You stand in the Beastly Bar, the only remaining part of the Beastly Inn.  The
+bar, like everything else around here, is totally abandoned, short of a few
+fidos which seem to have discovered the drinks storage behind the bar...
+~
+21 0 0
+D3
+This leads back to the entrance to the Beastly Square.
+~
+~
+0 0 2117
+S
+#2119
+The Beastly Donation Room.~
+This is the old donation room of Fido Fest.  Unfortunately it is currently out
+of commision, so there is no equipment here.  Many fidos have somehow made
+their way here, however, often appearing from puffs of smoke.
+~
+21 0 0
+D3
+This leads back to the entrance of Fido Fest.
+~
+~
+0 0 2100
+S
+#2120
+The Weaponsmith~
+This looks like the bakery - but by the weapons on the wall you are convinced
+otherwise.   After a moment of confusion, the shopkeeper calmly tells you that
+the old weaponsmith building fell down, so he had to move here, and proudly
+displays the weapons he has.
+~
+21 0 0
+D2
+The exit to the shop leads out to the west end of Fido Alley.
+~
+~
+0 0 2107
+S
+#2121
+Beastly Fido Creation Room~
+The Source of all Fidos in Fido Fest, this is where they come from.  If
+you are reading this description YOU ARE CHEATING because there is no way to
+get into this room !!!!
+~
+21 fghk 0
+D0
+This leads to the darkened alleyway.
+~
+~
+0 0 2115
+D1
+This comes out at the north end of Fido Fest.
+~
+~
+0 0 2104
+D2
+This leads to a darkened alleyway.
+~
+~
+0 0 2116
+D3
+This exits to the south end of Fido Fest.
+~
+~
+0 0 2102
+D4
+This leads to the Main Entrance of Fido Fest.
+~
+~
+0 0 2103
+D5
+This exit puts you in the sewers.
+~
+~
+0 0 2127
+S
+#2122
+The entrance to the Clerics Chapel~
+This used to be the entrance to the Clerics Chapel, but is now so run down
+that the rest of the building is completely blocked by rubble.
+~
+21 d 0
+D1
+This leads back to the Beastly Square.
+~
+~
+0 0 2103
+S
+#2123
+In the sewers of Fido Fest.~
+You stand in the sewers of Fido Fest.  Directly above you is the manhole
+you came through, leading upwards to a side alley of Fido Fest.  It is
+extremely dark here, and something suggests it is not entirely safe.  You
+jump something scurries past you in the darkness, and suddenly the dripping
+of the dank sewer water seems extremely loud....
+~
+21 a 0
+D3
+This looks like it heads deeper into the sewers of Fido Fest.
+~
+~
+0 0 2126
+D4
+This leads through the manhole to the dark alleyways between the buildings of Fido Fest.
+~
+manhole~
+1 -1 2115
+S
+#2124
+In the sewers of Fido Fest.~
+You stand in the sewers of Fido Fest.  Directly above you is the manhole
+you came through, leading upwards to a side alley of Fido Fest.  It is
+extremely dark here, and something suggests it is not entirely safe.  You
+jump something scurries past you in the darkness, and suddenly the dripping
+of the dank sewer water seems extremely loud....
+~
+21 a 0
+D1
+This path heads deeper into the sewers below Fido Fest.
+~
+~
+0 0 2125
+D4
+This leads through the manhole to the dark alleyways between the buildings of Fido Fest.
+~
+manhole~
+1 -1 2116
+S
+#2125
+A sewer tunnel~
+You stand in one of the myriad of sewer tunnels underneath Fido Fest.
+The darkness is extremely oppressive, and you can barely make out the available
+exits in front of you.. let alone see your hand in front of your face !!!
+It looks like this path continues onwards to a triple junction of sewer tunnels
+but directly north of you there appears to be a VERY long vertical shaft which
+leads down into darkness.
+~
+21 a 0
+D0
+This shaft looks like it goes on FOREVER downwards !!  You kick a stray
+pebble into it.. and listen for five minutes before you realise you are NOT
+going to hear it hit the ground !! EVER !!  The same fate will happen to you
+if you are stupid enough to walk in here.
+~
+~
+0 0 2196
+D1
+This leads onwards to a triple junction of sewer tunnels.
+~
+~
+0 0 2127
+D3
+This looks like it heads towards a manhole.. and a way out !
+~
+~
+0 0 2124
+S
+#2126
+A sewer tunnel~
+You stand in one of the myriad of sewer tunnels underneath Fido Fest.
+The darkness is extremely oppressive, and you can barely make out the available
+exits in front of you.. let alone see your hand in front of your face !!!
+It looks like this path continues onwards to a triple junction of sewer tunnels
+but directly north of you there appears to be a VERY long vertical shaft which
+leads down into darkness.
+~
+21 a 0
+D0
+This shaft looks like it goes on FOREVER downwards !!  You kick a stray
+pebble into it.. and listen for five minutes before you realise you are NOT
+going to hear it hit the ground !! EVER !!  The same fate will happen to you
+if you are stupid enough to walk in here.
+~
+~
+0 0 2196
+D1
+This looks like it heads back to a manhole... and a way out !!!
+~
+~
+0 0 2123
+D3
+This leads onwards to a triple junction of sewer tunnels.
+~
+~
+0 0 2127
+S
+#2127
+A triple junction under the sewers~
+Three sewer tunnels converge here in the near pitch-dark... south, east and
+west.   Stepping gingerly through the muck, you resolve to select one of
+the paths and find a way out of this hell hole...
+~
+21 a 0
+D0
+It looks like a secret door to your worst nightmare !!
+Dont blame me if u die in there !!!!!
+~
+secret~
+1 2104 2110
+D1
+This heads off into a pitch-dark sewer tunnel..
+~
+~
+0 0 2126
+D2
+This tunnel continues in near pitch-darkness.  Funny.. this tunnel isnt
+shown on the maps...
+~
+~
+0 0 2128
+D3
+This heads off into a pitch-dark sewer tunnel...
+~
+~
+0 0 2125
+S
+#2128
+A sewer tunnel~
+You stand in one of the myriad of sewer tunnels under Fido Fest.  The darkness
+is extremely opressive, and you can barely make out the available exits in
+front of you.. let alone see your hand in front of your face !!!
+~
+21 a 0
+D0
+This heads to a triple junction of sewer tunnels.
+~
+~
+0 0 2127
+D2
+This leads southwards to what looks like a manhole, and a way out.
+~
+~
+0 0 2129
+S
+#2129
+Under a manhole of Fido Fest.~
+You stand in the sewers of Fido Fest.  Directly above you is a manhole, which
+is not listed on the map for some reason..
+~
+21 a 0
+D0
+This continues down a sewer tunnel in almost complete darkness...
+~
+~
+0 0 2128
+D4
+This leads through the manhole to the dark alleyways between the buildings of Fido Fest.
+~
+manhole~
+1 -1 2130
+S
+#2130
+The dump~
+This is the Dump of Fido Fest.  Basically, there is piles of trash just
+lying around here.  Perhaps this isnt such a great place to visit after all...
+and phew !!  The smell !!
+Some large ruins cover what you guess to be the Common Square, and prevent
+you heading any way but back down into the sewers.
+~
+21 0 0
+D5
+This leads back down into the sewers.
+~
+manhole~
+1 -1 2129
+S
+#2131
+Pandion's Secret Residence~
+This is the (secret) residence of Pandion, that dead bloke in the sewers.
+Since he's not with us anymore you might as well live here - if you can stand
+Pandion's tastes.  With a computer against the north wall, a huge stereo 
+system and losts of very technical-looking things make it look like you could
+live your entire life in this room, in front of the computer.
+~
+21 defgj 0
+D0
+This leads... inside the computer ?
+~
+screen~
+1 -1 2132
+D5
+This heads back to Beastly Square.
+~
+air~
+1 2104 2103
+S
+#2132
+Inside the Computer~
+If i ever bother to zone a DOOM zone this is where im gonna put it, ok ?
+~
+21 cdefghj 0
+D2
+This leads out of the Computer.
+~
+screen~
+3 -1 2131
+S
+#2196
+An endless vertical sewer tunnel~
+As you step into this vertical shaft you realise you have made a bad mistake..
+You fall....
+            .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+             .
+              .
+               .... forever.
+
+Goodbye !!!
+
+Now.. if I wasnt such a nice guy you would be DEAD right now.
+But im gonna give u a second chance.  There is an exit DOWNWARDS..
+I suggest you take it.
+~
+21 c 0
+D5
+You lucky son of a ... this goes back to the Beastly Square !!
+~
+~
+0 0 2103
+S
+#2197
+The reception at the Beastly Inn, where the floor is unstable.~
+You should follow the signs once in a while, pal.  The management does have
+your best interests in mind, you know.  This area was never really safe to
+start with, and as the floor crumbles beneath you and you plummet to your
+doom amid a cascade of timbers and supports, you wonder is anyone else was
+as stupid as you to wander into this derelict sectiion....
+
+At least your death is quick - and painless.
+
+Now.. if I wasnt such a nice guy you would be DEAD right now.
+But im gonna give u a second chance.  There is an exit DOWNWARDS..
+I suggest you take it.
+~
+21 c 0
+D5
+You lucky son of a ... this goes back to the Beastly Square !!
+~
+~
+0 0 2103
+S
+#2198
+Odif Alley (west) where its too dangerous to continue.~
+You should follow the signs once in a while, pal.  The management does have
+your best interests in mind, you know.  This area was never really safe to
+start with, and as the road crumbles beneath you and you plummet to your
+death amid a cascade of ashphalt and stones, you wonder is anyone else was
+as stupid as you as to wander into this derelect section....
+
+Now.. if I wasnt such a nice guy you would be DEAD right now.
+But im gonna give u a second chance.  There is an exit DOWNWARDS..
+I suggest you take it.
+~
+21 c 0
+D5
+You lucky son of a ... this goes back to the Beastly Square !!
+~
+~
+0 0 2103
+S
+$

@@ -1,0 +1,1789 @@
+#7510
+In the Courtyard~
+You are standing in the courtyard of the castle of Ctlulac.  The flagstones of
+the courtyard are worn and uneven, and are missing in several places.  Moss
+grows in the cracks between the stones.  Ahead of you stands the inner keep
+of the castle.  It also seems to be in a state of disrepair, but seems to be
+holding up better than the rest of the castle.  To the east and west you can
+make out the towers at the corners of the castle walls.
+~
+75 ad 0
+D0
+You can see the gate to the inner keep in this direction.
+~
+~
+0 0 7521
+D1
+You can make out the south east tower of the castle far to the east.
+~
+~
+0 0 7511
+D2
+You see a man-sized gate here.
+~
+man gate~
+2 7546 7509
+D3
+You can make out the south west tower of the castle far to the west.
+~
+~
+0 0 7522
+S
+#7511
+Along the Castle Wall~
+You are walking along the south wall of the castle.  Above you, you can see the
+crumblinglooking  battlements of the castle.  To the north lies the inner keep, to the
+west you can make out the main gate of the castle.  Looming in the east is the
+south-east tower of the castle.
+~
+75 ad 0
+D0
+You see the inner keep this way.
+~
+~
+0 0 7520
+D1
+You see the south-east tower of the castle this way.
+~
+~
+0 0 7512
+D3
+You can see the main gate of the castle this way.
+~
+~
+0 0 7510
+S
+#7512
+At the South-East Tower~
+You are standing at the south-east corner of the castle walls.  To the south, 
+you see the door to the south-east tower.  The tower looks old, but still 
+appears to be safe to enter.
+~
+75 ad 0
+D0
+This way leads along the east wall off the castle.
+~
+~
+0 0 7513
+D2
+You see an old wooden door with no lock leading into the south-east tower.
+~
+wooden door~
+1 -1 7589
+D3
+Far to the west you can make out the main gate of the castle.
+~
+~
+0 0 7511
+S
+#7513
+Along the Castle Wall~
+This part of the wall seems to be in fair condition.  To the north and south 
+leads along the castle wall.  To the west is the courtyard.
+~
+75 ad 0
+D0
+This way continues along the wall.
+~
+~
+0 0 7514
+D2
+This way continues along the wall.
+~
+~
+0 0 7512
+D3
+This way leads to the courtyard.
+~
+~
+0 0 7520
+S
+#7514
+Along the Castle Wall~
+This part of the wall seems to be in fair condition.  To the north and south 
+leads along the castle wall.  To the west is the courtyard.
+~
+75 ad 0
+D0
+This way continues along the wall.
+~
+~
+0 0 7515
+D2
+This way continues along the wall.
+~
+~
+0 0 7513
+D3
+This way leads to the courtyard.
+~
+~
+0 0 7519
+S
+#7515
+Along the Castle Wall~
+This part of the wall seems to be in fair condition.  To the north and south 
+leads along the castle wall.  To the west is the courtyard.
+~
+75 ad 0
+D0
+This way continues along the wall.
+~
+~
+0 0 7516
+D2
+This way continues along the wall.
+~
+~
+0 0 7514
+D3
+This way leads to the courtyard.
+~
+~
+0 0 7518
+S
+#7516
+At the North-East corner~
+You are standing in the north-east corner of the castle walls.  To the south,
+the courtyard continues.  To the west you can see the back gate.  North of here
+stand an old wooden door which leads to the north-east tower.
+~
+75 ad 0
+D0
+You see an old wooden door that leads into the north-east tower.
+~
+wooden door~
+1 -1 7538
+D2
+This way leads along the east wall.
+~
+~
+0 0 7515
+D3
+To the far west you can make out the back gate.
+~
+~
+0 0 7517
+S
+#7517
+Along the Wall~
+You are standing along the north wall of the castle.  Above you, you can see
+the crumbling battlements of the castle.  To the west you can see the back
+gate.  To the east you can see the north-east tower.
+~
+75 ad 0
+D1
+You see the north-east tower this way.
+~
+~
+0 0 7516
+D2
+You see the inner keep this way.
+~
+~
+0 0 7518
+D3
+You see the back gate this way.
+~
+~
+0 0 7532
+S
+#7518
+By the Keep~
+You are standing next to the inner keep.  To the east you can see the wall of
+the castle.  The courtyard continues to the north and south.
+~
+75 ad 0
+D0
+The courtyard continues this way.
+~
+~
+0 0 7517
+D1
+You see the castle way this way.
+~
+~
+0 0 7515
+D2
+The courtyard continues this way.
+~
+~
+0 0 7519
+D3
+You see the backside of the inner keep this way.
+~
+~
+0 0 7533
+S
+#7519
+By the Keep~
+You are standing next to the inner keep.  To the east you can see the wall of
+the castle.  The courtyard continues to the north and south.
+~
+75 ad 0
+D0
+The courtyard continues this way.
+~
+~
+0 0 7518
+D1
+You see the castle wall this way.
+~
+~
+0 0 7514
+D2
+The courtyard continues this way.
+~
+~
+0 0 7520
+S
+#7520
+By the Keep~
+You are standing next to the inner keep.  To the east you can see the wall of
+the castle.  The courtyard continues to the north and south.
+~
+75 ad 0
+D0
+The courtyard continues this way.
+~
+~
+0 0 7519
+D1
+You see the castle wall this way.
+~
+~
+0 0 7513
+D2
+The courtyard continues this way.
+~
+~
+0 0 7511
+D3
+You see the entrance to the inner keep this way.
+~
+~
+0 0 7521
+S
+#7521
+The Entrance to the Keep~
+Two large doors stand here to the north.  Two guards stand at either side of 
+the door.  To the west and east, the courtyard continues.  To the south lies
+the entrance to the castle.
+~
+75 ad 0
+D0
+You see a large door, reinforced with steel which give the entrance to the 
+inner keep.
+~
+large door~
+2 7547 7542
+D1
+This way leads to the courtyard.
+~
+~
+0 0 7520
+D2
+This way leads to the main gate.
+~
+~
+0 0 7510
+D3
+The courtyard continues this way.
+~
+~
+0 0 7531
+S
+#7522
+Along the Castle Wall~
+You are walking along the south wall of the castle.  Above you, you can see the
+crumbling battlements of the castle.  To the north lies the inner keep.  To the
+east you can make out the main gate of the castle.  Looming in the west is the 
+south-west tower of the castle.
+~
+75 ad 0
+D0
+You see the inner keep this way.
+~
+~
+0 0 7531
+D1
+You see the  main gate of the castle.
+~
+~
+0 0 7510
+D3
+You see the south-west tower of the castle this way.
+~
+~
+0 0 7523
+S
+#7523
+The South-West Corner~
+You are standing in the south-west corner of the castle walls.  To the north,
+the courtyard continues.  To the east you can just make out the main gate. To
+the south you can see an old wooden door which leads into the south-west tower.
+~
+75 ad 0
+D0
+The courtyard continues this way.
+~
+~
+0 0 7524
+D1
+You can see the main gate to the far east.
+~
+~
+0 0 7522
+D2
+You see an old wooden door with no lock leading into the south-west tower.
+~
+wooden door~
+1 -1 7593
+S
+#7524
+Along the Wall~
+You are standing along side the west wall.  This wall seems to be the worst of
+any of them.  It seem to be little more than a pile of rubble.  To the north and
+and south the wall continues.  To the east lies the courtyard.
+~
+75 ad 0
+D0 
+The wall continues this way.
+~
+~
+0 0 7525
+D1
+The courtyard lies this way.
+~
+~
+0 0 7531
+D2
+The wall continues this way.
+~
+~
+0 0 7523
+S
+#7525
+Along the Wall~
+You are standing along side the west wall.  This wall seems to be the worst of
+any of them.  It seem to be little more than a pile of rubble.  To the north and
+and south the wall continues.  To the east lies the courtyard.
+~
+75 ad 0
+D0
+The wall continues this way.
+~
+~
+0 0 7526
+D1
+The courtyard lies this way.
+~
+~
+0 0 7530
+D2
+The wall continues this way.
+~
+~
+0 0 7524
+S
+#7526
+Along the Wall~
+You are standing along side the west wall.  This wall seems to be the worst of
+any of them.  It seem to be little more than a pile of rubble.  To the north and
+and south the wall continues.  To the east lies the courtyard.
+~
+75 ad 0
+D0
+The wall continues this way.
+~
+~
+0 0 7527
+D1
+The courtyard liew this way.
+~
+~
+0 0 7529
+D2
+The wall continues this way.
+~
+~
+0 0 7525
+S
+#7527
+The North-West Corner~
+You are standing at the intersection of the north and west walls.  To the 
+south and east the courtyard continues.  To the north, there stands an old
+wooden door which leads into the north-west tower.
+~
+75 ad 0
+D0
+You see an old wooden door that leads into the north-west tower.
+~
+wooden door~
+1 -1 7534
+D1
+You can make out the back gate to the far east.
+~
+~
+0 0 7528
+D2
+The courtyard continues this way.
+~
+~
+0 0 7526
+S
+#7528
+Along the Wall~
+You are standing along the north wall of the castle.  Above you, you can see
+the crumbling battlements of the castle.  To the west you can make out the 
+north-west tower.  To the east you see the back gate.  To the south you see the
+inner keep of the castle.
+~
+75 ad 0
+D1
+You see the back gate this way.
+~
+~
+0 0 7532
+D2
+You see the inner keep this way.
+~
+~
+0 0 7529
+D3
+You see the north-west tower this way.
+~
+~
+0 0 7527
+S
+#7529
+Along the Keep~
+You are standing along the inner keep.  To the north and south, the courtyard
+continues.  To the west lies the castle wall.
+~
+75 ad 0
+D0
+The courtyard continues this way.
+~
+~
+0 0 7528
+D1
+You see the backside of the keep this way.
+~
+~
+0 0 7533
+D2
+The courtyard continues this way.
+~
+~
+0 0 7530
+D3
+You see the castle wall this way.
+~
+~
+0 0 7526
+S
+#7530
+Along the Keep~
+You are standing along the inner keep.  To the north and south, the courtyard
+continues.  To the west lies the castle wall.
+~
+75 ad 0
+D0
+The courtyard continues this way.
+~
+~
+0 0 7529
+D2
+The courtyard continues this way.
+~
+~
+0 0 7531
+D3
+You see the castle wall this way.
+~
+~
+0 0 7525
+S
+#7531
+Along the Keep~
+You are standing along the inner keep.  To the north and south, the courtyard
+continues.  To the west lies the castle wall.
+~
+75 ad 0
+D0
+The courtyard continues this way.
+~
+~
+0 0 7530
+D1
+You see the entrance to the keep this way.
+~
+~
+0 0 75721
+D2
+The courtyard continues this way.
+~
+~
+0 0 7522
+D3
+You see the castle wall this way.
+~
+~
+0 0 7524
+S
+#7532
+The Back Gate~
+You are standing at what was the back gate.  Apparently, the stonework here
+finally weaken too much and colapsed, crushing the back gate.  Far to the east
+you can make out the north east tower, and fasr to the west you can make out
+the north-west tower.  South from here you see the inner keep of the castle.
+~
+75 ad 0
+D1
+You can make out the north-east tower far to the east.
+~
+~
+0 0 7517
+D2
+You see the inner keep this way.
+~
+~
+0 0 7533
+D3 
+Far to the west you can see the north-west tower.
+~
+~
+0 0 7528
+S
+#7533
+The Back of the Keep~
+You are standing at the back of the keep.  It appears that there used to be
+a back door, but it is now boarded up.  The keep continues to the east and
+west.  To the north you see the back gate.
+~
+75 ad 0
+D0
+You see the back gate this way.
+~
+~
+0 0 7532
+D1
+The keep continues this way.
+~
+~
+0 0 7518
+D3
+The keep continues this way.
+~
+~
+0 0 7529
+S
+#7534
+In the North-West Tower~
+You are standing on the bottom floor of an old tower.  The room seems empty
+save a old wooden ladder leading up into the tower.  While old, the ladder
+still appears to be safe.
+~
+75 ad 0
+D2
+You see an old wooden door that leads back out to the courtyard.
+~
+wooden door~
+1 -1 7527
+D4
+The ladder leading up to the tower looks safe.
+~
+~
+0 0 7535
+S
+#7535
+In the North-West Tower~
+This floor looks like it it once held weapons, but now all the racks are empty.
+Above you there is a trapdoor leading up to the top of the tower.  To the east
+is an opening onto the battlements which doesn't look safe.
+~
+75 ad 0
+D1
+This way leads out onto the battlements. It doesn't look safe to go out there.
+~
+You look down and see the bones and gravestones of of players from past
+and present.
+~
+0 0 7536
+D4
+A trapdoor leads up to the top of the tower.
+~
+trapdoor~
+1 -1 7537
+D5
+A ladder leads back down to the base of the tower.
+~
+~
+0 0 7534
+S
+#7536
+On the Battlements~
+As you take a step out onto the battlement you realize your mistake.  The
+stonework here has become so damaged that it cannot support your weight.
+You fall 
+        Z
+         Z
+          Z
+           Z
+            Z
+             Z
+              Z                  E-
+               Z                C  B
+                Z              N    O
+                 Z            U      U
+                  Z          O        N
+                   Z        B          C E!!
+                    SPLAT!!!
+                        
+~                        
+75 abd 0
+D5
+You see the ground rushing towards you.
+~
+~
+0 0 7528
+S
+#7537       
+The Top of the North-West Tower~
+You are standing on the top of the tower.  A stiff wind blows from the west
+forcing the flags on the roof to stand straight out. A trapdoor here leads
+back down into the tower.
+~
+75 ad 0
+D5
+The trapdoor leads back down inside the tower.
+~
+trapdoor~
+1 -1 7535
+S
+#7538
+In the North-East Tower~
+You are standing on the bottom floor of an old tower.  The room seems empty
+save a old wooden ladder leading up into the tower.  While old, the ladder
+still appears to be safe.
+~
+75 ad 0
+D2
+You see an old wooden door that leads back out into the courtyard.
+~
+wooden door~
+1 -1 7516
+D4
+The ladder leading up into the tower looks safe.
+~
+~
+0 0 7540
+S
+#7539
+On the Battlements~
+As you take a step out onto the battlement you realize your mistake.  The
+stonework here has become so damaged that it cannot support your weight.
+You fall 
+        Z
+         Z
+          Z
+           Z
+            Z
+             Z
+              Z                  E-
+               Z                C  B
+                Z              N    O
+                 Z            U      U
+                  Z          O        N
+                   Z        B          C E!!
+                    SPLAT!!!
+~                        
+75 abd 0
+D5
+You see the ground rushing towards you.
+~
+~
+0 0 7517                    
+S
+#7540
+In the North-East Tower~
+This floor looks like it once held weapons, but all the racks are empty now.
+Above you there is a trapdoor leading up to the top of the tower.  To the west
+is an opening onto the battlements which doesn't look safe.
+~
+75 ad 0 
+D3
+This way leads out onto the battlements. It doesn't look safe to go out there.
+~
+You look down and see the bones and gravestones of of players from past 
+and present.
+~
+0 0 7539
+D4
+A trapdoor leads up to the top of the tower.
+~
+trapdoor~
+1 -1 7541
+D5
+A ladder leads back down to the base of the tower.
+~
+~
+0 0 7538
+S
+#7541
+The Top of the North-East Tower~
+You are standing on the top of the tower.  A stiff wind blows from the west
+forcing the flags on the roof to stand straight out. A trapdoor here leads
+back down into the tower.
+~
+75 ad 0
+D5
+The trapdoor leads back down inside the tower.
+~
+trapdoor~
+1 -1 7540
+S
+#7542
+Entry Hall of the Keep ~
+You are standing in the entry hall to the keep.  On either wall there are
+tattered tapestries that looks like they will fall apart at any moment.  The
+hall is lit by the flickering light coming from several torches on the wall.
+To the north you see the main hall of the keep.  To the south you see the 
+entrance to the keep.
+~
+75 d 0 
+D0
+You see the main hall of the keep this way.
+~
+~
+0 0 7543
+D2
+You see the large double doors which lead out into the courtyard.
+~
+large door~
+2 7547 7521
+S
+#7543
+The Main Hall~
+You are standing in the main hall of the keep.  It's high ceiling are supported
+by columns that look to be barely standing.  Torches fill the room with a 
+flickering light.  To the north you see the doors to the throne room.  To the
+east and west you see a hallway.
+~
+75 d 0
+D0
+Ahead you see the doors to the throne room.
+~
+~
+0 0 7544
+D1
+You see a hallway.
+~
+~
+0 0 7545
+D2
+You see the entrance hall.
+~
+~
+0 0 7542
+D3
+You see a hallway.
+~
+~
+0 0 7567
+S
+#7544
+Before the Throne Room~
+Before you stands a large bronze door leading to the throne room.  It looks
+like it once had a lock, but it seems that it is now broken.  Back south
+leads into the main hall.  To the north lies the throne room.
+~
+75 d 0 
+D0
+You see a bronze door leading to the throne room.
+~
+bronze door~
+1 -1 7577
+D2
+You see the mail hall this way.
+~
+~
+0 0 7543
+S
+#7545
+In the Hallway~
+You are standing in a hallway in the keep. Flicker torch light illuminates this
+place, but not by much.  To the west is the main hall.  To the south you spot
+a door.  To the east, the hallway continues.
+~
+75 d 0 
+D1
+You see the end of the hallway.
+~
+~
+0 0 7546
+D2
+You see a wooden door.
+~
+wooden door~
+1 -1 7588
+D3
+You see the mail hall of the castle.
+~
+~
+0 0 7543
+S
+#7546
+End of the Hallway~
+You are standing in the end of the hallway.  Stairs from here lead down into
+the basement.  Back west is the hallway.
+~
+75 d 0
+D3
+You see the hallway.
+~
+~
+0 0 7545
+D5
+These stairs lead down into the basement.
+~
+~
+0 0 7547
+S
+#7547
+Stairway in the Basement~
+You are standing at the foot of the stairs in the basement.  No one has taken
+the trouble to light torches down here, so the only light is your own.  A 
+hallway leads east.
+~
+75 ad 0
+D1
+You think you can make out an intersection ahead.
+~
+~
+0 0 7549
+D4
+This way leads back up the staircase.
+~
+~
+0 0 7546
+S
+#7548
+A Storeroom~
+This look like it was once a storeroom, but now all of the shelves are empty
+except for the dust and cobwebs on them.  The only exit you see is back south.
+~
+75 ad 0 
+D2
+You see an intersection in the darkness.
+~
+~
+0 0 7549
+S
+#7549
+An Intersection in the Basement~
+You are standing in an intersection of the hallway in the basement.  This part
+of the castle look to be in even worse shape.  Even simple cleaning has not
+been done in years.  To the north and south, the hallway continues.  To the
+west leads back to the stairway.  To the east you think you can make out a
+door.
+~
+75 ad 0
+D0
+You can't make out what is this direction in the dark, but it looks fairly safe.
+~
+~
+0 0 7548
+D1
+You see the outline of a door this way.
+~
+door~
+1 -1 7550
+D2
+The hallway leads off into the darkness.
+~
+~
+0 0 7555
+D3
+You can just barely make out the stairs back up this way.
+~
+~
+0 0 7547
+S
+#7550
+The Dank Hallway~
+This part of the hallway looks even worse than the rest of the basement.
+Besides the usually dust and cobwebs, you also catch a wiff of the putrid
+smell of mildew and mold.  To the west, you see a doorway out of the hall.  To
+the east the hallway continues.
+~
+75 ad 0
+D1
+The hallway continues this way.
+~
+~
+0 0 7551
+D3
+You see a door out of the hallway.
+~
+door~
+1 -1 7549
+S
+#7551
+In the Dank Hallway~
+As you continue to walk through this dank hallway, you smell something even
+more putrid to the south.  To the south you see a small wooden door with light
+coming from under the crack in the door.  The passageway continues to the east
+and west.
+~
+75 ad 0
+D1
+The hallway continues this way.
+~
+~
+0 0 7552
+D2
+You see a wooden door here.
+~
+wooden door~
+1 -1 7554
+D3
+This way leads back to the entrance to the hallway.
+~
+~
+0 0 7550
+S
+#7552
+End of the Dank Hallway~
+The hallway comes to an end here.  On the floor you see a small trapdoor 
+leading down.  The hallway continues to the west.
+~
+75 ad 0 
+D3
+This way leads back into the hallway.
+~
+~
+0 0 7551
+D5
+You see a small trapdoor leading down.
+~
+trapdoor~
+1 -1 7553
+S
+#7553
+The Witch's Room~
+As you enter this room, you see a large fireplace with a huge iron pot on the 
+fire.  All around are shelves full of jars, bottles and boxes.  Off to the side
+you see an old wooden desk and a small bed.  The only way out of this room is
+back up through the trapdoor.
+~
+75 adk 0
+D4
+You see a small trapdoor in the ceiling.
+~
+trapdoor~
+1 -1 7552
+S
+#7554
+The Putrid Room~
+The overwhelming smell of rotting flesh hits you as you enter the room.  In the
+room itself you see three human corpses hung up on the wall like sides of beef
+with small buckets below them to catch the blood.  Small bones and dried pieces
+of flesh litter the blood stained floor.
+~
+75 adk 0
+D0
+You see a wooden door that leads back to the hallway.
+~
+wooden door~
+1 -1 7551
+S
+#7555
+Hallway in the Basement~
+You are standing in a narrow hallway in the basement of the castle.  Dust 
+covers everything, and there are cobwebs hanging from the ceiling.  To the
+north you notice and intersection, to the south, the hallway continues.
+~
+75 ad 0
+D0
+You spot an intersection this way.
+~
+~
+0 0 7549
+D2
+You can't make anything out of the darkness.
+~
+~
+0 0 7556
+S
+#7556
+An Old Guard Post~
+This rooms looks like it was once a guard post for the dungeon.  There are cell
+doors to the east and west, but both look to be in sorry shape.  An old wooden
+table is standing here gathering dust.  The hallway continues to the north and 
+south.
+~
+75 ad 0
+D0
+The hallway leads into the darkness.
+~
+~
+0 0 7555
+D1
+You see an old cell door. It's lock has been ruined by rust.
+~
+cell door~
+1 -1 7558
+D2
+You see some light up ahead.
+~
+~
+0 0 7559
+D3
+You see an old cell door. It's lock has been ruined by rust.
+~
+cell door~
+1 -1 7557
+S
+#7557
+An Old Cell~
+This room looks like it has seen recent use.  It smells of animal droppings,
+even thought you don't see any on the floor at the moment.  There are several
+large chains attached to the wall with metal collars on them.  The only exit
+is back east to the old guard post.
+~
+75 ad 0
+D1
+Beyond the cell door, you see the old guard post.
+~
+cell door~
+1 -1 7556
+S
+#7558
+An Empty Cell~
+This cell is empty except for dust and cobwebs.  Any fixtures this cell once 
+had must have disintegrated long ago.  The only exit is back west to the old
+guard post.
+~
+75 ad 0
+D3
+Beyond the cell door, you see the old guard post.
+~
+cell door~
+1 -1 7556
+S
+#7559
+The Guard Post~
+It looks like some care has been taken to maintain this room.  It seems to be
+ relativly dust free and there are no cobwebs.  There is a small wooden table 
+here with a lit brass lantern and a deck of cards laid out over it.  To the 
+south you see a large metal door.  To the north leads back into the darkness.
+~
+75 d 0 
+D0
+You an old guard post ahead.
+~
+~
+0 0 7556
+D2
+You see a large metal door this way.
+~
+metal door~
+2 7552 7560
+S
+#7560
+In the Dungeon~
+You are standing in a hallway in the dungeon. To the east and west you see
+locked cell doors.  To the north you see the entrance to the dungeon.  To the
+south the hallway continues.
+~
+75 adh 0 
+D0
+You see a large metal door this way.
+~
+metal door~
+2 7552 7559
+D1
+You see a cell door.
+~
+cell door~
+2 7552 7562
+D2
+The hallway continues in this direction.
+~
+~
+0 0 7564
+D3
+You see a cell door.
+~
+cell door~
+2 7552 7561
+S
+#7561
+A Prison Cell~
+This prsion cell seems to be in fairly good shape.  There is a small bed in the
+conrner and a basin of water, which is presently empty.  This cell seems to be
+dusty.  You don't think it's been used in a while.
+~
+75 ad 0
+D1
+Beyond the cell door you see a hallway.
+~
+cell door~
+2 7552 7560
+S
+#7562
+A Prison Cell~
+This prison cell seems to be in fairly good shape.  There is a small bed in 
+the corner and a basin of water on the wall.  It looks like this room has
+been occupied recently.
+~
+75 adk 0
+D3
+Beyond the cell door you see a hallway.
+~
+cell door~
+2 7552 7560
+S
+#7563
+A Prison Cell~
+This prison cell seems to be in fairly good shape.  There is a small bed in 
+the corner and a basin of water on the wall.  It looks like this room has
+been occupied recently.
+~
+75 adk 0
+D1
+Beyond the cell door you see a hallway.
+~
+cell door~
+2 7552 7564
+S
+#7564
+In the Dungeon~
+The dungeon comes to an end here.  There are cell doors to the east and west.
+To the south is a small wooden door.  To the north the hallway continues.
+~
+75 adh 0
+D0
+The Hallway continues this way.
+~
+~
+0 0 7560
+D1
+You see a cell door.
+~
+cell door~
+2 7552 7565
+D2
+You see a wooden door here.
+~
+wooden door~
+1 -1 7566
+D3
+You see a cell door.
+~
+cell door~
+2 7552 7563
+S
+#7565
+A Prison Cell~
+This prison cell seems to be in fairly good shape.  There is a small bed in 
+the corner and a basin of water on the wall.  It looks like this room has
+been occupied recently.
+~
+75 adk 0
+D3
+Beyond the cell door you see a hallway.
+~
+cell door~
+2 7552 7564
+S
+#7566
+The Torture Chamber~
+You are standing it was was the torture chamber of the castle.  Now it looks
+as if most of the equipment has fallen apart or is about to.  You don't think
+anyone has used this room in a long time.  The only exit is back north.
+~
+75 ad 0
+D0
+You see a wooden door here.
+~
+wooden door~
+1 -1 7564
+S
+#7567
+In the Hallway~
+You are standing in a hallway in the castle of Lord Ctlulac.  To the east, you
+see the main hall.  To the west you see an intersection.
+~
+75 d 0
+D1
+You see the main hall this way.
+~
+~
+0 0 7543
+D3
+You see an intersection ahead.
+~
+~
+0 0 7571
+S
+#7568
+The Spring~
+This is the castle's spring.  It has been built inside the castle to insure
+that the castle will have water in case of a prolonged seige. Of course, 
+something this importan is not left unguarded.
+~
+75 ad 0
+D0
+This way leads back to the intersection.
+~
+~
+0 0 7571
+S
+#7569
+The Pantry~
+The pantry looks pretty bare at the moment.  They must be expecting a wagon
+load of food soon.  There are still a few bits of food left.
+~
+75 ad 0
+D0
+This way leads back to the kitchen.
+~
+~
+0 0 7570
+S
+#7570
+The Kitchen~
+You are standing in the kitchen of the castle.  Pots and pans lie everywhere
+and one large one is boiling on the large cooking fire.  To the south you spot
+a doorway.
+~
+75 d 0 
+D1 
+You see an intersection.
+~
+~
+0 0 7571
+D2
+You see the pantry this way.
+~
+~
+0 0 7569
+S
+#7571
+An Intersection~
+You are standing in an intersection in the hallway.   To the north, the hallway
+continues.  To the west you smell food cooking.  To the east the hallway leads
+back to the main hall.  To the south you spot a well.
+~
+75 d 0 
+D0 
+The hallway continues this way.
+~
+~
+0 0 7572
+D1
+This way leads back to the main hall.
+~
+~
+0 0 7567
+D2
+The castle's spring lies south from here.
+~
+~
+0 0 7568
+D3
+You see the kitchen this way.
+~
+~
+0 0 7570
+S
+#7572
+In the Hallway~
+You stand in a hallway in the castle of Ctlulac.  This dimly lit corridor is
+devoid of any decorations save several torches on the wall.  To the north the
+passage way continues.  To the south you see an intersection.
+~
+75 d 0 
+D0
+You see a staircase going up ahead.
+~
+~
+0 0 7573
+D2
+You see an intersection.
+~
+~
+0 0 7571
+S
+#7573
+At the Staircase~
+You are standing at a large staircase leading up to the second floor of the
+castle.  It looks like there was once a hallway to the east, but it appears
+that it has collapsed some time ago.  to the south leads back into the first 
+floor.
+~
+75 d 0 
+D2
+You see a hallway in the castle.
+~
+~
+0 0 7572
+D4
+A set of stairs lead up to the second floor.
+~
+~
+0 0 7574
+S
+#7574
+The Landing~
+You are standing on the landing of the stairway on the second level.  This part
+of the castle seems to be well cleaned.  The tapestries here are well taken 
+care of and you can actually see what is on them.  There is also runner on the
+floor which looks to be in good shape.  This hall is also lit by lanterns which
+makes it seem much brighter.
+~
+75 d 0
+D1
+The hallway continues this way.
+~
+~
+0 0 7575
+D5
+The stairs lead down to the main floor.
+~
+~
+0 0 7573
+S
+#7575
+In the Hallway~
+This beautilfy decorated hallway continues.  It seems to be the only part
+of the only part of the castle that has been taken care of.  The hallway leads
+both east and west.
+~
+75 d 0
+D1
+You spot a guard post ahead.
+~
+~
+0 0 7576
+D3
+You see the landing this way.
+~
+~
+0 0 7574
+S
+#7576
+The Guarded Entrance~
+This is the entrance to the apartments of the keep.  A large bronze door is 
+here that leads into the apartments.  It has been polished until it shines.
+Apparently, Lord Ctlulac only takes care of the part of the castle that matters
+to him.
+~
+75 d 0
+D2
+You see a large bronze door to the appartments this way.
+~
+large bronze door~
+2 7555 7579
+D3
+The hallway lies this way.
+~
+~
+0 0 7575
+S
+#7577
+At the Throne~
+You are standing at the the throne of Lord Ctlulac.  It's a large chair made
+of bronze with gems encrusted on the top.  To either side lie tapestries
+depicting great battles won by the House of Ctlulac.
+~
+75 dk 0 
+D0
+You think you can make out a secret door to the north.
+~
+secret door~
+2 7548 7578
+D2
+This way leads back out of the throne room.
+~
+bronze door~
+1 -1 7544
+S
+#7578
+Secret Room~
+You are standing in the secret office of Lord Ctlulac.  However, there doesn't
+seem to be anything interesting about it.  Besides a wooden desk, there is a
+portrait of a large woman on the back wall, probably Ctlulac's mother.
+~
+75 dk 0 
+D2
+The throne room lies behind the secret door here.
+~
+secret door~
+2 7548 7577
+S
+#7579
+In the Apartments~
+You are standing in the hallway that leads through the apartments.  If anything
+this hallway is even more lavish that the one before.  To the east and west
+you see doors to apartments.  The hallway continues to the south.  To the 
+north leads out of the apartments.
+~
+75 dk 0 
+D0
+You see a large bronze door.
+~
+large bronze door~
+2 7555 7576
+D1
+You see a wooden door leading to an apartment.
+~
+wooden door~
+1 -1 7582
+D2
+The hallway continues south.
+~
+~
+0 0 7580
+D3
+You see a wooden door leading to an appartment.
+~
+wooden door~
+1 -1 7584
+S
+#7580
+A Turn in the Hallway~
+The hallway turns here to the west.  To the east you see a wooden door leading
+to an apartment.  On the south wall is a tapesty showing Lord and Lady Ctlulac.
+~
+75 dk 0 
+D0
+The hallway continues in this direction.
+~
+~
+0 0 7579
+D1
+A wooden door leads to an appartment.
+~
+wooden door~
+1 -1 7583
+D3
+The hallway continues in this direction.
+~
+~
+0 0 7581
+S
+#7581
+Before the Bedroom~
+You stand before the door to the main bedroom.  It's a large wooden door with
+iron reinforcement.  The doorframe itself is stone and the hinges are bolted
+into the stone.  This door looks quite secure.
+~
+75 dk 0
+D1
+You see the hallway leading to other appartments.
+~
+~
+0 0 7580
+D3
+You see the large wooden door to the bedroom.
+~
+bedroom wooden door~
+2 7556 7585
+S
+#7582
+An Apartment.~
+This Apartment looks like it has been left unused for a logn time.  A thin
+lair of dust covers everything, and there are cobwebs in the corners.  The 
+room still looks to be well decorated, and the furnature is still in good
+shape.  The only way out is back west through the door.
+~
+75 adk 0
+D3
+A wooden door leads back into the hallway.
+~
+wooden door~
+1 -1 7579
+S
+#7583
+An Apartment~
+This apartment is filled with books and papers in stacks all around.  The
+desk in the corner is covered with them as well.  About the only thing not
+covered in papers is the bed over by the wall.  You have to move carefully
+to avoid knocking over the stacks.
+~
+75 dk 0
+D3
+A wooden door leads back into the hallway.
+~
+wooden door~
+1 -1 7580
+S
+#7584
+An Apartment~
+You are standing in an apartment in the upper floor of the castle.  The room
+seem to be well decorated with several paintings and tapestries on the walls.
+There is a large bed in the corner and a desk on the other side of the room.
+Oddly enough, this room has no light in it.  Maybe it's empty.
+~
+75 akd 0
+D1
+A wooden door leads back into the hallway.
+~
+wooden door~
+1 -1 7579
+S
+#7585
+The Bedroom ~
+You are standing in the lavish bedroom of Lord and Lady Ctlulac.  A large bed
+dominates the room.  It covered by an ornate quilt and the entire bed looks
+very soft, if not expensive.  Off to the side is a full lenge mirror, several
+dressers and a large chest.
+~
+75 dk 0
+D1
+You see a large wooden door leading out of the bedroom.
+~
+large wooden door~
+2 7556 7581
+D2
+You see the faint outline of a door.
+~
+secret door~
+2 7554 7586                
+S
+#7586
+The Secret Hallway~
+You are standing in a small secret hallway in the castle.  It's dusty, but not
+very.  It seems to have been used recently.  The hallway continues south.
+~
+75 adhik 0
+D0
+You see the secret door to the bedroom.
+~
+secret door~
+2 7554 7585                
+D2
+You see a hallway.
+~
+~
+0 0 7597
+S
+#7587
+The Secret Room~
+You are standing in a small secret room in the castle.  There is a small
+bookcase in the cornor and a small fireplace in the north wall.  A comfortable
+leather chair is in front of the fireplace.
+~
+75 adfhk 0
+D3
+A small wooden door leads west.
+~
+wooden door~
+1 -1 7597
+S
+#7588
+The Office of Joran Brinth~
+You are standing in the office of Joran Brinth, the Captain of the Guards.  The
+office is spartan, with no decorations save a map, and no windows.  The only
+light in the room comes from a small lamp on his old wooden desk.
+~
+75 dk 0
+D0
+The wooden door leads back out into the hallway.
+~
+wooden door~
+1 -1 7545
+S
+#7589
+In the South-East Tower~
+You are standing on the bottom floor of an old tower.  The room seems empty
+save a old wooden ladder leading up into the tower.  While old, the ladder
+still appears to be safe.
+~
+75 ad 0
+D0
+You see an old wooden door that leads back out to the courtyard.
+~
+wooden door~
+1 -1 7512
+D4
+The ladder leading up to the tower looks safe.
+~
+~
+0  0 7590
+S
+#7590
+In the South-East Tower~
+This floor looks like it it once held weapons, but now all the racks are empty.
+Above you there is a trapdoor leading up to the top of the tower.  To the east
+is an opening onto the battlements which doesn't look safe.
+~
+75 ad 0
+D3
+This way leads out onto the battlements. It doesn't look safe to go out there.
+~
+You look down and see the bones and gravestones of of players from past 
+and present.
+~
+0 0 7591
+D4
+A trapdoor leads up to the top of the tower.
+~
+trapdoor~
+1 -1 7592
+D5
+A ladder leads back down to the base of the tower.
+~
+~
+0 0 7589
+S
+#7591
+On the Battlements~
+As you take a step out onto the battlement you realize your mistake.  The
+stonework here has become so damaged that it cannot support your weight.
+You fall 
+        Z
+         Z
+          Z
+           Z
+            Z
+             Z
+              Z                  E-
+               Z                C  B
+                Z              N    O
+                 Z            U      U
+                  Z          O        N
+                   Z        B          C E!!
+                    SPLAT!!!
+                        
+~                        
+75 abdk 0
+D5
+You see the ground rushing towards you.
+~
+~
+0 0 7511
+S
+#7592       
+The Top of the South-East Tower~
+You are standing on the top of the tower.  A stiff wind blows from the west
+forcing the flags on the roof to stand straight out. A trapdoor here leads
+back down into the tower.
+~
+75 ad 0
+D5
+The trapdoor leads back down inside the tower.
+~
+trapdoor~
+1 -1 7590
+S
+#7593
+In the South-West Tower~
+You are standing on the bottom floor of an old tower.  The room seems empty
+save a old wooden ladder leading up into the tower.  While old, the ladder
+still appears to be safe.
+~
+75 ad 0
+D0
+You see an old wooden door that leads back out into the courtyard.
+~
+wooden door~
+1 -1 7523
+D4
+The ladder leading up into the tower looks safe.
+~
+~
+0 0 7595
+S
+#7594
+On the Battlements~
+As you take a step out onto the battlement you realize your mistake.  The
+stonework here has become so damaged that it cannot support your weight.
+You fall 
+        Z
+         Z
+          Z
+           Z
+            Z
+             Z
+              Z                  E-
+               Z                C  B
+                Z              N    O
+                 Z            U      U
+                  Z          O        N
+                   Z        B          C E!!
+                    SPLAT!!!
+~                        
+75 abdk 0
+D5
+You see the ground rushing towards you.
+~
+~
+1 0 7522                    
+S
+#7595
+In the South-West Tower~
+This floor looks like it once held weapons, but all the racks are empty now.
+Above you there is a trapdoor leading up to the top of the tower.  To the west
+is an opening onto the battlements which doesn't look safe.
+~
+75 ad 0 
+D1
+This way leads out onto the battlements. It doesn't look safe to go out there.
+~
+You look down and see the bones and gravestones of of players from past 
+and present.
+~
+1 0 7594
+D4
+A trapdoor leads up to the top of the tower.
+~
+trapdoor~
+1 -1 7596
+D5
+A ladder leads back down to the base of the tower.
+~
+~
+0 0 7593
+S
+#7596
+The Top of the North-East Tower~
+You are standing on the top of the tower.  A stiff wind blows from the west
+forcing the flags on the roof to stand straight out. A trapdoor here leads
+back down into the tower.
+~
+75 ad 0
+D5
+The trapdoor leads back down inside the tower.
+~
+trapdoor~
+1 -1 7595
+S
+#7597
+The Secret Hallway~
+You are standing in a small secret hallway in the castle. It's dusty but
+not very. It seems to have been used recently. The hallway turns east here
+and leads to a small wood door.
+~
+75 adhk 0
+D0
+You see a hallway.
+~
+~
+0 0 7586
+D1
+You see a small wooden door.
+~
+wooden door~
+1 -1 7587
+S
+#7599
+The End~
+~
+75 ad 0
+S
+$

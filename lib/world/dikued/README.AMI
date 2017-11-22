@@ -1,0 +1,22 @@
+   If you have an older version ported by me and have used it
+much you probably noticed that the hit points and damage (or
+something like that) gave screwy numbers. This has been fixed
+and the old version SHOULD BE DESTROYED!!! I also changed the
+entry of multi-line text to begin on the far left after a new
+line....not my idea, but was requested by others and it makes
+judging line lengths easier. I am also working on a version
+with a GUI interface, but unless there is a great demand for it
+, I'll probably not get it done for awhile. Also coming in the
+next release:
+> word wrap for multi-line entries
+> shop editor (anyone interested in this?)
+> loading and saving of different file formats...(Merc, Circle, Gamma, etc...)
+
+HOTE: it's not perfect...I tried and think I succeeded in making it useable
+on any Amiga OS version. This means you should be able to recompile it
+with any PD C compiler too! As far as I know there are no commodore headers
+used (the ones in the developers kit that is)
+
+If you need help, changes made, have suggestions, or are interested
+in having me help in coding please mail me at ah588@freenet.buffalo.edu
+

@@ -1,0 +1,1381 @@
+#21200
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D1
+~
+~
+0 -1 21201
+D2
+~
+~
+0 -1 21206
+D3
+You see the beach.
+~
+~
+0 -1 3077
+S
+#21201
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D1
+~
+~
+0 -1 21202
+D2
+~
+~
+0 -1 21207
+D3
+~
+~
+0 -1 21200
+S
+#21202
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D1
+~
+~
+0 -1 21203
+D2
+~
+~
+0 -1 21208
+D3
+~
+~
+0 -1 21201
+S
+#21203
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D1
+~
+~
+0 -1 21204
+D2
+~
+~
+0 -1 21209
+D3
+~
+~
+0 -1 21202
+S
+#21204
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D1
+~
+~
+0 -1 21205
+D2
+~
+~
+0 -1 21210
+D3
+~
+~
+0 -1 21203
+S
+#21205
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D1
+~
+~
+0 -1 21101
+D2
+~
+~
+0 -1 21211
+D3
+~
+~
+0 -1 21204
+S
+#21206
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21200
+D1
+~
+~
+0 -1 21207
+D2
+~
+~
+0 -1 21212
+D3
+You see the beach.
+~
+~
+0 -1 3078
+S
+#21207
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21201
+D1
+~
+~
+0 -1 21208
+D2
+~
+~
+0 -1 21213
+D3
+~
+~
+0 -1 21206
+S
+#21208
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21202
+D1
+~
+~
+0 -1 21209
+D2
+~
+~
+0 -1 21214
+D3
+~
+~
+0 -1 21207
+S
+#21209
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21203
+D1
+~
+~
+0 -1 21210
+D2
+~
+~
+0 -1 21215
+D3
+~
+~
+0 -1 21208
+S
+#21210
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21204
+D1
+~
+~
+0 -1 21211
+D2
+~
+~
+0 -1 21216
+D3
+~
+~
+0 -1 21209
+S
+#21211
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21205
+D1
+~
+~
+0 -1 21109
+D2
+~
+~
+0 -1 21217
+D3
+~
+~
+0 -1 21210
+S
+#21212
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21206
+D1
+~
+~
+0 -1 21213
+D2
+~
+~
+0 -1 21218
+D3
+You see the beach.
+~
+~
+0 -1 3079
+S
+#21213
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21207
+D1
+~
+~
+0 -1 21214
+D2
+~
+~
+0 -1 21219
+D3
+~
+~
+0 -1 21212
+S
+#21214
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21208
+D1
+~
+~
+0 -1 21215
+D2
+~
+~
+0 -1 21220
+D3
+~
+~
+0 -1 21213
+S
+#21215
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21209
+D1
+~
+~
+0 -1 21216
+D2
+~
+~
+0 -1 21221
+D3
+~
+~
+0 -1 21214
+S
+#21216
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21210
+D1
+~
+~
+0 -1 21217
+D2
+~
+~
+0 -1 21222
+D3
+~
+~
+0 -1 21215
+S
+#21217
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21211
+D1
+~
+~
+0 -1 21110
+D2
+~
+~
+0 -1 21223
+D3
+~
+~
+0 -1 21216
+S
+#21218
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21212
+D1
+~
+~
+0 -1 21219
+D2
+~
+~
+0 -1 21224
+S
+#21219
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21213
+D1
+~
+~
+0 -1 21220
+D2
+~
+~
+0 -1 21225
+D3
+~
+~
+0 -1 21218
+S
+#21220
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21214
+D1
+~
+~
+0 -1 21221
+D2
+~
+~
+0 -1 21226
+D3
+~
+~
+0 -1 21219
+S
+#21221
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21215
+D1
+~
+~
+0 -1 21222
+D2
+~
+~
+0 -1 21227
+D3
+~
+~
+0 -1 21220
+S
+#21222
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21216
+D1
+~
+~
+0 -1 21223
+D2
+~
+~
+0 -1 21228
+D3
+~
+~
+0 -1 21221
+S
+#21223
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21217
+D2
+~
+~
+0 -1 21229
+D3
+~
+~
+0 -1 21222
+S
+#21224
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21218
+D1
+~
+~
+0 -1 21225
+S
+#21225
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21219
+D1
+~
+~
+0 -1 21226
+D3
+~
+~
+0 -1 21224
+S
+#21226
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21220
+D1
+~
+~
+0 -1 21227
+D3
+~
+~
+0 -1 21225
+S
+#21227
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21221
+D1
+~
+~
+0 -1 21228
+D3
+~
+~
+0 -1 21226
+S
+#21228
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21222
+D1
+~
+~
+0 -1 21229
+D3
+~
+~
+0 -1 21227
+S
+#21229
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21223
+D3
+~
+~
+0 -1 21228
+S
+#21230
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D1
+~
+~
+0 -1 21231
+D2
+~
+~
+0 -1 21236
+S
+#21231
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D1
+~
+~
+0 -1 21232
+D2
+~
+~
+0 -1 21237
+S
+#21232
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D2
+~
+~
+0 -1 21238
+D3
+~
+~
+0 -1 21231
+S
+#21233
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D1
+~
+~
+0 -1 21234
+S
+#21234
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D1
+~
+~
+0 -1 21235
+D2
+~
+~
+0 -1 21240
+S
+#21235
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D2
+~
+~
+0 -1 21241
+D3
+~
+~
+0 -1 21234
+S
+#21236
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21230
+D2
+~
+~
+0 -1 21242
+S
+#21237
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D2
+~
+~
+0 -1 21243
+D3
+~
+~
+0 -1 21236
+S
+#21238
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21232
+S
+#21239
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21233
+D3
+~
+~
+0 -1 21238
+S
+#21240
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21234
+D3
+~
+~
+0 -1 21239
+S
+#21241
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21235
+D2
+~
+~
+0 -1 21247
+D3
+~
+~
+0 -1 21240
+S
+#21242
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21236
+D1
+~
+~
+0 -1 21243
+D2
+~
+~
+0 -1 21248
+S
+#21243
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21237
+D2
+~
+~
+0 -1 21249
+S
+#21244
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D1
+~
+~
+0 -1 21245
+D3
+~
+~
+0 -1 21243
+S
+#21245
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21239
+D2
+~
+~
+0 -1 21251
+S
+#21246
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D1
+~
+~
+0 -1 21247
+D2
+~
+~
+0 -1 21252
+S
+#21247
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21241
+D2
+~
+~
+0 -1 21253
+D3
+~
+~
+0 -1 21246
+S
+#21248
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21242
+D1
+~
+~
+0 -1 21249
+D2
+~
+~
+0 -1 21254
+S
+#21249
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21243
+D2
+~
+~
+0 -1 21255
+D3
+~
+~
+0 -1 21248
+S
+#21250
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21244
+D2
+~
+~
+0 -1 21256
+S
+#21251
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21245
+D3
+~
+~
+0 -1 21250
+S
+#21252
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21246
+S
+#21253
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21247
+D2
+~
+~
+0 -1 21259
+D3
+~
+~
+0 -1 21252
+S
+#21254
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21248
+D1
+~
+~
+0 -1 21255
+S
+#21255
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21249
+D3
+~
+~
+0 -1 21254
+S
+#21256
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D1
+~
+~
+0 -1 21257
+D3
+~
+~
+0 -1 21255
+S
+#21257
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D1
+~
+~
+0 -1 21258
+S
+#21258
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21252
+D3
+~
+~
+0 -1 21257
+S
+#21259
+The Sea~
+The sea rocks your boat with a gentle hand.
+~
+212 1 7
+D0
+~
+~
+0 -1 21253
+D3
+~
+~
+0 -1 21258
+S
+#21260
+The Church~
+   Looking at the condition of the church, you wonder what kind of 
+bishop would allow a church's condition to get so bad.
+You see a sign on the wall.
+   Second Avenue is to the south.
+~
+212 8 0
+D2
+You see Second Avenue.
+~
+~
+0 -1 21199
+E
+sign~
+The sign reads Church of Odin. 
+~
+S
+#21261
+Barrax~
+   This is a place where wizards used to practace magic, but due to 
+a few magical mishaps they all left.
+the north, and to the south is a room.
+~
+212 8 0
+D0
+You see the Second Avenue.
+~
+~
+0 -1 21199
+D2
+You see a room.
+~
+~
+0 -1 21262
+D4
+You look up to some sleeping quarters.
+~
+~
+0 -1 21263
+S
+#21262
+Room~
+   Small fires are scattered about the room.
+It seems someone or something has been here recently.
+   The Fire Station is to the north.
+~
+212 8 0
+D0
+You see the barrax.
+~
+~
+0 -1 21261
+S
+#21263
+Sleeping Quarters~
+   This was a well lived in room, you can tell that it was cleaned 
+out and whoever was here last, left in an awfull hurry.
+Lots of overturned boxes, broken staves and other items you just cannot 
+identify are strewn about theis room.
+   Outside the barrax is down the rope (obviously the escape path).
+~
+212 8 0
+D5
+You see the barrax.
+~
+~
+0 -1 21261
+E
+items~
+They seem to be some kind of magical devices.
+~
+S
+#21264
+Second Avenue~
+   Nothing here... you can go now.  The rock workers still haven't
+started digging on this section of the quarry.
+   To the east is the intersection of Grubby Street and Second Ave and to the 
+west you smell something bad.
+~
+212 0 1
+D1
+We already told you in the description that Grubby Street is there.
+~
+~
+0 -1 21170
+D3
+Second avenue continues.
+~
+~
+0 -1 21265
+S
+#21265
+Second Avenue~
+   The stench is REALLY strong here.  It is so strong and ubiquitous,
+you can't tell whether the smell is coming from the dump to the west,
+the pigs to the south, or from the animals to the north.
+~
+212 0 1
+D0
+You hear lots of barking and meowing.
+~
+~
+0 -1 21266
+D1
+Doesn't Second Avenue look boring?
+~
+~
+0 -1 21264
+D2
+The Guard room.
+~
+~
+0 -1 21267
+D3
+Now that you've stopped for a while, it has become apparent the smell is
+emanating from this direction.
+~
+~
+0 -1 21268
+S
+#21266
+The animal store~
+   Yes, as a favour to players everywhere, we created an animal store full
+of fidos and cats for quick experience.  Second Avenue is to the
+south.
+~
+212 8 0
+D2
+You see Second Avenue.
+~
+~
+0 -1 21265
+S
+#21267
+The Guard Barrax~
+   There are dozens of guards franticly searching through various
+tidbits of evidence looking for answers to all the killings and murders
+in Zedd Town.  Watch out, they might even have your name!
+   Second Avenue is to the north, the Commanders room is to the south,
+and the jail is to the west.        
+~
+212 8 0
+D0
+You see Second Avenue.
+~
+~
+0 -1 21265
+D2
+You see the Commanders room.
+~
+door~
+1 -1 21269
+D3
+You see the Jail.
+~
+~
+0 -1 21270
+S
+#21268
+The Dump~
+   This is the main dump, where everyone from anywhere throws their
+trash.  Go ahead -- feel free to dump here.
+   Second Avenue runs east.
+~
+212 0 1
+D1
+You see Second Avenue.
+~
+~
+0 -1 21265
+S
+#21269
+The Commanders Room~
+   Here you are in the room of Zedd Town's Commander.
+   A door to the north leads to the rest of the barrax.
+~
+212 8 0 
+D0
+You see the main barrax.
+~
+door~
+0 -1 21267
+S
+#21270
+The Jail~
+   You get the impression that more things go on in here than is
+supposed to.  South of here is the actual jail cell, where most of
+Zedd Town's criminals reside.  There are only two ways
+into the cell -- get the key off of the warden, or be thrown in jail...
+   The Guard Barrax is to the east.
+~
+212 8 0
+D1
+You see the Guard Barrax.
+~
+~
+0 -1 21267
+D2
+You see the jail cell, along with various criminals.
+~
+cell door~
+2 21200 21211
+S
+#21271
+The Jail~
+   If you are in here, for your sake you had better have a key,
+or you may rot here indefinitely, as the jail door is extremely
+hard to open from the inside.
+~
+212 8 0
+D0
+You see the jail door leading to the free world.
+~
+jail door~
+2 21200 21210
+S
+#21272
+The Entrance To Goethe's Garden~
+   This is the entrance to Goethe's Garden, the public park
+of Zedd Town.  The park is named after the famous Zedd and
+generous donor of the land which Zedd Town is built upon,
+Goethe.
+   To the north is the Statue of Zedd, and to the south is
+Grubby Street.
+~
+212 0 1
+D0 
+You see the Statue of Zedd.
+~
+~
+0 -1 21273
+D2
+You see Grubby Street.
+~
+~
+0 -1 21180
+S
+#21273
+The Statue Of Zedd~
+   Much like the man, the very lifelike statue exudes an aura
+of wisdom.  The Statue was constructed many years ago to
+honour his genius and humanitarianism, and to his contribution
+to the foundation of Zedd Town.
+   To the south is Goethe's Garden.
+~
+212 0 1
+D2
+You see Goethe's Garden.
+~
+~
+0 -1 21272
+E
+statue Zedd~
+You witness in front of yourself a grand statue of the master Zedd.
+This statue depicts Zedd in a pose of contentment as he seems to 
+see the surrounds of his loving town.
+ 
+As this statue is of the life size in figure, you wonder how such
+a small man can have made so big a mark on the world, with his town
+Zedd Town.
+~
+S
+#21274
+Lone Street~
+   You immediatly realize that the city suddenly grew darker when
+you left Grubby Street and it makes you feel uncomfortable.  You hear
+the sounds of what you think is a war being raged off to the west
+and you wonder if it is safe to find out what's going on.
+   The Intersection of First and Grubby Street is to the east and Hell's
+Kitchen is to the west.
+~
+212 0 1
+D1
+You see the Intersection of First and Grubby Street.
+~
+~
+0 -1 21276
+D3
+You see the entrance to Hell's Kitchen.
+~
+~
+0 -1 21275
+S
+#21275
+The Entrance To Hell's Kitchen~
+   As you walk in, you wonder why it is so dark here... and then
+you realize either that the lantern has gone out.
+You sense the tremendous evil that lurks within and
+decide that your personal safety is more important than exploring...
+besides you can think of at least of a dozen better places you'd
+rather be than in Hell's Kitchen.
+   You decide that the only real exit is to Lone Street which is 
+to the east.
+~
+212 1 1
+D1
+You see Lone Street.
+~ 
+~
+0 -1 21274
+D3
+You see someplace you would rather not be.
+~
+~
+0 -1 -1
+S
+#21276
+Pet's for Sale~
+   This is more then just your average neighborhood pet store... Here,
+they specialize in exotic pets for today's adventurers.  There is a sign
+on the wall.
+   Grubby Street is to the west.
+~
+212 8 0
+D3
+You see a doorway that leads to Grubby Street.
+~
+~
+0 -1 21169
+E
+sign~
+The sign reads:
+
+  Use 'List' to see the available pets.
+  Use 'Buy <pet>' to buy yourself a pet.
+
+  Instructions for having pets:
+
+  You can use 'order <pet> <instructions>' to order your pets around.
+  If you abuse your pet, it will no longer regard you as its master.
+  If you have several pets you may use 'order followers <instructions>'
+
+  You can name the pet you buy as : "buy <pet> <name>"
+
+ Regards,
+
+ The Shopkeeper
+~
+S
+#21277
+Pet Shop Store~
+   This  is the small dark room in which the Pet shop keeps his pets.
+It is vital that this room's virtual number is exactly one larger
+than the Pet Shop number.
+~
+212 8 0
+D3
+You see a doorway that leads to Grubby Street.
+~
+~
+0 -1 21179
+S
+$~

@@ -1,0 +1,2126 @@
+#21101
+The Port Of Zedd Town~
+   You stare in astonishment at the size of Zedd Town...
+After examining the sky for a few minutes, you realize an old sailor has 
+been staring at you the whole time. 
+When you finally decide to speak, the sailor points to the city and says
+"Hi stranger, You must be new here..... enjoy your stay in Zedd town" 
+You turn to look back at the sailor and notice he is no longer there!
+A feeling of hope and uneasiness pervades your body as you think about the
+city of Zedd Town!
+~
+211 0 1
+D0
+You see a bustling harbour-market.
+~
+~
+0 -1 21102
+D3
+You see the sea.
+~
+~
+0 -1 21205
+S
+#21102
+Central Harbour-Market~
+   As soon as you enter a large mob of sellers with carts rush
+up to you and push their cheap wares with inflated prices.  When they
+see you have no intention of buying any of their goods, they disappear
+as suddenly as they appeared.
+   The harbour-market continues to the east and west.  To the north you 
+see the downtown section of Zedd Town.
+~
+211 0 1
+D0
+To the north lies Grubby Street, the main street of Zedd Town.
+~
+~
+0 -1 21103
+D1
+The harbour-market continues to the east.
+~
+~
+0 -1 21104
+D2
+To the south lies the entrance to the city of Zedd Town.
+~
+~
+0 -1 21101
+D3
+The harbour-market continues to the west.
+~
+~
+0 -1 21105
+S
+#21103
+Grubby Street~
+   You are on Grubby Street, the main street of Zedd Town.  Rows of stores
+line the sides of the street as far as you can see.
+    To the east lies the Fishery.  The west leads to the Smelly Alley, 
+the challenged neighborhood.
+Grubby Street continues to the north.
+~
+211 4 1
+D0
+You see Grubby Street continues.
+~
+~
+0 -1 21106
+D1
+You see the Fishery.
+~
+~
+0 -1 21107
+D2
+You see the bustling harbour-market.
+~
+~
+0 -1 21102
+D3
+You see Smelly Alley.
+~
+~
+0 -1 21108
+S
+#21104
+Harbour-Market East~
+   You are now in the eastern section of the harbour. There are less
+of those annoying vendors here.
+   The harbour continues to the south and west.
+~
+211 0 1
+D2
+You see the harbour continuing to the south.
+~
+~
+0 -1 21109
+D3
+You see the central harbour-market.
+~
+~
+0 -1 21102
+S
+#21105
+Harbour-Market West~
+   A thick population of peasants slows your progress.
+   To the harbour continues to the south and east.
+~
+211 0 1
+D1 
+You see the central harbour-market.
+~
+~
+0 -1 21102
+D2
+You see the harbour continuing to the south.
+~
+~
+0 -1 21110
+S
+#21106
+Grubby Street~
+   You are on Grubby Street.  To the east you see the
+entrance to a Cafe.  When you turn to face the west you see the
+entrance to a Herbalist.
+~
+211 0 1
+D0
+Grubby Street continues.
+~
+~
+0 -1 21111
+D1
+You see a cheap, flimsy Cafe.
+~
+~
+0 -1 21112
+D2
+More Grubby Street.
+~
+~
+0 -1 21103
+D3
+You see Harry's Herbalist.
+~
+~
+0 -1 21113
+S
+#21107
+Charlie's Fish Store~
+   As you walk into the fish store, you are overwhelmed by the nasty
+smell of fish.  On the back wall you notice a large mounted fish.
+A large board lists food from which you can choose.
+   Type <list> to see a list of products.
+~
+211 8 0
+D3
+You can barely see Grubby Street through the dirty window.
+~
+~
+0 -1 21103
+S
+#21108
+Smelly Alley~
+   You see the entrance to the thieves guild to the south.  The alley
+continues to the west.  Grubby Street lies to the east.
+~
+211 0 1
+D1
+You see Grubby Street.
+~
+~
+0 -1 21103
+D2
+A chill runs through your spine as you gaze upon the entrance 
+to the thieves guild.
+~
+~
+0 -1 21114
+D3
+The Alley continues west.
+~
+~
+0 -1 21115
+S
+#21109
+By The Shore~
+   You see the Sailing Ship Constellation docked here by the shore, along
+with other various fishing vessels.  To the south you can see the sea.
+   To the north is the east end of the harbour-market.
+~
+211 a 2
+D0
+You see the east end of the harbour.
+~
+~
+0 -1 21104
+D1
+You see the sea.
+~
+~
+0 -1 21211
+S
+#21110
+By The Shore~
+   You are standing on a small back beach near the sea. 
+   To the north is the west end of the harbour-market.
+~
+211 0 1
+D0
+You see the west end of the harbour.
+~
+~
+0 -1 21105
+D1
+You see the sea.
+~
+~
+0 -1 21217
+S
+#21111
+Grubby Street~
+   To the east is the Weapons Shop, and to the west is a Vendor-
+Store.  Grubby Street continues north and south of here.
+~
+211 0 1
+D0
+More Grubby Street.
+~
+~
+0 -1 21116
+D1
+You see the Weapons Shop.
+~
+~
+0 -1 21117
+D2
+Grubby Street continues.
+~
+~
+0 -1 21106
+D3
+You see a vendor shop.
+~
+~
+0 -1 21118
+S
+#21112
+The Cafe~
+is a cafe commemorating Life in Zedd Town.  Around
+you are people adorned swetty workers clothes.
+A statue of the world creator Zedd sits in the middle of the cafe.
+   To the west, you can return to Grubby Street.
+~
+211 8 0
+D3
+You can make out Grubby Street through the mass of bodies between 
+you and the door.
+~
+~
+0 -1 21106
+S
+#21113
+Harry's Herbalist~
+   As you enter the room, you are overcome by the smell of incense.
+In the background, you can faintly hear the singing of religious ballads.
+As you walk towards the counter, you realize you will have to deal with
+of all horrors, a Monk.
+A small price to pay for the goods you may obtain here.
+   The entrance to the Clerics' Guild is to the west.  Grubby Street is to
+the east.
+~
+211 8 0
+D1
+You see Grubby Street.
+~
+~
+0 -1 21106
+D3
+You see the Clerics' Guild.
+~
+~
+0 -1 21119
+S
+#21114
+The Entrance To The Thieves' Guild~
+   This is the entrance to the Guild of Thieves.  The Rogues' Bar is
+south of here, and Smelly Alley is to the North.
+~
+211 8 0
+D0
+You see Smelly Alley.
+~
+~
+0 -1 21108
+D2
+You see the Bar.
+~
+~
+0 -1 21195
+S
+#21115
+Smelly Alley~
+   You are walking along Smelly Alley, which leads to the bad
+part of town.  Considering the situation here, you wonder how
+much worse it can get.
+   Smelly Alley continues to the east and west.
+~
+211 0 1
+D1
+Still Smelly Alley.
+~
+~
+0 -1 21108
+D3
+More Smelly Alley.
+~
+~
+0 -1 21122
+S
+#21116
+The Intersection Of First And Grubby Street~
+   Here Grubby Street crosses with another main street, Lone Street, 
+which runs east and west through the city.  It is not as large as 
+Grubby Street, but leads both to Hell's Kitchen and to the killing
+arena.
+   Grubby Street continues north and south; Lone Street extends west
+towards Hell's Kitchen and east to the arena.
+~
+211 0 1
+D0
+More Grubby Street.
+~
+~
+0 -1 21166
+D2
+Grubby Street continues.
+~
+~
+0 -1 21111
+D1
+You see Lone Street.
+1~
+~
+0 -1 21129
+D3
+You see Lone Street.
+~
+~
+0 -1 21114
+S
+#21117
+The Weapons Shop~
+   The Weapons Shop is self-explanatory -- this is a place to buy
+and sell weapons (what else would you expect?).  
+   The Warriors' Guild is to the east and Grubby Street is to the west.
+~
+211 8 0
+D3
+You see Grubby Street through the window.
+~
+~
+0 -1 21111
+D1
+You see the entrance to the Warrior's Guild.
+~
+~
+0 -1 21123
+S
+#21118
+The Vendor Store~
+   Much to your surprise, there IS a friendly vendor store in
+Zedd Town.  Much like any other store, here you can purchase many 
+necessities at inflated prices at all hours.
+~
+211 8 0
+D1
+It is Grubby Street.
+~
+~
+0 -1 21111
+S
+#21119
+The Entrance To The Clerics' Guild~
+   The entrance hall is a small modest room, reflecting the true nature
+of the Clerics.  
+   Harry's Herbalist is to the east and the bar is to the west.
+~
+211 8 0
+D1
+Harry's Herbalist is there.
+~
+~
+0 -1 21113
+D3
+You see the Clerics' Bar.
+~
+~
+0 -1 21120
+S
+#21120
+The Clerics' Bar~
+   The Bar is one of the finest in the land, lucky for you it is members
+only.  Fine furniture is set all around the room.  A small sign is hanging
+on the wall.
+~
+211 8 0
+D3
+The Inner Sanctum.
+~
+~
+0 -1 21121
+D1
+Entrance to the Clerics' Guild.
+~
+~
+0 -1 21119
+S
+#21121
+The Inner Sanctum~
+   This is the holy ground for the Clerics.  You feel at peace with
+nature here as well as a strange sense of power.
+   The Clerics' bar is to the east.
+~
+211 8 0
+D1
+The Clerics' Bar.
+~
+~
+0 -1 21120
+S
+#21122
+Smelly Alley~
+   The longer you stay in the alley, the more you realize that you don't
+want to be here.  Then you remember all the better things you have seen
+in Zedd Town.
+   To the south is Baltimore Ave., a gate to Hell's Kitchen is to the
+west, and Smelly Alley continues east towards Grubby Street.
+~
+211 0 1
+D1        
+You see Smelly Alley.
+~
+~
+0 -1 21115
+D2
+You see Baltimore Avenue.
+~
+~
+0 -1 21126
+D3
+You see the locked gate protecting the city from the denizens of Hell's 
+Kitchen.
+~
+gate~
+2 -1 -1
+S
+#21123
+The Entrance To The Guild Of Swordsmen~
+   This is the entrance to the Guild of Swordsmen, a place where 
+one has to be careful not to say something wrong (or right).
+   The Swordsmens' Bar is to the south and the Weapons Shop is to 
+the west.
+~
+211 8 0
+D2
+You see the Bar of Swordsmen.
+~
+~
+0 -1 21124
+D3
+You see the Weapons Shop.
+~
+~
+0 -1 21117
+S
+#21124
+The Bar Of Swordsmen~
+   The Bar of Swordsmen was once upon a time beautifully furnished, 
+but now the furniture is all around you in small pieces (kind of like 
+a Frat House).
+   To the south you see the Tournament and Practice Yard and to the 
+north is the Entrance to the Guild of Swordsmen.
+~
+211 8 0
+D0
+You see the Entrance to the Guild of Swordsmen.
+~
+~
+0 -1 21123
+D2
+You see the Tournament and Practice Yard.
+~
+~
+0 -1 21125
+S
+#21125
+The Tournament And Practice Yard~
+   The practice yard of the fighters.  To the north is the bar.
+~
+211 8 0
+D0
+You see the Bar of Swordsmen.
+~
+~
+0 -1 21124
+S
+#21126
+Baltimore Avenue~
+   You are in the famed sex district of Zedd Town (hey, every
+town has one), a wonderful place to spend your money on a rainy day
+(an even better reason for learning Control Weather).
+   To the east is Pee Wee's Sex Show and to the south, Baltimore 
+Avenue continues.
+~
+211 0 1
+D0
+You see Smelly Alley.
+~
+~
+0 -1 21122
+D1
+You see Pee Wee's Sex Show.
+~
+~
+0 -1 21127
+D2
+You see more of Baltimore Avenue.
+~
+~
+0 -1 21128
+S
+#21127
+Pee Wee's Sex Show~
+   Upon entering, your eyes immediately fixate upon the gorgeous 
+dancers who are here for your amusement.  Pee Wee is normally in the
+corner.
+Good thing there are no guards here!  
+   Baltimore Avenue is to the west.
+~
+211 8 0
+D3
+Had you succeeded in removing your gaze from the gyrating women in front
+of you, you would have seen that Baltimore Avenue lies to the west.     
+~
+~
+0 -1 21126
+S
+#21128
+Baltimore Avenue~
+   This is a dead end (yes, we know Baltimore Avenue is a small sex
+district, but did you expect the good people of Zedd Town to put up with
+anymore!!!).  There is some writing on the south wall.
+   Baltimore Avenue is to the north.
+~
+211 0 1
+D0
+You see Baltimore Avenue.
+~
+~
+0 -1 21126
+D2
+You see some writing that reads:  Try Peggy at Pee Wee's, She's da Best!
+~
+~
+0 -1 -1
+E
+writing~
+Try Peggy at Pee Wee's, She's da Best!
+~
+S
+#21129
+Lone Street~
+   You are on the west side of Lone Street.  In the distance to the
+east you can see the WarDome. Grubby Street is to the west.
+~
+211 0 1
+D1
+You see the entrance to the WarDome.
+~
+~
+0 -1 21130
+D3
+You see Grubby Street.
+~
+~
+0 -1 21116
+S
+#21130
+The Entrance To The WarDome~
+   You gaze in awe at the mammoth WarDome.  It is a masterpiece in
+architecture built of huge marble columns.
+Leading up are 2 golden figures of warriors locked in combat. -- beautiful,
+but at the same time oddly grotesque.
+A large sign is written on one of the Huge Marble colmns near the
+entrance to the WarDome.
+   First street is to the west, east takes you into the WarDome.
+~
+211 0 1
+D1
+You see the inside of WarDome.
+~
+~
+0 -1 21131
+D3
+Lone Street continues.
+~
+~
+0 -1 21129
+E
+sign~
+ 
+        **********************************************************
+        *                                                        *
+        *                        WarDome                         *
+        *                        -------                         *
+        *                                                        *
+        *                                                        *
+        *       The Warriors host the Western-Division Champ     *
+        *       Orcland team in the Conference Championship      *
+        *       Game to determine which squad will meet the      *
+        *       winner of the Dwarf Giants-Champions of Death    *
+        *              match-up in Blood Bowl XII.               *
+        *                                                        *
+        *                   STANDING ROOM ONLY                   *
+        **********************************************************
+~
+S
+#21131
+Inside The WarDome~
+   The inside of the arena offers a dramatic contrast.  Like
+the exterior, the stands offer the most luxurious accommodations for
+the spectators.  The field however, is a battleground composed of corpses, mud,
+turf and rock surrounded by an 8-foot high stone wall.  There are two
+entrances to the killing field--as audience participation is welcomed,
+though not strongly recommended.
+   To the east are the Blue Seats, to the north are the West Stands.
+Going west, you exit the arena.
+~
+211 12 0
+D0
+You see the West Stands.
+~
+~
+0 -1 21132
+D1
+You see Seats.
+~
+~
+0 -1 21143
+D3
+You see outside the WarDome
+~
+~
+0 -1 21130
+S
+#21132
+The West Stands~
+   You are standing in the West Stands, the general admission
+section of WarDome.  Various spectators are here, viewing the
+killing.  The stands overlook Zedd Town's corpse pit.
+   The West Stands continue north, and the southwest corner of
+the arena is to the south.
+~
+211 8 1
+D0
+You see more of the West Stands.
+~
+~
+0 -1 21133
+D1
+You see the action on Zedd Town's killing field.
+~
+~
+0 -1 -1
+D2
+You see the southwest corner of WarDome.
+~
+~
+0 -1 21131
+S
+#21133
+The West Stands~
+   You are standing in the West Stands, the general admission 
+section of WarDome.  Various spectators are here, viewing the
+game.  The stands overlook Zedd Town's blood pit.
+   The West Stands continue north and south.
+~
+211 8 1
+D0
+You see more of the West Stands.
+~
+~
+0 -1 21134
+D1
+You see the action in Zedd Town's killing field.
+~
+~
+0 -1 -1
+D2
+You see more of the West Stands.
+~
+~
+0 -1 21132
+S
+#21134
+The West Stands~
+   You are standing in the middle of the West Stands, overlooking
+the center of the field.  You notice that below you, there are stairs
+pointing towards the killing field.  Given your sense of adventure,
+you wonder if you should go down....
+   The West Stands continue north and south, stairs go down to the
+field level.
+~
+211 8 1
+D0
+You see more of the West Stands.
+~
+~
+0 -1 21135
+D1
+You see the action on the killing field.
+~
+~
+0 -1 -1
+D2
+You see more of the West Stands.
+~
+~
+0 -1  21133
+D5
+You see stairs leading to the field level... and almost INTO the action.
+~
+~
+0 -1 21146
+S
+#21135
+The West Stands~
+   You are standing in the West Stands, the general admission
+section of WarDome.  Various spectators are here, viewing the
+killing.  The stands overlook Orcland's bloodied field.
+   The stands continue north and south.
+~
+211 8 1
+D0
+You see the West Stands.
+~
+~
+0 -1 21136
+D1
+You see the action in Orcland's killing field.
+~
+~
+0 -1 -1
+D2
+You see the West Stands.
+~
+~
+0 -1 21134
+S
+#21136
+The West Stands~
+   You are standing in the northern-most end of the West Stands.
+This is probably the worst location in WarDome to view the killing.
+   The West Stands continue to the south, to the north is the
+northwest corner of WarDome.
+~
+211 8 1
+D0
+You see the northwest corner of WarDome.
+~
+~
+0 -1 21137
+D1
+You see lots of blood and broken bones on the field.
+~
+~
+0 -1 -1
+D2
+You see the West Stands.
+~
+~
+0 -1 21135
+E
+blood bones field~
+A mashed up field of bones, blood and limbs of many races of many
+fights of old and new litter the sodden ground.
+~
+S
+#21137
+Northwest Corner Of The WarDome~
+   You are in perhaps the most quiet, desolate place in WarDome.
+Seldom does one come back here, except for the Warriors and WarDome
+staff.
+   The West Stands are to the south and to the east is
+the arena's scoreboard.
+~
+211 12 0
+D1
+You see the back of the scoreboard.
+~
+~
+0 -1 21138
+D2
+You see the West Stands.
+~
+~
+0 -1 21136
+S
+#21138
+Behind The Scoreboard~
+   You stand, thoughtfully gazing at the incredible mass of 
+human bodys that are running around inside this big structure.
+Moving and pushing levers to make the outside display work.
+Obvously a Gnomish invention of sorts.
+To the North is the Home War room, which has been closed off to the public.
+   The concourse behind the scoreboard continues east, to the
+west is the northwest corner of WarDome.
+~
+211 8 0
+D0
+You see the locked door to the Warriors' War room.  You do not see
+a keyhole.
+~
+door~
+2 -1 -1
+D1
+The concourse continues.
+~
+~
+0 -1 21139
+D2
+You see the many people operating the scoreboard.  You realize you probably 
+shouldn't annoy them.
+~
+~
+0 -1 -1
+D3
+You see the northwest corner of WarDome.
+~
+~
+0 -1 21137
+S
+#21139
+The Concourse Behind The Scoreboard~
+   You are walking behind The Scoreboard in the vicinity of the players'
+war rooms.  The concourse continues east and west.
+~
+211 8 0
+D1
+You see what you think is the end of the concourse.
+~
+~
+0 -1 21140
+D2
+If only you were a Gnome!
+~
+~
+0 -1 -1
+D3
+The concourse continues.
+~
+~
+0 -1  21138
+S
+#21140
+The End of the Concourse~
+   As you come to the end of the concourse, you find the entrance
+to the East Stands of WarDome -- the SuperBoxes.  Unfortunately,
+you are not permitted to go in as these are reserved for the very
+elite.  There is a sign on the door to the SuperBoxes. 
+   After getting over your disappointment (you always wanted to
+see the inside of a SuperBox), you notice that someone has rather
+carelessly left open the door to the Visitor's War room, just
+inviting someone to walk in.
+   The concourse runs west, to the north you may enter the war-
+room.
+~
+211 12 0
+D0
+You see the open door to the Visitor's War room.
+~
+door~
+0 -1 21141
+D1
+You see a sign on the door to the SuperBoxes.
+~
+door~
+2 -1 -1
+D2
+At this point, you are no longer impressed with The Scoreboard.
+~
+~
+0 -1 -1
+D3
+The concourse continues.
+~
+~
+0 -1 21139
+E
+sign~
+ 
+                 ******************************************
+                 *                                        *      
+                 *            WarDome SuperBoxes          *
+                 *            ------------------          *
+                 *    SuperBoxes reserved for only the    *
+                 *    very rich and privileged.  If you   *
+                 *    do not fall into these categories,  *
+                 *    then GET LOST!!!!!                  *
+                 *                       Thank you,       *
+                 *                       The Management   *
+                 *                                        *
+                 ******************************************
+~
+S       
+#21141
+The Visitor's War Room~
+   What you see (and smell) before you is the typical bloodball
+war room, filled with torn armour, mud, blood, and
+assorted pieces of equipment and body parts.
+   To the west is the wash room, to the south you exit onto
+the concourse.
+~
+211 8 0
+D0
+What a mess!
+~
+~
+0 -1 -1
+D1
+What a mess!
+~
+~
+0 -1 -1
+D2
+You see the concourse.
+~
+~
+0 -1 21140
+D3
+You see the wash room.
+~
+~
+0 -1 21142
+S
+#21142
+The Wash Room~
+   You stand in a dim room that appears to be surprisingly decrepid
+for part of such a new building.  It seems doubtful that anyone actually
+washs here, as you'd probably only get more dirty attempting to.
+As you peer through what little light there is, you notice a loose grate
+in the far corner.  Letting curiosity get the best of you, you lift
+up the grate and find a long ladder descending into darkness.
+~
+211 8 0
+D1
+You see the war room.
+~
+~
+0 -1 21141
+D5
+You peer down into a dark, seemingly endless hole.
+~
+~
+0 -1 -1
+S
+#21143
+The Seats~
+   These unrestricted stands are
+inhabited by the most loyal, die-hard fans you'll ever want to
+not meet.  Vile, sweaty, lewd, rude, crude, and usually drunk --
+this is not the place to be for the faint of heart.
+   The Seats continue to the east, to the west is the exit 
+from WarDome.
+~
+211 8 1
+D0
+You see the corner of the Warriors' killing field.
+~
+~
+0 -1 -1
+D1
+You see more Seats.
+~
+~
+0 -1 21144
+D3
+You see the exit from WarDome.
+~
+~
+0 -1 21131
+S
+#21144
+The Seats~
+   You are in the middle of the Seats--definitely dangerous 
+territory.  But if you feel up for more of a challenge, you can
+climb down the steps leading towards the killing field. 
+   The Seats continue east and west, stairs go down to the
+field level.
+~
+211 8 1
+D0
+You see the Warriors' killing field.
+~
+~
+0 -1 -1
+D1
+The Seats continue.
+~
+~
+0 -1 21145
+D3
+The Seats continue.
+~
+~
+0 -1 21143
+D5
+Steps lead down to the killing level.
+~
+~
+0 -1 21147
+E
+steps~
+Many have ventured down these steps... not as many have returned.
+~
+S
+#21145
+The Seats~
+   You are standing in one of the raunchiest set of bleachers 
+anyone has ever seen or heard.  You Clerics had better cover
+your ears.
+   The Seats continue west.
+~
+211 8 1
+D3
+You see the Seats.
+~
+~
+0 -1 21144
+D0
+You see the Warriors' killing field.
+~
+~
+0 -1 -1
+S
+#21146
+The Tunnel~
+   You stand at the end of a long tunnel, the long walk where
+the fearless gladiators collect their final thoughts before
+entering the battle zone.  There is a light at the end of the
+tunnel, beckoning you to enter.  You hear the roar or the crowd,
+and begin to feel your animalistic instincts rise inside of you.
+Can you take that long walk...?
+   Above you are the stands, to your east is the playing field.
+~
+2 12 0
+D1
+You see the gridiron awaiting you.
+~
+~
+0 -1 21148
+D4
+You see the stands above you.
+~
+~
+0 -1 21134
+S
+#21147
+The Tunnel~
+   You stand at the end of a long tunnel, the long walk where the
+fearless gladiators collect their final thoughts before entering the
+battle zone.  There is a light at the end of the tunnel, beckoning
+you to enter.  You hear the roar of the crowd, and begin to feel your 
+animalistic instincts rise inside of you.  Can you take that 
+long walk...?
+   Above you are the stands, to your north is the playing field.
+~
+211 12 0
+D0
+You see the gridiron awaiting you.
+~
+~
+0 -1 21152
+D4
+You see the stands above you.
+~
+~
+0 -1 21144
+S
+#21148
+The turf~
+   You are standing in the middle of the excitement of a bloodball
+To the south is the Warriors', to the north is the
+Raiders'.  Centrefield is east, and the tunnel is west.
+~
+211 8 1
+D0
+You see the Raiders'.
+~
+~
+0 -1 21161
+D1
+You see centrefield.
+~
+~
+0 -1 21153
+D2
+You see the Warriors'.
+~
+~
+0 -1 21149
+D3
+You see the tunnel.
+~
+~
+0 -1 21146
+S
+#21149
+The Warriors'~
+   You are in the Warriors' defensive area.  To the north is the
+killing Line, to the south is death zone.  The killing field also
+continues east.
+~
+211 8 1
+D0
+You see the killing Line.
+~
+~
+0 -1 21148
+D1
+The field continues.
+~
+~
+0 -1 21151
+D2
+You see Zedd Town's dead zone.
+~
+~
+0 -1 21150
+S
+#21150
+The Warriors' dead Zone~
+This is where the bodys of the dead are stacked up before removal.
+   The dead zone continues to the east.  To the north is the Warriors'
+killing area.
+~
+211 8 1
+D0
+You see the killing arrea.
+~
+~
+0 -1 21149
+D1
+The dead zone continues, bodys of sorts are strewn in disarray.
+~
+~
+0 -1 21152
+S
+#21151
+The Warriors'~
+   You are in the Warriors' defensive zone.  To the north Centre-
+field, to the south is the dead zone.  The field also continues east 
+and west.
+~
+211 8 1
+D0
+You see Centrefield.
+~
+~
+0 -1 21153
+D1
+The field continues.
+~
+~
+0 -1 21157
+D2
+You see Zedd Town's dead zone.
+~
+~
+0 -1 21152
+D3
+The field continues.
+~
+~
+0 -1 21149
+S
+#21152
+The Warriors' dead Zone~
+   You are in the Warriors' dead zone, the sacred ground of their dead
+and dying warriors. 
+   The dead zone continues to the east and west.  To the north is 
+the Warriors' killing zone, to the south is the tunnel.
+~
+211 8 1
+D0
+You see the killing zone.
+~
+~
+0 -1 21151
+D1
+The dead zone continues.
+~
+~
+0 -1 21156
+D2
+You see the tunnel.
+~
+~
+0 -1 21147
+D3
+The dead zone continues.
+~
+~
+0 -1 21150
+S
+#21153
+Centrefield~
+   This is the center of most action in WarDome.  Flying bodies
+(and body parts) are all around you.  You are standing on a large
+corpse of a gray skull with glowing eyes and blood stained fangs.
+Now Get Off IT!!
+~
+211 8 1
+D0
+You see Orcland's killing area.
+~
+~
+0 -1 21154
+D1
+The killing field.
+~
+~
+0 -1 21155
+D2
+You see Zedd Town's killing area.
+~
+~
+0 -1 21151
+D3
+The killing field.
+~
+~
+0 -1 21148
+S
+#21154
+The Raiders'~
+   You are in the Raiders' killing zone.  To the south is Centre-
+field, to the north is the death zone.  The field continues east and
+west.
+~
+211 8 1
+D0
+You see Orcland's death zone.
+~
+~
+0 -1 21162
+D1
+The field continues.
+~
+~
+0 -1 21158
+D2
+You see Centrefield.
+~
+~
+0 -1 21153
+D3
+The field continues.
+~
+~
+0 -1 21161
+S
+#21155
+The killing field~
+   You are standing in the middle of the excitement of the killing.
+  To the south is the Warriors', to the north is the
+Raiders'.  Centrefield is to the west.
+~
+211 8 1
+D0
+You see the Raiders'.
+~
+~
+0 -1 21158
+D3
+You see centrefield.
+~
+~
+0 -1 21153
+D2
+You see the Warriors'.
+~
+~
+0 -1 21157
+S
+#21156
+The Warriors' dead Zone~
+   You are in the Warriors' dead zone, the sacred ground of their dead
+and dying warriors.
+   The dead zone continues to the west.  To the north is the Warriors'
+killing.
+~
+211 8 1
+D0
+You see the killing.
+~
+~
+0 -1 21157
+D3
+The dead zone continues.
+~
+~
+0 -1 21152
+S
+#21157
+The Warriors'~
+   You are in the Warriors' killing area.  To the north is the
+more killing field, to the south is the dead zone.  The field also
+continues west.
+~
+211 8 1
+D0
+You see the killing field.
+~
+~
+0 -1 21155
+D3
+The field continues.
+~
+~
+0 -1 21151
+D2
+You see Zedd Town's dead zone.
+~
+~
+0 -1 21156
+S
+#21158
+The Raiders'~
+   You are in the Raiders' killing area.  To the south is the
+killing field, to the north is the dead zone.  The field also
+continues west.
+~
+211 8 1
+D0
+You see Orcland's .
+~
+~
+0 -1 21159
+D2
+You see the Killing Field.
+~
+~
+0 -1 21155
+D3
+The field continues.
+~
+~
+0 -1 21154
+S
+#21159
+The Raiders' dead Zone~
+   You are in the Raiders' , the sacred ground of their dead and dying
+warrirors.
+   The  continues to the west.  To the south is the Raiders'
+killing area.
+~
+211 8 1
+D2
+You see the killing area.
+~
+~
+0 -1 21158
+D3
+The  continues.
+~
+~
+0 -1 21162
+S
+#21160
+The Raiders' dead Zone~
+   You are in the Raiders' , the sacred ground of their dead and dying
+warriors.
+   The  continues to the east.  To the south is the Raiders'
+killing area.
+~
+211 8 1
+D1
+The  continues.
+~
+~
+0 -1 21162
+D2
+You see the killing area.
+~
+~
+0 -1 21161
+S
+#21161
+The Raiders'~
+   You are in the Raiders' killing area.  To the south is the
+Killing Field, to the north is the .  The field also
+continues east.
+~
+211 8 1
+D0
+You see Orcland's .
+~
+~
+0 -1 21160
+D1
+The field continues.
+~
+~
+0 -1 21154
+D2
+You see the Killing Field.
+~
+~
+0 -1 21148
+S
+#21162
+The Raiders' dead Zone~
+   You are in the Raiders' , the sacred ground of their dead and dying
+warriors.
+   The  continues east and west.  To the south is the Raiders'
+killing area.
+~
+211 8 1
+D1
+The  continues.
+~
+~
+0 -1 21159
+D2
+You see the killing area.
+~
+~
+0 -1 21154
+D3
+The  continues.
+~
+~
+0 -1 21160
+S
+#21166
+Grubby Street~
+   You are on Grubby Street and as you look at the pot
+holes in the road you realize that city road needs repair
+   Grubby Street continues to the north and south. The armoury is to the
+east and the magic shop is to the west.
+~
+211 0 1
+D0
+You see Grubby Street.
+~
+~
+0 -1 21169
+D1
+You see the Armoury.
+~
+~
+0 -1 21167
+D2
+You see the intersection of First and Grubby Street.
+~
+~
+0 -1 21116
+D3
+You see the Magic Shop.
+~
+~
+0 -1 21168
+S
+#21167
+The Armoury~
+   This is your standard armoury, filled with your average supply of
+of armour and other assorted goodies.
+   Grubby Street is to the west.
+~
+211 8 0
+D3
+You see Grubby Street.
+~
+~
+0 -1 21166
+S
+#21168
+Wally's Wonderful World Of Magic~
+   You are thoroughly impressed with the thousands of magic items
+on display here (very few are actually for sale, though) which leads
+you to believe that Wally is no man to be trifled with.  The magic
+items range from things like Lila's Book of Infinite Problems to
+things like Wand of High Frog Jumping (to help your frog win in those
+high stake frog races).
+   Grubby Street is to the east and the Entrance to the Mages' Guild is to
+the west.
+~
+211 8 0
+D1
+You see Grubby Street.
+~
+~
+0 -1 21166
+D3
+You see the entrance to the Mages' guild.
+~
+~
+0 -1 21175
+S
+#21169
+Grubby Street~
+   You are on Grubby Street.  The Pet store
+is to the east and the Zedd Townn Bank is to the west.  Grubby Street
+continues to the north and south.
+~
+211 0 1
+D0
+Grubby Street continues.
+~
+~
+0 -1 21170
+D1
+You see PetLand Discounts.
+~
+~
+0 -1 21116
+D2
+More Grubby Street.
+~
+~
+0 -1 21166
+D3
+You see the Zedd Townn Bank.
+~
+~
+0 -1 21179
+S
+#21170
+Intersection of Grubby Street and Second Avenue~
+   This is the intersection of Second Avenue and Grubby Street.  Second
+Avenue leads west to the dump and east to the church.    
+   Grubby Street runs north-south and Second Avenue runs east-west.
+~
+211 0 1
+D0
+Grubby Street continues.
+~
+~
+0 -1 21171
+D1 
+You see Second Avenue.
+~
+~
+0 -1 21198
+D2
+More Grubby Street.
+~
+~
+0 -1 21169
+D3
+You see Second Avenue.
+~
+~
+0 -1 21104
+S
+#21171
+Grubby Street~
+   You are on Grubby Street and by the condition 
+of the buildings, you can tell that you just crossed into the
+upper class neighborhood of Zedd Town.
+   Grubby Street continues to the north and south.  To the east is
+the entrance to the Museum and to the west
+is the entrance to the Inn.
+~
+211 0 1
+D0
+Grubby Street continues.
+~
+~
+0 -1 21174
+D1
+You see the entrance to the Museum.
+~
+~
+0 -1 21172
+D2
+You see more of Grubby Street.
+~
+~
+0 -1 21170
+D3
+You see the entrance to the Inn.
+~
+~
+0 -1 21173
+S
+#21172
+The Museum~
+   You are standing in the cavernous lobby of the Museum.
+During your examination of the lobby, you are startled by the 
+museum curator.  The curator whines to you about how the museum is still 
+under renovations and how the lack of funds from the city is slowing the 
+the museum's progress.  After a long and boring story, you jump at the 
+chance to make a polite exit and quickly make your departure.
+   Grubby Street is to the west.
+~
+211 8 0
+D3
+You see Grubby Street.
+~
+~
+0 -1 21171
+S
+#21173
+The Lobby Of The Inn~
+   This is one of the most luxurious Inns you have ever seen. It 
+makes the inn at Midgaard look rather pathetic.  Pillars of gold
+tower above you to both your left and right.  You try to chip a piece
+off the towers, but you think twice when you see the large guards who
+would readily bite your head off if you even thought about trying.
+   To the east is Grubby Street.  Follow the stairs up to check in at the
+Reception.
+~
+211 8 0
+D1
+You see Grubby Street.
+~
+~
+0 -1 21171
+D4
+You see the reception.
+~
+~
+0 -1 21194
+S
+#21174
+Grubby Street~
+   You are on Grubby Street.  A Bar is to the
+west and the Goethe Library is to the east.  Grubby Street continues to
+the north and south.
+~
+211 0 1
+D0
+You see more of Grubby Street.
+~
+~
+0 -1 21180
+D1
+You see the Goethe Library.
+~
+~
+0 -1 21181
+D2
+You see that Grubby Street continues.
+~
+~
+0 -1 21171
+D3
+You see a Bar.
+~
+~
+0 -1 21182
+S
+#21175
+The Entrance To The Mages' Guild~
+   The entrance is a small, poor lighted room.  
+~
+211 8 0
+D0
+You see the Mages' Bar.
+~
+~
+0 -1 21176
+D1
+You see Wally's World.
+~
+~
+0 -1 21168
+S
+#21176
+The Mages' Bar~
+   The bar is one of weirdest in the land.  Mystical images float
+around the air.  Illusions of fine furniture appear all around the
+room.
+~
+211 8 0
+D1
+You see the Mages' Laboratory.
+~
+~
+0 -1 21177
+D2
+You see the Entrance to the Mages' Guild.
+~
+~
+0 -1 21175
+S
+#21177
+The Mages' Laboratory~
+   This is the Magical Experiments Laboratory.  Dark smoke-stained 
+stones arch over numerous huge oaken tables, most of these cluttered
+with strange and even weirder symbols, and a blackboard in a dark
+corner has only been partially cleaned, some painful-looking letters
+are faintly visible.  
+~
+211 8 0
+D3
+You see the Mages' Bar.
+~
+~
+0 -1 21176
+S
+#21179
+The Zedd Townn Money Store~
+   This is the Zedd Townn Money Store, the safest place in town... and the
+only place in town!  The only problem is that it is closed until
+more guards are hired in order to protect your money from all the muggers
+in town!
+   Grubby Street is to the east.
+~
+211 8 0
+D1
+You see Grubby Street.
+~
+~
+0 -1 21169
+S
+#21180
+Grubby Street~
+   You are on Grubby Street.  This end of Grubby Street also 
+doubles as the entrance to the park. You see the park to the north,
+Grubby Street to the south, a vendor to the west and the City
+Hall of Zedd Town is to the east.
+~
+211 0 1
+D0
+You see Goethe's Garden.
+~
+~
+0 -1 21112
+D1
+You see City Hall.
+~
+~
+0 -1 21192
+D2
+You see Grubby Street.
+~
+~
+0 -1 21174
+D3
+You see a vendor.
+~
+~
+0 -1 21197
+S
+#21181
+The Lobby To Goethe's Library~
+   You are totally consumed by the sheer power generated by the
+combined intelligence in this building.  This IS the library of
+the famed philosopher, Goethe.  Here, researchers and intellects
+gather to learn from the mass collections of knowledge.  The only
+problem is that recently the library has become overrun by cutthroat
+knowledge seekers.  The library also serves as the source of magic
+scrolls to adventurers in Zedd Town.
+   Grubby Street continues to the west.
+~
+211 8 0
+D3
+You see Grubby Street.
+~
+~
+0 -1 21174
+S
+#21182
+The Entrance To The Bar~
+   Making your way in the world today takes everything you've got.
+Taking a break from all your worries sure would help a lot -- well,
+we think you know the rest.  Anyway, this is just a place where you
+can sit back and enjoy an ale with the locals.
+   The Main Bar is to the west, Grubby Street is to the east.
+~
+211 12 0
+D1
+You see Grubby Street.
+~
+~
+0 -1 21174
+D3
+You see the barman, waiting to serve you.
+~
+~
+0 -1 21183
+S
+#21183
+The Main Bar~
+   You step up to the bar and absorb the atmosphere of an old 
+neighborhood tavern.  You're always certain to find a friendly
+face here.  
+   The bar continues north and west. To the south are stairs,
+to the east is the exit.
+~
+211 8 0
+D0
+You see tables near the bar.
+~
+~
+0 -1 21185
+D1
+You see the entrance to the bar.
+~
+~
+0 -1 21182
+D2
+You see the stairs to Melville's.
+~
+~
+0 -1 21186
+D3
+You see the chairs on the other side of the bar.
+~
+~
+0 -1 21184
+S
+#21184
+The chairs By The Bar~
+   This is where all the regulars reside.  You notice that the
+chairs are personally melded to certain individuals' posteriors.
+The bar also continues north and south.
+~
+211 8 0
+D0
+The bar continues.
+~
+~
+0 -1 21187
+D1
+You see the Main Bar.
+~
+~
+0 -1 21183
+D2
+The bar continues.
+~
+~
+0 -1 21188
+D3
+You see a gaming room and not Rebecca's damned Tea Room.
+~
+~
+0 -1 21189
+S
+#21185
+Inside The Bar~
+   You are standing inside the bar.  Many customers are here, sitting
+at tables getting drunk.
+   The bar continues to the west, to the south is the Main Bar.
+~
+211 8 0
+D2
+You see the Main Bar.
+~
+~
+0 -1 21183
+D3
+The bar continues.
+~
+~
+0 -1 21187
+S
+#21186
+The Stairs To Melville's~
+   You stand at the stairs leading up to Melville's grulle.
+   The stairs lead up to Melville's, to the north is the Main Bar
+and to the west the bar continues.
+~
+211 8 0
+D0
+You see the Main Bar.
+~
+~
+0 -1 21183
+D3
+The bar continues.
+~
+~
+0 -1 21188
+D4
+The stairs lead up to Melville's.
+~
+~
+0 -1 21190
+S
+#21187
+Inside The Bar~
+   You are standing inside the bar.
+   The bar continues east, the bar stools are to the south.
+~
+211 8 0
+D1
+The bar continues east
+~
+~
+0 -1 21185
+D2
+You see the bar stools.
+~
+~
+0 -1 21184
+S
+#21188
+Inside The Bar~
+   In this corner of the bar, you see a large fireplace.
+   To the north are the bar stools, to the west is a door
+  To the east, you see the stairs to Melville's grulle.
+~
+211 8 0
+D0
+You see the bar chairs.
+~
+~
+0 -1 21184
+D1
+You see the stairs that lead to Melville's grulle.
+~
+~
+0 -1 21186
+D3
+You see the entrance to the a room.
+~
+door~
+1 -1 21191
+E
+fireplace~
+You see a huge fireplace with the possibility of a large fire that is not 
+burning at the moment.
+~
+S
+#21189
+The Games Room~
+A small croud of pesents are rolling some bones in the middle of the 
+floor battering what apears to be there life savings.
+   The bar chairs are to east.
+~
+211 8 0
+D1
+You see the bar chairs.
+~
+~
+0 -1 21184
+E
+bones~
+oddly re-shaped animal bones to be used by one to bet on a roll.
+~
+S
+#21190
+Melville's Grule~
+   This is the famous Grule upstairs from the bar.
+The food  might look bad, but you are definitely assured to get a good meal.
+   The  Bar is downstairs.
+~
+211 8 0
+D5
+You see Bar.
+~
+~
+0 -1 21186
+S
+#21191
+Room~
+   As you enter the room, the first thing you notice is a very 
+comfortable chair and you realize that it has been used for more
+than midday naps. 
+   The bar is to east.
+~
+211 8 0
+D1
+You see the door to the room.
+~
+door~
+1 -1 21188
+E
+couch~
+This is one comfortable couch.
+~
+E
+chair~
+This is a large chair, good for doing many various things.
+~
+S
+#21192
+City Hall~
+   This is your everyday bureau of red tape...which is why certain
+things in town don't get done.  Underworked and overpaid council people
+are everywhere.
+   Grubby Street is to the west, the Mayor's Room is to the east.
+~
+211 8 0
+D1
+You see Mayor Abe's Room.
+~
+~
+0 -1 21193
+D3
+The red tape obstructs your view.
+~
+~
+0 -1 21180
+S
+#21193
+Mayor Abe's Room~
+   This is the residence of one of the most uninspired and uninterested
+mayors. 
+The office makes you feel like your being watched and then you recall all the
+rumors you heard about the mayor's link to Satan himself (which would
+explain him damning everyone).
+   City Hall is to the west.
+~
+211 8 0
+D3
+You see City Hall.
+~
+~
+0 -1 21192
+S
+#21194
+The Reception In The Inn~
+   This is a very classy reception for a very classy Inn.  This fact
+is proven by the sheer beauty of the receptionist.
+   The lobby to the Waldorf is downstairs.
+~
+211 8 0
+D5
+You see the lobby.
+~
+~
+0 -1 21173
+S
+#21195
+The Rogues' Bar~
+   This is a dark room full of shadows, but as a thief, it is just 
+the way you like it.  This is the perfect place to hide from the local 
+guards or any other persons who are after your head!
+   The Entrance to the Thieves' Guild is to the north and the Secret
+Yard is to the west.
+~
+211 8 0
+D0
+You see the Entrance to the Guild of Thieves.
+~
+~
+0 -1 21114
+D3
+You see the Secret Yard.
+~
+~
+0 -1 21196
+S
+#21196
+The Secret Yard~
+   This is the secret practice yard of assassins and thieves.  The
+Rogues' Bar is to the east.
+~
+211 8 0
+D1
+You see the bar.
+~
+~
+0 -1 21195
+S
+#21197
+The vendor's Store~
+   This is a vendor store full of items that the everyday
+adventurer can do without.
+   Grubby Street is to the east.
+~
+211 8 0
+D1
+You see Grubby Street.
+~
+~
+0 -1 21180
+S
+#21198
+Second Avenue~
+   This is a minor road that leads to the church.
+From the condition of the street, it seems that the inhabitants haven't
+been paying their taxes lately.
+   Grubby Street is to the west and the end of Second Avenue is to the east.
+~
+211 0 1
+D1
+You see the east end of Second Avenue.
+~
+~
+0 -1 21199
+D3
+You see the intersection of Grubby Street and Second Avenue.
+~
+~
+0 -1 21170
+S
+#21199
+The East End Of Second Avenue~
+   This is the east end of the very short Second Avenue.  The Church 
+is to the north and a barrax is to the south.
+~
+211 0 1
+D0
+You see the church.
+~
+~
+0 -1 21260
+D2
+You see the barrax.
+~
+~
+0 -1 21261
+D3
+You see Second Avenue.
+~
+~
+0 -1 21198
+S
+$~

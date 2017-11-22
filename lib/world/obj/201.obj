@@ -1,0 +1,606 @@
+#20100
+sprig mistletoe~
+a sprig of mistletoe~
+A sprig of mistletoe grows here.~
+~
+10 0 1
+100 44 -1 -1
+5 500 50 0
+#20101
+menhir~
+a menhir~
+A large, stone menhir stands here.~
+~
+5 hkq ano
+0 6 4 6
+30 10000 5000 0
+A
+17 -25
+#20102
+gourd magic potion~
+a gourd of magic potion~
+a gourd of magic potion has been left here.~
+~
+10 0 1
+30 39 39 39
+1 1 1 0
+#20103
+harp~
+cacofonix's harp~
+Cacofonix's harp has been dropped here.~
+~
+4 acemikop ao
+300 4 4 7
+5 10000 5000 0
+#20104
+fish barramundi~
+a deadly barramundi~
+A fish has been left here to rot.~
+~
+5 cdemo an
+5 3 4 7
+5 100 10 0
+#20105
+shield vercingetorix~
+the shield of Vercingetorix~
+The shield of Vercingetorix waits here for a new owner.~
+~
+9 giq aj
+10 0 0 0
+15 20000 5000 0
+A
+1 2
+A
+19 2
+R
+40 40
+#20106
+winged helmet~
+Asterix's winged helmet~
+Asterix's winged helmet has been carelessly left here.~
+~
+9 g ae
+8 0 0 0
+5 15000 3000 0
+A
+14 50
+A
+5 2
+R
+25 25
+#20107
+fish dead~
+a dead fish~
+A fish has been left here.  It looks dead, but you never can tell...~
+~
+19 0 1
+8 0 0 0
+5 10 10 0
+#20108
+lobster~
+a lobster~
+A lobster crawls along the ground here.  It looks quite tasty.~
+~
+19 0 1
+6 0 0 0
+5 20 20 0
+#20109
+healing potion~
+a gourd of healing potion~
+A gourd of healing potion has been left here.~
+~
+10 0 1
+100 28 -1 -1
+5 30000 10000 0
+#20110
+sanc potion~
+a gourd of glowing potion~
+A strange gourd filled with a glowing liquid has been left here.~
+~
+10 0 1
+100 36 -1 -1
+5 4000 1000 0
+#20111
+strength potion~
+a gourd full of a strong draught~
+A gourd filled with a strange liquid has been left here.~
+~
+10 0 1
+100 39 -1 -1
+5 5000 750 0
+#20112
+curing potion~
+a gourd of curing potion~
+A gourd of curing potion has been left here.~
+~
+10 0 1
+100 15 -1 -1
+5 1000 1500 0
+#20113
+detection scroll~
+a scroll of detection~
+A strange looking scroll has been carelessly dropped here.~
+~
+2 0 1
+100 44 19 18
+5 10000 1500 0
+#20114
+earthquake scroll~
+a scroll of earthquake~
+A dirty looking scroll lies here in the dust.~
+~
+2 cdgn 1
+5 5 -1 -1
+5 5000 1000 0
+#20115
+roman legionary combat helmet~
+a legionary helmet~
+A warlike helmet lies here, awaiting a future owner.~
+~
+9 0 ae
+5 0 0 0
+25 5000 250 0
+A
+2 -1
+A
+18 1
+R
+15 15
+#20116
+roman legionary combat plate~
+legionary combat plate~
+Some fine burnished armor has been dropped here.~
+~
+9 0 ad
+8 0 0 0
+135 10000 250 0
+A
+2 1
+A
+18 -2
+R
+15 15
+#20117
+roman legionary combat boots~
+legionary combat boots~
+Some combat boots sit here.~
+~
+9 0 ag
+6 0 0 0
+45 5000 250 0
+A
+1 2
+A
+19 -1
+R
+15 15
+#20118
+roman legionary combat greaves~
+legionary combat greaves~
+A pair of well made leg plates have been left here.~
+~
+9 0 af
+6 0 0 0
+45 5000 250 0
+A
+1 1
+A
+19 -1
+R
+15 15
+#20119
+roman legionary combat arm plates~
+legionary arm plates~
+A pair of arm plates lie here, discarded.~
+~
+9 0 ai
+6 0 0 0
+45 5000 250 0
+A
+2 -1
+A
+18 2
+R
+15 15
+#20120
+roman legionary combat gauntlets~
+legionary gauntlets~
+A pair of strong gauntlets await a future owner.~
+~
+9 0 ah
+6 0 0 0
+45 5000 250 0
+A
+18 1
+A
+19 -1
+R
+15 15
+#20121
+roman centurion combat helmet~
+a centurion helmet~
+The plumed helmet of a centurion lies here.~
+~
+9 0 ae
+6 0 0 0
+25 10000 250 0
+A
+18 1
+A
+19 1
+R
+30 30
+#20122
+roman centurion combat plate~
+centurion combat plate~
+The fine armor of a centurion has been left here.~
+~
+9 0 ad
+10 0 0 0
+125 20000 250 0
+A
+2 2
+A
+18 1
+R
+30 30
+#20123
+roman centurion combat boots~
+centurion combat boots~
+Some well made combat boots sit here.~
+~
+9 0 ag
+9 0 0 0
+40 10000 250 0
+A
+1 2
+A
+18 1
+R
+30 30
+#20124
+roman centurion combat greaves~
+centurion combat greaves~
+A pair of well made leg plates have been left here.~
+~
+9 0 af
+9 0 0 0
+45 10000 250 0
+A
+1 1
+A
+19 1
+R
+30 30
+#20125
+roman centurion combat arm plates~
+centurion arm plates~
+A pair of golden arm plates lie here, discarded.~
+~
+9 0 ai
+9 0 0 0
+45 10000 250 0
+A
+18 2
+R
+30 30
+#20126
+roman centurion combat gauntlets~
+centurion gauntlets~
+A pair of hardy gauntlets lie here, discarded.~
+~
+9 0 ah
+9 0 0 0
+45 10000 250 0
+A
+18 1
+A
+19 1
+R
+30 30
+#20127
+gaulish combat helmet~
+a gaulish helmet~
+A potlike helmet lies here, dropped by a careless person.~
+~
+9 0 ae
+9 0 0 0
+25 5000 250 0
+A
+18 1
+R
+20 20
+#20128
+gaulish combat plate~
+gaulish combat plate~
+Some well made armor lies here in a pile.~
+~
+9 0 ad
+9 0 0 0
+135 20000 250 0
+A
+2 1
+R
+20 20
+#20129
+gaulish combat boots~
+gaulish combat boots~
+Some village-made boots rest here.~
+~
+9 0 ag
+5 0 0 0
+45 5000 250 0
+A
+1 2
+R
+20 20
+#20130
+gaulish combat greaves~
+gaulish combat greaves~
+A pair of cast-iron leg plates glint in the sunlight.~
+~
+9 0 af
+9 0 0 0
+45 5000 250 0
+A
+2 1
+R
+20 20
+#20131
+gaulish arm plates~
+gaulish arm plates~
+A pair of village-made arm plates lie here, discarded.~
+~
+9 0 ai
+5 0 0 0
+45 5000 250 0
+A
+18 1
+R
+20 20
+#20132
+gaulish combat gauntlets~
+gaulish combat gauntlets~
+A pair of village-made gauntlets have been carelessly left here.~
+~
+9 0 ah
+9 0 0 0
+45 5000 250 0
+A
+18 1
+R
+20 20
+#20133
+roman gladius~
+a roman gladius~
+The sword of a Roman Legionary rests here.~
+~
+5 mn ano
+0 4 4 11
+10 2500 500 0
+A
+18 2
+R
+15 15
+#20134
+roman centurion gladius~
+a centurion's gladius~
+The sword of a Roman Centurion rests here.~
+~
+5 mn ano
+0 5 4 11
+10 5000 500 0
+A
+18 2
+A
+19 2
+R 
+30 30
+#20135
+gaulish long sword longsword~
+a gaulish longsword~
+A well made gaulish longsword lies here in the dirt.~
+~
+5 mn ano
+0 3 6 3
+10 2500 500 0
+A
+19 2
+R
+20 20
+#20136
+cauldron~
+a cauldron~
+A cauldron is here, bubbling away.~
+~
+13 0 0
+0 0 0 0
+1 1 1 0
+#20137
+druid headress~
+a druidic headress~
+The headress of a great druid lies here in the dust.~
+~
+9 0 ae
+5 0 0 0
+5 1000 75 0
+A
+4 1
+A
+12 15
+#20138
+druid cloak~
+the cloak of the head druid~
+The cloak of the Head Druid lies here, neatly folded.~
+~
+9 0 ac
+10 0 0 0
+10 1000 125 0
+A
+12 25
+#20139
+rope belt~
+a rope belt~
+The rope belt of a druid is coiled up here.~
+~
+9 0 al
+5 0 0 0
+5 5000 500 0
+A
+12 15
+#20140
+druid cowl~
+a druidic cowl~
+The cloak of a druid has been discarded here.~
+~
+9 0 ak
+8 0 0 0
+1 1 1 0
+A
+12 25
+A
+13 -10
+#20141
+golden sickle~
+a golden sickle~
+A golden sickle shines brightly in the sunlight.~
+~
+5 aop ano
+0 7 3 3
+10 5000 250 0
+A
+12 50
+#20142
+toutatis hammer~
+the Hammer of Toutatis~
+A simple looking sledgehammer lies discarded here.~
+~
+5 biopt ano
+0 20 2 7
+10 500000 25000 0
+R
+45 45
+A
+18 5
+A
+12 100
+#20143
+belenos axe~
+the Axe of Belenos~
+A plain double-bladed axe lies discarded here.~
+~
+5 bimnt ano
+0 20 2 1
+10 500000 25000 0
+R
+45 45
+A
+18 5
+A
+13 100
+#20144
+gaulish breastplate god gods~
+a breastplate made of pure gaulish steel~
+A golden, glowing breastplate floats here.~
+~
+9 i ad
+15 0 0 0
+200 1000000 100000 0
+A
+18 4
+A
+19 4
+R
+45 45
+#20145
+staff intelligence~
+a staff of intelligence~
+A smart-looking staff lies here, discarded.~
+~
+9 iq ao
+1 0 0 0
+5 10000 500 0
+A
+3 1
+#20146
+staff wisdom~
+a staff of wisdom~
+A wise-looking staff lies here, discarded.~
+~
+9 iq ao
+1 0 0 0
+5 10000 500 0
+A
+4 1
+#20147
+staff strength~
+a staff of strength~
+A powerful-looking staff lies here, discarded.~
+~
+9 iq ao
+1 0 0 0
+5 10000 500 0
+A
+1 1
+#20148
+staff dexterity~
+a staff of dexterity~
+An agile-looking staff lies here, discarded.~
+~
+9 iq ao
+1 0 0 0
+5 10000 500 0
+A
+2 1
+#20149
+staff constitution~
+a staff of constitution~
+A hardy-looking staff lies here, discarded.~
+~
+9 iq ao
+1 0 0 0
+5 10000 500 0
+A
+5 1
+#20150
+staff protection~
+a staff of protection~
+A staff lies here, discarded.~
+~
+9 aiq ao
+1 0 0 0
+5 10000 500 0
+A
+20 -2
+A
+21 -2
+A
+22 -2
+A
+23 -2
+A
+24 -2
+#20151
+gaulish obelix blue white striped pants~
+Obelix's blue and white striped pants~
+Some folded blue and white cloth lies discarded on the ground.~
+~
+9 kmnoq af
+1 0 0 0
+10 5000 500 0
+A
+1 4
+A
+10 20
+#20152
+bracelet head druid~
+a druidic bracelet~
+A bracelet covered with etched ruins has been carelessly left here.~
+~
+9 bghikop am
+1 0 0 0
+5 2500 500 0
+A
+12 25
+
+$

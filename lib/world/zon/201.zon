@@ -1,0 +1,256 @@
+#201
+Pandion's Amorica~
+20199 40 2
+*Mobiles
+M 0 20116 1 20122	Obelix
+E 1 20101 1 17			Menhir
+E 1 20151 1 7			Striped pants
+M 0 20115 1 20135	Getafix
+E 1 20102 1 17			Gourd magic potion
+G 1 20109 1			Gourd healing potion
+G 1 20110 1			Sanc potion
+G 1 20111 1			Strength potion
+G 1 20112 1			Curing potion
+G 1 20113 1			Detection scroll
+G 1 20114 1			Earth Quake scroll
+G 1 20100 12			Mistletoe
+G 1 20145 1			Staff Intelligence
+G 1 20146 1			Staff Wisdom
+G 1 20147 1			Staff Strength
+G 1 20148 1			Staff Dexterity
+G 1 20149 1			Staff Constitution
+G 1 20150 1			Staff Protection
+M 0 20105 6 20114	Legionary Gate guard
+E 1 20115 50 6			R. C. Helmet
+E 1 20116 50 5			R. C. Plate
+E 1 20117 50 8			R. C. Boots
+E 1 20118 50 7			R. C Greaves
+E 1 20119 50 10		R. C. Arm Plates
+E 1 20120 50 9			R. C. Gauntlets
+E 1 20133 50 16		R. C. Gladius
+M 0 20105 6 20114	Legionary Gate guard        
+E 1 20115 6 6
+E 1 20116 6 5
+E 1 20117 6 8
+E 1 20118 6 7
+E 1 20119 6 10
+E 1 20120 6 9
+E 1 20133 6 16
+M 0 20105 6 20114	Legionary Gate guard
+E 1 20115 6 6
+E 1 20116 6 5
+E 1 20117 6 8
+E 1 20118 6 7
+E 1 20119 6 10
+E 1 20120 6 9
+E 1 20133 6 16
+M 0 20105 6 20114	Legionary Gate guard
+E 1 20115 6 6
+E 1 20116 6 5
+E 1 20117 6 8
+E 1 20118 6 7
+E 1 20119 6 10
+E 1 20120 6 9
+E 1 20133 6 16
+M 0 20108 3 20116	Gaul Gate guard
+E 1 20127 6 6			Gaul Helm
+E 1 20128 6 5			Gaul Plate
+E 1 20129 6 8			Gaul Boots
+E 1 20131 6 10			Gaul Greaves
+E 1 20130 6 7			Gaul Armplates
+E 1 20132 6 9			Gaul Gauntlets
+E 1 20135 6 16			Gaul Longsword
+M 0 20108 3 20116	Gaul Gate guard
+E 1 20127 6 6
+E 1 20128 6 5
+E 1 20129 6 8
+E 1 20131 6 10
+E 1 20130 6 7
+E 1 20132 6 9
+E 1 20135 6 16
+M 0 20102 5 20105	Boar on forest path
+M 0 20102 5 20107	Boar on forest path        
+M 0 20102 5 20107	Boar on forest path
+M 0 20102 5 20107	Boar on forest path
+M 0 20102 5 20109	Boar on forest path
+M 0 20107 3 20110	Gaul Warrior (wanderer)
+M 0 20112 2 20111	Owl on forest path
+M 0 20102 5 20115	Boar on forest path
+M 0 20111 1 20119      	Dogmatix in Gaul Town
+M 0 20114 1 20132	Unhygenix
+G 1 20107 1			Dead fish
+G 1 20108 1			Lobster
+E 1 20104 2 16			Fish
+M 0 20110 1 20132	Unhygenix'x housewife
+E 1 20104 2 16			Fish
+M 0 20109 6 20141	Resting Gaul Warrior
+M 0 20107 3 20126	Gaul Warrior (wanderer)
+M 0 20109 6 20140	Resting Gaul Warrior
+M 0 20109 6 20139	Resting Gaul Warrior
+M 0 20109 6 20137	Resting Gaul Warrior
+M 0 20107 3 20123	Gaul Warrior (wanderer)
+M 0 20109 6 20136	Resting Gaul Warrior
+M 0 20109 6 20138	Resting Gaul Warrior
+M 0 20113 1 20131	Fulliautomatix
+G 1 20127 6 			Fully armoured
+G 1 20128 6
+G 1 20129 6
+G 1 20131 6
+G 1 20130 6
+G 1 20132 6
+G 1 20135 6
+E 1 20135 6 16
+M 0 20117 1 20129	Cacofonix
+E 1 20103 1 17			His Harp
+M 0 20118 1 20133	Geriatrix
+M 0 20108 3 20130	Gaul Warrior guarding Vitalstatistix
+E 1 20127 6 6
+E 1 20128 6 5
+E 1 20129 6 8
+E 1 20131 6 10
+E 1 20130 6 7
+E 1 20132 6 9
+E 1 20135 6 16
+M 0 20119 1 20130	Vitalstatistix
+E 1 20105 1 11			Vercingetorix's shield
+E 1 20127 6 6
+E 1 20128 6 5
+E 1 20129 6 8
+E 1 20130 6 7
+E 1 20131 6 10
+E 1 20132 6 9
+E 1 20135 6 16
+M 0 20120 1 20134	Asterix (wanderer)
+E 1 20106 1 6			Asterix's winged Helmet
+E 1 20128 6 5
+E 1 20129 6 8
+E 1 20131 6 10
+E 1 20130 6 7
+E 1 20132 6 9
+E 1 20135 6 17
+M 0 20112 2 20124	Owl in Gaul town
+M 0 20104 18 20150	Legionary (wanderer)
+M 0 20104 18 20150	Legionary (wanderer)
+M 0 20104 18 20150	Legionary (wanderer)
+M 0 20104 18 20150	Legionary (wanderer)
+M 0 20104 18 20151	Legionary (wanderer)
+M 0 20104 18 20151	Legionary (wanderer)
+M 0 20104 18 20151	Legionary (wanderer)
+M 0 20104 18 20151	Legionary (wanderer)
+M 0 20104 18 20152	Legionary (wanderer)
+M 0 20104 18 20152	Legionary (wanderer)
+M 0 20104 18 20152	Legionary (wanderer)
+M 0 20104 18 20152	Legionary (wanderer)
+M 0 20104 18 20152	Legionary (wanderer)
+M 0 20104 18 20152	Legionary (wanderer)
+M 0 20104 18 20152	Legionary (wanderer)
+M 0 20104 18 20152	Legionary (wanderer)
+M 0 20104 18 20154	Legionary (wanderer) (cent. tent)
+M 0 20104 18 20154	Legionary (wanderer) (cent. tent)
+M 0 20103 1 20154	Centurion
+E 1 20121 1 6			R. Cent. Helm
+E 1 20122 1 5			R. Cent. plate
+E 1 20123 1 8			R. Cent. boots
+E 1 20125 1 10			R. Cent. arm plates
+E 1 20124 1 7			R. Cent. greaves
+E 1 20126 1 9			R. Cent gauntlets
+E 1 20134 1 16			R. Cent. Gladius
+M 0 20105 6 20154	Legionary Guard (cent. tent)
+E 1 20115 6 6
+E 1 20116 6 5
+E 1 20117 6 8
+E 1 20118 6 7
+E 1 20119 6 10
+E 1 20120 6 9
+E 1 20133 6 16
+M 0 20105 6 20154	Legionary Guard (cent. tent)
+E 1 20115 6 6
+E 1 20116 6 5
+E 1 20117 6 8
+E 1 20118 6 7
+E 1 20119 6 10
+E 1 20120 6 9
+E 1 20133 6 16
+M 0 20106 24 20155	Legionary (resting)
+M 0 20106 24 20155	Legionary (resting)
+M 0 20106 24 20155	Legionary (resting)
+M 0 20106 24 20155	Legionary (resting)
+M 0 20106 24 20156	Legionary (resting)
+M 0 20106 24 20156	Legionary (resting)
+M 0 20106 24 20156	Legionary (resting)
+M 0 20106 24 20156	Legionary (resting)
+M 0 20106 24 20157	Legionary (resting)
+M 0 20106 24 20157	Legionary (resting)
+M 0 20106 24 20157	Legionary (resting)
+M 0 20106 24 20157	Legionary (resting)
+M 0 20106 24 20158	Legionary (resting)
+M 0 20106 50 20158	Legionary (resting)
+M 0 20106 24 20158	Legionary (resting)
+M 0 20106 24 20158	Legionary (resting)
+M 0 20106 24 20159	Legionary (resting)
+M 0 20106 24 20159	Legionary (resting)
+M 0 20106 24 20159	Legionary (resting)
+M 0 20106 24 20159	Legionary (resting)
+M 0 20106 24 20160	Legionary (resting)
+M 0 20106 24 20160	Legionary (resting)
+M 0 20106 24 20160	Legionary (resting)
+M 0 20106 24 20160	Legionary (resting)
+M 0 20121 3 20164	Druid working over cauldron
+E 1 20137 7 6			Headress
+E 1 20139 7 13			rope belt
+E 1 20140 7 12			cowl
+M 0 20121 3 20164	Druid working over cauldron
+E 1 20137 7 6
+E 1 20139 7 13
+E 1 20140 7 12
+M 0 20122 3 20164	Drunken Druid
+E 1 20137 7 6
+E 1 20139 7 13
+E 1 20140 7 12
+M 0 20122 3 20164	Drunken Druid
+E 1 20137 7 6
+E 1 20139 7 13
+E 1 20140 7 12
+M 0 20122 3 20164	Drunken Druid
+E 1 20137 7 6
+E 1 20139 7 13
+E 1 20140 7 12
+M 0 20123 1 20164	Head Druid
+E 1 20137 7 6			Headress
+E 1 20138 1 3			Cloak
+E 1 20139 7 13			rope belt
+E 1 20140 7 12			cowl
+E 1 20141 1 16			Golden sickle
+E 1 20152 1 14			Bracelet
+M 0 20121 3 20164	Druid working over cauldron	
+E 1 20137 7 6
+E 1 20139 7 13
+E 1 20140 7 12
+M 0 20124 1 20176	Toutatis
+E 1 20142 1 16			Toutatis Hammer
+E 1 20144 2 5			God breastplate
+M 0 20125 1 20176	Belenos
+E 1 20143 1 16			Axe of Belenos
+E 1 20144 2 5			God breastplate
+*Objects on the ground
+O 0 20100 12 20114	       SPRIGS
+O 0 20100 12 20112		|	 
+O 0 20100 12 20113		|
+O 0 20100 12 20106		|
+O 0 20100 12 20104		|
+O 0 20100 12 20110		|
+O 0 20100 12 20111		|
+O 0 20100 12 20107		|
+O 0 20100 12 20108		|
+O 0 20100 12 20109		|
+O 0 20100 12 20105	           V
+O 0 20136 1 20164	   Cauldron for druids
+* Door
+D 0 20114 2 1
+D 0 20150 0 1
+D 0 20107 4 1
+D 0 20116 0 1
+D 0 20101 1 1
+D 0 20117 2 1
+S
+$

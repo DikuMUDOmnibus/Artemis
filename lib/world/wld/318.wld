@@ -1,0 +1,1144 @@
+#31800
+track~
+Standing on sticks are an assortment of Sculls. Painted on these
+sculls are markings of different colors. These sculls are clean,
+and appear to be kept in good condition.
+A small winding path leads down towards a thick jungle.
+~
+318 0 0
+D0
+You walk down a narrow path
+~
+~
+0 0 31801
+D3
+You see an exit ahead for this winding track
+~
+~
+0 0 3065
+S
+#31801
+River bank~
+You stand at the top of a short steep bank , to the north is the river and to 
+the south you see what looks like the start of a trail through the jungle.
+~
+318 0 4
+D0
+A rapidly flowing river
+~
+north~
+0 0 31802
+D2
+A dark trail through the jungle
+~
+south~
+0 0 31802
+S
+#31802
+Trail through the jungle~
+You are on a trail heading throught the jungle. The trail continues to the
+south while to the north you can see the bank of a large river
+~
+318 0 4
+D0
+The river bank
+~
+north~
+0 0 31801
+D2
+A dark trail through the jungle
+~
+south~
+0 0 31803
+S
+#31803
+Trail through the jungle~
+You are on a trail heading throught the jungle. The trail continues to the
+north and the south.
+~
+318 0 4
+D0
+A dark trail through the jungle
+~
+north~
+0 0 31802
+D2
+A dark trail through the jungle
+~
+south~
+0 0 31804
+S
+#31804
+Trail through the jungle~
+You are on a trail heading throught the jungle. The trail continues to the
+north and the west.
+~
+318 0 4
+D0
+A dark trail through the jungle
+~
+north~
+0 0 31803
+D3
+A dark trail through the jungle
+~
+west~
+0 0 31805
+S
+#31805
+Trail through the jungle~
+You are on a trail heading throught the jungle. The trail continues to the
+south and the east.
+~
+318 0 4
+D1
+A dark trail through the jungle
+~
+east~
+0 0 31804
+D2
+A dark trail through the jungle
+~
+south~
+0 0 31806
+S
+#31806
+Trail through the jungle~
+You are on a trail heading throught the jungle. The trail continues to the
+north while to the south you see a clearing and to the west you see the
+entrance to a primitive village.
+~
+318 0 4
+D0
+A dark trail through the jungle
+~
+north~
+0 0 31805
+D2
+A clearing in the jungle
+~
+south~
+0 0 31807
+D3
+Entrance to the village
+~
+west~
+0 0 31810
+S
+#31807
+Clearing in the jungle~
+The sun streams down through the break in the tree canopy making you
+feel a little bit sleepy. To the north is a trail throught the jungle while to 
+south you see what appears to be some sort of garden.
+~
+318 0 0
+D0
+A dark trail through the jungle
+~
+~
+0 0 31806
+D2
+A garden with neatly planted rows of vegetables
+~
+~
+0 0 31808
+S
+#31808
+Vegetable garden~
+This is obviously a garden, you can see all the vegetables neatly planted
+in rows. Well even cannibals must get sick of eating meat all the time.
+~
+318 0 0
+D0
+A sunny clearing that has seen the tread of many feet
+~
+~
+0 0 31807
+D1
+This end of the garden looks much less used and is overgrown with weeds.
+~
+~
+0 0 31809
+S
+#31809
+Unused end of garden~
+This end of the garden obviously hasn't been used for quite some time.
+You are having trouble seeing over the top of the weeds that are growing
+rampant here.
+~
+318 0 0
+D3
+A garden with neatly planted rows of vegetables
+~
+~
+0 0 31808
+S
+#31810
+Entrance to the village~
+You stand before a huge gate made of logs lashed together with jungle vines
+and decorated with many shrunken human skulls.
+You'd best leave or your head might end up decorating the gate.
+~
+318 c 2
+D1
+A dark trail through jungle
+~
+~
+0 0 31806
+D3
+This well worn path appears to be guarded by fierce looking warriors
+~
+gate~
+1 0 31811
+S
+#31811
+Guarded path~
+You  stand on a path before a vilage, there are tall warriors standing on
+ledges above you. You better get out of here QUICK!
+~
+318 0 2
+D1
+Entrance to village
+~
+~
+1 0 31810
+D3
+A well worn path winds through the village
+~
+~
+0 0 31812
+S
+#31812
+Path through the village~
+You stand on a well worn path that weaves its way through the villagers
+huts.
+~
+318 0 1
+D0
+A crude hut made of mud, bamboo and grass
+~
+~
+0 0 31820
+D1
+Guarded path
+~
+~
+0 0 31811
+D2
+A crude hut made of mud, bamboo and grass
+~
+~
+0 0 31818
+D3
+A well worn path winds through the village
+~
+gate~
+0 0 31813
+S
+#31813
+Path through the village~
+You stand on a well worn path that weaves its way through the villagers
+huts.
+~
+318 0 1
+D0
+A well worn path winds through the village
+~
+~
+0 0 31814
+D1
+A well worn path winds through the village
+~
+~
+0 0 31812
+D2
+A crude hut made of mud, bamboo and grass
+~
+~
+0 0 31819
+D3
+A crude hut made of mud, bamboo and grass
+~
+~
+0 0 31821
+S
+#31814
+Path through the village~
+You stand on a well worn path that weaves its way through the villagers
+huts.
+~
+318 0 1
+D0
+A well worn path winds through the village
+~
+~
+0 0 31815
+D1
+A crude hut made of mud, bamboo and grass
+~
+~
+0 0 31823
+D2
+A well worn path winds through the village
+~
+~
+0 0 31813
+D3
+A crude hut made of mud, bamboo and grass
+~
+~
+0 0 31822
+S
+#31815
+Path through the village~
+The path here has been cleverly constructed to bridge a small river. To the
+east is a ramp leading to a large hut. You can see a rope ladder  
+leading down to a small lazily flowing river while to the west you observe a
+huge clearing.
+~
+318 0 1
+D0
+A well worn path winds through the village
+~
+~
+0 0 31816
+D1
+A wooden ramp leading up to a large hut that stands on stilts
+~
+~
+0 0 31859
+D2
+A well worn path meanders through the village
+~
+~
+0 0 31814
+D3
+This large clearing is obviously some sort of meeting place
+~
+~
+0 0 31845
+D5
+A rough looking rope ladder descends down a small cliff to a river bank
+~
+~
+0 0 31824
+S
+#31816
+Path through the village~
+Here there are four poles, adorned with freshly killed human heads.
+Maggots wriggle and squirm in what is left of the eye sockets.
+You smell a sickly sweet aroma wafting in from the west while to the
+east is another impressively large hut.
+~
+318 0 1
+D0
+A well worn path winds through the village
+~
+~
+0 0 31817
+D1
+You see a huge hut that has been elaboratly decorated with large swirling
+designs
+~
+~
+0 0 31850
+D2
+A well worn path winds through the village
+~
+~
+0 0 31815
+D3
+You see two huge iron pots bubbling over a large fire
+~
+~
+0 0 31846
+S
+#31817
+Path through the village~
+A very undesirable odour wafts to you from the east. The smell is so awful
+you dont bother looking around you just want to get out of here!!
+~
+318 0 1
+D0
+You see a long thin hut that has been raised off the ground
+~
+~
+0 0 31852
+D1
+There is no doubt that this is the communal latrine
+~
+~
+0 0 31851
+D2
+A path winds it way through the village
+~
+~
+0 0 31816
+D3
+This dark path has a foreboding feeling to it. the trees bend in 
+oppressively close
+~
+~
+0 0 31855
+S
+#31818
+Villagers hut~
+You are inside a small hut constructed of mud and grass. It is very crude,
+you think that this is not a house that you would like to live in. 
+~
+318 ad 0
+D0
+A well worn path winds through the village
+~
+~
+0 0 31812
+S
+#31819
+Villagers hut~
+You are inside a small hut constructed of mud and grass. It is very crude,
+you think that this is not a house that you would like to live in. 
+~
+318 ad 0
+D0
+The same path leading through the village
+~
+~
+0 0 31813
+S
+#31820
+Villagers hut~
+You are inside a small hut constructed of mud and grass. It is very crude,
+you think that this is not a house that you would like to live in. 
+~
+318 ad 0
+D2
+A well worn path winds through the village
+~
+~
+0 0 31812
+S
+#31821
+Villagers hut~
+You are inside a small hut constructed of mud and grass. It is very crude,
+you think that this is not a house that you would like to live in. 
+~
+318 ad 0
+D1
+A well worn path winds through the village
+~
+~
+0 0 31813
+S
+#31822
+Villagers hut~
+You are inside a small hut constructed of mud and grass. It is very crude,
+you think that this is not a house that you would like to live in. 
+~
+318 ad 0
+D1
+Village path
+~
+~
+0 0 31814
+S
+#31823
+Villagers hut~
+You are inside a small hut constructed of mud and grass. It is very crude,
+you think that this is not a house that you would like to live in. 
+~
+318 ad 0
+D3
+A well worn path winds through the village
+~
+~
+0 0 31814
+S
+#31824
+Rope ladder~
+You are  on a rope ladder that is crudely fashioned from hemp. It sways
+slightly as you move around perhaps you better not spend too much time
+here.
+~
+318 c 5
+D4
+A well worn path winds through the village
+~
+~
+0 0 31815
+D5
+You see a small beach on the bank of a small river
+~
+~
+0 0 31825
+S
+#31825
+Small landing~
+You stand on the bank of a small lazily flowing river. There are several
+log canoes beached here.
+~
+318 0 2
+D2
+The river is muddy and flows by lazily
+~
+~
+0 0 31830
+D4
+A Rope ladder leads up
+~
+~
+0 0 31824
+S
+#31826
+Spectacular waterfall~
+The view from here is magnificent, you are thousands of feet above a
+scenic valley and the mist from the waterfall plumes around you giving
+the whole scene a preternatural effect. Pity you haven't got time to admire
+the view as you plumet to your death.
+~
+318 b 2
+D0
+Rapidly flowing river
+~
+~
+0 0 31827
+S
+#31827
+A small river~
+The river has started to flow quite fast, you dont know how long you will be 
+able to paddle against it.
+~
+318 c 7
+D1
+The river flows less rapidly here
+~
+~
+0 0 31828
+D2
+A Spectacular waterfall plummets over the edge of a huge valley. You can't
+see clearly past the plumes of mist it is creating but the view must be
+magnificent.
+~
+~
+0 0 31826
+S
+#31828
+A small river~
+The river is flowing a little swifter here. 
+~
+318 0 7
+D1
+A small river
+~
+~
+0 0 31829
+D3
+The river id definately flowing much faster here
+~
+~
+0 0 31827
+S
+#31829
+A small river~
+It is quite peaceful here with the birds singing and monkeys playing in the
+trees as you glide along the river.
+~
+318 0 7
+D1
+The small river lazily meanders through the scenic rainforest
+~
+~
+0 0 31830
+D3
+The small river lazily meanders through the scenic rainforest
+~
+~
+0 0 31828
+S
+#31830
+A small river~
+It is quite peaceful here with the birds singing and monkeys playing in the
+trees as you glide along the river.
+~
+318 0 7
+D0
+A small beach is here on the edge of the river
+~
+~
+0 0 31825
+D1
+The small river lazily meanders through the scenic rainforest
+~
+~
+0 0 31831
+D3
+The small river lazily meanders through the scenic rainforest
+~
+~
+0 0 31829
+S
+#31831
+A small river~
+It is quite peaceful here with the birds singing and monkeys playing in the
+trees as you glide along the river.
+~
+318 0 7
+D1
+The small river lazily meanders through the scenic rainforest
+~
+~
+0 0 31832
+D3
+The small river lazily meanders through the scenic rainforest
+~
+~
+0 0 31830
+S
+#31832
+A small river~
+It is quite peaceful here with the birds singing and monkeys playing in the
+trees as you glide along the river.
+~
+318 0 7
+D0
+The small river lazily meanders through the scenic rainforest
+~
+~
+0 0 31833
+D3
+The small river lazily meanders through the scenic rainforest
+~
+~
+0 0 31831
+S
+#31833
+A small river~
+It is quite peaceful here with the birds singing and monkeys playing in the
+trees as you glide along the river.
+~
+318 0 7
+D0
+The small river lazily meanders through the scenic rainforest
+~
+~
+0 0 31834
+D2
+The small river lazily meanders through the scenic rainforest
+~
+~
+0 0 31832
+S
+#31834
+A small river~
+It is quite peaceful here with the birds singing and monkeys playing in the
+trees as you glide along the river. The river has slowed to almost a
+standstill. To the north you spy the start of what appears to be a swamp.
+~
+318 0 7
+D0
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31835
+D2
+The small river lazily meanders through the scenic rainforest
+~
+~
+0 0 31833
+S
+#31835
+The edge of a swamp~
+You are on the edge of a murky looking swamp.
+What was that?? The thing that just bumped against your boat??
+I have a bad feeling about this!
+~
+318 0 7
+D0
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31838
+D1
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31836
+D2
+The small river lazily meanders through the scenic rainforest
+~
+~
+0 0 31834
+S
+#31836
+The edge of a swamp~
+You are on the edge of a murky looking swamp.
+What was that?? The thing that just bumped against your boat??
+I have a bad feeling about this!
+~
+318 0 7
+D0
+Here the swamp itself seems to be alive, the murky water swirls
+and bubbles, suspicious looking logs float everywhere you look
+and the air is so thick with mist you could almost cut it
+~
+~
+0 0 31843
+D1
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31837
+D3
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31835
+S
+#31837
+The edge of a swamp~
+You are on the edge of a murky looking swamp.
+What was that?? The thing that just bumped against your boat??
+I have a bad feeling about this!
+~
+318 0 7
+D0
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31839
+D3
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31837
+S
+#31838
+The edge of a swamp~
+You are on the edge of a murky looking swamp.
+What was that?? The thing that just bumped against your boat??
+I have a bad feeling about this!
+~
+318 0 7
+D0
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31840
+D1
+Here the swamp itself seems to be alive, the murky water swirls
+and bubbles, suspicious looking logs float everywhere you look
+and the air is so thick with mist you could almost cut it
+~
+~
+0 0 31843
+D2
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31835
+S
+#31839
+The edge of a swamp~
+You are on the edge of a murky looking swamp.
+What was that?? The thing that just bumped against your boat??
+I have a bad feeling about this!
+~
+318 0 7
+D0
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31842
+D2
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31837
+D3
+Here the swamp itself seems to be alive, the murky water swirls
+and bubbles, suspicious looking logs float everywhere you look
+and the air is so thick with mist you could almost cut it
+~
+~
+0 0 31843
+S
+#31840
+The edge of a swamp~
+You are on the edge of a murky looking swamp.
+What was that?? The thing that just bumped against your boat??
+I have a bad feeling about this!
+~
+318 0 7
+D1
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31840
+D2
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31838
+S
+#31841
+The edge of a swamp~
+You are on the edge of a murky looking swamp.
+What was that?? The thing that just bumped against your boat??
+I have a bad feeling about this!
+~
+318 0 7
+D1
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31842
+D2
+Here the swamp itself seems to be alive, the murky water swirls
+and bubbles, suspicious looking logs float everywhere you look
+and the air is so thick with mist you could almost cut it
+~
+~
+0 0 31843
+D3
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31840
+S
+#31842
+The edge of a swamp~
+You are on the edge of a murky looking swamp.
+What was that?? The thing that just bumped against your boat??
+I have a bad feeling about this!
+~
+318 0 7
+D0
+Rocky gully
+~
+~
+0 0 31844
+D2
+Here the swamp itself seems to be alive, the murky water swirls
+and bubbles, suspicious looking logs float everywhere you look
+and the air is so thick with mist you could almost cut it
+
+~
+~
+0 0 31839
+D3
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31841
+S
+#31843
+Crocodile infested swamp~
+You see several logs float on by. Oops!! They're not logs they're crocodiles!!
+Too late! They have overturned your boat, how are you going to swim with
+all that armor on? I hope you drown before all those crocodiles tear you to
+pieces at least that wont hurt as much.
+You are Dead!!
+~
+318 b 7
+D0
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31841
+D1
+Edge of a swamp
+~
+~
+0 0 31839
+D2
+Edge of a swamp
+~
+~
+0 0 31836
+D3
+Edge of a swamp
+~
+~
+0 0 31838
+S
+#31844
+Rocky gully~
+You stand in a rocky gully. A small trickle of water flows down to the swamp.
+This must be where the swamp starts.
+~
+318 0 4
+D2
+You see the edge of a huge marshland, it doesn't look hospitable
+~
+~
+0 0 31842
+D3
+It is too dark for you to even see a few feet into this cave
+~
+rock~
+1 0 31860
+S
+#31845
+Meeting place~
+A huge fire burns in the centre of this clearing. Logs and rocks are placed
+around the fire obviously intended for use as sitting places.
+There are two log poles driven into the ground at the western end of the
+clearing to which are attached heavy hemp bindings.
+~
+318 0 1
+D0
+you see two huge iron pots bubbling over a large fire
+~
+~
+0 0 31846
+D1
+A well worn path winds through the village
+~
+~
+0 0 31815
+S
+#31846
+Cooking area~
+Two huge iron pots sit bubbling over a fire. A sweet sickly smell assaults
+your nostrils as you look around the clearing. 
+To the west you can see a huge pile of bones.
+~
+318 0 1
+D1
+A well worn path winds through the village
+~
+~
+0 0 31816
+D2
+This large clearing is obviously some sort of meeting place
+~
+~
+0 0 31845
+D3
+You see a huge pile of bones
+~
+~
+0 0 31847
+S
+#31847
+Huge pile of bones~
+This is the largest pile of bones you have ever seen in your life!
+A quick examination of the pile reveals that these are all human bones.
+Funnily enough you cant see any skulls in the pile.
+~
+318 0 1
+D1
+you see two huge iron pots bubbling over a large fire
+~
+~
+0 0 31846
+S
+#31848
+Witchdoctors hut~
+This hut is much larger than any of the villagers hut and much nicer too,
+with its wooden floors and thatched roof and walls.
+There is a large clay pot gurgling away in the centre of the room.
+~
+318 0 0
+D3
+A wooden ramp slopes down to a path
+~
+~
+0 0 31859
+D5
+you can make a vertical drop down to a small river
+~
+trapdoor~
+1 0 31831
+S
+#31849
+Bedchamber~
+A huge bed made of straw completely fills this room.
+~
+318 0 0
+D0
+The Chieftans hut
+~
+~
+0 0 31850
+S
+#31850
+Chieftans hut~
+This is the most impressive hut in the entire village. It has swept stone 
+floors and many nice decorations. If you were going to move to this village
+then this is the house to move into.
+~
+318 0 0
+D2
+you spy a small alcove that is completely filled with a straw matress
+~
+~
+0 0 31849
+D3
+A well worn path winds through the village
+~
+~
+0 0 31816
+S
+#31851
+Communal latrine~
+GAG!! Cough, Pewwww! this place smells utterly horrible. Quick! leave 
+before you pass out.
+~
+318 0 1
+D3
+a well worn path winds it way through the village
+~
+~
+0 0 31817
+S
+#31852
+Long hut~
+You are in a large hut that stands on stilts. This is where all the unwed
+adult males live. The rough cut wooden floors are liberally covered with
+woven grass mats.
+~
+318 0 0
+D0
+Here the long hut continues
+~
+~
+0 0 31853
+D2
+A well worn path winds through the village
+~
+~
+0 0 31817
+S
+#31853
+Long hut~
+You are in a large hut that stands on stilts. This is where all the unwed
+adult males live. The rough cut wooden floors are liberally covered with
+woven grass mats.
+~
+318 0 0
+D0
+Here the long hut continues
+~
+~
+0 0 31854
+D2
+Here the long hut continues
+~
+~
+0 0 31852
+S
+#31854
+Long hut~
+You are in a large hut that stands on stilts. This is where all the unwed
+adult males live. The rough cut wooden floors are liberally covered with
+woven grass mats.
+~
+318 0 0
+D2
+Here the long hut continues
+~
+~
+0 0 31853
+S
+#31855
+Dark path~
+This path wanders between the tall trees. You feel uncomfortable as the
+trees appear to lean in to grasp you.
+~
+318 ac 2
+D1
+A well worn path winds through the village
+~
+~
+0 0 31817
+D3
+This dark path has a foreboding feeling to it. the trees bend in 
+oppressively close
+~
+~
+0 0 31856
+S
+#31856
+Dark path~
+This path wanders between the tall trees. You feel uncomfortable as the
+trees appear to lean in to grasp you.
+~
+318 ac 2
+D0
+You see two small girls standing in the entrance to a cave. They look
+very serious.
+~
+~
+0 0 31857
+D1
+This dark path has a foreboding feeling to it. the trees bend in 
+oppressively close
+~
+~
+0 0 31855
+S
+
+#31857
+Entrance to the holy cave~
+You stand before for the holy cave of the great mugoobala. Only those of
+the greatest faith dare venture into the cave to recieve the wisdom of
+mugoobala. It is said that to look into the eyes of his prophet is certain
+death. Two little girls study your face intently.
+~
+318 0 0
+D0
+You see something moving in the depths of this dark cave.
+~
+~
+0 0 31858
+D2
+This dark path has a foreboding feeling to it. the trees bend in 
+oppressively close
+~
+~
+0 0 31856
+S
+#31858
+Holy cave of Mugoobala~
+This entire cave is dedicated to the worship of mugoobala.
+Only the brave or foolhardy dare to come in here. You here the hissing
+of steam escaping.
+~
+318 ad 0
+D2
+The cave entrance
+~
+~
+0 0 31857
+S
+#31859
+Wooden ramp~
+You stand on a sturdy log ramp leading to a lavish hut that stands on stilts.
+The hut is decorated with shrunken skulls that have hideous coloured
+hairpieces.
+~
+318 0 1
+D1
+you see a small skinny man in this hut, he is wearing a ridiculous mask
+~
+~
+0 0 31848
+D3
+A well worn path winds through the village
+~
+~
+0 0 31815
+S
+#31860
+Cave of the huge bear~
+This cave sure is dark! It smells funny too. I wonder what lives here?
+~
+318 a 4
+D1
+A Rocky gully
+~
+rock~
+1 0 31844
+S
+#99999
+$~

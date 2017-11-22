@@ -1,0 +1,190 @@
+#10001
+adolf hitler~
+Adolf Hitler~
+Adolf Hitler is here looking evil.
+~
+Seeing Hitler face to face isn't exactly one of your greatest dreams. He stares
+evilly at you and attacks.
+~
+befjk cdfht -350 S
+200 0 -70 1d1+65000 30d562+1780
+3000000 2000000000
+8 8 1
+#10002
+guard~
+The guard~
+A prison guard is standing here.
+~
+You see a big dumb guard who is attempting to guard the cells to the west. He
+doesn't look like he's doing his job terribly well however, as it took him
+quite some time to notice your presence in the room.
+~ 
+bfjlmo ch 
+-20 S 10 5 -50 1d1+230 3d11+8 5000 135000
+8 8 1
+#10003
+elvis presley~
+Elvis Presley~
+A man with cool hair stands here.
+~
+Before you stands a man wielding a golden guitar. You realise that this is
+Elvis Presley you are looking at, the king of rock himself."Woah, killer 
+sideburns!", you think to yourself.
+~ 
+belo dfh 600 S
+180 0 -60 1d1+55000 15d47+1460
+2500000 100000000
+8 8 1
+#10004
+ghandi~
+Ghandi~
+Ghandi stares at you toothily.
+~
+Before you is a man dressed in a loincloth. He has a bald head and he is at
+least a foot shorter than you. Ghandi grins evilly at you. He really doesn't
+look to impressed with your presence and you should maybe keep out of his 
+way.
+~
+bfop fh 400 S
+190 0 -30 1d1+60000 15d10+2830
+800000 210000000
+8 8 1
+#10005
+wax droid~
+The wax droid~
+A wax droid is standing here waiting to fight something.
+~
+Hmm... it's made of wax, as it seems are most of the strange creations in this
+world. The droid has battle marks scarring its body but it doesn't look like
+it's ready to throw down it's weapon just yet.
+~ 
+0 0 0 S
+15 4 -5 1d1+250 3d14+7
+4000 160000
+8 8 0
+#10006
+marylin monroe~
+Marylin Monroe~
+Marylin Monroe is standing here.
+~
+You're looking at Marylin Monroe.. hehe. This world is getting too much for
+you. You wonder what twisted mind created this place.
+~
+bop h 700 S
+160 0 -20 1d1+35000 17d87+870
+2500000 88000000
+8 8 2
+#10007
+napoleon~
+Napoleon~
+Napoleon Boneapart is standing here trying to look tough.
+~
+Napoleon has obviously been captured, but he's trying to pretend that he hasn't
+been. He stands up on his toes and tries to look intimidating.
+~
+bio h 200 S
+140 0 -25 1d1+35000 10d14+1830
+400000 114000000
+8 8 1
+#10008
+field mouse~
+A field mouse~
+A field mouse is running around here.
+~
+It's a small grey mouse.
+~
+0 0 20 S
+3 1 0 20d1+10 1d7+1
+15 90
+8 8 0
+#10009
+wax droid guard~
+The wax-droid guard~
+A wax-droid guard is here guarding the bunker.
+~
+Although the guard has a very human appearance, you can't help but notice that
+it's skin has a very waxy look to it and small seam marks are visible on the
+underside of its arms.
+~
+bilm 0 10 S
+10 3 -5 5d15+230 7d7+12
+2500 125000
+8 8 0
+#10010
+nazi soldier~
+The Nazi soldier~
+A Nazi soldier is here guarding the building.
+~
+Although the soldier has a very human appearance, you can't help to 
+notice that its skin has a very waxy look to it and there are small seam 
+marks on the underside of its arms.
+~
+bjm 0 -20 S
+20 3 -5 5d12+280 3d18+14
+4000 170000
+8 8 0
+#10011
+grue~
+The grue~
+A grue is here waiting to eat you.
+~
+A grue is something that inhabits the dark places of the world. No one has ever
+seen one before.. you must have trapped it before it could escape into the
+darkness. You can't really describe what the grue looks like, but you know it
+it not what you expected.
+~
+bo bt 0 S
+190 0 -8 1d1+56000 21d34+1120
+3500000 88000000
+8 8 0
+#10012
+transdimensional liquid beast~
+The transdimensional liquid beast~
+A writhing liquid form is oozing about here.
+~
+The huge pool of liquid writhes and twists before your eyes. Every so often
+you get a glimpse of rows of massive teeth that tear themselves out from within
+the form before dissolving back into itself.
+~
+bn bht -10 S
+210 0 -25 1d1+48000 11d21+930
+5000000 78000000
+8 8 0
+#10013
+polymorphic form~
+A polymorphic form~
+A form morphs in front of your eyes.
+~
+This creature doesn't seem to be able to decide what form it should take. 
+As you watch it, it changes into random shapes every couple of seconds, 
+ranging from a chicken to a sausage and a pair of boxer shorts.
+~
+g 0 -1 S
+5 1 0 1d2+55 3d11+4
+40 80000
+8 8 0
+#10014
+cloister~
+Cloister the stupid~
+Cloister the stupid stands here.
+~
+You have heard the legend of cloister, the man who will lead the followers to
+Fushal. He does not look like a god to you but is none the less a formidable
+opponent who will probably lead you to your death.
+~
+b bt 100 S
+120 0 -15 1d1+80000 21d48+1920
+4500000 170000000
+8 8 1
+#10015
+lemming~
+The lemming~
+.
+~
+There is a small but fierce rodent here looking for a cliff to fall off.
+~
+b bt 0 S
+299 20 100 1d1+10000000 1d1+1
+5000 100
+8 8 1
+$

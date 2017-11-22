@@ -1,0 +1,55 @@
+#10101
+small key~
+a small key~
+A small key has been left here.~
+~
+18 4 1
+1 0 0 0
+1 0 0
+#10102
+wet key~
+a wet saliva soaked key~
+A wet saliva soaked key has been left here.. wonder why?~
+~
+18 4 1
+1 0 0 0
+1 0 0
+#10103
+sword~
+a nice shiny sword~
+A nice shiny sword is lying here waiting for you.~
+~
+5 65 8193
+0 1 5 3
+4 0 0
+A
+19 1
+#10104
+helmet~
+a solid helmet~
+A good solid looking helmet has been left here.~
+~
+9 65 17
+3 0 0 0
+4 0 0
+A
+5 1
+#10105
+wooden club~
+A good looking club~
+A good looking club has been discarded here.~
+~
+5 65 24577
+0 1 4 11
+1 0 0
+A
+19 1
+#10106
+glowing insect~
+a small glowing insect~
+A small glowing insect waits faithfully for you.~
+~
+1 65 1
+0 0 -1 0
+2 0 0
+$

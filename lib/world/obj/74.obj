@@ -1,0 +1,194 @@
+#7400
+kitana blade quest~
+the Holy Katana of Breen~
+A strange oriental blade lies on the ground~
+~
+5 abdfghklmn ano
+0 6 10 11
+30 500000 30000 0
+E
+katana blade~
+The katana is made of a metal that seems to shine within.
+Heat seems to radiate out of the blade. ... It has a soft glowing aura!
+~
+A
+18 6
+A
+19 6
+A
+13 50
+R
+50 50
+#7401
+bag holding~
+a bag of holding~
+A small bag lies here~
+~
+15 g ao
+1500 1 -1 0
+1 15000 1500 0
+E
+bag holding~
+You see nothing special... It has a faint glow!
+~
+R
+50 50
+#7402
+vestibule~
+Breen's vestibule~
+A vestibule lies on the ground~
+~
+15 bdeg al
+1000 1 -1 0
+0 150000 300000 0
+A
+5 2
+A
+5 2
+A
+12 75
+A
+13 50
+R
+50 50
+#7403
+shrif quest~
+the Shrif of Breen~
+A sparkling samite material is folded and laid in a neat pile on the ground~
+~
+9 abdegklop afo
+12 0 0 0
+5 500000 30000 0
+E
+shrif~
+The skirt-like garment us made of a soft, but strong metal like fibre
+~
+A
+12 100
+A
+9 10
+R
+50 50
+#7404
+dawnbringer quest~
+Dawnbringer, the Light Begins~
+A shining sword lies on the ground~
+~
+5 abdegklmn ano
+0 8 8 3
+25 500000 20000 0
+E
+dawnbringer~
+Bright rays of the morning sun radiate from the holy blade before you...
+It has a soft glowing aura!
+~
+A
+18 5
+A
+19 5
+A
+17 -10
+R
+50 50
+#7405
+nightbringer quest~
+Nightbringer, the Darkness Within~
+A dark sword lies on the ground~
+~
+5 abdegjmn ano
+0 8 8 11
+25 500000 20000 0
+E
+nightbringer~
+The cold edge of night creeps out from the dark blade before you...
+It has a soft glowing aura!
+~
+A
+18 5
+A
+19 5
+A
+17 -10
+R
+50 50
+#7406
+pearl power~
+Pearl of Power~
+A glowing stone is left lying on the ground.~
+~
+1 afgh ao
+0 0 -1 0
+5 100000 10000 0
+E
+pearl power~
+This normal pearl of average size and coloration is a source of
+an immense light. You are blinded by the light!
+~
+A
+13 25
+A
+18 2
+A
+19 2
+R
+50 50
+#7407
+staff magi~
+Staff of Magi~
+A staff with a crystal on its tip is lying here.~
+~
+5 afghnop ano
+0 3 6 7
+10 100000 10000 0
+A
+3 2
+A
+4 2
+A
+12 50
+R
+40 40
+#7408
+flag~
+Flag of Breen~
+A flag of many colors lies here.~
+~
+8 acde ao
+0 0 0 0
+1 1 1 0
+
+#7409
+orb~
+Orb of Breen~
+A glowing stone is left on the ground.~
+~
+1 af ao
+0 0 -1 0
+5 5000 1000 0
+A
+1 1
+A
+13 10
+A
+18 1
+A
+19 1
+R 
+20 20
+#7410
+doom cloak~
+Cloak of Doom~
+A dark cloak is left on the ground.~
+~
+9 abdfkq ak
+8 0 0 0 
+5 50000 2000
+A
+18 2
+A
+19 2
+A
+14 15
+R 
+50 50
+$

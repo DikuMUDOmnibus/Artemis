@@ -1,0 +1,79 @@
+CircleMUD v3.0 Shop File~
+#20732~
+20707
+20708
+20710
+20712
+-1
+1.30
+0.90
+-1
+%s Haven't got that, but I've got some nice Icy Poles.~
+%s Umm, what are you on?  You don't have that.~
+%s Sorry, this is a Milk Bar.  Would you like a Sno Cone?~
+%s Sorry - that's beyond my budget.~
+%s You ain't got the coins, sorry.~
+%s That'll cost %d coins.  Would you like a bag for that?~
+%s I'm not supposed to, but I'll give you %d coins for it.~
+0
+2
+20703
+0
+20732
+-1
+0
+28
+0
+0
+#20733~
+20701
+20704
+-1
+1.80
+0.80
+11pelt
+-1
+%s What do I look like, a magician?~
+%s Come back when you HAVE it.~
+%s I'm not buying that.~
+%s You expect me to buy something that expensive??~
+%s You don't get nothing until I see the cash.~
+%s It'll cost you %d coins, kiddo.~
+%s You'll get %d coins, no more.~
+0
+2
+20705
+0
+20733
+-1
+0
+28
+0
+0
+#20734~
+20714
+20709
+20716
+20715
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+20704
+0
+20734
+-1
+0
+28
+0
+0
+$~

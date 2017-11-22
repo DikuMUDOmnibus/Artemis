@@ -1,0 +1,37 @@
+* Newbie Tutorial
+* Rev 1.0 4-8-96
+
+#101
+The Newbie Tutorial~
+10199 6 2
+
+D 0 10119 0 2          *close and lock [10120]
+D 0 10120 2 2
+D 0 10119 2 2          *close and lock [10124]
+D 0 10124 0 2
+D 0 10119 3 2          *close and lock [10121]
+D 0 10121 1 2
+D 0 10119 4 2          *close and lock [10122]
+D 0 10122 5 2
+D 0 10119 5 2          *close and lock [10123]
+D 0 10123 4 2
+D 0 10124 1 2          *close and lock [10125]
+D 0 10125 3 2
+
+M 0 10101 1  10117     *stone guardian
+E 1 10104 99 6         *helmet
+G 1 10101 99           *small key
+M 0 10102 1  10116     *goblin
+E 1 10105 99 16        *club
+M 0 10103 1  10115     *troll
+E 1 10103 99 16        *sword
+M 0 10104 1  10124     *slobbering beast
+E 1 10106 99 0         *glowing insect
+G 1 10102 99           *wet key
+
+M 0 3020  2  10106     *mage guildmaster
+M 0 3021  2  10105     *cleric
+M 0 3022  2  10108     *thief
+M 0 3023  2  10107     *warrior
+S
+$

@@ -1,0 +1,50 @@
+#10101
+stone guardian~
+the stone guardian~
+A stone guardian is standing here guarding something.
+~
+A huge gargoyle stands here staring menacingly at you. He doesn't look 
+too impressed with you and thinks that he could easily take your life 
+from you. Time to prove him wrong.
+~ 
+bcf 0 -75 S
+5 17 5 4d6+42 1d5+1
+100 1200
+8 8 1
+#10102
+goblin~
+the goblin~
+The goblin is standing here waiting to die.
+~
+The goblin is about 3 feet tall and is carrying a club with viscious 
+spikes on it. He has been created just so you can kill him, so go to it.
+~
+bc 0 0 S
+2 19 9 2d4+16 1d4+1
+250 400
+8 8 1
+#10103
+troll~
+the troll~
+A small troll is trying to hide here.
+~
+The troll is really pathetic looking and you don't really want to kill him.
+But then you think to yourself, nah.. kill him.
+~
+bc 0 100 S
+4 17 6 1d4+50 1d6+1
+0 1000
+8 8 1
+#10104
+huge slobbering beast~
+the slobbering beast~
+A slobbering beast is here making a big mess.
+~
+Urrgg.. huge gobs of saliva are dripping from this beast's fangs. Better kill
+him before you drown!
+~
+bcf 0 0 S
+6 0 -60 4d6+38 2d4+0
+1000 1200
+8 8 0
+$

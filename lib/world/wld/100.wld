@@ -1,0 +1,1227 @@
+#10001
+The Big Orange Whirly Thing in Space~
+   As you step towards the light, you shield your eyes from the massive surge
+of blinding light that assaults you. As your eyes adjust, you can make out a
+huge orange whirly thing in space before you. Electric sparks zap their way
+across the huge portal and you can see glimpses of something moving through
+the rip in the space-time continuum.
+~
+10000 h 0
+D0
+~
+Portal~
+32 -1 10002
+D2
+~
+~
+0 -1 15053
+S
+#10002
+The Other Side of the Portal~
+   The big orange whirly thing in space is in front of you. You are still awed
+by its sheer size and the electrical energy that pulsates from it makes your
+spine shiver. You know that it's safe to go through.. or is it?
+~
+10000 h 0
+D1
+The Grassy Field~
+invisishield~
+1 -1 10003
+D2
+You can see the other side of the vortex. The world looks strange from here.~
+~
+0 0 10001
+S
+#10003
+The Grassy Field~
+   As far as you can see there is grass. Far off to the east, you can vaguely
+make out the shape of some sort of building and to the west, there is a bright
+light. You can move in almost any direction from here.
+~
+10000 0 2
+D1
+You see more of the grassy field.
+~
+~
+0 0 10004
+D2
+You see the beginning of a path.~
+~
+0 0 10006
+D3
+All you can see is a bright light.~
+~
+0 0 10002
+S
+#10004
+More of the Grassy Field~
+   You are starting to get sick of the sight of grass..It is all around you.
+To the east, a pulsating light fills the horizon and to the west, the grass
+continues.
+~
+10000 0 2
+D1
+All you see is yet more grass.~
+~
+0 -1 10005
+D3
+You see grass.~
+~
+0 0 10003
+S
+#10005
+Yet More Grassy Field~
+   You can see the end of the grass to the east fortunately. The grass 
+stretches far to the west of here.
+~
+10000 0 2
+D2
+You don't see grass... woohoo!!~
+~
+0 -1 10023
+D3
+You see more of the grassy field.~
+~
+0 -1 10004
+S
+#10006
+The Beginning of a Path~
+   There is the faint markings of the beginning of a path before you. You can 
+see that it has not been used for a long time because the grass around it
+has grown to an incredible height.
+~
+10000 0 2
+D0
+You see the grassy field.~
+~
+0 0 10003
+D2
+The path continues south.~
+~
+0 0 10007
+S
+#10007
+On the Path~
+   You are on the path leading north and south. To the west, the path branches
+off and leads into a dark forest. To the south, you can hear the sounds of 
+bloody warfare.
+~
+10000 0 2 
+D0
+The beginning of the path is here.~
+~
+0 0 10006
+D2
+This leads further down the path.~
+~
+0 0 10009
+D3
+You can see forest to the west~
+~
+0 0 10008
+S
+#10008
+Edge of the Forest~
+   Trees loom in front of you, their branches are so large that the block out
+the sun totally in some areas. The slight breeze here makes the trees move
+and you swear that there are things moving within the branches.
+~
+10000 0 3
+D1
+You see the path~
+~
+0 0 10007
+D3
+The forest thickens to the west~
+~
+0 0 10010
+S
+#10009
+Further on the path~
+   To the south of here there appears to be a battleground of some sort. The 
+path to the north is the only other exit.
+~
+10000 0 2
+D0
+This leads to the branch in the path.~
+~
+0 -1 10007
+D2
+You see a battleground.~
+~
+0 -1 10036
+S
+#10010
+The Tangled Undergrowth~
+   Movement here is difficult because the undergrowth is thick and seems to 
+claw at your legs as you move. To the east, you can see light and the 
+undergrowth continues to the north.
+~
+10000 0 3
+D0
+This leads deeper into the forest.~
+~
+0 0 10011
+D1
+You see the edge of the forest.~
+~
+0 0 10008
+D2
+The forest is lighter there.~
+~
+0 -1 10022
+S
+#10011
+Deep in the forest~
+   It is very difficult to move here. The undergrowth sucks at your legs as
+you try to push your way through it. It seems like it's almost alive. To the
+south, the ground seems more manageable but to the west, you can make out 
+the vague of some sort of building.
+~
+10000 0 3
+D2
+It is easier to move to the south.~
+~
+0 0 10010
+D3
+You see a small bunker.~
+~
+0 0 10012
+S
+#10012
+Entrance to the Underground Bunker~
+   Half covered by the overgrown grass is a concrete bunker, its doors are 
+made from solid steel and there is a huge, solid lock on them. The only other
+exit is to the east.
+~
+10000 0 0
+D1
+This leads back into the forest.~
+~
+0 0 10011
+D2
+A small path leads south.~
+~
+0 0 10018
+D3
+This leads into the bunker.~
+door~
+2 10020 10013
+S
+#10013
+Inside the Bunker~
+   Strewn about are discarded weapons and armour, none of it looks particularly
+useful though. The bunker looks like it has been used recently. There are exits
+to the north, east and up from here.
+~
+10000 8 0
+D0
+You see a kitchen.~
+~
+0 0 10014
+D1
+You see daylight.~
+door~
+0 10020 10012
+D4
+There is an observation point there.~
+~
+0 0 10015
+D5
+This leads down into darkness.~
+~
+0 0 10016
+S
+#10014
+The Kitchen~
+   Surprisingly, this bunker has a kitchen (how many bunkers have you seen
+with one?). Looking around you, the room is spotless. It looks like it has
+never been used which is strange when the rest of the bunker looks like
+it is used regularly.
+~
+10000 8 0
+D2
+This leads back into the main room.~
+~
+0 0 10013
+S
+#10015
+The Observation Deck~
+   From this point, you can see everything around you even though you could
+not see this point from outside the bunker. Far to the east, you see a plume
+of smoke. The only exit from here is back down the ladder.
+~
+10000 0 2
+D5
+This leads back into the bunker.~
+~
+0 0 10013
+S
+#10016
+The Basement~
+   The musty smell here makes you twitch. All about you are supplies of food
+and water and their are some basic combat items here. The only exit is back
+up.
+~
+10000 ad 0
+D1
+Nah.. there's nothing there.~
+crack~
+2 15017 10017
+D4
+This leads back to the main room.~
+~
+0 -1 10013
+S
+#10017
+Inside the Wall~
+   Hmm... you sure you're supposed to be here?
+~
+10000 0 0
+S
+#10018
+South of the Bunker~
+   You are on a small trodden path leading behind the bunker. To the north,
+you can see the big metal doors of the bunker and the path continues to the
+west.
+~
+10000 0 3
+D0
+You see the bunker entrance.~
+~
+0 0 10012
+D3
+The path leads behind the bunker.~
+~
+0 0 10019
+S
+#10019
+Behind the Bunker~
+   The path ends abruptly here for no apparent reason. There appears to be some
+sort of disturbed ground beneath your feet. The only exit is back the way 
+you came.
+~
+10000 0 2
+D1
+The path continues east.~
+~
+0 0 10018
+D5
+The ground is disturbed here.~
+earth~
+2 -1 10020
+S
+#10020
+Entrance to the Catacombs~
+   You stand in an earthen pit with a great wooden door to the south of you.
+There is a ladder afixed to the wall so you can leave up if you are
+claustrophobic.
+~
+10000 ac 0
+D2
+You see darkness.~
+gate~
+2 10019 10021
+D4
+This leads up out of the pit.~
+~
+0 -1 10019
+S
+#10021
+Inside the Catacombs~
+   It is dark here, the only light coming from the door to the north. Narrow
+passages lead off in many directions.
+~
+10000 1 0
+D0
+It is much lighter there.~
+gate~
+2 10019 10020
+D1
+~
+~
+0 -1 10059
+D2
+~
+~
+0 -1 10074
+S
+#10022
+Lighter Part of the Forest~
+   The forest is lighter here and you have finally got moved away from that 
+terrible undergrowth. You can see it wavering in the breeze to the north.
+~
+10000 0 3
+D0
+It's that horrible undergrowth stuff again.~
+~
+0 -1 10010
+S
+#10023
+End of the field~
+   To your relief, you have reached the other side of the massive field. 
+Further to the east is a large building with large red flags hanging outside
+it. You can also exit south and north from here.
+~
+10000 0 2
+D0
+You see the grass... unfortunately.~
+~
+0 -1 10005
+D1
+You see a large building.~
+~
+0 -1 10024
+S
+#10024
+Outside the Building of the Third Reich~
+   Before you is a massive building with red flags hanging from it. You 
+suddenly realise that the flags are nazi flags and you sense a great evil
+within the building. You can still bail out to the west.
+~
+10000 4 2
+D1
+There is a massive door.~
+~
+0 -1 10025
+D3
+It looks safer there.~
+~
+0 -1 10023
+S
+#10025
+The Great Door~
+   The massive steel door matchest the proportions of the rest of the 
+building even though it is huge by any standard. A large sign to the side of
+the door attracts your attention:
+
+             WARNING: If you are under level 100 and are not
+                      grouped, death will result.
+~
+10000 4 2
+D2
+You see the building.~
+door~
+2 10022 10026
+D3
+This leads away from the building.~
+~
+0 -1 10024
+S
+#10026
+The Chamber~
+   This cavernous room echos your footsteps as you walk. It is otherwise dead
+silent and seems to be deserted. Rooms lead off to the east and south and
+a grand marble staircase leads up into darkness.
+~
+10000 0 0
+D0
+You see the great door.~
+door~
+2 10022 10025
+D2
+It is lighter to the south.~
+window~
+1 -1 10028
+D3
+You see some guards.~
+~
+0 -1 10027
+D4
+It's dark.. you can't see.~
+~
+0 -1 10029
+S
+#10027
+The Guard Room~
+   The blanks walls here are in a stark contrast to the chamber to the east.
+This room is dirty and there are old blood stains on the floor.
+~
+10000 0 0
+D1
+You see a huge chamber.~
+~
+0 -1 10026
+D3
+There is someone in that cell!.~
+door~
+2 10005 10030
+S
+#10028
+The Balcony~
+   As you step out onto the balcony, you are awestruck by the amazing view. It
+makes you forget that you are inside a building full of nazis. There is a 
+small ladder afixed to the wall here, or you can exit north.
+~
+10000 0 0
+D0
+You see the main chamber.~
+window~
+1 -1 10026
+D5
+Below you is a small garden.~
+~
+0 -1 10031
+S
+#10029
+Hitler's Board Room~
+   You reach the top of the stairs to be confronted by a man with a small
+moustache. He seems vaguely familiar to you... and he doesn't look to friendly.
+A door leads north and a fireplace is to the west. Of course, you can also 
+leave down.
+~
+10000 0 0
+D0
+It looks like a cell of some sort.~
+~
+0 -1 10034
+D3
+You see a fireplace.~
+~
+0 -1 10033
+D5
+The chamber is there.~
+~
+0 -1 10026
+S
+#10030
+The Torture Chamber~
+   Racks, chains and other implements of pain fill the room. The light here 
+is provided by torches that line the wall. The room is cold and damp and you
+really want to leave. The only exit is east.
+~
+10000 1 0
+D1
+You see the guard room.~
+door~
+2 10005 10027
+S
+#10031
+The Garden~
+   You step off the ladder into an immaculately kept garden. Rose bushes line
+the wall and a small bridge runs over a pond to the south. The bridge does
+however not look like it has been repaired recently and the pond doesn't seem
+to contain your average household goldfish.
+~
+10000 0 0
+D2
+Looks pretty deadly to me.~
+~
+0 -1 10032
+D3
+Nothing there.. honestly.~
+hedges~
+2 -1 10066
+D4
+You see the balcony.~
+~
+0 -1 10028
+S
+#10032
+The Pond.. With Piranahs~
+   Uh oh.. as you step onto the bridge, you feel it give way and before you can
+move, the whole thing collapses under your weight. You wish you hadn't eaten
+that entire box of chocolates. As you fall, you suddenly realise what is in
+the pond and that is the last thing you think as you get ripped to shreds.
+~
+10000 2 0
+S
+#10033
+The Fireplace~
+   It is very dark here. You think to yourself "I wonder where i am?". There
+is light to the east.
+~
+10000 1 0
+D1
+You see light.~
+~
+0 -1 10029
+S
+#10034
+The Cell~
+   This is a totally bare room except for a small wardrobe to the north. Well,
+it's more of a cabinet actually. Looking out the small barred window, you can
+see many people gathered around what looks like gallows being built. You hope
+they are not for you.
+~
+10000 0 0
+D0
+There is a wardrobe there.~
+wardrobe~
+1 -1 10035
+D2
+You see a large room.~
+~
+0 -1 10029
+S
+#10035
+The Wardrobe~
+   Hmm... what are you doing in a wardrobe? It's really kind of boring in 
+here. The only exit it south.
+~
+10000 1 0
+D2
+This leads out of the wardrobe.~
+wardrobe~
+1 -1 10034
+S
+#10036
+Entrance to the Battleground~
+   There is a large battleground to the south of here. Fighting appears to be
+happening there. The path leads north.
+~
+10000 4 2
+D0
+The path starts there.~
+~
+0 -1 10009
+D2
+The battleground continues there.~
+~
+0 -1 10037
+S
+#10037
+The Battleground~
+   You are on a battleground which is pretty non-descript except for the 
+bodies lying all around you. The strange thing is, none of them appear to be
+human. There is no blood and the bodies appear to be made of wax.
+~
+10000 0 2
+D0
+You see the exit to the battleground.~
+~
+0 -1 10036
+D1
+The battleground continues there.~
+~
+0 -1 10040
+D2
+The battleground continues there.~
+~
+0 -1 10038
+D3
+The battleground continues there.~
+~
+0 -1 10039
+S
+#10038
+The Battleground~
+   You are standing on the battleground. Exits lead in all directions. The 
+path is too the north.
+~
+10000 0 2
+D0
+The battleground continues there.~
+~
+0 -1 10037
+D1
+The battleground continues there.~
+~
+0 -1 10041
+D2
+The battleground continues there.~
+~
+0 -1 10043
+D3
+The battleground continues there.~
+~
+0 -1 10042
+S
+#10039
+The Battleground~
+   You are on the battleground. Exits lead east and south. The path is to 
+the east.
+~
+10000 0 2
+D1
+The battleground continues there.~
+~
+0 -1 10037
+D2
+The battleground continues there.~
+~
+0 -1 10042
+S
+#10040
+The Battleground~
+   You are standing on the battleground. Exits lead south and west. The path
+is to the west.
+~
+10000 0 2
+D2
+The battleground continues there.~
+~
+0 -1 10041
+D3
+The battleground continues there.~
+~
+0 -1 10037
+S
+#10041
+The Battleground~
+   You are standing on the battleground. Exits lead west, north and south. 
+The path is to the north-west.
+~
+10000 0 2
+D0
+The battleground continues there.~
+~
+0 0 10040
+D2
+The battleground continues there.~
+~
+0 -1 10047
+D3
+The battleground continues there.~
+~
+0 -1 10038
+S
+#10042
+The Battleground~
+   You are standing on the battleground. Exits lead east, north and south. The
+path is to the north-east.
+~
+10000 0 2
+D0
+The battleground continues there.~
+~
+0 -1 10039
+D1
+The battleground continues there.~
+~
+0 -1 10038
+D2
+The battleground continues there.~
+~
+0 -1 10045
+S
+#10043
+The Battleground~
+   You are standing on the battleground. Exits lead in all directions. The 
+path is too the north.
+~
+10000 0 2
+D0
+The battleground continues there.~
+~
+0 -1 10038
+D1
+The battleground continues there.~
+~
+0 -1 10041
+D2
+The battleground continues there.~
+~
+0 -1 10044
+D3
+The battleground continues there.~
+~
+0 -1 10045
+S
+#10044
+The Battleground~
+   You are standing on the battleground. Exits lead east, west and north. The
+path is to the north.
+~
+10000 0 2
+D0
+The battleground continues there.~
+~
+0 -1 10043
+D1
+The battleground continues there.~
+~
+0 -1 10048
+D3
+The battleground continues there.~
+~
+0 -1 10046
+S
+#10045
+The Battleground~
+   You are standing on the battleground. Exits lead north, south and east. The
+path is to the north-east.
+~
+10000 0 2
+D0
+The battleground continues there.~
+~
+0 -1 10042
+D1
+The battleground continues there.~
+~
+0 -1 10043
+D2
+The battleground continues there.~
+~
+0 -1 10046
+D5
+The battleground continues there.~
+stone~
+1 -1 10049
+S
+#10046
+The Battleground~
+   You are standing on the battleground. Exits lead north and east. The path
+is to the north-west.
+~
+10000 0 2
+D0
+The battleground continues there.~
+~
+0 -1 10045
+D1
+The battleground continues there.~
+~
+0 -1 10044
+S
+#10047
+The Battleground~
+   You are standing on the battleground. Exits lead north, south and west. The
+path is to the north-west.
+~
+10000 0 2
+D0
+The battleground continues there.~
+~
+0 -1 10041
+D2
+The battleground continues there.~
+~
+0 -1 10048
+D3
+The battleground continues there.~
+~
+0 -1 10043
+S
+#10048
+The Battleground~
+   You are standing on the battleground. Exits lead west and north. The path
+is to the north-west.
+~
+10000 0 2
+D0
+The battleground continues there.~
+~
+0 -1 10047
+D3
+The battleground continues there.~
+~
+0 -1 10044
+S
+#10049
+The Pit~
+   You jump down into a pit. A small passage leads to the west. Otherwise, you
+can leave up.
+~
+10000 ac 0
+D3
+A narrow crawlspace leads west.~
+~
+0 -1 10050
+D4
+This leads out onto the battleground.~
+stone~
+1 -1 10045
+S
+#10050
+A Crawlspace~
+   You are in a narrow crawlspace. It leads west to east. It is lighter to the
+east and to the west, the tunnel dissappears into blackness. 
+~
+10000 ai 0
+D1
+You see light and a small ladder.~
+~
+0 -1 10049
+D3
+The narrow crawlspace continues west.~
+~
+0 -1 10051
+S
+#10051
+A Crawlspace~
+   You are in a narrow crawlspace. It leads west to east. It is lighter to
+the east and to the west, the tunnel dissappears into blackness.
+~
+10000 ai 0
+D1
+The narrow crawlspace continues west.~
+~
+0 -1 10050
+D3
+The crawlspace opens into a large cavern.~
+~
+0 -1 10052
+S
+#10052
+An Underground Cavern~
+   You walk out of the tunnel and into a massive cave. This cave does not 
+appear to be a natural formation though. The walls are very smooth and 
+symmetrical and the high roof appears to have reinforcements on it. The hole
+to the north is too high for you to reach so the only exit is down.
+~
+10000 1 0
+D5
+You see a narrow fissure.~
+~
+0 -1 10053
+S
+#10053
+The Fissure~
+   The crack in the rock here is very narrow, making it difficult to move. You
+can barely move up and down from here.
+~
+10000 ai 0
+D4
+You see a large cavern.~
+~
+0 -1 10052
+D5
+You see murky black water.~
+~
+0 -1 10055
+S
+#10054
+The Shored Passage~
+   You are in a passageway with wooden supports against the walls. Exits lead
+in many direction and they all look the same.
+~
+10000 1 0
+D0
+~
+~
+0 -1 10074
+D2
+~
+~
+0 -1 10072
+S
+#10055
+The Underground Lake~
+   You are standing in the middle of a large, black looking lake. It is far
+beneath the surface of this world and its blackness and the silence of this
+cavern makes your skin crawl. An opening in the rock is to the east and the
+fissure is up from here. The water is trickling away to the south.
+~
+10000 1 7
+D1
+There is a smaller cavern to the east.~
+~
+0 -1 10056
+D2
+Water is trickling away to the south.~
+~
+0 -1 10058
+D4
+You see a narrow fissure.~
+~
+0 -1 10053
+S
+#10056
+The Small Cavern~
+   You have entered a small cave with a big pile of rocks in the centre of it.
+They appear to be a grave marking and you wonder what is below. To the east,
+a large underground lake shimmers in your weak torchlight.
+~
+10000 1 0
+D3
+You see murky black water.~
+~
+0 -1 10055
+D5
+There is a small pile of rocks on the ground.~
+cairn~
+1 -1 10057
+S
+#10057
+The Cairn~
+   You jump down into the cairn and land in amongst ancient decayed skeletons
+Maybe they were the creators of this world that you are on. You will probably
+never know for sure. A small hole in the rock leads down.
+~
+10000 1 0
+D4
+You see a small cavern.~
+cairn~
+1 -1 10056
+D5
+There's some sort of shaft there.~
+~
+0 -1 10064
+S
+#10058
+The Deep Hole~
+   As you move to the south end of the lake to inspect it, your feet are
+suddenly pulled from beneath you and you fall into the water. It is very very
+deep and you gasp for air, finding none. Consciousness is now fading as you
+feel yourself being dragged by the water.
+Moments before you black out, you are dragged sideways and then fall, landing
+with a solid thump on a smooth wet rock. When your senses have returned, you
+look up and see that there is no way that you can reach the hole you just 
+fell out of. The only option is to follow the path that the water is taking
+... down.
+~
+10000 acfh 0
+D5
+You're too disoriented to see.~
+~
+0 -1 10071
+S
+#10059
+The Shored Passage~
+   You are in a passageway with wooden supports against the walls. Exits lead
+in many directions and they all look the same.
+~
+10000 1 0
+D0
+~
+~
+0 -1 10062
+D1
+~
+~
+0 -1 10060
+D3
+~
+~
+0 -1 10021
+S
+#10060
+The Shored Passage~
+   You are in a passageway with wooden supports against the walls. Exits lead
+in many directions and they all look the same.
+~
+10000 1 0
+D0
+~
+~
+0 -1 10063
+D1
+~
+~
+0 -1 10059
+D2
+~
+~
+0 -1 10061
+S
+#10061
+The Shored Passage~
+   You are in a passageway with wooden supports against the walls. Exits lead
+in many directions and they all look the same.
+~
+10000 1 0
+D0
+~
+~
+0 -1 10072
+D2
+~
+~
+0 -1 10059
+D3
+~
+~
+0 -1 10060
+S
+#10062
+The Shored Passage~
+   You are in a passageway with wooden supports against the walls. Exits lead
+in many directions and they all look the same.
+~
+10000 1 0
+D0
+~
+~
+0 -1 10059
+D3
+~
+~
+0 -1 10060
+S
+#10063
+The Shored Passage~
+   You are in a passageway with wooden supports against the walls. Exits lead
+in many directions and they all look the same.
+~
+10000 1 0
+D0
+~
+~
+0 -1 10060
+S
+#10064
+The Secret Passage~
+   You are in what seems to be a secret passage leading under this world. It
+doesn't appear to have been used for some years, the walls are covered in
+spiders webs and the floor is covered in a layer of thick dust. The passage
+continues to the east and it is lighter up from here.
+~
+10000 1 0
+D1
+The passage continues to the east.~
+~
+0 -1 10065
+D4
+You see a small opening.~
+~
+0 -1 10057
+S
+#10065
+The Secret Passage~
+   The passage continues west and east. To the east however, the passage 
+appears to be blocked.
+~
+10000 1 0
+D1
+The passage is blocked.~
+rocks~
+1 -1 10069
+D3
+The passage continues west.~
+~
+0 -1 10064
+S
+#10066
+Behind the Hedges~
+   You force your way through the small opening in the hedges and find what
+appears to be an iron plate on the ground here. 
+~
+10000 0 0
+D1
+This leads back into the garden.~
+hedges~
+1 -1 10031
+D5
+There's some sort of passage there.~
+plate~
+1 -1 10067
+S
+#10067
+The Secret Passage~
+   You jump down into the hole and find yourself in an underground passage. 
+You look up and see that there is no way that you will be able to climb out of
+this hole so your only option is to follow the tunnel south.
+~
+10000 1 0
+D2
+The secret passage continues south.~
+~
+0 -1 10068
+S
+#10068
+The Secret Passage~
+   The passage has become slightly wider here and there are several exits to
+the room. A steel ladder afixed to the wall leads up and a passage leads back
+to the north. The exit to the west has been blocked by a collapse in the
+tunnel.
+~
+10000 1 0
+D0
+The secret passage continues north.~
+~
+0 -1 10067
+D3
+The passage has been blocked here.~
+rocks~
+1 -1 10069
+D4
+You see daylight.~
+~
+0 -1 10048
+D5
+What's this.. a secret opening in the floor.~
+spiral~
+1 -1 10070
+S
+#10069
+The Collapsed Section~
+   The secret passage has been blocked here by a collapsed section to the 
+east. The only exit here is west.
+~
+10000 1 0
+D1
+The passage has been blocked here.~
+rocks~
+1 -1 10068
+D3
+The secret passage continues west.~
+~
+0 -1 10065
+S
+#10070
+The Downward Spiral~
+   Ahh... you appear to have found a secret room. This room is totally bare
+except for the exit above you and some strange marks on the walls. You can
+hear a faint dripping sound, but you are unsure where it is coming from.
+~
+10000 1 0
+D4
+You see a cavern.~
+spiral~
+0 -1 10068
+S
+#10071
+Falling Through Space~
+   You slide down the hole with the water and suddenly, the world dissappears
+around you are you are floating in a void of nothing. You only seem to exist
+in your mind as you fall down.. and down... and down...
+~
+10000 cfh 0
+D5
+You are too disoriented to see.~
+~
+0 -1 3001
+S
+#10072
+The Shored Passage~
+   You are in a passageway with wooden supports against the walls. Exits lead
+in many direction as and they all look the same.
+~
+10000 1 0
+D0
+~
+~
+0 -1 10050
+D1
+~
+~
+0 -1 10054
+D3
+~
+~
+0 -1 10061
+S
+#10073
+The Abandoned Mine Shaft~
+   A old abandoned mine shaft is here. The entrance appears to have once had a
+wooden door but time has destroyed in and now a gaping black hole leads down
+into darkness. The forest is lighter to the west.
+~
+10000 4 2
+D3
+~
+~
+0 -1 10022
+D5
+~
+~
+0 -1 10063
+S
+#10074
+The Shored Passage~
+   You are in a passageway with wooden supports against the walls. Exits lead
+in many direction and they all look the same.
+~
+10000 1 0
+D1
+~
+~
+0 -1 10054
+D3
+~
+~
+0 -1 10054
+S
+$

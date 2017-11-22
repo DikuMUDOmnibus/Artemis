@@ -1,0 +1,187 @@
+#20000
+staff death bishop~
+the Staff of the Death Bishop~
+The Death Bishop's Staff is lying here.~
+~
+4 agjl 16385
+20 10 10 36
+3 20000 6 0
+#20001
+staff life bishop~
+the Staff of the Life Bishop~
+The Life Bishop's Staff is lying here.~
+~
+4 agkl 16385
+20 10 10 36
+3 20000 6 0
+#20002
+staff balance bishop~
+the Staff of the Balance Bishop~
+The Balance Bishop's Staff is lying here.~
+~
+4 agjk 16385
+20 10 10 36
+3 20000 6 0
+#20003
+crown death queen~
+the Crown of the Death Queen~
+The hideous crown of the Death Queen lies here. It has an evil aura.~
+~
+9 bgjl ae
+5 0 0 0
+4 100000 5 0
+A
+3  2
+A
+4  2
+A
+18 2
+A
+19 4
+R
+105 105
+#20004
+crown life queen~
+the Crown of the Life Queen~
+The beautiful crown of the Life Queen lies here. It has a holy aura.~
+~
+9 bgkl ae
+4 0 0 0
+4 100000 5 0
+A
+3  2
+A
+4  2
+A
+18 2
+A
+19 4
+R
+105 105
+#20005
+crown balance queen~
+the Crown of the Balance Queen~
+The plain crown of the Balance Queen lies here. It has a neutral aura.~
+~
+9 bgjk ae
+4 0 0 0
+4 100000 5 0
+A
+3  2
+A
+4  2
+A
+18 2
+A
+19 4
+R
+105 105
+#20006
+sceptre death king~
+the Death King's Sceptre~
+The Bejewled sceptre of the Death King lies here It has an evil aura..~
+~
+8 bdfgjl ao
+0 0 0 0
+10 100000 1 0
+A
+1  3
+A
+9 -5
+A
+13 100
+A
+18 4
+A
+19 6
+R
+105 105
+#20007
+sceptre life king~
+the Life King's Sceptre~
+The Bejewled sceptre of the Life King lies here. It has a Holy aura.~
+~
+8 bdfgkl ao
+0 0 0 0
+10 100000 10 0
+A
+1  3
+A
+9 -5
+A
+13 100
+A
+18 4
+A
+19 6
+R
+105 105
+#20008
+sceptre balance king~
+the Balance King's Sceptre~
+The Bejewled sceptre of the Balance King lies here. It has a Neutral aura.~
+~
+8 bdfgjk ao
+0 0 0 0
+10 100000 10 0
+A
+1  3
+A
+9 -5
+A
+13 100
+A
+18 4
+A
+19 6
+R
+105 105
+#20009
+key death treasury~
+The Key to the Death Treasury~
+There is a sinister Death key lying here.~
+~
+18 cdfq 16385
+3714 0 0 0
+1 1000 300 0
+#20010
+key life treasury~
+the Key to the Life Treasury~
+There is a bright Life key lying here.~
+~
+18 cdfq 16385
+3715 0 0 0
+1 1000 300 0
+#20011
+key balance treasury~
+the Key to the Balance Treasury~
+There is a dull Balance key lying here.~
+~
+18 cdfq 16385
+3715 0 0 0
+1 1000 300 0
+#20012
+coins gold death royal treasure~
+the Death Royal Treasure~
+There are a LOT of coins here.~
+~
+20 0 1
+1000000 0 0 0
+10 1000000 0 0
+#20013
+coins gold life royal treasure~
+the Life Royal Treasure~
+There are a LOT of coins here.~
+~
+20 0 1
+1000000 0 0 0
+10 1000000 0 0
+#20014
+coins gold balance royal treasure~
+the Balance Royal Treasure~
+There are a LOT of coins here.~
+~
+20 0 1
+1000000 0 0 0
+10 1000000 0 0
+$

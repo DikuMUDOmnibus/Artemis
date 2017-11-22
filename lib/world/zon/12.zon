@@ -1,0 +1,28 @@
+#12
+God Rooms~
+1299 10 2
+*
+* Edited and added to by Taz of Tazmania
+* 
+* Mobiles
+M 0 1201 1 1205     Immortal Postman
+M 0 1200 1 1201     Immortal Innkeeper
+M 0 1202 2 1201     Wandering Spirit
+M 0 1202 2 1200     Wandering Spirit
+M 0 1220 1 3067     metaphysician
+* Boards
+O 0 3087 1 1207     Quest Bulletin Board
+O 0 3088 1 1206     Buliders Bulletin Board
+O 0 3089 1 1208     Relations Bulletin Board
+O 0 3090 1 1214     Clan Bulletin Board
+O 0 3091 1 1209     Higher Gods Board
+O 0 3096 5 1213     Social Bulletin Board
+O 0 3097 1 1202     Frozen Bulletin Board
+O 0 3098 1 1204     Immort Bulletin Board
+O 0 3099 2 1210     Mortal Bulletin Board
+*
+S
+$
+
+
+

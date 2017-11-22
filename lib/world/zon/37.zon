@@ -1,0 +1,105 @@
+#37
+The Level 100 Chessboard ~
+3799 10 1
+*
+* Modified for artemis mud by Gmc, repaired by Tomas.
+*
+* Mobiles
+M 0 3700 8 3709         Grey Pawn
+E 1 3700 8 5                    Grey Pawn Armour
+E 1 3702 8 16                   Grey Pawn Sword
+M 0 3700 8 3710         Grey Pawn
+E 1 3700 8 5                    Grey Pawn Armour
+E 1 3702 8 16                   Grey Pawn Sword
+M 0 3700 8 3711         Grey Pawn
+E 1 3700 8 5                    Grey Pawn Armour
+E 1 3702 8 16                   Grey Pawn Sword
+M 0 3700 8 3712         Grey Pawn
+E 1 3700 8 5                    Grey Pawn Armour
+E 1 3702 8 16                   Grey Pawn Sword
+M 0 3700 8 3713         Grey Pawn
+E 1 3700 8 5                    Grey Pawn Armour
+E 1 3702 8 16                   Grey Pawn Sword
+M 0 3700 8 3714         Grey Pawn
+E 1 3700 8 5                    Grey Pawn Armour
+E 1 3702 8 16                   Grey Pawn Sword
+M 0 3700 8 3715         Grey Pawn
+E 1 3700 8 5                    Grey Pawn Armour
+E 1 3702 8 16                   Grey Pawn Sword
+M 0 3700 8 3716         Grey Pawn
+E 1 3700 8 5                    Grey Pawn Armour
+E 1 3702 8 16                   Grey Pawn Sword
+M 0 3701 8 3749        Blue Pawn
+E 1 3701 8 5                    Blue Pawn Armour
+E 1 3703 8 16                   Blue Pawn Sword
+M 0 3701 8 3750         Blue Pawn
+E 1 3701 8 5                    Blue Pawn Armour
+E 1 3703 8 16                   Blue Pawn Sword
+M 0 3701 8 3751         Blue Pawn
+E 1 3701 8 5                    Blue Pawn Armour
+E 1 3703 8 16                   Blue Pawn Sword
+M 0 3701 8 3752         Blue Pawn
+E 1 3701 8 5                    Blue Pawn Armour
+E 1 3703 8 16                   Blue Pawn Sword
+M 0 3701 8 3753         Blue Pawn
+E 1 3701 8 5                    Blue Pawn Armour
+E 1 3703 8 16                   Blue Pawn Sword
+M 0 3701 8 3754         Blue Pawn
+E 1 3701 8 5                    Blue Pawn Armour
+E 1 3703 8 16                   Blue Pawn Sword
+M 0 3701 8 3755         Blue Pawn
+E 1 3701 8 5                    Blue Pawn Armour
+E 1 3703 8 16                   Blue Pawn Sword
+M 0 3701 8 3756         Blue Pawn
+E 1 3701 8 5                    Blue Pawn Armour
+E 1 3703 8 16                   Blue Pawn Sword
+M 0 3702 2 3701         Grey Rook
+E 1 3704 2 5                    Grey Rook Armour
+M 0 3702 2 3708         Grey Rook
+E 1 3704 2 5                    Grey Rook Armour
+M 0 3703 2 3757         Blue Rook
+E 1 3705 2 5                    Blue Rook Armour
+M 0 3703 2 3764         Blue Rook
+E 1 3705 2 5                    Blue Rook Armour
+M 0 3704 2 3702         Grey Knight
+E 1 3706 2 16                   Grey Knight Lance
+M 0 3704 2 3707         Grey Knight
+E 1 3706 2 16                   Grey Knight Lance
+M 0 3705 2 3758         Blue Knight
+E 1 3707 2 16                   Blue Knight Lance
+M 0 3705 2 3763         Blue Knight
+E 1 3707 2 16                   Blue Knight Lance
+M 0 3706 2 3703         Grey Bishop
+E 1 3708 2 17                   Grey Bishop Staff
+M 0 3706 2 3706         Grey Bishop
+E 1 3708 2 17                   Grey Bishop Staff
+M 0 3707 2 3759         Blue Bishop
+E 1 3709 2 17                   Blue Bishop Staff
+M 0 3707 2 3762         Blue Bishop
+E 1 3709 2 17                   Blue Bishop Staff
+M 0 3708 1 3704         Grey Queen
+E 1 3710 1 6                    Grey Queen Crown
+M 0 3709 1 3760         Blue Queen
+E 1 3711 1 6                    Blue Queen Crown
+M 0 3710 1 3705         Grey King
+G 1 3714 5                      Grey Treasury Key
+E 1 3712 1 17                      Grey King Sceptre
+G 1 3718 1                  Dragon-Skin Bag  
+M 0 3711 1 3761         Blue King
+G 1 3715 5                      Blue Treasury Key
+E 1 3713 1 17                  Blue King Sceptre
+G 1 3718 1                  Dragon-Skin Bag  
+* Objects
+O 0 3716 1 3765         Grey Treasury Gold
+O 0 3717 1 3766         Blue Treasury Gold
+* Doors
+D 0 3704 5 1            Grey Treasury Door
+D 0 3765 4 1
+D 0 3760 5 1            Blue Treasury Door
+D 0 3766 4 1
+D 0 3765 5 1		Door to Tomas's Chessboard
+D 0 3766 5 1		Door to Tomas's Chessboard
+*
+S
+
+$

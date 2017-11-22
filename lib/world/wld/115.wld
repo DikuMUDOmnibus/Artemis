@@ -1,0 +1,590 @@
+#11500
+Warders Road~
+===========
+  You are walking down Warders Road. You are heading to the residential area.
+--------------------
+East  -  Fields
+--------------------
+~
+115 0 1
+D1
+To the East you can see the fields, 
+~
+~
+0 -1 3054
+D3
+Down Fields Road.
+~
+~
+0 -1 11501
+S
+#11501
+Warders Road~
+===========
+  You are heading down Warders Road. To the North and South 
+you can see some houses and back to the East you can see the city.
+-----------------------
+North  -  1 North Court
+East   -  Warders Road
+South  -  1 South Court
+West   -  Warders Road
+-----------------------
+~
+115 0 1
+D0
+You can see House up ahead.
+~
+~
+0 -1 11502
+D1
+East to the fields.
+~
+~
+0 -1 11500
+D2
+You can see house to the South.
+~
+~
+0 -1 11508
+D3
+West Down Warders Road.
+~
+~
+0 -1 11514
+S
+#11502
+Houses~
+======
+  Your are standing in 1 North Court...the burbs of Greymist City.
+-------------------------
+North  -  Joecool's Flat 
+East   -  Polgara's Place
+West   -  Vacant House
+Up     -  Vacant House
+Down   -  Vacant House
+South  -  To Warders Road
+-------------------------
+~
+115 0 1
+D0
+To Joecool's Flat.
+~
+~
+0 -1 11503
+D1
+To Polgara's House.
+~
+~
+0 -1 11504
+D2
+South to Warders Road.
+~
+~
+0 -1 11501
+D3
+To West House.
+~
+~
+0 -1 11505
+D4
+Up to House.
+~
+~
+0 -1 11506
+D5
+Down to House.
+~
+~
+0 -1 11507
+S
+#11503
+Joecools Flat~
+=============
+This is Joecool's flat.
+Here's where JoeCool is when he's not out vanquishing fair maidens and 
+bashing up vile beasties. (Or is that the other way around?)
+This place is a reflection of JoeCool's personality - it contains many of his
+favourite things. Among the clutter, you make out a model of a famous starship
+hanging from the ceiling in one corner. Naturally, there's a large double bed
+in the other corner - JoeCool has a reputation to keep up!
+Of course, there's a smoked glass coffee table in the centre of the room.
+JoeCool's spare pair of cool shades have pride of place. Look, but don't touch! 
+JoeCool's Command Centre is through the archway to the north, and there's a
+spiral staircase just next to the door, with a childproof gate at the bottom.
+~
+115 cdelm 0
+D0
+To JoeCool's Command Centre.
+~
+command centre~ 
+0 -1 11528 
+D2
+To Fields Road.
+~
+~
+0 -1 11502
+D4
+The ricketty spiral staircase looks like it has had a lot of use!
+There's a child-proof lock on the gate at the bottom, to prevent accidents!
+~
+gate spiral staircase~
+2 11502 11527
+E
+starship Enterprise~
+It's a large, mostly white, model, with the words '1701-D USS ENTERPRISE' on
+one side. This is JoeCool's second favourite possession, after his shades! 
+~
+E
+bed~
+The doona is rumpled and some of the pillows are on the floor.
+It looks pretty functional, right down to the overhead mirror!
+~
+E
+coffee table shades~
+JoeCool's prize pair of shades are sitting proudly on top of the coffee table,
+where he can reach them in a hurry if his good pair get dirty whilst he's out
+chasing monsters. After all, JoeCool has an image to maintain!
+~
+S
+#11504
+Polgara's House~
+============
+  This is Polgara's house, This is where to keep your equipment dudette.
+Now I dont know what u want your house to say [description] so email me,
+with what you would like it to say. Cool. Enjoy! =]
+~
+115 cde 0
+D3
+To Warders Road.
+~
+~
+0 -1 11502
+S
+#11505
+Vacant House~
+============
+  This house is yours, you can keep all your equipment here.
+~
+115 cde 0
+D1
+To Warders Road.
+~
+~
+0 -1 11502
+S
+#11506
+Vacant House~
+==============
+  This house is yours, you can keep all your equipment here.
+~
+115 cde 0
+D5 
+To Warders Road.
+~
+~
+0 -1 11502
+S
+#11507
+Vacant House~
+=============
+  This is a vacant house with a garden out the back
+and an old rocking chair......
+~
+115 cde 0
+D4
+To Warders Road.
+~
+~
+0 -1 11502
+S
+#11508
+Houses~
+======
+  You are standing in 1 South Court....the burbs of Midgaard.
+------------------------
+North  -  To Warders Road
+East   -  House for Rent
+West   -  House for Rent
+Up     -  House for Rent
+Down   -  House for Rent
+South  -  House for Rent
+------------------------
+~
+115 0 1
+D0
+To Warders Road.
+~
+~
+0 -1 11501
+D1
+To East House.
+~
+~
+0 -1 11509
+D2
+To South House.
+~
+~
+0 -1 11510
+D3
+To West House.
+~
+~
+0 -1 11511
+D4
+Up to House.
+~
+~
+0 -1 11512
+D5
+Down to House.
+~
+~
+0 -1 11513
+S
+#11509
+East House~
+==========
+  This house is for rent.
+~
+115 cde 0
+D3
+To Fields Road.
+~
+~
+0 -1 11508
+S
+#11510
+Vacant House~
+============
+  This house is for you to leave all your equipment in, use it well.
+~
+115 cde 0
+D0
+To Warders Road.
+~
+~
+0 -1 11508
+S
+#11511
+West House~
+==========
+  This house is for rent.
+~
+115 cde 0
+D1
+To Warders Road.
+~
+~
+0 -1 11508
+S
+#11512
+Vacant House~
+============
+  This house is yours, you can keep your equipment here.
+~
+115 cde 0
+D5
+To Warders Road.
+~
+~
+0 -1 11508
+S
+#11513
+Down House~
+==========
+  This House is for rent.
+~
+115 cde 0
+D4
+To Warders Road
+~
+~
+0 -1 11508
+S
+#11514
+Warders Road~
+===========
+  You are heading down Warders Road. To the North and South you 
+can see some houses and back to the East you can see the city.
+-----------------------
+North  -  2 North Court
+East   -  Warders Road
+South  -  2 South Road
+West   -  Warders Road
+-----------------------
+~
+115 0 1
+D0
+You can see House up ahead.
+~
+~
+0 -1 11515
+D1
+East to the city.
+~
+~
+0 -1 11501
+D2
+You can see house to the South.
+~
+~
+0 -1 11521
+D3
+West Down Fields Road.
+~
+~
+0 -1 -1
+S
+#11515
+Houses~
+======
+  You are standing in 2 North Court....the burbs of Greymist City.
+------------------------
+North  -  House for Rent
+East   -  House for Rent
+West   -  House for Rent
+Up     -  House for Rent
+Down   -  House for Rent
+South  -  To Warders Road
+------------------------
+~
+115 0 1
+D0
+North House.
+~
+~
+0 -1 11516
+D1
+To East House.
+~
+~
+0 -1 11517
+D2
+South to Fields Raod.
+~
+~
+0 -1 11514
+D3
+To West House.
+~
+~
+0 -1 11518
+D4
+Up to House.
+~
+~
+0 -1 11519
+D5
+Down to House.
+~
+~
+0 -1 11520
+S
+#11516
+North House~
+===========
+  This house is for rent.
+~
+115 cde 0
+D2
+To Fields Road.
+~
+~
+0 -1 11515
+S
+#11517
+East House~
+==========
+  This house is for rent.
+~
+115 cde 0
+D3
+To Warders Road.
+~
+~
+0 -1 11515
+S
+#11518
+West House~
+==========
+  This house is for rent.
+~
+115 cde 0
+D1
+To Warders Road.
+~
+~
+0 -1 11515
+S
+#11519
+Up House~
+========
+  This house is for rent.
+~
+115 cde 0
+D5
+To Warders Road.
+~
+~
+0 -1 11515
+S
+#11520
+Down House~
+==========
+  This house is for rent.
+~
+115 cde 0
+D4
+To Warders Road.
+~
+~
+0 -1 11515
+S
+#11521
+Houses~
+======
+  You are standing in 2 South Court....the burbs of Midgaard.
+---------------------------------
+North  -  To Warders Road
+East   -  House for Rent
+West   -  House for Rent
+Up     -  House for Rent
+Down   -  House for Rent
+South  -  House for Rent
+---------------------------------
+~
+115 0 1
+D0
+To To Warders Road.
+~
+~
+0 -1 11514
+D1
+To East House.
+~
+~
+0 -1 11522
+D2
+To South House.
+~
+~
+0 -1 11523
+D3
+To West House.
+~
+~
+0 -1 11524
+D4
+Up to House.
+~
+~
+0 -1 11525
+D5
+Down to House.
+~
+~
+0 -1 11526
+S
+#11522
+East House~
+==========
+  This house is for rent.
+~
+115 cde 0
+D3
+To Warders Road.
+~
+~
+0 -1 11521
+S
+#11523
+South House~
+===========
+  This house is for rent.
+~
+115 cde 0
+D0
+To Warders Road.
+~
+~
+0 -1 11521
+S
+#11524
+West House~
+==========
+  This house is for rent.
+~
+115 cde 0
+D1
+To Warders Road.
+~
+~
+0 -1 11521
+S
+#11525
+Vacant House~
+=============
+  The place is vacant.
+~
+115 cde 0
+D5
+To Fields Road.
+~
+~
+0 -1 11521
+S
+#11526
+Vacant House~
+==================
+  You are standing in a very large but vacant house.
+~
+115 cde 0
+D4
+To Fields Road
+~
+~
+0 -1 11521
+S
+#11527
+JoeCool's Walk-In Wardrobe~
+What a mess! The spoils of JoeCool's many conquests are haphazardly scattered
+all over the place. Obviously JoeCool has no time for housecleaning, with all
+that adventuring he has to do.
+Nevermind, I'm sure someone will come along and clean up now and then...
+~
+115 cdelm 0
+D5
+To JoeCool's Flat
+~
+flat down d~
+2 11502 11503
+E
+spoils junk things~
+Geez, there's all sorts of stuff here. Better not try to steal anything though.
+~
+S
+#11528
+JoeCool's Command Centre~
+This is where it all happens!
+When Colonel Cool sets a quest, or awards a prize, here's where to gather.
+There's a big map of the battle zone that takes up the whole wall, and a 
+gigantic oak table with chairs all around.
+~
+115 cdefgh 0
+D2
+To JoeCool's Flat
+~
+flat south s~
+0 -1 11503
+E
+oak table~
+It's enormous! and covered with Colonel Cool's battle plans.
+~
+E
+big map~
+This is a gigantic map which shows all of the MUD, in precise detail.
+I'm sure the Gods themselves would like to have one of these!
+~
+S
+$

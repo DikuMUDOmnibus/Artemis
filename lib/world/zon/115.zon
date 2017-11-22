@@ -1,0 +1,17 @@
+#115
+The Mortal Housing Estate~
+11599 60 2
+* Setting up for JoeCool's House
+O 0 11501 1 11528     JoeCool's Shades
+O 0 11503 1 11528     Bar Fridge
+P 1 11502 1 11503     Put JC's Key in the Fridge, if it's been lost
+P 1 11504 15 11503    Drinks in Bar Fridge
+P 1 11504 15 11503
+P 1 11504 15 11503
+P 1 11504 15 11503
+P 1 11504 15 11503
+*
+D 0 11503 4 2         Lock JoeCool's Walk-In Wardrobe
+D 0 11527 5 2
+S 
+$

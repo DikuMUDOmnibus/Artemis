@@ -1,0 +1,55 @@
+#33
+Ravenloft Graveyard~
+3348 10 2
+* ok adding in the mobs :)
+*
+M 0 3308 1 3337     * the caretaker in his home :) 
+E 1 3300 1 3        * ok so he is holding the keys to ravenloft
+E 1 3303 1 17       * furthermore he would be holding onto his trusty spade
+*
+M 0 3309 1 3347     * Little newbie vampire :)
+E 1 3305 1 12       * wearing the vampire cloak
+*
+M 0 3304 1 3338     * the mummy in the throne room
+E 1 3304 1 0        * the mummy's gem
+*
+M 0 3305 1 3329     * the spectre guarding the crypt
+*
+M 0 3307 1 3313     * ok the angel is here at the safe area but wait
+E 1 3301 1 12       * the angel has its wings
+E 1 3302 1 6        * the angel has its halo too (reason for low xp on mob)
+*
+M 0 3306 2 3313     * angel babe to assis greater angel
+M 0 3306 2 3313     * angel babe to assis greater angel
+*
+M 0 3300 5 3302     * super zombie no 1
+M 0 3300 5 3327     * super zombie no 2
+M 0 3300 5 3340     * super zombie no 3
+M 0 3300 5 3337     * super zombie no 4
+M 0 3300 5 3333     * super zombie no 5
+*
+M 0 3301 7 3311     * zombie no 1
+M 0 3301 7 3317     * zombie no 2
+M 0 3301 7 3334     * zombie no 3
+M 0 3301 7 3323     * zombie no 4
+M 0 3301 7 3328     * zombie no 5 (scattered about to make wandering more even)
+M 0 3301 7 3326     * zombie no 6
+M 0 3301 7 3302     * zombie no 7
+*
+M 0 3302 3 3304     * ghoul no 1
+M 0 3302 3 3320     * ghoul no 2
+M 0 3302 3 3333     * ghoul no 3
+*
+M 0 3303 5 3314     * skeleton no 1
+M 0 3303 5 3314     * skeleton no 2
+M 0 3303 5 3332     * skeleton no 3
+M 0 3303 5 3344     * skeleton no 4
+M 0 3303 5 3347     * skeleton no 5
+*
+D 0 3346 1 2
+D 0 3347 3 2
+D 0 3347 1 2
+D 0 3348 3 2
+$
+
+
